@@ -24,7 +24,7 @@
 		<keydef
 			href="conref-vars/stellarOne_Privacy_and_Personal_Data_Collection_Variables=20220722222924.xml"
 			keys="PPDC_vars"/>
-		<topicref href="SharedResources/Legal/bp_legal_pg1=70d88d1f-1ea0-43b7-b41b-69b32cccde65.xml">
+		<topicref href="conref-vars/legaNotice=20220723003645.xml">
 			<topicref
 				href="SharedResources/Legal/bp_legal_pg2=93ca25ea-8f4d-4c4c-9fc6-097f5425feca.xml"/>
 			<topicref
