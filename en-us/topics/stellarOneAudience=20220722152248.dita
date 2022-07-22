@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_tpn_3jw_g5b">
+    <title>Audience</title>
+    <conbody>
+        <p>TXOne StellarOne documentation is intended for administrators responsible for StellarOne
+            management, including agent installation. These users are expected to have advanced
+            networking and server management knowledge</p>
+    </conbody>
+</concept>

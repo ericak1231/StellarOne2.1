@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd"><task id="GUID-520F37FF-48AB-4225-AB65-EB45305114CD" xml:lang="en-us">
+    <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Deploying StellarOne for Hyper-V
+        System</title>
+    <taskbody>
+        <context id="GUID-CAD7BEDC-492D-4151-BCB7-1467EFD0B3CC">
+            <p>Below section details procedures of deploying StellarOne to a Hyper-V system.</p>
+        </context>
+        <steps id="steps_gjx_t5d_m4">
+            <step>
+                <cmd>Launch <wintitle>Hyper-V Manager</wintitle></cmd>
+                <stepxmp>
+                    <fig id="fig_abf_44c_25b">
+                        <title>Hyper-V Manager</title>
+                        <image href="../images/hyperVmanager=20220721164350.png"
+                            id="image_wqx_q4c_25b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Under <uicontrol>Actions</uicontrol>, click <menucascade>
+                        <uicontrol>New</uicontrol>
+                        <uicontrol>Virtual Machine</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>The <wintitle>New Virtual Machine Wizard</wintitle> appears, click
+                        <uicontrol>Next</uicontrol>.</cmd>
+                <stepxmp>
+                    <fig id="fig_lgg_nnv_d5b">
+                        <title>New Virtual Machine Wizard: Before You Begin</title>
+                        <image href="../images/hyperVwizardBeforeYouBegin=20220721164337.png"
+                            id="image_jc4_vmv_d5b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Under <wintitle>Specify Name and Location</wintitle>, type a name for your new
+                    virtual machine.</cmd>
+                <stepxmp>
+                    <fig id="fig_l22_4nv_d5b">
+                        <title>New Virtual Machine Wizard: Specify Name and Location</title>
+                        <image href="../images/hyperVwizardNameLocation=20220721164328.png"
+                            id="image_zlt_4nv_d5b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Under <wintitle>Specify Generation</wintitle>, select <uicontrol>Generation
+                        1</uicontrol>.</cmd>
+                <stepxmp>
+                    <fig id="fig_u1x_vdh_25b">
+                        <title>New Virtual Machine Wizard: Specify Generation</title>
+                        <image href="../images/hyperVwizardGeneration=20220721164316.png"
+                            id="image_v1x_vdh_25b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Under <wintitle>Assign Memory</wintitle>, allocate memory for the new virtual
+                    machine.</cmd>
+                <stepxmp>
+                    <fig id="fig_uxp_q2h_25b">
+                        <title>Assign Memory for Virtual Machine</title>
+                        <image href="../images/hyperVwizardAssignMemory=20220721164305.png"
+                            id="image_vxp_q2h_25b"/>
+                    </fig>
+                    <note id="note_nhf_v2h_25b">
+                        <p>StellarOne requires minimum memory of 16 GB or 16384 MB. </p>
+                    </note>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Configure the VM's network settings.</cmd>
+                <stepxmp>
+                    <fig id="fig_nyp_5bc_25b">
+                        <title>Configure Networking for Virtual Machine</title>
+                        <image href="../images/hyperVwizardConfigNetworking=20220721164253.png"
+                            id="image_oyp_5bc_25b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Select a virtual hard disk (select the StellarOne <filepath>.vhdx</filepath>
+                    file)</cmd>
+                <stepxmp>
+                    <fig id="fig_avg_nfh_25b">
+                        <title>Connect Virtual Hard Disk</title>
+                        <image href="../images/hyperVwizardConnectVirtualHD=20220721164240.png"
+                            id="image_bvg_nfh_25b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Check your settings and then click <uicontrol>Finish</uicontrol>.</cmd>
+                <stepresult>
+                    <fig id="fig_xsc_tfh_25b">
+                        <title>Completing the New VM Wizard</title>
+                        <image href="../images/hyperVwizardNewCompleted=20220721164230.png"
+                            id="image_smj_wfh_25b"/>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Add a new disk for the virtual machine.</cmd>
+                <info>
+                    <note id="note_g4m_pbv_g5b">
+                        <p>Make sure the previous SterllarOne is turned off.</p>
+                    </note>
+                </info>
+                <stepxmp>
+                    <fig id="fig_fzk_rbv_g5b">
+                        <title>State of previous StellarOne is off</title>
+                        <image href="../images/hyperVStateOff=20220721164218.png"
+                            id="image_gzk_rbv_g5b"/>
+                    </fig>
+                </stepxmp>
+                <substeps id="substeps_ewj_khh_25b">
+                    <substep>
+                        <cmd>Select <wintitle>Virtual Machine</wintitle>, right click
+                                <uicontrol>Menu</uicontrol> and then select
+                                <uicontrol>Settings</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Select <uicontrol>Hard Drive</uicontrol>, and then click
+                                <uicontrol>Add</uicontrol>.</cmd>
+                        <stepxmp>
+                            <fig id="fig_dlc_shh_25b">
+                                <title>Settings for StellarOne -1</title>
+                                <image
+                                    href="../images/hyperVSettingsForStellarOne_1=20220721164208.png"
+                                    id="image_elc_shh_25b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Click <uicontrol>New</uicontrol>.</cmd>
+                        <stepxmp>
+                            <fig id="fig_dgp_whh_25b">
+                                <title>Settings for StellarOne -2</title>
+                                <image
+                                    href="../images/hyperVsettingsForStellarOne_2=20220721164156.png"
+                                    id="image_egp_whh_25b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Under <wintitle>Choose Disk Format</wintitle>, select
+                                <uicontrol>VHDX</uicontrol> as the disk format.</cmd>
+                        <stepxmp>
+                            <fig id="fig_pzq_flh_25b">
+                                <title>Choose Disk Format</title>
+                                <image href="../images/hyperVdiskFormat=20220721164143.png"
+                                    id="image_ycd_hlh_25b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Under <wintitle>Choose Disk Type</wintitle>, select
+                                <uicontrol>Dynamically expanding</uicontrol> as the disk type.</cmd>
+                        <stepxmp>
+                            <fig id="fig_yxs_klh_25b">
+                                <title>Choose Disk Type</title>
+                                <image href="../images/hyperVdiskType=20220721164130.png"
+                                    id="image_zxs_klh_25b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Specify name and location for the virtual hard disk file.</cmd>
+                        <stepxmp>
+                            <fig id="fig_hcc_qlh_25b">
+                                <title>Specify Name and Location</title>
+                                <image href="../images/hyperVnameLocation=20220721164119.png"
+                                    id="image_icc_qlh_25b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Configure disk size.</cmd>
+                        <info>
+                            <note id="note_js1_xlh_25b">
+                                <p>Refer to the <xref href="sizingTableHyperV=20220721162132.dita"
+                                        >Sizing Table for Hyper-V System</xref> to determine proper
+                                    disk size for StellarOne.</p>
+                            </note>
+                        </info>
+                        <stepxmp>
+                            <fig id="fig_gss_kmh_25b">
+                                <title>Configure Disk for StellarOne</title>
+                                <image href="../images/hyperVconfigDisk=20220721164106.png"
+                                    id="image_tqn_nmh_25b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Click <uicontrol>Finish</uicontrol>.</cmd>
+                        <stepresult>
+                            <fig id="fig_zrp_pmh_25b">
+                                <title>Completing the New Virtual Hard Disk Wizard</title>
+                                <image
+                                    href="../images/hyperVnewHDwizardCompleted=20220721164053.png"
+                                    id="image_nfp_smh_25b"/>
+                            </fig>
+                        </stepresult>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>(Optional) Refer to <xref href="sizingTableHyperV=20220721162132.dita"/> to
+                    determine CPU and memory requirements for agent deployment and corresponding
+                    StellarOne configuration and resource allocation. It is recommended to at least
+                    adopting default settings (4 CPU cores, 16 GB Memory). </cmd>
+                <substeps id="substeps_pw1_543_25b">
+                    <substep>
+                        <cmd>Shut down the StellarOne instance. Select and right click the instance,
+                            and then click <uicontrol>Settings</uicontrol>.</cmd>
+                        <stepxmp>
+                            <fig id="fig_lzp_v43_25b">
+                                <title>StellarOne Configuration</title>
+                                <image href="../images/hyperVstellarOneConfig=20220721164042.png"
+                                    id="image_mzp_v43_25b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Under <wintitle>Processor</wintitle>, configure the number of virtual
+                            processors and resource control settings.</cmd>
+                        <stepxmp>
+                            <fig id="fig_edm_hq3_25b">
+                                <title>Processor Settings in StellarOne Configuration</title>
+                                <image
+                                    href="../images/hyperVprocessorSettingsConfig=20220721164029.png"
+                                    id="image_fdm_hq3_25b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Under <wintitle>Memory</wintitle>, configure the amount of
+                            memory.</cmd>
+                        <stepxmp>
+                            <fig id="fig_xbm_nq3_25b">
+                                <title>Memory Settings in StellarOne Configuration</title>
+                                <image href="../images/hyperVmemorySettingConfig=20220721164015.png"
+                                    id="image_ybm_nq3_25b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Boot the StellarOne instance</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>

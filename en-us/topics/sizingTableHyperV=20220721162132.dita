@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_tkg_jvy_c5b">
+    <title>Hardware Requirements for Hyper-V System</title>
+    <refbody>
+        <section id="section_ukg_jvy_c5b">
+            <p><indexterm>hardware requirements for Hyper-V</indexterm> Hardware requirements vary
+                depending on the number of agents and logs that will be configured and retained.
+                Please refer to below tables for determining the optimal number of agents that your
+                StellarOne server deployment can manage.</p>
+        </section>
+        <section id="section_eh3_5t3_25b">
+            <table frame="all" rowsep="1" colsep="1" id="table_yjw_tbz_c5b">
+                <title>Sizing Table for Hyper-V</title>
+                <tgroup cols="5">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.03*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1.16*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1.17*"/>
+                    <colspec colname="c5" colnum="5" colwidth="1.11*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p><indexterm>hardware requirements for Hyper-V<indexterm>Max. No.
+                                            of Agents</indexterm></indexterm>Max. No. of Agents</p>
+                            </entry>
+                            <entry>
+                                <p><indexterm>hardware requirements for Hyper-V<indexterm>Min. No.
+                                            of CPU</indexterm></indexterm>Min. No. of CPU</p>
+                            </entry>
+                            <entry>
+                                <p><indexterm>hardware requirements for Hyper-V<indexterm>memory
+                                            size</indexterm></indexterm>Memory Size</p>
+                            </entry>
+                            <entry>
+                                <p><indexterm>hardware requirements for Hyper-V<indexterm>1st HDD
+                                            Space</indexterm></indexterm>1st HDD Space</p>
+                            </entry>
+                            <entry>
+                                <p><indexterm>hardware requirements for Hyper-V<indexterm>2nd HDD
+                                            Space</indexterm></indexterm>2nd HDD Space
+                                    (Recommended)</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>30,000</p>
+                            </entry>
+                            <entry>
+                                <p>10</p>
+                            </entry>
+                            <entry>
+                                <p>24 GB</p>
+                            </entry>
+                            <entry morerows="6">
+                                <p>25 GB</p>
+                            </entry>
+                            <entry>
+                                <p>100 GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>20,000</p>
+                            </entry>
+                            <entry>
+                                <p>8</p>
+                            </entry>
+                            <entry>
+                                <p>16 GB</p>
+                            </entry>
+                            <entry>
+                                <p>100 GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>15,000</p>
+                            </entry>
+                            <entry>
+                                <p>8</p>
+                            </entry>
+                            <entry>
+                                <p>16 GB</p>
+                            </entry>
+                            <entry>
+                                <p>50 GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>10,000</p>
+                            </entry>
+                            <entry>
+                                <p>8</p>
+                            </entry>
+                            <entry>16 GB</entry>
+                            <entry>50 GB</entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>5,000</p>
+                            </entry>
+                            <entry>
+                                <p>8</p>
+                            </entry>
+                            <entry>
+                                <p>16 GB</p>
+                            </entry>
+                            <entry>
+                                <p>50 GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>1,000</p>
+                            </entry>
+                            <entry>
+                                <p>4</p>
+                            </entry>
+                            <entry>
+                                <p>16 GB</p>
+                            </entry>
+                            <entry>
+                                <p>50 GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>500</p>
+                            </entry>
+                            <entry>
+                                <p>4</p>
+                            </entry>
+                            <entry>
+                                <p>8 GB</p>
+                            </entry>
+                            <entry>
+                                <p>50 GB</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_mkh_ny3_25b">
+            <table frame="all" rowsep="1" colsep="1" id="table_al2_5gz_c5b">
+                <title>No. of Logs versus Disk Space</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>No. of Logs</p>
+                            </entry>
+                            <entry>
+                                <p>Disk Space</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>100,000,000</p>
+                            </entry>
+                            <entry>
+                                <p>500 GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>50,000,000</p>
+                            </entry>
+                            <entry>
+                                <p>300 GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>10,000,000</p>
+                            </entry>
+                            <entry>
+                                <p>150 GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>5,000,000</p>
+                            </entry>
+                            <entry>
+                                <p>50GB</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <note id="note_y5g_sl3_25b">
+                <p>
+                    <ol id="ol_pwg_tl3_25b">
+                        <li>
+                            <p>The StellarOne requires one external disk with at least 50 GB minimum
+                                space for initialization and booting process.</p>
+                        </li>
+                        <li>
+                            <p>Ther external disk is used to store the system configurations and
+                                event logs. You may reuse the external disk of a terminated
+                                StellarOne instance if you want to migrate the previous
+                                configurations and logs to a new StellarOne instance.</p>
+                        </li>
+                    </ol>
+                </p>
+            </note>
+        </section>
+    </refbody>
+</reference>

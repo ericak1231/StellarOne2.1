@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_tkg_jvy_c5b">
+    <title>Agent Deployment Plan</title>
+    <refbody>
+        <section id="section_ukg_jvy_c5b">
+            <p><indexterm>reference table</indexterm>Please take network bandwidth into
+                consideration when planning for agent deployment. Refer to below section as an
+                example of calculating the bandwidth required to support the number of agents
+                planned to deploy.</p>
+            <p>Basic concept:</p>
+            <p><equation-inline>Total available bandwitdth / Deployment task size = How many agents
+                    can be deployed at one task</equation-inline></p>
+            <p>Currently, there are 3 types of StellarOne deployment tasks:</p>
+            <ul id="ul_bvc_mft_d5b">
+                <li>
+                    <p>Incremental Pattern Update: works for agent pattern version no less than
+                        server version for two weeks, which requires about less than 5 MB</p>
+                </li>
+                <li>
+                    <p>Full Pattern Update: works for agent pattern version that's already exceeded
+                        two-week-duration compared to server/update source, which requires about 80
+                        MB</p>
+                </li>
+                <li>
+                    <p>Agent Remote Patch: update with the remote agent deployment upgrade package,
+                        which requires about 70 MB</p>
+                </li>
+            </ul>
+            <p>Below table illustrates the number of agents to be deployed on condition that the
+                deployment takes 5 minutes and requires 50% of network bandwidth.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_al2_5gz_c5b">
+                <title>Agent Deployment Plan</title>
+                <tgroup cols="5">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.23*"/>
+                    <colspec colname="newCol3" colnum="3" colwidth="1.33*"/>
+                    <colspec colname="newCol4" colnum="4" colwidth="1.35*"/>
+                    <colspec colname="newCol5" colnum="5" colwidth="1.17*"/>
+                    <thead>
+                        <row>
+                            <entry morerows="1">
+                                <p>Total Bandwidth / Deployment Task</p>
+                            </entry>
+                            <entry namest="c2" nameend="newCol5">
+                                <p>No. of Agents Deployed</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>10 Mbps</p>
+                            </entry>
+                            <entry>
+                                <p>100 Mbps</p>
+                            </entry>
+                            <entry>
+                                <p>1000 Mbps</p>
+                            </entry>
+                            <entry>
+                                <p>10 Gbps</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><indexterm>reference table<indexterm>Incremental Pattern
+                                            Update</indexterm></indexterm>Incremental Pattern
+                                    Update</p>
+                            </entry>
+                            <entry>
+                                <p>38</p>
+                            </entry>
+                            <entry>
+                                <p>375</p>
+                            </entry>
+                            <entry>
+                                <p>3750</p>
+                            </entry>
+                            <entry>
+                                <p>37500</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>reference table<indexterm>Full Pattern
+                                            Update</indexterm></indexterm>Full Pattern Update</p>
+                            </entry>
+                            <entry>
+                                <p>2</p>
+                            </entry>
+                            <entry>
+                                <p>23</p>
+                            </entry>
+                            <entry>
+                                <p>234</p>
+                            </entry>
+                            <entry>
+                                <p>2344</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>reference table<indexterm>Agent Remote
+                                            Patch</indexterm></indexterm>Agent Remote Patch</p>
+                            </entry>
+                            <entry>
+                                <p>3</p>
+                            </entry>
+                            <entry>
+                                <p>27</p>
+                            </entry>
+                            <entry>
+                                <p>268</p>
+                            </entry>
+                            <entry>
+                                <p>2679</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

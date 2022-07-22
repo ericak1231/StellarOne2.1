@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_zl2_q3r_c5b">
+    <title>Key Features and Benefits</title>
+    <refbody>
+        <section id="section_t4c_v3r_c5b">
+            <p>StellarOne provides following features and benefits.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_p4k_djr_c5b">
+                <title>Features and Benefits</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Feature</p>
+                            </entry>
+                            <entry>
+                                <p>Benefit</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Dashboard</p>
+                            </entry>
+                            <entry>
+                                <p>The web console dashboard provides summarized information about
+                                    monitored StellarProtect agents.</p>
+                                <p>Administrators can check deployed StellarProtect agent status
+                                    easily, and can generate security reports related to
+                                    StellarProtect agent activity for specified periods.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Centralized Agent Management</p>
+                            </entry>
+                            <entry>
+                                <p><ph conkeyref="PRODvars/COMPANY_NAME_PRODUCT_LONG_NAME"/> allows
+                                    administrators to perform the following tasks:</p>
+                                <ul id="ul_a5s_x1m_g5b">
+                                    <li>
+                                        <p>Monitor StellarProtect agent status</p>
+                                    </li>
+                                    <li>
+                                        <p>Examine connection status</p>
+                                    </li>
+                                    <li>
+                                        <p>View configurations</p>
+                                    </li>
+                                    <li>
+                                        <p>Collect agent logs on-demand or by policy</p>
+                                    </li>
+                                    <li>
+                                        <p>Turn agent Application Lockdown on or off</p>
+                                    </li>
+                                    <li>
+                                        <p>Enable or disable agent Device Control</p>
+                                    </li>
+                                    <li>
+                                        <p>Configure agent Maintenance Mode settings</p>
+                                    </li>
+                                    <li>
+                                        <p>Update agent components</p>
+                                    </li>
+                                    <li>
+                                        <p>Initialize the Approved List</p>
+                                    </li>
+                                    <li>
+                                        <p>Deploy agent patches</p>
+                                    </li>
+                                    <li>
+                                        <p>Add trusted files and USB devices</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Centralized Event Management</p>
+                            </entry>
+                            <entry>
+                                <p>On endpoints protected by StellarProtect agents, administrators
+                                    can monitor status and events, as well as respond when files are
+                                    blocked from running. <ph
+                                        conkeyref="PRODvars/COMPANY_NAME_PRODUCT_LONG_NAME"/>
+                                    provides event management features that let administrators
+                                    quickly know about and take action on blocked file events.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Server Evnet Auditing</p>
+                            </entry>
+                            <entry>
+                                <p>Operations performed by <ph
+                                        conkeyref="PRODvars/PRODUCT_SHORT_NAME"/> web console
+                                    accounts are logged. <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME"
+                                    /> records an operating log for each account, tracking who logs
+                                    on, who deletes event logs, and more.</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

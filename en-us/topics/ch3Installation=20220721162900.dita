@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
+    <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Installation</title>
+    <conbody>
+        <p>This chapter guides you through TXOne <tm tmtype="tm">StellarOne</tm> installation. <tm
+                tmtype="tm">StellarOne</tm> is packaged in an Open Virtual Appliance (OVA) format
+            and supports 3 types of Hypervisor: VMware ESXi, VMware Workstation, and Windows Hyper-V
+            systems.</p>
+        <p>Topics in this chapter include:</p>
+        <ul id="ul_bs4_b1y_fp">
+            <li>
+                <p><xref href="onboardingToVmwareEsxi=20220721162608.dita"/></p>
+            </li>
+            <li>
+                <p><xref href="onboardingToVmwareWorkstation=20220721162545.dita"/></p>
+            </li>
+            <li>
+                <p><xref href="onboardingToHyperV=20220721162525.dita"/></p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map xml:lang="en-us" id="GUID-0E622BE8-5DBA-4D04-8B16-8336810BE555">
+<title id="GUID-A4666C67-E723-48CA-8FFE-922E2F928DF0">Installation</title>
+<topicref href="../topics/ch3Installation=20220721162900.dita">
+    <topicmeta>
+      <navtitle>Installation</navtitle>
+    </topicmeta>
+    <topicref href="../topics/onboardingToVmwareEsxi=20220721162608.dita">
+      <topicmeta>
+        <navtitle>Onboarding to VMware ESXI</navtitle>
+      </topicmeta>
+      <topicref href="../topics/prerequisitesVmwareEsxi=20220721162305.dita">
+        <topicmeta>
+          <navtitle>Prerequisites for VMware ESXi</navtitle>
+        </topicmeta>
+      </topicref>
+      <topicref href="../topics/vmwareEsxi=20220721161909.xml">
+        <topicmeta>
+          <navtitle>Deploying StellarOne for VMware ESXi System</navtitle>
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="../topics/onboardingToVmwareWorkstation=20220721162545.dita">
+      <topicmeta>
+        <navtitle>Onboarding to VMware Workstation</navtitle>
+      </topicmeta>
+      <topicref href="../topics/prerequisitesVmwareWorkstation=20220721162250.dita">
+        <topicmeta>
+          <navtitle>Prerequisites for VMware Workstation</navtitle>
+        </topicmeta>
+      </topicref>
+      <topicref href="../topics/vmwareWorkstation=20220721161841.xml">
+        <topicmeta>
+          <navtitle>Deploying StellarOne for VMware Workstation</navtitle>
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="../topics/onboardingToHyperV=20220721162525.dita">
+      <topicmeta>
+        <navtitle>Onboarding to Windows Hyper-V</navtitle>
+      </topicmeta>
+      <topicref href="../topics/prerequisitesWindowsHyperV=20220721162230.dita">
+        <topicmeta>
+          <navtitle>Prerequisites for Windows Hyper-V</navtitle>
+        </topicmeta>
+      </topicref>
+      <topicref href="../topics/windowsHyperV=20220721161743.xml">
+        <topicmeta>
+          <navtitle>Deploying StellarOne for Hyper-V System</navtitle>
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="../topics/openingConsole=20220721162458.xml">
+      <topicmeta>
+        <navtitle>Opening StellarOne Management Console</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref></map>

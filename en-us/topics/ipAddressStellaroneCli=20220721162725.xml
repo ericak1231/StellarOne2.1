@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd"><task id="GUID-520F37FF-48AB-4225-AB65-EB45305114CD" xml:lang="en-us">
+    <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Configuring the IP Address via CLI</title>
+    <taskbody>
+        <context id="GUID-CAD7BEDC-492D-4151-BCB7-1467EFD0B3CC">
+            <p><indexterm>command line interface<indexterm>configure IP
+                    address</indexterm></indexterm>Below section describes procedures of configuring
+                the IP address settings for StellarOne instance via command line interface (CLI)
+                .</p>
+        </context>
+        <steps id="steps_gjx_t5d_m4">
+            <step>
+                <cmd>Type <userinput>$ iface ls</userinput> to get the IP address of the StellarOne
+                    instance.</cmd>
+                <stepxmp>
+                    <fig id="fig_yy3_mfj_25b">
+                        <title>Getting the IP Address of StellarOne</title>
+                        <image href="../images/cliStellarOneIP=20220722093557.png"
+                            id="image_zy3_mfj_25b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Type <userinput>iface update</userinput> command for updating the settings of
+                    current network interface. For example, the following command sets the interface
+                        <wintitle>eth0</wintitle> to a static IP address 10.7.19.187/24 with the
+                    Gateway IP address 10.7.19.190 </cmd>
+                <info>
+                    <p><userinput>$ iface update eth0 --method static --address 10.7.19.157
+                            --netmask 255.255.255.0 --gateway 10.7.19.254</userinput></p>
+                </info>
+            </step>
+            <step>
+                <cmd>Check if the network interface settings are correct, and then type the
+                    following command to execute the change.</cmd>
+                <info>
+                    <p><userinput>$ iface restart eth0</userinput></p>
+                </info>
+            </step>
+            <step>
+                <cmd>Type following command again for viewing the new network interface
+                    settings.</cmd>
+                <info>
+                    <p><userinput>$ iface ls</userinput></p>
+                </info>
+                <stepxmp>
+                    <fig id="fig_sqp_xhj_25b">
+                        <title>Viewing New Network Settings</title>
+                        <image href="../images/cliNewNetworkSetting=20220721164444.png"
+                            id="image_tqp_xhj_25b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Use the <userinput>resolv add</userinput> command to add a DNS server and
+                        <userinput>resolv ls</userinput> to view the DNS server list. For example,
+                    the following command adds 8.8.8.8 to the DNS server list</cmd>
+                <info>
+                    <p><userinput>$ resolv mode custom</userinput>
+                    </p>
+                </info>
+                <info>
+                    <p><userinput>$ resolv add 8.8.8.8</userinput>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>Type following command to view the DNS server settings</cmd>
+                <info>
+                    <p><userinput>$ resolv ls</userinput>
+                    </p>
+                </info>
+                <stepxmp>
+                    <fig id="fig_qnk_ljj_25b">
+                        <title>Viewing DNS Server Settings</title>
+                        <image href="../images/cliDNSsettings=20220721164434.png"
+                            id="image_rnk_ljj_25b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Type following command to reboot the VM.</cmd>
+                <info>
+                    <p><userinput>$ reboot</userinput>
+                    </p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map xml:lang="en-us" id="GUID-2F1A794B-D019-45A6-A2CA-E9FAFB309FA4">
+<title id="GUID-B88065B0-D77A-4DC4-B697-C9CD28C0B01B">Installation Planning</title>
+    <topicref href="../topics/ch2InstallationPlanning=20220721162918.dita">
+        <topicmeta>
+            <navtitle>Installation Planning</navtitle>
+        </topicmeta>
+        <topicref href="../topics/systemRequirements=20220721162008.dita">
+            <topicmeta>
+                <navtitle>System Requirements</navtitle>
+            </topicmeta>
+            <topicref href="../topics/sizingTableVmwareEsxi=20220721162115.dita">
+                <topicmeta>
+                    <navtitle>Hardware Requirements for VMware ESXi system</navtitle>
+                </topicmeta>
+            </topicref>
+            <topicref href="../topics/sizingTableHyperV=20220721162132.dita">
+                <topicmeta>
+                    <navtitle>Hardware Requirements for Hyper-V System</navtitle>
+                </topicmeta>
+            </topicref>
+        </topicref>
+        <topicref href="../topics/deploymentTime=20220721162758.dita">
+            <topicmeta>
+                <navtitle>Agent Deployment Plan</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref href="../topics/portsFqdnUsed_20220721162325.dita">
+            <topicmeta>
+                <navtitle>Ports and FQDN Used</navtitle>
+            </topicmeta>
+        </topicref>
+    </topicref>
+</map>

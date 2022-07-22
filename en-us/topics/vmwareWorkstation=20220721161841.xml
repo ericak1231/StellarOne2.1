@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd"><task id="GUID-520F37FF-48AB-4225-AB65-EB45305114CD" xml:lang="en-us">
+    <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Deploying StellarOne for VMware
+        Workstation</title>
+    <taskbody>
+        <context id="GUID-CAD7BEDC-492D-4151-BCB7-1467EFD0B3CC">
+            <p>Below section details procedures of deploying StellarOne to a VMware Workstation
+                system.</p>
+        </context>
+        <steps id="steps_gjx_t5d_m4">
+            <step>
+                <cmd>Start the VMware Workstation and click <uicontrol>File</uicontrol> on the menu
+                    bar.</cmd>
+            </step>
+            <step>
+                <cmd>Select <uicontrol>Open</uicontrol> to import the StellarOne VM image file
+                        (<filepath>*.ova</filepath>).</cmd>
+            </step>
+            <step>
+                <cmd>Select the StellarOne VM image file from your localhost file path and click
+                        <uicontrol>Import</uicontrol>.</cmd>
+                <stepxmp>
+                    <fig id="fig_lgg_nnv_d5b">
+                        <title>Import File to VMware Workstation</title>
+                        <image href="../images/vmwareWorkstation_importFile=20220721163620.png"
+                            id="image_jc4_vmv_d5b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Check the detailed VM information of the imported StellarOne VM.</cmd>
+                <stepxmp>
+                    <fig id="fig_l22_4nv_d5b">
+                        <title>StellarOne VM Details</title>
+                        <image href="../images/vmwareWorkstation_stellarOneVM=20220721163609.png"
+                            id="image_zlt_4nv_d5b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Add an extra hard disk.</cmd>
+                <substeps id="substeps_zh5_rhb_25b">
+                    <substep>
+                        <cmd>Click <uicontrol>Edit virtual machine settings</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <menucascade>
+                                <uicontrol>Add...</uicontrol>
+                                <uicontrol>Hard Disk</uicontrol>
+                            </menucascade> for <uicontrol>Hardware Type</uicontrol></cmd>
+                        <stepxmp>
+                            <fig id="fig_py1_c4v_d5b">
+                                <title>Add an Hard Disk</title>
+                                <image
+                                    href="../images/vmwareWorkstation_addHardDisk=20220721163558.png"
+                                    id="image_bgn_d4v_d5b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Select <uicontrol>SCSI (Recommended)</uicontrol> as the disk
+                            type.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Select <uicontrol>Create a new virtual disk</uicontrol> as the disk
+                            item.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Set <uicontrol>Maximum disk size (GB)</uicontrol>as 50.</cmd>
+                        <stepxmp>
+                            <fig id="fig_adb_x3b_25b">
+                                <title>Add Hardware Wizard</title>
+                                <image
+                                    href="../images/vmwareWorkstation_addHardwareWizard=20220721163436.png"
+                                    id="image_bdb_x3b_25b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Select path to store the disk and click <uicontrol>Finish</uicontrol>.
+                            The new external disk will be created in <uicontrol>Virtual Machine
+                                Settings</uicontrol>.</cmd>
+                        <stepresult>
+                            <fig id="fig_iml_fjb_25b">
+                                <title>Hardware Overview in Virtual Machine Settings</title>
+                                <image
+                                    href="../images/vmwareWorkstation_HardwareOverview=20220721163533.png"
+                                    id="image_k5z_ljb_25b"/>
+                            </fig>
+                        </stepresult>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>(Optional) Adjust your StellarOne instance to use proper resource
+                    configurations based on the default settings (8 CPU cores, 16 GB memory).</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Click <uicontrol>Edit virtual machine settings</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Specify the amount of <uicontrol>Memory</uicontrol> allocated to
+                            StellarOne instance.</cmd>
+                        <stepxmp>
+                            <fig id="fig_btw_g4v_d5b">
+                                <title>Memory for Virtual Machine</title>
+                                <image
+                                    href="../images/vmwareWorkstation_memoryVM=20220721163509.png"
+                                    id="image_ij1_j4v_d5b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>(Optional) Change the network adapter settings from <uicontrol>NAT</uicontrol>
+                    to <uicontrol>Bridged</uicontrol>.</cmd>
+                <substeps id="substeps_ixn_vkb_25b">
+                    <substep>
+                        <cmd>Right-click the StellarOne VM icon and select
+                                <uicontrol>Settings</uicontrol></cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Select <uicontrol>Network Adapter</uicontrol> and change the default
+                            setting from <uicontrol>NAT</uicontrol> to
+                                <uicontrol>Bridged</uicontrol> if necessary.</cmd>
+                        <stepxmp>
+                            <fig id="fig_nyp_5bc_25b">
+                                <title>Network Adapter in Virtual Machine Settings</title>
+                                <image
+                                    href="../images/vmwareWorkstation_networkAdapter=20220721163545.png"
+                                    id="image_oyp_5bc_25b"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Boot the StellarOne VM, and the StellarOne instrance will start.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

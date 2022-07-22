@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
+    <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Configuring StellarOne via Command Line
+        Interface (CLI)</title>
+    <conbody>
+        <p>This chapter describes how to configure some settings for StellarOne via command line
+            interface (CLI).</p>
+        <p>Topics in this chapter include:</p>
+        <ul id="ul_bs4_b1y_fp">
+            <li>
+                <p><xref href="accessStellaroneCli=20220721163000.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="ipAddressStellaroneCli=20220721162725.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="optionalModifyCommunicationPorts=20220721162418.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="optionalSwitchingLanguage=20220721162345.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="optionalDockerNetworkVshell=20220721162440.xml"/></p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

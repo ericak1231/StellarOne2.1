@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_nly_ksy_c5b">
+    <title>System Requirements</title>
+    <conbody>
+        <p><indexterm>requirements</indexterm><indexterm>system requirements</indexterm>TXOne <tm
+                tmtype="tm">StellarOne</tm> is packaged in an Open Virtual Appliance (OVA) or
+            Virtual Hard Disk v2 (VHDX) format. Different package files respectively apply to
+            different hypervisors.</p>
+        <p><b>Supported Hypervisors (OVA file)</b></p>
+        <ul id="ul_bs4_b1y_fp">
+            <li>
+                <p>VMware ESXi 6.5.x or later versions</p>
+            </li>
+            <li>
+                <p>VMware Workstation 16.x or later versions</p>
+            </li>
+        </ul>
+        <p><b>Supported Hypervisors (VHDX file)</b></p>
+        <ul id="ul_wzb_wjc_25b">
+            <li>
+                <p>Windows Server 2019, Hyper-V Manager Windows 10 or later versions</p>
+            </li>
+        </ul>
+        <p><b>Supported Browser</b></p>
+        <ul id="ul_d2v_hty_c5b">
+            <li>
+                <p>Google Chrome 87 or later versions</p>
+            </li>
+            <li>
+                <p>Microsoft Edge 79 or later versions</p>
+            </li>
+            <li>
+                <p>Mozilla Firefox 78 or later versions</p>
+            </li>
+        </ul>
+        <note id="note_p2t_j5y_c5b">
+            <p>The minimum resolution supported is 1366x768.</p>
+        </note>
+    </conbody>
+</concept>

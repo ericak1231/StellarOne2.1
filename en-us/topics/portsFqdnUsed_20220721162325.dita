@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_tkg_jvy_c5b">
+    <title>Ports and FQDN Used</title>
+    <refbody>
+        <section id="section_ukg_jvy_c5b">
+            <p><indexterm>Ports and FQDN</indexterm>The following table shows the ports that are
+                used by the StellarOne server.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_al2_5gz_c5b">
+                <title>Ports and FQDN Used</title>
+                <tgroup cols="5">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.23*"/>
+                    <colspec colname="newCol3" colnum="3" colwidth="1.33*"/>
+                    <colspec colname="newCol4" colnum="4" colwidth="1.35*"/>
+                    <colspec colname="newCol5" colnum="5" colwidth="1.17*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>From</p>
+                            </entry>
+                            <entry>
+                                <p>To</p>
+                            </entry>
+                            <entry>
+                                <p>Open Port</p>
+                            </entry>
+                            <entry>
+                                <p>FQDN</p>
+                            </entry>
+                            <entry>
+                                <p>Function</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><indexterm>Ports and
+                                        FQDN<indexterm>StellarProtect</indexterm></indexterm>StellarProtect</p>
+                            </entry>
+                            <entry>
+                                <p>StellarOne</p>
+                            </entry>
+                            <entry>
+                                <p>9443</p>
+                            </entry>
+                            <entry>
+                                <p>-</p>
+                            </entry>
+                            <entry>
+                                <p>StellarOne’s listening port for StellarProtect</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>Ports and
+                                        FQDN<indexterm>StellarEnforce</indexterm></indexterm>StellarEnforce</p>
+                            </entry>
+                            <entry>
+                                <p>StellarOne</p>
+                            </entry>
+                            <entry>
+                                <p>8000</p>
+                            </entry>
+                            <entry>
+                                <p>-</p>
+                            </entry>
+                            <entry>
+                                <p>StellarOne’s listening port for StellarEnforce</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>Ports and
+                                        FQDN<indexterm>StellarOne</indexterm></indexterm>StellarOne</p>
+                            </entry>
+                            <entry>
+                                <p>StellarProtect</p>
+                            </entry>
+                            <entry>
+                                <p>14336</p>
+                            </entry>
+                            <entry>
+                                <p>-</p>
+                            </entry>
+                            <entry>
+                                <p>StellarProtect’s listening port</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>Ports and
+                                        FQDN<indexterm>StellarOne</indexterm></indexterm>StellarOne</p>
+                            </entry>
+                            <entry>
+                                <p>StellarEnforce</p>
+                            </entry>
+                            <entry>
+                                <p>14336</p>
+                            </entry>
+                            <entry>
+                                <p>-</p>
+                            </entry>
+                            <entry>
+                                <p>StellarEnforce’s listening port</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>Ports and
+                                        FQDN<indexterm>StellarOne</indexterm></indexterm>StellarOne</p>
+                            </entry>
+                            <entry>
+                                <p>License (PR) Server</p>
+                            </entry>
+                            <entry>
+                                <p>443</p>
+                            </entry>
+                            <entry><filepath>odc.cs.txone-networks.com</filepath></entry>
+                            <entry>
+                                <p>StellarOne connects to global server port for license
+                                    verification and renewal through HTTPS</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>Ports and
+                                        FQDN<indexterm>Browser</indexterm></indexterm>Browser</p>
+                            </entry>
+                            <entry>
+                                <p>StellarOne Web</p>
+                            </entry>
+                            <entry>
+                                <p>443</p>
+                            </entry>
+                            <entry>
+                                <p>-</p>
+                            </entry>
+                            <entry>
+                                <p>StellarOne’s listening port for web access through HTTPS</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>Ports and
+                                        FQDN<indexterm>StellarOne</indexterm></indexterm>StellarOne</p>
+                            </entry>
+                            <entry>
+                                <p>Active Update Server</p>
+                            </entry>
+                            <entry>
+                                <p>443</p>
+                            </entry>
+                            <entry>
+                                <p><b>StellarProtect</b><b>:</b></p>
+                                <p>txsp-p.activeupdate.trendmicro.com/activeupdate</p>
+                                <p><b>StellarEnforce</b><b>:</b></p>
+                                <p>txse-p.activeupdate.trendmicro.com/activeupdate</p>
+                            </entry>
+                            <entry>
+                                <p>StellarOne connects to global server port for the Stellar Active
+                                    Update through HTTPs</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <note id="note_rvh_x25_d5b" type="note">
+                <p><indexterm>StellarOne Occupied Ports</indexterm>The following ports are reserved
+                    for StellarOne private service usage and are not allowed to use for other
+                    purposes.</p>
+            </note>
+            <table frame="all" rowsep="1" colsep="1" id="table_i12_gf5_d5b">
+                <title>StellarOne Occupied Ports</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>StellarOne Occupied Port</p>
+                            </entry>
+                            <entry>
+                                <p>Port</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><p><indexterm>StellarOne Occupied Ports<indexterm>StellarEnforce
+                                            Default Port</indexterm></indexterm></p>StellarEnforce
+                                Default Port</entry>
+                            <entry>
+                                <p>8000</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry><p><indexterm>StellarOne Occupied Ports<indexterm>StellarProtect
+                                            Default Port</indexterm></indexterm></p>StellarProtect
+                                Default Port</entry>
+                            <entry>
+                                <p>9443</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry><p><indexterm>StellarOne Occupied
+                                        Ports<indexterm>SSH</indexterm></indexterm></p>SSH</entry>
+                            <entry>
+                                <p>22</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry><p><indexterm>StellarOne Occupied
+                                        Ports<indexterm>NTP</indexterm></indexterm></p>NTP</entry>
+                            <entry>
+                                <p>123</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>StellarOne Occupied
+                                        Ports<indexterm>Web</indexterm></indexterm>Web</p>
+                            </entry>
+                            <entry>
+                                <p>443</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry morerows="5">
+                                <p>StellarOne Internal Service</p>
+                            </entry>
+                            <entry>
+                                <p>25</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>7590</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>8888</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>8889</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>8999</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>9091</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

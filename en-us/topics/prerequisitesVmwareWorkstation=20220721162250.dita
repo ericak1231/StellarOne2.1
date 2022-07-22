@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_pyd_d3r_c5b">
+    <title>Prerequisites</title>
+    <conbody>
+        <ul id="ul_ktf_4t5_d5b">
+            <li>
+                <p>The OVA packages provided by TXOne must be available and accessible to VMware
+                    Workstation.</p>
+            </li>
+            <li>
+                <p>VMware Workstaion 16 or later versions is required.</p>
+            </li>
+            <li>
+                <p>An external disk with at least 50 GB.</p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map xml:lang="en-us" id="GUID-6CCC507A-F300-4696-816D-D94B0500318E">
+<title id="GUID-67442B32-2774-474F-8E48-C70D8526B156">Preface</title>
+<topicref href="Preface=GUID-AC532E74-6AA4-436C-8C5C-EBD565E14979=2=en-us=.xml" format="dita"><topicmeta><navtitle>Preface</navtitle></topicmeta><topicref href="Documentation=GUID-9511BAF7-68D8-4105-A39D-24A46AD5EF32=6=en-us=.xml" format="dita"><topicmeta><navtitle>Documentation</navtitle></topicmeta></topicref><topicref href="../SharedResources/MacProductPreface/Audience=GUID-A623CF73-7CF6-4E05-AECC-029793243D97=2=en-us=.xml" type="concept">
+ 
+<topicmeta>
+<navtitle>Audience</navtitle>
+</topicmeta>
+</topicref><topicref href="../SharedResources/MacProductPreface/Document_Conventions=GUID-182C689E-1E79-4F2A-AFB5-18EC775B16D9=1=en-us=.xml" type="reference">
+ 
+<topicmeta>
+<navtitle>Document Conventions</navtitle>
+</topicmeta>
+</topicref><topicref href="Terminology=GUID-65441838-6FAD-40BB-8753-84AC811C8F3A=1=en-us=.xml" format="dita"><topicmeta/></topicref></topicref>
+</map>

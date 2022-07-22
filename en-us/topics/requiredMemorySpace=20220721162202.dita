@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_tkg_jvy_c5b">
+    <title>Required Memory and HD Space</title>
+    <refbody>
+        <section id="section_ukg_jvy_c5b">
+            <p><indexterm>reference table</indexterm>Required Memory and HD space vary depending on
+                the number of agents and logs that will be configured and retained. User can
+                determine the scale of endpoint deployment by evaluating server performance
+                efficiency.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_yjw_tbz_c5b">
+                <title>Mix of Configuration Options</title>
+                <tgroup cols="8">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1*"/>
+                    <colspec colname="c5" colnum="5" colwidth="1*"/>
+                    <colspec colname="c6" colnum="6" colwidth="1*"/>
+                    <colspec colname="c7" colnum="7" colwidth="1*"/>
+                    <colspec colname="c8" colnum="8" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Item</p>
+                            </entry>
+                            <entry namest="c2" nameend="c8">
+                                <p>No./Capacity</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p><indexterm>reference table<indexterm>Max. No. of
+                                            Agents</indexterm></indexterm>Max. No. of Agents</p>
+                            </entry>
+                            <entry>
+                                <p>30,000</p>
+                            </entry>
+                            <entry>
+                                <p>20,000</p>
+                            </entry>
+                            <entry>
+                                <p>15,000</p>
+                            </entry>
+                            <entry>
+                                <p>10,000</p>
+                            </entry>
+                            <entry>
+                                <p>5,000</p>
+                            </entry>
+                            <entry>
+                                <p>1,000</p>
+                            </entry>
+                            <entry>
+                                <p>500</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>reference table<indexterm>Min. No. of
+                                            vCores</indexterm></indexterm>Min. No. of vCores</p>
+                            </entry>
+                            <entry>
+                                <p>8</p>
+                            </entry>
+                            <entry>
+                                <p>8</p>
+                            </entry>
+                            <entry>
+                                <p>4</p>
+                            </entry>
+                            <entry>
+                                <p>4</p>
+                            </entry>
+                            <entry>
+                                <p>4</p>
+                            </entry>
+                            <entry>
+                                <p>4</p>
+                            </entry>
+                            <entry>
+                                <p>4</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>reference table<indexterm>Memory
+                                        Capacity</indexterm></indexterm>Memory Capacity</p>
+                            </entry>
+                            <entry>
+                                <p>32 GB</p>
+                            </entry>
+                            <entry>
+                                <p>16 GB</p>
+                            </entry>
+                            <entry>
+                                <p>16 GB</p>
+                            </entry>
+                            <entry>
+                                <p>16 GB</p>
+                            </entry>
+                            <entry>
+                                <p>12 GB</p>
+                            </entry>
+                            <entry>
+                                <p>12 GB</p>
+                            </entry>
+                            <entry>
+                                <p>12 GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>reference table<indexterm>1st HDD
+                                        Capacity</indexterm></indexterm>1st HDD Capacity </p>
+                            </entry>
+                            <entry namest="c2" nameend="c8">
+                                <p>25 GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p><indexterm>reference table<indexterm>2nd HDD Capacity
+                                            (Recommended</indexterm></indexterm>2nd HDD Capacity
+                                    (Recommended) </p>
+                            </entry>
+                            <entry>
+                                <p>100 GB</p>
+                            </entry>
+                            <entry>
+                                <p>100 GB</p>
+                            </entry>
+                            <entry>
+                                <p>50 GB</p>
+                            </entry>
+                            <entry>
+                                <p>50 GB</p>
+                            </entry>
+                            <entry>
+                                <p>50 GB</p>
+                            </entry>
+                            <entry>
+                                <p>50 GB</p>
+                            </entry>
+                            <entry>
+                                <p>50 GB</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <p>The external disk space varies depending on the number of logs planned to be stored,
+                as shown in the table below.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_al2_5gz_c5b">
+                <title>No. of Logs versus Disk Space</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>No. of Logs</p>
+                            </entry>
+                            <entry>
+                                <p>Disk Space</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>50,000,000</p>
+                            </entry>
+                            <entry>
+                                <p>50GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>100,000,000</p>
+                            </entry>
+                            <entry>
+                                <p>100 GB</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>150,000,000</p>
+                            </entry>
+                            <entry>
+                                <p>150 GB</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>To determine the ideal specifications for your exernal HDD, please refer to the
+                following formula:<equation-inline>[Output log numbers for a single agent per day] x
+                    [Log storage period in days] x [Total number of agents]</equation-inline></p>
+            <p>Example: External HDD size for 20,000 agents</p>
+            <ul id="ul_tmr_d3z_c5b">
+                <li>
+                    <p>Output log numbers for a single agent per day: 100 events</p>
+                </li>
+                <li>
+                    <p>Log storage period in days: 30 days</p>
+                </li>
+                <li>
+                    <p>Total number of agents: 20,000 agents</p>
+                </li>
+            </ul>
+            <p>Total number of logs: <equation-block id="equation-block_om5_j3z_c5b">100 x 30 x
+                    20000 = 60,000,000 Logs</equation-block></p>
+            <p>In this case, it would be required to prepare 100 GB for storage space.</p>
+        </section>
+    </refbody>
+</reference>

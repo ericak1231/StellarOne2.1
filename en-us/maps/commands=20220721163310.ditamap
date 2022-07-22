@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map xml:lang="en-us" id="GUID-08C4F5C6-3E11-42EF-8FDA-E53E0145C279">
+<title id="GUID-661953CF-1A39-46A9-95D7-C6491667CF48">Configuring StellarOne via Command Line
+        Interface (CLI)</title>
+<topicref href="../topics/ch4Cli=20220721162840.dita">
+        <topicmeta>
+            <navtitle>Configuring StellarOne via Command Line Interface (CLI)</navtitle>
+        </topicmeta>
+        <topicref href="../topics/accessStellaroneCli=20220721163000.xml">
+            <topicmeta>
+                <navtitle>Using the StellarOne Command Line Interface (CLI)</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref href="../topics/ipAddressStellaroneCli=20220721162725.xml">
+            <topicmeta>
+                <navtitle>Configuring the IP Address via CLI</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref href="../topics/optionalModifyCommunicationPorts=20220721162418.xml">
+            <topicmeta>
+                <navtitle>Modify Communication Ports via CLI</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref href="../topics/optionalSwitchingLanguage=20220721162345.xml">
+            <topicmeta>
+                <navtitle>Change Language Setting via CLI</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref href="../topics/optionalDockerNetworkVshell=20220721162440.xml">
+            <topicmeta>
+                <navtitle>Manage Docker Network on vShell via CLI</navtitle>
+            </topicmeta>
+        </topicref>
+    </topicref></map>
