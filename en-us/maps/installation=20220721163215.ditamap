@@ -6,6 +6,7 @@
     <topicmeta>
       <navtitle>Installation</navtitle>
     </topicmeta>
+    <topicref href="../topics/installationFlow=20220722231649.xml"/>
     <topicref href="../topics/onboardingToVmwareEsxi=20220721162608.dita">
       <topicmeta>
         <navtitle>Onboarding to VMware ESXI</navtitle>

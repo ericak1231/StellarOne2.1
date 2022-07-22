@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_tkg_jvy_c5b">
-    <title>Hardware Requirements for VMware ESXi system</title>
+    <title>Hardware Requirements for VMware System</title>
     <refbody>
         <section id="section_ukg_jvy_c5b">
-            <p><indexterm>hardware requirements for VMware ESXi</indexterm>Hardware requirements
-                vary depending on the number of agents and logs that will be configured and
-                retained. Please refer to below tables for determining the optimal number of agents
-                that your StellarOne server deployment can manage.</p>
+            <p><indexterm>hardware requirements for VMware</indexterm>Hardware requirements vary
+                depending on the number of agents and logs that will be configured and retained.
+                Please refer to below tables for determining the optimal number of agents that your
+                StellarOne server deployment can manage.</p>
         </section>
         <section id="section_eh3_5t3_25b">
             <table frame="all" rowsep="1" colsep="1" id="table_yjw_tbz_c5b">
-                <title>Sizing Table for VMware ESXi</title>
+                <title>Sizing Table for VMware</title>
                 <tgroup cols="5">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="1.03*"/>
@@ -21,23 +21,24 @@
                     <thead>
                         <row>
                             <entry>
-                                <p><indexterm>hardware requirements for VMware ESXi<indexterm>Max.
-                                            No. of Agents</indexterm></indexterm>Max. No. of
-                                    Agents</p>
+                                <p><indexterm>hardware requirements for VMware<indexterm>Max. No. of
+                                            Agents</indexterm></indexterm>Max. No. of Agents</p>
                             </entry>
-                            <entry><indexterm>hardware requirements for VMware ESXi<indexterm>Min.
-                                        No. of vCores</indexterm></indexterm></entry>
                             <entry>
-                                <p><indexterm>hardware requirements for VMware ESXi<indexterm>memory
+                                <p><indexterm>hardware requirements for VMware<indexterm>Min. No. of
+                                            vCores</indexterm></indexterm></p>
+                            </entry>
+                            <entry>
+                                <p><indexterm>hardware requirements for VMware<indexterm>memory
                                             size</indexterm></indexterm>Memory Size</p>
                             </entry>
                             <entry>
-                                <p><indexterm>hardware requirements for VMware ESXi<indexterm>1st
-                                            HDD Space</indexterm></indexterm>1st HDD Space</p>
+                                <p><indexterm>hardware requirements for VMware<indexterm>1st HDD
+                                            Space</indexterm></indexterm>1st HDD Space</p>
                             </entry>
                             <entry>
-                                <p><indexterm>hardware requirements for VMware ESXi<indexterm>2nd
-                                            HDD Space</indexterm></indexterm>2nd HDD Space
+                                <p><indexterm>hardware requirements for VMware<indexterm>2nd HDD
+                                            Space</indexterm></indexterm>2nd HDD Space
                                     (Recommended)</p>
                             </entry>
                         </row>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map xml:lang="en-us" id="GUID-F728D775-CD21-4502-B13D-B49F454692E4">
+<title id="GUID-43427FC2-FB02-49C2-9F4A-62A08AE57D5E">Technical Support</title>
+  <keydef
+    href="../SharedResources/TechnicalSupportChapter/Technical_Support_KB_-_Support_Xref_Variables=GUID-43887156-A31C-4EA7-AB4F-88CF0BA56781=1=en-us=.xml"
+    keys="TSXrefvars"/>
+            
+            <topicref href="../conref-vars/Technical_Support_TXOne=20220722224836=.xml">
+    <topicref
+      href="../SharedResources/TechnicalSupportChapter/Troubleshooting_Resources=GUID-F58DAF8B-49DB-4C10-9469-82E247625F98=1=en-us=.xml">
+      <topicref
+        href="../SharedResources/TechnicalSupportChapter/Using_the_Support_Portal=GUID-5B67FECD-8B85-4D08-8E12-CAE2295C6D7F=9=en-us=.xml"/>
+      <topicref
+        href="../SharedResources/TechnicalSupportChapter/Threat_Encyclopedia=GUID-E049C3C6-2628-4A45-A678-1F3070A54E84=3=en-us=.xml"
+      />
+    </topicref>
+    <topicref
+      href="../SharedResources/TechnicalSupportChapter/Contacting_Trend_Micro=GUID-A881DC78-4AA7-4EE1-A62C-6427FF41DE3D=4=en-us=.xml">
+      <topicref
+        href="../SharedResources/TechnicalSupportChapter/Speeding_Up_the_Support_Call=GUID-2F7C1870-162B-411F-8E2D-16F8BB2C8C27=2=en-us=.xml"
+      />
+    </topicref>
+    <topicref
+      href="../SharedResources/TechnicalSupportChapter/Sending_Suspicious_Content_to_Trend_Micro=GUID-394515B1-CDAA-48C9-8C95-773E8F644D12=1=en-us=.xml">
+      <topicref
+        href="../SharedResources/TechnicalSupportChapter/Email_Reputation_Services=GUID-3365558F-A0B1-4A7E-B9A9-0EABDB369C38=4=en-us=.xml"/>
+      <topicref
+        href="../SharedResources/TechnicalSupportChapter/File_Reputation_Services=GUID-ACD4AD40-9ED5-4E5B-85E6-3F56183958E6=3=en-us=.xml"/>
+      <topicref
+        href="../SharedResources/TechnicalSupportChapter/Web_Reputation_Services=GUID-7AB3769E-7625-4BED-83D9-3E42B4A08843=2=en-us=.xml"
+      />
+    </topicref>
+    <topicref
+      href="../SharedResources/TechnicalSupportChapter/Other_Resources=GUID-C3A498C4-5FED-4A15-9D49-041D33150119=1=en-us=.xml">
+      <topicref
+        href="../SharedResources/TechnicalSupportChapter/Download_Center=GUID-F5980085-1FCB-4C9C-8E48-82462CFACB48=2=en-us=.xml"/>
+      <topicref
+        href="../SharedResources/TechnicalSupportChapter/Documentation_Feedback=GUID-32DFAAE7-3619-41E0-814E-DE10A9BE321F=2=en-us=.xml"
+        format="dita">
+        <topicmeta>
+          <navtitle>Documentation Feedback</navtitle>
+        </topicmeta>
+      </topicref>
+    </topicref>
+  </topicref>
+</map>

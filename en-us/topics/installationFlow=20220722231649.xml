@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">StellarOne Installation Flow</title>
+    <taskbody>
+        <context id="context_ncj_b5y_g5b">
+            <p><indexterm>installation flow</indexterm>Installing StellarOne web console requires
+                performing the following steps:</p>
+        </context>
+        <steps id="steps_wvw_g5y_g5b">
+            <step>
+                <cmd>Deploy a StellarOne virtual machine based on VMware ESXi, VMware workstation,
+                    or Windows Hyper-V system.</cmd>
+            </step>
+            <step>
+                <cmd>Add an external hard disk with at least 50 GB of space to the StellarOne
+                    instance.</cmd>
+            </step>
+            <step>
+                <cmd>Log on StellarOne web console to set up the administrator's account.</cmd>
+            </step>
+            <step>
+                <cmd>Log on StellarOne web console to activate the product and set the time
+                    properties.</cmd>
+            </step>
+            <step>
+                <cmd>Configure settings such as IP address and communication ports. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
