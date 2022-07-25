@@ -24,7 +24,8 @@
 		<keydef
 			href="conref-vars/stellarOne_Privacy_and_Personal_Data_Collection_Variables=20220722222924.xml"
 			keys="PPDC_vars"/>
-		<notices href="conref-vars/legalMap=20220725120644.ditamap" format="ditamap" toc="no"/>
+		<notices href="conref-vars/legalMap=20220725120644.ditamap" format="ditamap" toc="no"
+			outputclass="legal"/>
 		<topicref href="conref-vars/Preface=20220722145015.ditamap" format="ditamap"/>
 	</frontmatter>
 	<chapter href="maps/aboutStellarOne=20220721163325.ditamap" format="ditamap"/>
