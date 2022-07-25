@@ -9,6 +9,14 @@
         <ul id="ul_bs4_b1y_fp">
             <li>
                 <p><xref href="systemRequirements=20220721162008.dita"/></p>
+                <ul id="ul_ffh_shq_h5b">
+                    <li>
+                        <p><xref href="sizingTableVmwareEsxi=20220721162115.dita"/></p>
+                    </li>
+                    <li>
+                        <p><xref href="sizingTableHyperV=20220721162132.dita"/></p>
+                    </li>
+                </ul>
             </li>
             <li>
                 <p><xref href="deploymentTime=20220721162758.dita"/></p>

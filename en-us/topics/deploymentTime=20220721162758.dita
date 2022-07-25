@@ -4,7 +4,7 @@
     <title>Agent Deployment Plan</title>
     <refbody>
         <section id="section_ukg_jvy_c5b">
-            <p><indexterm>reference table</indexterm>Please take network bandwidth into
+            <p><indexterm>agent deployment plan</indexterm>Please take network bandwidth into
                 consideration when planning for agent deployment. Refer to below section as an
                 example of calculating the bandwidth required to support the number of agents
                 planned to deploy.</p>
@@ -40,10 +40,14 @@
                     <thead>
                         <row>
                             <entry morerows="1">
-                                <p>Total Bandwidth / Deployment Task</p>
+                                <p><indexterm>agent deployment plan<indexterm>Total Bandwidth /
+                                            Deployment Task</indexterm></indexterm>Total Bandwidth /
+                                    Deployment Task</p>
                             </entry>
                             <entry namest="c2" nameend="newCol5">
-                                <p>No. of Agents Deployed</p>
+                                <p><indexterm>agent deployment plan<indexterm>No. of Agents
+                                            Deployed</indexterm></indexterm>No. of Agents
+                                    Deployed</p>
                             </entry>
                         </row>
                         <row>

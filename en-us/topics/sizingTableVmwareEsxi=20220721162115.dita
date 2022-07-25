@@ -16,8 +16,8 @@
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="1.03*"/>
                     <colspec colname="c3" colnum="3" colwidth="1.16*"/>
-                    <colspec colname="c4" colnum="4" colwidth="1.17*"/>
-                    <colspec colname="c5" colnum="5" colwidth="1.11*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1.07*"/>
+                    <colspec colname="c5" colnum="5" colwidth="1.22*"/>
                     <thead>
                         <row>
                             <entry>
@@ -26,7 +26,7 @@
                             </entry>
                             <entry>
                                 <p><indexterm>hardware requirements for VMware<indexterm>Min. No. of
-                                            vCores</indexterm></indexterm></p>
+                                            vCores</indexterm></indexterm>Min No. of vCores</p>
                             </entry>
                             <entry>
                                 <p><indexterm>hardware requirements for VMware<indexterm>memory
@@ -146,8 +146,9 @@
             </table>
         </section>
         <section>
-            <p>The external disk space varies depending on the number of logs planned to be stored,
-                as shown in the table below.</p>
+            <p><indexterm>hardware requirements for VMware</indexterm>The external disk space varies
+                depending on the number of logs planned to be stored, as shown in the table
+                below.</p>
             <table frame="all" rowsep="1" colsep="1" id="table_al2_5gz_c5b">
                 <title>No. of Logs versus Disk Space</title>
                 <tgroup cols="2">
@@ -156,11 +157,11 @@
                     <thead>
                         <row>
                             <entry>
-                                <p>No. of Logs</p>
+                                <p><indexterm>hardware requirements for VMware<indexterm>No. of
+                                            Logs</indexterm></indexterm>No. of Logs</p>
                             </entry>
-                            <entry>
-                                <p>Disk Space</p>
-                            </entry>
+                            <entry><indexterm>hardware requirements for VMware<indexterm>Disk
+                                        Space</indexterm></indexterm><p>Disk Space</p></entry>
                         </row>
                     </thead>
                     <tbody>

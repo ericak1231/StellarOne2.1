@@ -154,10 +154,12 @@
                     <thead>
                         <row>
                             <entry>
-                                <p>No. of Logs</p>
+                                <p><indexterm>hardware requirements for Hyper-V<indexterm>No. of
+                                            Logs</indexterm></indexterm>No. of Logs</p>
                             </entry>
                             <entry>
-                                <p>Disk Space</p>
+                                <p><indexterm>hardware requirements for Hyper-V<indexterm>Disk
+                                            Space</indexterm></indexterm>Disk Space</p>
                             </entry>
                         </row>
                     </thead>

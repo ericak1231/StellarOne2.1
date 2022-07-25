@@ -23,21 +23,23 @@
                                 <p>To</p>
                             </entry>
                             <entry>
-                                <p>Open Port</p>
+                                <p><indexterm>Ports and FQDN<indexterm>open
+                                        port</indexterm></indexterm>Open Port</p>
                             </entry>
                             <entry>
-                                <p>FQDN</p>
+                                <p><indexterm>Ports and
+                                    FQDN<indexterm>FQDN</indexterm></indexterm>FQDN</p>
                             </entry>
                             <entry>
-                                <p>Function</p>
+                                <p><indexterm>Ports and
+                                        FQDN<indexterm>function</indexterm></indexterm>Function</p>
                             </entry>
                         </row>
                     </thead>
                     <tbody>
                         <row>
                             <entry>
-                                <p><indexterm>Ports and
-                                        FQDN<indexterm>StellarProtect</indexterm></indexterm>StellarProtect</p>
+                                <p>StellarProtect</p>
                             </entry>
                             <entry>
                                 <p>StellarOne</p>
@@ -54,8 +56,7 @@
                         </row>
                         <row>
                             <entry>
-                                <p><indexterm>Ports and
-                                        FQDN<indexterm>StellarEnforce</indexterm></indexterm>StellarEnforce</p>
+                                <p>StellarEnforce</p>
                             </entry>
                             <entry>
                                 <p>StellarOne</p>
@@ -72,8 +73,7 @@
                         </row>
                         <row>
                             <entry>
-                                <p><indexterm>Ports and
-                                        FQDN<indexterm>StellarOne</indexterm></indexterm>StellarOne</p>
+                                <p>StellarOne</p>
                             </entry>
                             <entry>
                                 <p>StellarProtect</p>
@@ -90,8 +90,7 @@
                         </row>
                         <row>
                             <entry>
-                                <p><indexterm>Ports and
-                                        FQDN<indexterm>StellarOne</indexterm></indexterm>StellarOne</p>
+                                <p>StellarOne</p>
                             </entry>
                             <entry>
                                 <p>StellarEnforce</p>
@@ -108,8 +107,7 @@
                         </row>
                         <row>
                             <entry>
-                                <p><indexterm>Ports and
-                                        FQDN<indexterm>StellarOne</indexterm></indexterm>StellarOne</p>
+                                <p>StellarOne</p>
                             </entry>
                             <entry>
                                 <p>License (PR) Server</p>
@@ -125,8 +123,7 @@
                         </row>
                         <row>
                             <entry>
-                                <p><indexterm>Ports and
-                                        FQDN<indexterm>Browser</indexterm></indexterm>Browser</p>
+                                <p>Browser</p>
                             </entry>
                             <entry>
                                 <p>StellarOne Web</p>
@@ -143,8 +140,7 @@
                         </row>
                         <row>
                             <entry>
-                                <p><indexterm>Ports and
-                                        FQDN<indexterm>StellarOne</indexterm></indexterm>StellarOne</p>
+                                <p>StellarOne</p>
                             </entry>
                             <entry>
                                 <p>Active Update Server</p>
@@ -191,7 +187,7 @@
                     <tbody>
                         <row>
                             <entry><p><indexterm>StellarOne Occupied Ports<indexterm>StellarEnforce
-                                            Default Port</indexterm></indexterm></p>StellarEnforce
+                                            default port</indexterm></indexterm></p>StellarEnforce
                                 Default Port</entry>
                             <entry>
                                 <p>8000</p>
@@ -199,7 +195,7 @@
                         </row>
                         <row>
                             <entry><p><indexterm>StellarOne Occupied Ports<indexterm>StellarProtect
-                                            Default Port</indexterm></indexterm></p>StellarProtect
+                                            default port</indexterm></indexterm></p>StellarProtect
                                 Default Port</entry>
                             <entry>
                                 <p>9443</p>
@@ -230,7 +226,9 @@
                         </row>
                         <row>
                             <entry morerows="5">
-                                <p>StellarOne Internal Service</p>
+                                <p><indexterm>StellarOne Occupied Ports<indexterm>StellarOne
+                                            internal service</indexterm></indexterm>StellarOne
+                                    Internal Service</p>
                             </entry>
                             <entry>
                                 <p>25</p>

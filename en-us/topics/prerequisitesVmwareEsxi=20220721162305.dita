@@ -5,12 +5,14 @@
     <conbody>
         <ul id="ul_ktf_4t5_d5b">
             <li>
-                <p>The OVA packages provided by TXOne must be available and accessible to VMwareESXi
-                    (ESXi version 6.5.x or later versions, including the required
-                    specifications).</p>
+                <p>The OVA packages provided by TXOne must be available and accessible to
+                    VMwareESXi.</p>
             </li>
             <li>
-                <p>The necessary networks have been properly created in ESXi.</p>
+                <p>VMware ESXi 6.5.x or later versions is required.</p>
+            </li>
+            <li>
+                <p>The necessary networks have been properly created for ESXi.</p>
             </li>
             <li>
                 <p>An external disk with at least 50 GB.</p>

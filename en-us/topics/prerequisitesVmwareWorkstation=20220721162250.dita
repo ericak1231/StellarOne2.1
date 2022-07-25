@@ -12,6 +12,9 @@
                 <p>VMware Workstaion 16 or later versions is required.</p>
             </li>
             <li>
+                <p>The necessary networks have been properly created for VMware Workstation.</p>
+            </li>
+            <li>
                 <p>An external disk with at least 50 GB.</p>
             </li>
         </ul>

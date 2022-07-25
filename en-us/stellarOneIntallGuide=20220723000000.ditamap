@@ -31,11 +31,12 @@
 				href="SharedResources/Legal/GDPR_A_-_KB_Link_PDF=GUID-30D89F27-AB8F-42FD-9F63-AA52A08C49C4=3=en-us=.xml"
 			/>
 		</topicref>
+		<topicref href="conref-vars/Preface=20220722145015.ditamap" format="ditamap"/>
 	</frontmatter>
-	<chapter href="conref-vars/Preface=20220722145015.ditamap" format="ditamap"/>
 	<chapter href="maps/aboutStellarOne=20220721163325.ditamap" format="ditamap"/>
 	<chapter href="maps/InstallationPlanning=20220721163240.ditamap" format="ditamap"/>
 	<chapter href="maps/installation=20220721163215.ditamap" format="ditamap"/>
+	<chapter href="maps/commands=20220721163310.ditamap" format="ditamap"/>
 	<chapter href="maps/upgradeMigration=20220721163157.ditamap" format="ditamap"/>
 	<chapter href="maps/Technical_Support_TXOne=20220722223813.ditamap" format="ditamap"/>
 </bookmap>

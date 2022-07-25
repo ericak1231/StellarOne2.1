@@ -6,10 +6,13 @@
         <ul id="ul_ktf_4t5_d5b">
             <li>
                 <p>The VHDX packages provided by TXOne must be available and accessible to Windows
-                    Hyper-V .</p>
+                    Hyper-V.</p>
             </li>
             <li>
-                <p>The necessary networks have been properly created in Windows Hyper-V.</p>
+                <p>Windows Server 2019, Hyper-V Manager Windows 10 or later versions.</p>
+            </li>
+            <li>
+                <p>The necessary networks have been properly created for Windows Hyper-V.</p>
             </li>
             <li>
                 <p>An external disk with at least 50 GB.</p>
