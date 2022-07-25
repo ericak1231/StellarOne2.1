@@ -24,13 +24,7 @@
 		<keydef
 			href="conref-vars/stellarOne_Privacy_and_Personal_Data_Collection_Variables=20220722222924.xml"
 			keys="PPDC_vars"/>
-		<topicref href="conref-vars/legaNotice=20220723003645.xml" toc="no">
-			<topicref
-				href="SharedResources/Legal/bp_legal_pg2=93ca25ea-8f4d-4c4c-9fc6-097f5425feca.xml"/>
-			<topicref
-				href="SharedResources/Legal/GDPR_A_-_KB_Link_PDF=GUID-30D89F27-AB8F-42FD-9F63-AA52A08C49C4=3=en-us=.xml"
-			/>
-		</topicref>
+		<mapref href="conref-vars/legalMap=20220725120644.ditamap" format="ditamap" toc="no"/>
 		<topicref href="conref-vars/Preface=20220722145015.ditamap" format="ditamap"/>
 	</frontmatter>
 	<chapter href="maps/aboutStellarOne=20220721163325.ditamap" format="ditamap"/>
