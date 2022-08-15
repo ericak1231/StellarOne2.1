@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Administration</title>
+ <conbody>
+  <p>This chapter introduce the StellarOne web console's administration settings.</p>
+  <p>Topics in this chapter includes:</p>
+  <ul id="ul_ljn_1hp_n5b">
+   <li>
+    <p><xref href="aboutAccountManageScreen=20220810172956.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="singleSignOn=20220811092626.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="systemTime=20220811165946.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="syslogForward=20220811171155.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="logPurge=20220811215857.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="notification=20220811224458.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="proxy=20220811232823.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="downloadUpdates=20220803181908.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="fwSslTogether=20220812135709.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="licenseManage=20220728150953.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="otIntelligentTrust=20220811235612.xml"/></p>
+   </li>
+  </ul>
+ </conbody>
+</concept>

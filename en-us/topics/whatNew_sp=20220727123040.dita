@@ -4,12 +4,9 @@
     <title>What's New</title>
     <refbody>
         <section id="section_t4c_v3r_c5b">
-            <p>TXOne <ph
-                    conref="../conref-vars/Product_Variables_s1forsp=20220726133941.xml#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/PRODUCT_NAME_TRADEMARKED"
-                    >PRODUCT_NAME_TRADEMARKED</ph>
-                <ph
+            <p>TXOne StellarOne <ph
                     conref="../conref-vars/Product_Variables_s1forsp=20220726133941.xml#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/PRODUCT_VERSION"
-                    >PRODUCT_VERSION</ph> provides following new features and enhancements.</p>
+                    >PRODUCT_VERSION2.0</ph> provides following new features and enhancements.</p>
             <table frame="all" rowsep="1" colsep="1" id="table_p4k_djr_c5b">
                 <title>What's New in TXOne StellarOne 2.0</title>
                 <tgroup cols="2">
@@ -67,20 +64,24 @@
                         </row>
                         <row>
                             <entry>
-                                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                                <p>Agent Policy Enforcement / Detach from Server /
-                                Unsync</p><?oxy_custom_end?>
+                                <p>Self-management Group Policy</p>
                             </entry>
                             <entry>
-                                <p/>
+                                <p>This newly-added group policy allows the operators at the local
+                                    side to configure the agents' policy settings on their own. Once
+                                    being switched to the self-management status, the local agents
+                                    are free from the StellarOne console's policy management.</p>
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                <p>Real-Time Malware Scan in Maitenance Mode</p>
+                                <p>Real-Time Malware Scan in Maintenance Mode</p>
                             </entry>
                             <entry>
-                                <p/>
+                                <p>A Real-Time Malware Scan toggle switch is added under the
+                                    Maintenance Mode option, reminding users to enable Real-Time
+                                    Malware Scan when executing Maintenance Mode to ensure seamless
+                                    protection.</p>
                             </entry>
                         </row>
                         <row>

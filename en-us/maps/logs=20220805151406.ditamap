@@ -7,13 +7,10 @@
         <topicref href="../topics/logAgentEvents=20220805152248.xml">
             <topicref href="../topics/aboutAgentEventScreen=20220805155117.xml"/>
             <topicref href="../topics/sPagentEventFilter=20220810100700.xml"/>
-            <topicref href="../topics/sPagentEventLogDescription=20220808105743.xml"/>
         </topicref>
         <topicref href="../topics/logServerEvents=20220808103015.xml">
             <topicref href="../topics/aboutServerEventScreen=20220808104949.xml"/>
             <topicref href="../topics/sPserverEventFilter=20220810142608.xml"/>
-            <topicref href="../topics/sPserverEventLogDescription=20220809142516.xml"/>
-            <topicref href="../topics/sOneserverEventLogDescription=20220809150242.xml"/>
         </topicref>
         <topicref href="../topics/systemLogs=20220809152235.xml">
             <topicref href="../topics/aboutSystemLogsScreen=20220809152729.xml"/>

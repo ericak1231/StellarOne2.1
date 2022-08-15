@@ -14,10 +14,7 @@
         StellarOne and enables users to perform configuration tasks, which are one-time commands for
         triggering immediate actions.</p>
       <note id="note_rzk_zd5_35b">
-        <p>All agents are under the All group by default. <image
-            href="../images/groupIcon=20220814193512.png" id="image_z4p_mx3_n5b"/> icons indicates a
-          group and <image href="../images/agentIcon=20220814193533.png" id="image_add_nx3_n5b"/>
-          icon indicates an agent.</p>
+        <p>All agents are under the All group by default.</p>
       </note>
     </section>
     <section>
@@ -29,7 +26,7 @@
         <title>Toolbar</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="2.77*"/>
           <thead>
             <row>
               <entry>
@@ -107,7 +104,7 @@
         <title>Table Header</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="2.08*"/>
+          <colspec colname="c2" colnum="2" colwidth="2.5*"/>
           <thead>
             <row>
               <entry>
@@ -127,12 +124,16 @@
                 <p>
                   <ul id="ul_kdj_ly4_k5b">
                     <li>
-                      <p><image href="../images/agentIcon=20220804220153.png" id="image_sbv_zx4_k5b"
-                        />: This icon indicates an agent.</p>
+                      <p><fig id="fig_avm_4kp_n5b">
+                          <image href="../images/agentIcon=20220804220153.png"
+                            id="image_sbv_zx4_k5b"/>
+                        </fig>: This icon indicates an agent.</p>
                     </li>
                     <li>
-                      <p><image href="../images/groupIcon=20220804220303.png" id="image_mjj_fy4_k5b"
-                        />: This icon indicates a group.</p>
+                      <p><fig id="fig_ygt_4kp_n5b">
+                          <image href="../images/groupIcon=20220804220303.png"
+                            id="image_mjj_fy4_k5b"/>
+                        </fig>: This icon indicates a group.</p>
                     </li>
                     <li>
                       <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>&lt;new
@@ -160,24 +161,30 @@
                 <p>
                   <ul id="ul_gbn_r1p_k5b">
                     <li>
-                      <p><image href="../images/lockIcon=20220804221106.png" id="image_ftz_2z4_k5b"
-                        />: This icon indicates the endpoint's Application Lockdown feature is
+                      <p><fig id="fig_frl_pkp_n5b">
+                          <image href="../images/lockIcon=20220804221106.png" id="image_ftz_2z4_k5b"
+                          />
+                        </fig>: This icon indicates the endpoint's Application Lockdown feature is
                         enabled.</p>
                     </li>
                     <li>
-                      <p><image href="../images/shieldIcon=20220804221001.png"
-                          id="image_fgm_bz4_k5b"/>: This icon indicates the endpoint is under
-                        protection.</p>
+                      <p><fig id="fig_xmp_pkp_n5b">
+                          <image href="../images/shieldIcon=20220804221001.png"
+                            id="image_fgm_bz4_k5b"/>
+                        </fig>: This icon indicates the endpoint is under protection.</p>
                     </li>
                     <li>
-                      <p><image href="../images/maintenanceModeIcon=20220804223314.png"
-                          id="image_fsw_ccp_k5b"/>This icon indicates the endpoint is on the
-                        maintenance mode.</p>
+                      <p><fig id="fig_kp5_pkp_n5b">
+                          <image href="../images/maintenanceModeIcon=20220804223314.png"
+                            id="image_fsw_ccp_k5b"/>
+                        </fig>This icon indicates the endpoint is on the maintenance mode.</p>
                     </li>
                     <li>
-                      <p><image href="../images/riskIcon=20220804223452.png" id="image_sz1_3cp_k5b"
-                        />This icon indicates the endpoint has no protection at all and is exposured
-                        to security threat.</p>
+                      <p><fig id="fig_dhy_pkp_n5b">
+                          <image href="../images/riskIcon=20220804223452.png" id="image_sz1_3cp_k5b"
+                          />
+                        </fig>This icon indicates the endpoint has no protection at all and is
+                        exposured to security threat.</p>
                     </li>
                   </ul>
                 </p>
@@ -220,20 +227,23 @@
                         agent/group are customized by users.</p>
                     </li>
                     <li>
-                      <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><uicontrol
-                          id="uicontrol_jzq_gjj_n5b"><?oxy_custom_end?>Self-managed</uicontrol>:
-                        Indicates the agent/group is free from the StellarOne console's management
-                        and can self-manage its own policy settings.</p>
+                      <p><uicontrol id="uicontrol_jzq_gjj_n5b">Self-managed</uicontrol>: Indicates
+                        the agent/group is free from the StellarOne console's management and can
+                        self-manage its own policy settings.</p>
                     </li>
                     <li>
-                      <p><image href="../images/greenLight=20220804221500.png"
-                          id="image_h5p_5z4_k5b"/>: The green light indicates the policy settings
-                        for the agent/group synchronize with the StellarOne console.</p>
+                      <p><fig id="fig_asj_qkp_n5b">
+                          <image href="../images/greenLight=20220804221500.png"
+                            id="image_h5p_5z4_k5b"/>
+                        </fig>: The green light indicates the policy settings for the agent/group
+                        synchronize with the StellarOne console.</p>
                     </li>
                     <li>
-                      <p><image href="../images/grayLight=20220804221533.png" id="image_l4c_vz4_k5b"
-                        />: The gray light indicates the policy settings for the agent/group does
-                        not synchronize with the StellarOne console.</p>
+                      <p><fig id="fig_sf4_qkp_n5b">
+                          <image href="../images/grayLight=20220804221533.png"
+                            id="image_l4c_vz4_k5b"/>
+                        </fig>: The gray light indicates the policy settings for the agent/group
+                        does not synchronize with the StellarOne console.</p>
                     </li>
                   </ul>
                 </p>
@@ -257,8 +267,7 @@
             </row>
             <row>
               <entry>
-                <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><wintitle><?oxy_custom_end?>Function
-                    Type</wintitle></p>
+                <p><wintitle>Function Type</wintitle></p>
               </entry>
               <entry>
                 <p>Indicates two function types under the StellarProtect:<ul id="ul_xsq_tlj_n5b">
@@ -277,9 +286,11 @@
               <entry>
                 <p>Under this header, users can <ul id="ul_xnl_b2k_n5b">
                     <li>
-                      <p>click <image href="../images/policyIcon=20220814234230.png"
-                          id="image_d4s_zdk_n5b"/>, the Policy icon for linking to the
-                          <wintitle>General Info</wintitle> policy page. </p>
+                      <p>click <fig id="fig_izr_rkp_n5b">
+                          <image href="../images/policyIcon=20220814234230.png"
+                            id="image_d4s_zdk_n5b"/>
+                        </fig>, the Policy icon for linking to the <wintitle>General Info</wintitle>
+                        policy page. </p>
                     </li>
                     <li>
                       <p>click the kebab menu (three dots menu) for organizing agents and
@@ -318,10 +329,11 @@
                 <p><uicontrol>Filter</uicontrol></p>
               </entry>
               <entry>
-                <p><image href="../images/searchBar=20220814215012.png" id="image_e2q_kpj_n5b"/>:
-                  This tool allows users to quickly find the agents/groups by sorting and searching.
-                  Please refer to <xref href="searchAgentGroups=20220814215659.xml"/> for more
-                  details.</p>
+                <p><fig id="fig_hxc_skp_n5b">
+                    <image href="../images/searchBar=20220814215012.png" id="image_e2q_kpj_n5b"/>
+                  </fig>: This tool allows users to quickly find the agents/groups by sorting and
+                  searching. Please refer to <xref href="searchAgentGroups=20220814215659.xml"/> for
+                  more details.</p>
               </entry>
             </row>
             <row>
@@ -329,8 +341,10 @@
                 <p><uicontrol>Table Display Settings</uicontrol></p>
               </entry>
               <entry>
-                <p><image href="../images/tableSettings=20220814215037.png" id="image_p4f_qqj_n5b"
-                  />: This tool allows users to customize the table display settings by:<ul
+                <p><fig id="fig_ol3_skp_n5b">
+                    <image href="../images/tableSettings=20220814215037.png" id="image_p4f_qqj_n5b"
+                    />
+                  </fig>: This tool allows users to customize the table display settings by:<ul
                     id="ul_wky_bj5_k5b">
                     <li>
                       <p>going to and forth the display pages</p>
