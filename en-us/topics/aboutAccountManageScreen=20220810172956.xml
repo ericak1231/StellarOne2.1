@@ -55,7 +55,7 @@
               <entry><uicontrol>Delete</uicontrol></entry>
               <entry>
                 <p>This button allows users to delete account(s) that are redundant. Please refer to
-                    <xref href="deleteUser=20220810175328.xml"/> for procedures.</p>
+                    <xref href="deleteUser=20220810175416.xml"/> for procedures.</p>
               </entry>
             </row>
             <row>
@@ -65,7 +65,7 @@
               <entry><uicontrol>Actions</uicontrol></entry>
               <entry>
                 <p>This button allows users to edit or delete account(s). Please refer to <xref
-                    href="actionsUserAccounts=20220810175416.xml"/> for procedures.</p>
+                    href="editUser=20220810175328.xml"/> for procedures.</p>
               </entry>
             </row>
             <row>

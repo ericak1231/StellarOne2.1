@@ -22,6 +22,13 @@
                 <cmd>Regarding how to search for the relevant log messages for troubleshooting or
                     analysis. Please refer to <xref href="sPagentEventFilter=20220810100700.xml"/>
                     for further procedures.</cmd>
+                <info>
+                    <note id="note_ojq_fnp_n5b">
+                        <p>Please refer to <xref
+                                href="sPagentEventLogDescription=20220808105743.xml"/> in Appendix A
+                            for more details.</p>
+                    </note>
+                </info>
             </step>
         </steps>
     </taskbody>
