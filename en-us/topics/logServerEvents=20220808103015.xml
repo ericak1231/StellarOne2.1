@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Server Events</title>
+    <taskbody>
+        <context id="context_byv_td5_k5b">
+            <p>Activities on StellarOne Servers and configuration deployed on StellarProtect Agents
+                by StellarOne are logged and shown in the <wintitle>Server Events</wintitle>
+                screen.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Mouse hover the <uicontrol>Logs</uicontrol> tab in the top navigation bar of
+                    the StellarOne web console. Click the <uicontrol>Server Events</uicontrol>
+                    option.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>StellarProtect</uicontrol> tab, the configuration events
+                    deployed on StellarProtect Agents by StellarOne appear.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>StellarOne</uicontrol> tab, the StellarOne server event
+                    logs appear.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

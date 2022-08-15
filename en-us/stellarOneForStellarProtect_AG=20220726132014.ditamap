@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>TXOne <tm tmtype="tm">StellarOne</tm> for StellarProtect Administrator's
+            Guide</mainbooktitle>
+    </booktitle>
+    <frontmatter>
+        <keydef href="conref-vars/Product_Variables_s1forsp=20220726133941.xml" keys="PRODvars"/>
+        <keydef
+            href="SharedResources/StandardVariables/TXOne_Networks_Variables=GUID-5D6BFEF9-D904-4EF1-B1E6-E3DE19C3053F=5=en-us=.xml"
+            keys="TRENDvars"/>
+        <keydef href="conref-vars/stellarOne_for_sp_LegalVariables=20220726134540.xml"
+            keys="LEGALvars"/>
+        <keydef
+            href="conref-vars/stellarOne_sp_Privacy_and_Personal_Data_Collection_Variables=20220726135209.xml"
+            keys="PPDC_vars"/>
+        <mapref href="conref-vars/legalMap=20220725120644.ditamap" format="ditamap"/>
+        <mapref href="conref-vars/Preface=20220722145015.ditamap" format="ditamap"/>
+    </frontmatter>
+    <chapter href="maps/aboutStellarOne_s1forsp=20220726153208.ditamap" format="ditamap"/>
+    <chapter href="maps/getStarted=20220729114826.ditamap" format="ditamap"/>
+    <chapter href="maps/dashboard=20220729100803.ditamap" format="ditamap"/>
+    <chapter href="maps/agents=20220729113308.ditamap" format="ditamap"/>
+    <chapter href="maps/policyManagement_sp=20220728102930.ditamap" format="ditamap"/>
+    <chapter href="maps/logs=20220805151406.ditamap" format="ditamap"/>
+    <chapter href="maps/administration=20220728111800.ditamap" format="ditamap"/>
+    <chapter href="maps/Technical_Support_TXOne=20220722223813.ditamap" format="ditamap"/>
+    <appendix href="topics/syslogContentCeF=20220811175913.xml">
+        <topicref href="topics/referenceOfSyslogForward=20220811172144.xml"/>
+        <topicref href="topics/spServerEventOfSyslogForward=20220811172432.xml"/>
+        <topicref href="topics/sOneServerEventOfSyslogForward=20220811172528.xml"/>
+    </appendix>
+</bookmap>

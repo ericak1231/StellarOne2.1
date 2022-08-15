@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Patch</title>
+    <taskbody>
+        <context>
+            <p>The <uicontrol>Patch</uicontrol> function allows the administrator to deploy a patch
+                file upgrade on all agents under the same group policy. The patching process can be
+                conducted remotely and automatically using policy synchronization. Only one patch
+                file (Agent version) is allowed to be upgraded under each group policy.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console. The <wintitle>Agents</wintitle> screen displays a list
+                    of agents managed by StellarOne. Navigate to the target agent or agent group and
+                    click the <uicontrol>Policy Inheritance </uicontrol>link.</cmd>
+            </step>
+            <step>
+                <cmd>Scroll down and find the <wintitle>Patch</wintitle> section at the bottom right
+                    corner of the screen.</cmd>
+            </step>
+            <step>
+                <cmd>Select the version of the patch file and click the checkbox.</cmd>
+            </step>
+            <step>
+                <cmd>The selected patch file will be deployed on the agents in the same group
+                    policy.</cmd>
+                <info>
+                    <note id="note_bch_yjk_n5b">
+                        <p>Because StellarProtect is able to use global policies for all agents as
+                            well as group policy for group-owned machines to conduct the patching
+                            process on multiple devices, before you select agent version please note
+                            the following: <ul id="ul_gtf_ckk_n5b">
+                                <li>
+                                    <p>Global policy is the default agent landing policy, so every
+                                        agent will apply this policy first before moving to other
+                                        groups. We suggest that the global policy should use lower
+                                        agent version as its base policy.</p>
+                                </li>
+                                <li>
+                                    <p>If you don't want to set any agent version for patch
+                                        deployment, please unclick all checkboxes next to the agent
+                                        version patch files in the <uicontrol>Patch</uicontrol>
+                                        section.</p>
+                                </li>
+                            </ul></p>
+                    </note>
+                </info>
+                <info>
+                    <note id="note_tt4_tkk_n5b" type="important">
+                        <p>StellarProtect Agent 1.0 does not support remote patch because it does
+                            not have any available remote patch files.</p>
+                    </note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Server Events Log Filtering </title>
+    <taskbody>
+        <context id="context_vlv_tyc_m5b">
+            <p>This section describes how to filter the <wintitle>Server Events</wintitle> logs to
+                find the most relevant log messages.</p>
+        </context>
+        <steps id="steps_ddb_xdd_m5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Logs</uicontrol>
+                        <uicontrol>Server Events</uicontrol>
+                        <uicontrol>StellarProtect</uicontrol>
+                    </menucascade>. Click the <uicontrol>User ID</uicontrol> next to the search bar,
+                    and then a drop-down menu appears.</cmd>
+            </step>
+            <step>
+                <cmd>There are two types of log filtering based on the drop-down menu. Choose from
+                    either one listed below depending on your needs.</cmd>
+                <info>
+                    <ul id="ul_vgz_34d_m5b">
+                        <li>
+                            <p>Select the <uicontrol>User ID</uicontrol> or <uicontrol>Endpoint
+                                    Name</uicontrol>, and then type the search strings in the search
+                                field.</p>
+                        </li>
+                        <li>
+                            <p>Select the <uicontrol>Group Name</uicontrol> or <uicontrol>Event
+                                    Type</uicontrol>, a search box with an arrow pointing downwards
+                                appears. Tap on it to see the options under different
+                                categories.</p>
+                            <ul id="ul_gnw_jzd_m5b">
+                                <li>
+                                    <p><uicontrol>Group Name</uicontrol>: The <wintitle>Select a
+                                            group</wintitle> window appears. Select one group and
+                                        click <uicontrol>Confirm</uicontrol> for viewing its log
+                                        records.</p>
+                                </li>
+                                <li>
+                                    <p><uicontrol>Event Type</uicontrol>: A drop-down menu with
+                                        options of event types appears. Select one of them for
+                                        viewing the relevant log records.<note id="note_aws_j12_m5b">
+                                            <p>Please refer to <xref
+                                                  href="sPserverEventLogDescription=20220809142516.xml"
+                                                /> for more details on various event types.</p>
+                                        </note></p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the search icon next to the search bar and then the screen will display
+                    the search result. </cmd>
+            </step>
+            <step>
+                <cmd>To clear the search criteria, close the filtering criteria appears above the
+                        <uicontrol>Export</uicontrol> button.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

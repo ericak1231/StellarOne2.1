@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">StellarProtect Server Event Format</title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p>Please refer to below table as StellarProtect's server events in the Common Event
+        Format.</p>
+      <table frame="all" id="table_i5f_3mm_m5b">
+        <title>StellarProtect Server Event Format</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <colspec colname="c3" colnum="3" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>CEF Field Name</p>
+              </entry>
+              <entry>
+                <p>Description</p>
+              </entry>
+              <entry>
+                <p>Possible Values</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry namest="c1" nameend="c3">
+                <p><b>Header</b></p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>CEF:Version</p>
+              </entry>
+              <entry>
+                <p>CEF format version</p>
+              </entry>
+              <entry>
+                <p>CEF:0</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Device Vendor</p>
+              </entry>
+              <entry>
+                <p>Device Vendor</p>
+              </entry>
+              <entry>
+                <p>TXOne Networks</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Device Product </p>
+              </entry>
+              <entry>
+                <p>Device Product</p>
+              </entry>
+              <entry>
+                <p>StellarProtect</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Device Version</p>
+              </entry>
+              <entry>
+                <p>Device Version</p>
+              </entry>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <p>2.0</p><?oxy_custom_end?>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Device Event Class ID</p>
+              </entry>
+              <entry>
+                <p>Event ID</p>
+              </entry>
+              <entry>
+                <p>{}</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Name</p>
+              </entry>
+              <entry>
+                <p>Event category</p>
+              </entry>
+              <entry>
+                <p>Server Event</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Severity</p>
+              </entry>
+              <entry>
+                <p>LOG_INFO: 6</p>
+              </entry>
+              <entry>
+                <p>{6}</p>
+              </entry>
+            </row>
+            <row>
+              <entry namest="c1" nameend="c3">
+                <p><b>Extension</b></p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>eventTime</p>
+              </entry>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <p>StellarProtect format</p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <p>Jan 02 2006 15:04:05 GMT+00:00</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>msg</p>
+              </entry>
+              <entry>
+                <p>&lt;string></p>
+              </entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>
+                <p>userName</p>
+              </entry>
+              <entry>
+                <p>&lt;string></p>
+              </entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>
+                <p>userRole</p>
+              </entry>
+              <entry>
+                <p>&lt;string></p>
+              </entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>
+                <p>clientIp</p>
+              </entry>
+              <entry>
+                <p>&lt;string></p>
+              </entry>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Proxy Settings</title>
+    <taskbody>
+        <context>
+            <p>There are three proxy settings: Proxy Settings for StellarOne to internet, Proxy
+                settings for StellarOne to Agent communications, and Proxy Settings for Agent to
+                StellarOne communicates.</p>
+        </context>
+        <steps id="steps_pt3_g3m_m5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Proxy</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the toggle switch of the <uicontrol>Proxy Settings...</uicontrol> to
+                    enable below settings.</cmd>
+                <info>
+                    <ul id="ul_dmf_hh4_m5b">
+                        <li>
+                            <p><uicontrol>Proxy Settings for StellarOne to internet</uicontrol></p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Proxy Settings for StellarOne to Agent
+                                    communications</uicontrol></p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Proxy Settings for Agent to StellarOne
+                                    communications</uicontrol></p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>To configure proxy settings for updates:</cmd>
+                <info>
+                    <ol id="ol_emg_kh4_m5b">
+                        <li>
+                            <p>Select the HTTPS or HTTP protocol.</p>
+                            <note id="note_tcf_c34_m5b">
+                                <p>For <uicontrol>Proxy Settings for Agent to StellarOne
+                                        communications</uicontrol>, since currently the
+                                    StellarProtect does not support HTTPS proxy, if the destination
+                                    is an HTTPS server, please use the HTTP proxy for
+                                    connection.</p>
+                            </note>
+                        </li>
+                        <li>
+                            <p>In the <uicontrol>Server Address</uicontrol> field, specify the IPv4
+                                address or FQDN of the proxy server.</p>
+                        </li>
+                        <li>
+                            <p>Specify the <uicontrol>Port</uicontrol>.</p>
+                        </li>
+                        <li>
+                            <p>If your proxy server requires authentication, select <uicontrol>Proxy
+                                    server requires authentication</uicontrol> and enter your
+                                credentials.</p>
+                        </li>
+                        <li>
+                            <p>Click <uicontrol>Save</uicontrol>.</p>
+                        </li>
+                    </ol>
+                </info>
+                <info/>
+                <info>
+                    <note id="note_zrb_th4_m5b" type="tip">
+                        <p>To configure the proxy settings used by StellarOne when sending messages
+                            to StellarProtect:<ul id="ul_ash_vh4_m5b">
+                                <li>
+                                    <p><b>Before installation</b>: Add the proxy information to the
+                                        configuration file in the Agent's installer package and save
+                                        the proxy settings. The settings will then be included in
+                                        the Agent's installer package after the Agent's installer
+                                        package is repacked.</p>
+                                </li>
+                                <li>
+                                    <p><b>After installation</b>: Use the
+                                            <filepath>opcmd.exe</filepath> Command Line Interface
+                                        tool on the local StellarProtect Agent.</p>
+                                </li>
+                            </ul>
+                        </p>
+                    </note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

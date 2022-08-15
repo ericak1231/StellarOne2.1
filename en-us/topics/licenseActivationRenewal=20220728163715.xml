@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">License Activation and Renewal</title>
+    <taskbody>
+        <context>
+            <p>For users who installs the StellarOne for the first time, please refer to <xref
+                    href="https://docs.trendmicro.com/all/ent/txone-sp/v2.0/en-us/txsp_one_2.0_ig.pdf"
+                    format="pdf" scope="external">StellarOne Installation Guide</xref> for initial
+                license activation. For users who want to renew license, please follow below
+                procedures.</p>
+        </context>
+        <steps id="steps_q1z_knt_m5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>License</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>If users want to enter a new Activation Code, click the <uicontrol>Specify
+                        Activation Code</uicontrol> button.</cmd>
+                <info>
+                    <ol id="ol_zcd_m4t_m5b">
+                        <li>
+                            <p>The <wintitle>Specify Activation Code</wintitle> window appears.
+                                Input the new Activation Code to renew license for StellarOne
+                                console.</p>
+                        </li>
+                        <li>
+                            <p>Click <uicontrol>Save</uicontrol>.</p>
+                        </li>
+                        <li>
+                            <p>A message of succesful update will appear.</p>
+                            <note id="note_rdr_qnt_m5b">
+                                <p>If the update fails, please check if the StellarOne server can
+                                    connect externally to the TXOne Product License server.</p>
+                            </note>
+                        </li>
+                    </ol>
+                </info>
+            </step>
+            <step>
+                <cmd>If users want to renew license for the existing Activation Code, click the
+                        <uicontrol>Renew License</uicontrol> button.</cmd>
+            </step>
+            <step>
+                <cmd>The StellarOne will connect to the TXOne Product License server for
+                    licensing.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

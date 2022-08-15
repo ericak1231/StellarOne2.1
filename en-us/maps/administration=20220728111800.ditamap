@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[]>
+
+<map xml:lang="en-us" id="GUID-1ECA0072-F533-416E-9722-726DBC89C79B" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+	<title id="GUID-54C9CE99-220D-41F2-9AB3-2ABB55D05ADE">Administration</title>
+    <topicref href="../topics/aboutAccountManageScreen=20220810172956.xml">
+        <topicref href="../topics/accountManagement=20220728112101.xml">
+            <topicref href="../topics/sOneAccountOverview=20220810163614.xml"/>
+        </topicref>
+        <topicref href="../topics/addUser=20220810174621.xml"/>
+        <topicref href="../topics/editUser=20220810175328.xml"/>
+        <topicref href="../topics/deleteUser=20220810175416.xml"/>
+        <topicref href="../topics/generateAPIkeys=20220728111950.xml"/>
+    </topicref>
+    <topicref href="../topics/singleSignOn=20220811092626.xml">
+        <topicref href="../topics/ssoIssue=20220811155845.xml"/>
+    </topicref>
+    <topicref href="../topics/systemTime=20220811165946.xml"/>
+    <topicref href="../topics/syslogForward=20220811171155.xml"/>
+    <topicref href="../topics/logPurge=20220811215857.xml"/>
+    <topicref href="../topics/notification=20220811224458.xml"/>
+    <topicref href="../topics/proxy=20220811232823.xml"/>
+    <topicref href="../topics/downloadUpdates=20220803181908.xml">
+        <topicref href="../topics/groupMapping=20220812111150.xml"/>
+    </topicref>
+    <topicref href="../topics/fwSslTogether=20220812135709.xml">
+        <topicref href="../topics/firmware=20220811235356.xml"/>
+        <topicref href="../topics/sslCertificate=20220812133525.xml"/>
+    </topicref>
+    <topicref href="../topics/licenseManage=20220728150953.xml">
+        <topicref href="../topics/licenseActivationRenewal=20220728163715.xml">
+            <topicref href="../topics/licenseRenewal_addAC=20220728172824.xml"/>
+            <topicref href="../topics/licenseRenewal_renew=20220728172943.xml"/>
+        </topicref>
+        <topicref href="../topics/licenseEditions=20220811111123.xml">
+            <topicref href="../topics/licenseFeatures=20220815133824.xml"/>
+        </topicref>
+    </topicref>
+    <topicref href="../topics/otIntelligentTrust=20220811235612.xml"/>
+</map>

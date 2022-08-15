@@ -2,11 +2,12 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Legal Map</title>
-    <topicref href="legaNotice=20220723003645.xml" toc="no">
+    <topicref href="legaNotice=20220723003645.xml" toc="no" outputclass="legal">
         <topicmeta>
             <navtitle>Legal Notice</navtitle>
         </topicmeta>
         <topicref
-            href="../SharedResources/Legal/bp_legal_pg2=93ca25ea-8f4d-4c4c-9fc6-097f5425feca.xml"/>
+            href="../SharedResources/Legal/bp_legal_pg2=93ca25ea-8f4d-4c4c-9fc6-097f5425feca.xml"
+            toc="no" outputclass="legal"/>
     </topicref>
 </map>

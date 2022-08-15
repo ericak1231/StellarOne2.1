@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">DLL Injection Protection</title>
+    <taskbody>
+        <context>
+            <p>The <uicontrol>DLL Injection Protection</uicontrol> provides protection against DLL
+                hijacking attacks.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. </cmd>
+            </step>
+            <step>
+                <cmd>The <wintitle>Agents</wintitle> screen displays a list of agents managed by
+                    StellarOne. Navigate to the target agent or agent group and click the
+                        <uicontrol>Policy Inheritance </uicontrol>link.</cmd>
+            </step>
+            <step>
+                <cmd>Scroll down and find the <wintitle>DLL Injection Protection</wintitle> section
+                    at the left side of the screen.</cmd>
+            </step>
+            <step>
+                <cmd>Click the toggle <uicontrol>Enable DLL Injection Protection</uicontrol> to
+                    enable it.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

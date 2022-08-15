@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Configure Exception Paths</title>
+    <taskbody>
+        <context>
+            <p>When <uicontrol>Application Lockdown</uicontrol> is enabled, the Agent will only be
+                able to access applications that are in the Approved List. The <uicontrol>Exception
+                    Paths</uicontrol> allows users to configure lockdown exclusion settings for the
+                Approved List.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console. </cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the target agent or agent group.</cmd>
+            </step>
+            <step>
+                <cmd>Go to the Policy page by either way listed below.</cmd>
+                <choices id="choices_jls_rdk_n5b">
+                    <choice>
+                        <p>Click the <uicontrol>Policy Inheritance </uicontrol> link.</p>
+                    </choice>
+                    <choice>
+                        <p>Click <image href="../images/policyIcon=20220814234230.png"
+                                id="image_fzg_ydk_n5b"/>, the Policy icon under the
+                                <wintitle>Actions</wintitle> header, and then click the
+                                <uicontrol>Policy</uicontrol> tab.</p>
+                    </choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Exception Paths</uicontrol> under the
+                        <uicontrol>Application Lockdown</uicontrol> feature.</cmd>
+                <choices id="choices_kwc_pfk_n5b">
+                    <choice>For adding exception paths:<ol id="ol_asy_pfk_n5b">
+                            <li>
+                                <p>Click the <uicontrol>+Add</uicontrol> button, and then a pop-up
+                                    window appears.</p>
+                            </li>
+                            <li>
+                                <p>Select among <uicontrol>Folder</uicontrol>,
+                                        <uicontrol>File</uicontrol>, or <uicontrol>Regular
+                                        Expression</uicontrol> and input the required information in
+                                    the corresponding text field.</p>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>Add</uicontrol> to complete adding the exception
+                                    paths for the Approved List.</p>
+                            </li>
+                        </ol></choice>
+                    <choice>For editing existing exception paths:<ol id="ol_rnt_tfk_n5b">
+                            <li>
+                                <p>Find the exception path to be edited and click the corresponding
+                                    Edit icon under the <uicontrol>Actions</uicontrol> header.</p>
+                            </li>
+                            <li>
+                                <p>A pop-up window appears. Select among
+                                        <uicontrol>Folder</uicontrol>, <uicontrol>File</uicontrol>,
+                                    or <uicontrol>Regular Expression</uicontrol> and edit in the
+                                    corresponding text field.</p>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>Save</uicontrol> to complete editing the
+                                    exception paths for the Approved List.</p>
+                            </li>
+                        </ol></choice>
+                    <choice>
+                        <p>For deleting multiple existing exception paths:</p>
+                        <ol id="ol_jds_tgk_n5b">
+                            <li>
+                                <p>Click the checkboxes next to the existing exception paths.</p>
+                            </li>
+                            <li>
+                                <p>Click the <uicontrol>Delete</uicontrol> button next to the
+                                        <uicontrol>+Add</uicontrol> button.</p>
+                            </li>
+                            <li>
+                                <p>A warning message window appears. Click
+                                        <uicontrol>Confirm</uicontrol> to delete the selected
+                                    items.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                    <choice>
+                        <p>For deleting single existing exception path:</p>
+                        <ol id="ol_uxd_2hk_n5b">
+                            <li>
+                                <p>Find the exception path to be deleted and click the corresponding
+                                    Delete icon under the <uicontrol>Actions</uicontrol> header.</p>
+                                <p>A warning message window appears. Click
+                                        <uicontrol>Confirm</uicontrol> to delete the selected
+                                    item.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task>

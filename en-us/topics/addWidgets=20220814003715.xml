@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Add Widgets</title>
+    <taskbody>
+        <context>
+            <p>The number of widgets that users can add to a tab depends on the tab page layout.
+                Once the number of widgets exceeds the maximum number the tab page can accomodate,
+                users must remove a widget from the tab page or create a new tab for the widget.</p>
+        </context>
+        <steps id="steps_n5r_1ld_n5b">
+            <step>
+                <cmd>Go to <uicontrol>Dashboard</uicontrol> in the navigation at the top of the web
+                    console.</cmd>
+            </step>
+            <step>
+                <cmd>Go to the tab (<uicontrol>Summary</uicontrol> or <uicontrol>System</uicontrol>
+                    under the <wintitle>Dashboard</wintitle>) that you want to add the widget
+                    to.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Add Widgets</uicontrol> button at the right side, and then
+                    the screen for widget adding appears.</cmd>
+            </step>
+            <step>
+                <cmd>Click the checkbox(es) next to the widget names to add one or more widgets to
+                    the current tab.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Add</uicontrol> button to complete the task.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

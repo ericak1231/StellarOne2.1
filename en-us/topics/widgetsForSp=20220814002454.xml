@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Widgets for Monitoring
+    StellarProtect</title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p>Two widgets for monitoring StellarProtect agent events can be added under the
+          <uicontrol>Summary</uicontrol> tab of the<uicontrol> Dashboard</uicontrol> screen.<ul
+          id="ul_wsg_p2d_n5b">
+          <li>
+            <p><wintitle>Top Endpoints with Blocked Events</wintitle>: This widget displays the
+              endpoints with the most blocked events. By default, the widget is displayed on the
+                <uicontrol>Summary</uicontrol> tab of the <uicontrol>Dashboard</uicontrol>.<table
+                frame="all" id="table_fhf_s2d_n5b">
+                <title>Widget: Top Endpoints with Blocked Events</title>
+                <tgroup cols="2">
+                  <colspec colname="c1" colnum="1" colwidth="1*"/>
+                  <colspec colname="c2" colnum="2" colwidth="1*"/>
+                  <thead>
+                    <row>
+                      <entry>
+                        <p>Column</p>
+                      </entry>
+                      <entry>
+                        <p>Description</p>
+                      </entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row>
+                      <entry>
+                        <p>Endpoint Name</p>
+                      </entry>
+                      <entry>
+                        <p>Name of the endpoint</p>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <p>Description </p>
+                      </entry>
+                      <entry>
+                        <p>Description assigned to the endpoint</p>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <p>IP Address </p>
+                      </entry>
+                      <entry>
+                        <p>IP address of the endpoint</p>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <p>Blocked Events</p>
+                      </entry>
+                      <entry>
+                        <p>Total number of events blocked on the endpoint</p>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table></p>
+          </li>
+          <li>
+            <p><wintitle>Top Blocked Files</wintitle>: This widget displays a list of files that
+              triggered the most blocked events</p>
+            <note id="note_os1_lfd_n5b">
+              <p>By default this widget will NOT be displayed on the
+                  <uicontrol>Dashboard</uicontrol>. If users want to add this widget to the
+                  <uicontrol>Dashboard</uicontrol>, please refer to <xref
+                  href="addWidgets=20220814003715.xml"/> for detailed procedures.<table frame="all"
+                  id="table_wtn_5fd_n5b">
+                  <title>Widget: Top Blocked Files</title>
+                  <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                      <row>
+                        <entry>
+                          <p>Column</p>
+                        </entry>
+                        <entry>
+                          <p>Description</p>
+                        </entry>
+                      </row>
+                    </thead>
+                    <tbody>
+                      <row>
+                        <entry>
+                          <p>File Name</p>
+                        </entry>
+                        <entry>
+                          <p>Name of the file that triggered the blocked events</p>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <p>File Hash</p>
+                        </entry>
+                        <entry>
+                          <p>SHA1 hash of the file that triggered the blocked events</p>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <p>Endpoints</p>
+                        </entry>
+                        <entry>
+                          <p>Number of endpoints which reported a blocked event for the file</p>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <p>Blocked Events</p>
+                        </entry>
+                        <entry>
+                          <p>Total number of blocked events reported for the file</p>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table></p>
+            </note>
+          </li>
+        </ul><note id="note_pn1_1fd_n5b" type="tip">
+          <p>
+            <fig id="fig_kzt_5gd_n5b">
+              <image href="../images/widgetDropDownMenu=20220814005647.png" id="image_z5b_wgd_n5b"/>
+            </fig>
+            <fig id="fig_jw3_vgd_n5b">
+              <image href="../images/widgetRefrech=20220814005543.png" id="image_lyd_vgd_n5b"/>
+            </fig>
+            <ul id="ul_ox5_wgd_n5b">
+              <li>
+                <p>Click the <image href="../images/widgetRefreshIcon=20220814010039.png"
+                    id="image_u5p_chd_n5b"/> button to start auto refresh. Click the <image
+                    href="../images/stopRefreshIcon=20220814010319.png" id="image_avq_lhd_n5b"/>
+                  button to pause auto refresh.</p>
+              </li>
+              <li>
+                <p>The <image href="../images/widgetDropDownIcon=20220814011647.png"
+                    id="image_vyy_fjd_n5b"/> dropdown-menu button provides two functions:<ul
+                    id="ul_tym_5hd_n5b">
+                    <li>
+                      <p><uicontrol>Widget Settings</uicontrol>:</p>
+                      <ul id="ul_r4h_b3d_n5b">
+                        <li>
+                          <p><uicontrol>Widget Name</uicontrol>: allows users to edit the name for
+                            the widget.</p>
+                        </li>
+                        <li>
+                          <p><uicontrol>Time Period</uicontrol>: allows users to select a specific
+                            timeframe, which determines the number of the blocked events or files to
+                            display (The default value is <uicontrol>Last 7 days</uicontrol>)</p>
+                        </li>
+                        <li>
+                          <p><uicontrol>Auto Refresh Settings</uicontrol>: allows users to change
+                            the setting to manual refresh or to configure the auto refresh frequency
+                            (The default value is <uicontrol>Every 30 Seconds</uicontrol>)</p>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><uicontrol>Remove Widget</uicontrol>: allows users to remove the widgets
+                        from the <wintitle>Dashboard</wintitle> screen.</p>
+                    </li>
+                  </ul></p>
+              </li>
+              <li>
+                <p>To move a widget, click and hold on the title bar of the widget and drag it to
+                  various locations on the tab page.</p>
+              </li>
+              <li>
+                <p>To resize a widget, mouse over the edge of the widget and a diagonal resize
+                  pointer appears. Drag it to resize the widget.</p>
+              </li>
+            </ul>
+          </p>
+        </note></p>
+    </section>
+  </refbody>
+</reference>

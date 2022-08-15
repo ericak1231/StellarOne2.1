@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Update Approved List</title>
+    <taskbody>
+        <context>
+            <p>This function allows users to update the Approved List on selected StellarProtect
+                agents by several simple clicks. The Approved List must be periodically updated so
+                the newly-added applications can run on the endpoints when the  Lock Down feature is
+                turned on.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Select one or more endpoints (agents or groups) by clicking the checkboxes next
+                    to them.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Protection</uicontrol> button from the Tool Bar at the top
+                    of the <wintitle>Agents</wintitle> screen.</cmd>
+            </step>
+            <step>
+                <cmd>A pop-up window appears. Click the <uicontrol>Update Approved List</uicontrol>
+                    option.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>A pop-up <uicontrol>Update Approved List</uicontrol>window appears. Click
+                        <uicontrol>OK</uicontrol> to start the Approved List update process.</cmd>
+                <info>
+                    <fig id="fig_rqb_kgz_j5b">
+                        <title>Update Approved List</title>
+                        <image href="../images/updateApprovedList=20220802175014.png"
+                            id="image_h4w_kgz_j5b"/>
+                    </fig>
+                    <note id="note_gnv_s2z_j5b" type="warning">
+                        <p>Do not restart or turn off the endpoint during the update. The update
+                            process may take more than 30 minutes to complete.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>The <wintitle>Update Approved List</wintitle> window appears showing the update
+                    status. Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
+                <info>
+                    <fig id="fig_mfs_4py_j5b">
+                        <title>Update Approved List</title>
+                        <image href="../images/spUpdateApprovedList=20220802180355.png"
+                            id="image_b2d_q2z_j5b"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Trusted Certificates</title>
+    <taskbody>
+        <context id="context_cg4_gln_n5b">
+            <p><uicontrol>Trusted Certificates</uicontrol> provides an import function allowing the
+                administrator to add new trusted certificates.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console. </cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the target agent or agent group and click the corresponding link
+                    under the <uicontrol>Policy Inheritance</uicontrol> header.</cmd>
+            </step>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Policy</uicontrol>
+                        <uicontrol>Trusted Certificates</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Import</uicontrol> to import the selected trusted certificate
+                    file.</cmd>
+            </step>
+            <step>
+                <cmd>To remove the trusted certificate(s), choose either way listed below.</cmd>
+                <info>
+                    <ul id="ul_d4k_qkn_n5b">
+                        <li>
+                            <p>For removing mutiple trusted certificates at the same time, select
+                                them and click the <uicontrol>Delete</uicontrol> button next to the
+                                    <uicontrol>+Add</uicontrol> button.</p>
+                        </li>
+                        <li>
+                            <p>For removing only one trusted certificate, click the edit icon under
+                                the <wintitle>Actions</wintitle> header.</p>
+                        </li>
+                    </ul>
+                    <p>A pop-up <wintitle>Notification</wintitle> window appears. Click
+                            <uicontrol>Confirm</uicontrol> to delete the selected
+                        certificate(s).</p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">About the Dashboard Screen</title>
+  <refbody>
+    <section>
+      <p><indexterm>dashboard</indexterm>The <wintitle>Dashboard</wintitle> provides an overview of
+        monitored StellarProtect agent events and StellarOne console's system status. Click the
+          <uicontrol>Dashboard</uicontrol> tab in the top navigation bar of the StellarOne web
+        console. The <wintitle>Dashboard</wintitle> screen with two tabs of
+          <uicontrol>Summary</uicontrol> and <uicontrol>System</uicontrol> appears.</p>
+    </section>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <fig id="fig_jym_lzc_n5b">
+        <title>The Dashboard Screen</title>
+        <image href="../images/dashboard=20220814005803.png" id="image_fks_mzc_n5b"/>
+      </fig>
+      <table frame="all" id="table_ihn_bbd_n5b">
+        <title>About the Dashboard Screen</title>
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>Function</p>
+              </entry>
+              <entry>
+                <p>Description</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <p><indexterm>dashboard<indexterm>summary</indexterm></indexterm>The
+                    <uicontrol>Summary</uicontrol> tab</p>
+              </entry>
+              <entry>
+                <p>Under this tab, two widgets for monitoring StellarProtect agent events can be
+                    added:<ul id="ul_un3_5bd_n5b">
+                    <li>
+                      <p><wintitle>Top Endpoints with Blocked Events</wintitle></p>
+                    </li>
+                    <li>
+                      <p><wintitle>Top Blocked Files</wintitle></p>
+                    </li>
+                  </ul>Please refer to <xref href="widgetsForSp=20220814002454.xml"/> for more
+                  detailes.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><indexterm>dashboard<indexterm>system</indexterm></indexterm>The
+                    <uicontrol>System</uicontrol> tab</p>
+              </entry>
+              <entry>
+                <p>Under this tab, users can check StellarOne console's system status by:<ul
+                    id="ul_gtq_hzc_n5b">
+                    <li>
+                      <p>CPU Usage</p>
+                    </li>
+                    <li>
+                      <p>Memory Usage</p>
+                    </li>
+                    <li>
+                      <p>Disk Usage</p>
+                    </li>
+                  </ul></p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><indexterm>dashboard<indexterm>tab settings</indexterm></indexterm><uicontrol>Tab
+                    Settings</uicontrol></p>
+              </entry>
+              <entry>
+                <p>This button allows users to customize their own tab names. By simply clicking
+                  this button, inputing the desired tab name in the <uicontrol>Tab Name</uicontrol>
+                  field, and click <uicontrol>OK</uicontrol>, users can easily change the name of
+                  the tab.<note id="note_i4j_1bd_n5b">
+                    <p>The <uicontrol>Summary</uicontrol> tab is added to the
+                        <wintitle>Dashboard</wintitle> by default when there are no user-defined
+                      tabs.</p>
+                  </note></p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><indexterm>dashboard<indexterm>add widgets</indexterm></indexterm><uicontrol>Add
+                    Widgets</uicontrol></p>
+              </entry>
+              <entry>
+                <p>This button allows users to add their desired widgets to the
+                    <wintitle>Datshboard</wintitle> screen. Please refer to <xref
+                    href="addWidgets=20220814003715.xml"/> for more details.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><indexterm>dashboard<indexterm>print</indexterm></indexterm><uicontrol>Print</uicontrol></p>
+              </entry>
+              <entry>
+                <p>This button allows users to print the current <wintitle>Summary</wintitle> or
+                    <wintitle>System</wintitle> page.</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

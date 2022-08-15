@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[]>
+
+<map xml:lang="en-us" id="GUID-1ECA0072-F533-416E-9722-726DBC89C79B" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+	<title id="GUID-54C9CE99-220D-41F2-9AB3-2ABB55D05ADE">Logs</title>
+    <topicref href="../topics/aboutLogs=20220808102337.xml">
+        <topicref href="../topics/logAgentEvents=20220805152248.xml">
+            <topicref href="../topics/aboutAgentEventScreen=20220805155117.xml"/>
+            <topicref href="../topics/sPagentEventFilter=20220810100700.xml"/>
+            <topicref href="../topics/sPagentEventLogDescription=20220808105743.xml"/>
+        </topicref>
+        <topicref href="../topics/logServerEvents=20220808103015.xml">
+            <topicref href="../topics/aboutServerEventScreen=20220808104949.xml"/>
+            <topicref href="../topics/sPserverEventFilter=20220810142608.xml"/>
+            <topicref href="../topics/sPserverEventLogDescription=20220809142516.xml"/>
+            <topicref href="../topics/sOneserverEventLogDescription=20220809150242.xml"/>
+        </topicref>
+        <topicref href="../topics/systemLogs=20220809152235.xml">
+            <topicref href="../topics/aboutSystemLogsScreen=20220809152729.xml"/>
+        </topicref>
+        <topicref href="../topics/auditLogs=20220809172341.xml">
+            <topicref href="../topics/aboutAuditLogsScreen=20220809172832.xml"/>
+            <topicref href="../topics/sPauditLogsFilter=20220810150626.xml"/>
+        </topicref>
+    </topicref>
+</map>

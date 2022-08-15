@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">License Management</title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p><indexterm>license management</indexterm>Go to <menucascade>
+          <uicontrol>Administration</uicontrol>
+          <uicontrol>License</uicontrol>
+        </menucascade> to add or renew licenses for Stellar products. Below table lists details
+        about the <wintitle>License</wintitle> page.</p>
+      <fig id="fig_ntq_jc4_35b">
+        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+        <title>License Page &lt;image should be updated, remember to blur the AC field></title><?oxy_custom_end?>
+        <image href="../images/licensePage=20220728160252.png" id="image_ofb_nf4_35b"/>
+      </fig>
+      <table frame="all" rowsep="1" colsep="1" id="table_yht_yzn_35b">
+        <title>License Information</title>
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>Item</p>
+              </entry>
+              <entry>
+                <p>Description</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <p><uicontrol>Specify Activation Code</uicontrol></p>
+              </entry>
+              <entry>
+                <p>The button for users to add new activation code.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><uicontrol>Renew License</uicontrol></p>
+              </entry>
+              <entry>
+                <p>The button for users to renew license after adding new activation code.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>License Edition</wintitle></p>
+              </entry>
+              <entry>
+                <p>Displays current license edition for StellarOne. Please refer to <xref
+                    href="licenseEditions=20220811111123.xml"/> for more details.</p>
+              </entry>
+            </row>
+            <row>
+              <entry><wintitle>License Type</wintitle></entry>
+              <entry>
+                <ul id="ul_kql_g24_35b">
+                  <li>
+                    <p>Full: a full version that is officially authorized.</p>
+                  </li>
+                  <li>
+                    <p>Trial: a trial version with excluded features or limited functions.</p>
+                  </li>
+                  <li>
+                    <p>Perpetual: provides permanent use and 5-year technial support</p>
+                  </li>
+                </ul>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>Seats</wintitle></p>
+              </entry>
+              <entry>
+                <p>Specifies current number of agents registered to StellarOne and the total number
+                  of agents that can be registered to StellarOne. For example, <uicontrol>Seats:
+                    24/10000 </uicontrol>means:<ul id="ul_x1l_bg4_35b">
+                    <li>
+                      <p>24 agents have been registered</p>
+                    </li>
+                    <li>
+                      <p>Up to 10,000 agents can be registered</p>
+                    </li>
+                  </ul></p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>Status</wintitle></p>
+              </entry>
+              <entry>
+                <ul id="ul_rhb_qc4_35b">
+                  <li>
+                    <p>Activated: The existing license is effective.</p>
+                  </li>
+                  <li>
+                    <p>Expired: The existing license is out of date.</p>
+                    <note id="note_dwm_c24_35b">
+                      <p>It is recommended to renew license promptly in order to protect your
+                        devices from virus threat. Please refer to <xref
+                          href="licenseActivationRenewal=20220728163715.xml"/> for license
+                        renewal.</p>
+                    </note>
+                  </li>
+                </ul>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>Expiration</wintitle></p>
+              </entry>
+              <entry>
+                <p>Displays the effective date of existing license.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>Activation Code</wintitle></p>
+              </entry>
+              <entry>
+                <p>The code that is required for activating StellarOne.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>Last Updated</wintitle></p>
+              </entry>
+              <entry>
+                <p>Displays the last time the Activation Code is updated.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><uicontrol>Learn More</uicontrol></p>
+              </entry>
+              <entry>
+                <p>Click the button to be directed to the online help web page for license
+                  details.</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Edit Description for Agents</title>
+    <taskbody>
+        <context>
+            <p>To edit description for agents, which will appear on the mainscreen of the local
+                agent, follow below procedures.</p>
+        </context>
+        <steps id="steps_vg5_mtj_n5b">
+            <step>
+                <cmd>Go to <uicontrol>Agents</uicontrol> in the top navigation bar of the StellarOne
+                    web console.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>There are two ways to edit descriptions for agent(s):</cmd>
+                <choices id="choices_hbt_h1k_n5b">
+                    <choice>To edit description for muiltiple agents at the same time, click the
+                        checkboxes next to the target agents or groups. Click the
+                            <uicontrol>Organize</uicontrol> tool on the toolbar.</choice>
+                    <choice>
+                        <p>To edit description for a single agent, click the kebab menu (three dots
+                            menu) corresponding to the target agent under the
+                                <wintitle>Actions</wintitle> header.</p>
+                    </choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>A drop-down menu appears. Click the first option <uicontrol>Edit
+                        Description</uicontrol>, and then a window appears.</cmd>
+            </step>
+            <step>
+                <cmd>Input the description for the agent in the text field.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol> to complete this task.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

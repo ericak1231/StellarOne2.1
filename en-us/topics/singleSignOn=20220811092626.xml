@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Single Sign On</title>
+    <taskbody>
+        <context id="context_u4t_k4l_m5b">
+            <p>Users who log on with the SAML Identity Provider user account can choose to complete
+                the Single Sign-On (SSO) configuration, which allows to access multiple applications
+                and services using a single set of login credentials.</p>
+        </context>
+        <steps id="steps_hrr_svl_m5b">
+            <step>
+                <cmd>Log on to the web console using an account with the <wintitle>Admin</wintitle>
+                    role.</cmd>
+                <info>
+                    <note id="note_nk2_dyj_m5b">
+                        <ul id="ul_gj5_dyj_m5b">
+                            <li>
+                                <p>The logon credentials entered here are case-sensitive.</p>
+                            </li>
+                        </ul>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Single Sign-On</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Download</uicontrol> button to download the StellarOne
+                    metadata XML file</cmd>
+            </step>
+            <step>
+                <cmd>Upload the StellarOne metadata XML file to your IdP, and then download the IdP
+                    metadata XML file.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Upload</uicontrol> button to upload the IdP metadata XML
+                    file to StellarOne web console to complete the SAML 2.0 single sign-on
+                    configuration.</cmd>
+                <info>
+                    <note id="note_yhj_hxl_m5b" type="important">
+                        <p>The IdP metadata XML file must be re-uploaded if there is a configuration
+                            change on the IdP.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>After the IdP metadata XML file is uploaded, the <uicontrol>Test
+                        Connection</uicontrol> button will appear.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Test Connection</uicontrol> button to test the IdP
+                    connection with StellarOne.</cmd>
+                <info>
+                    <note id="note_gkk_qzl_m5b">
+                        <p>Invalid logon error message may appear after the SAML configuration is
+                            completed. Please refer to <xref href="ssoIssue=20220811155845.xml"/> to
+                            check email setting in IdP server, and system time synchronization in
+                            IdP and StellarOne servers.</p>
+                    </note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Access the Web Console</title>
+    <taskbody>
+        <context>
+            <p>Use a supported web browser with Internet access to log on the StellarOne web
+                console.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Access locally or remotely.</cmd>
+                <info>
+                    <ul id="ul_nl4_lt5_35b">
+                        <li>To access locally?</li>
+                    </ul>
+                    <ul id="ul_gq2_mt5_35b">
+                        <li>
+                            <p>Open a supported web browser.</p>
+                        </li>
+                    </ul>
+                </info>
+                <info>
+                    <p>The <uicontrol>Log on </uicontrol> screen appears.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Provide logon credentials</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Log On</uicontrol></cmd>
+            </step>
+            <step>
+                <cmd>(Optional) You can change your password by clicking the ID icon at the top righ
+                    corner of the screen, and then click <uicontrol>Change
+                    Password</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>(Optional) For security reason, you can manually log off by clicking the ID
+                    icon at the top righ corner of the screen, and then click <uicontrol>Log
+                        Off</uicontrol>.</cmd>
+                <info>
+                    <note id="note_wdh_b55_35b">
+                        <p>Users will be automatically logged off the console if no operations are
+                            executed within ?? minutes.</p>
+                    </note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">About the Agents Screen</title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p>The StellarOne console facilitates agent management by allowing users to organize agents
+        into various groups and build up multi-level hierarchy among the groups (parent groups above
+        child groups), forming an agent/group tree structure.</p>
+      <p>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the StellarOne web
+        console. Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+        screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed by
+        StellarOne and enables users to perform configuration tasks, which are one-time commands for
+        triggering immediate actions.</p>
+      <note id="note_rzk_zd5_35b">
+        <p>All agents are under the All group by default. <image
+            href="../images/groupIcon=20220814193512.png" id="image_z4p_mx3_n5b"/> icons indicates a
+          group and <image href="../images/agentIcon=20220814193533.png" id="image_add_nx3_n5b"/>
+          icon indicates an agent.</p>
+      </note>
+    </section>
+    <section>
+      <fig id="fig_hll_jcv_35b">
+        <title>The Agents Screen - Toolbar</title>
+        <image href="../images/agentsScreenTabBar=20220814193731.png" id="image_jbm_sx4_k5b"/>
+      </fig>
+      <table frame="all" rowsep="1" colsep="1" id="table_kws_lcv_35b">
+        <title>Toolbar</title>
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>Tools</p>
+              </entry>
+              <entry>
+                <p>Description</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <p><uicontrol>+Add Group</uicontrol></p>
+              </entry>
+              <entry>
+                <p>The <uicontrol>+Add Group</uicontrol> tool allows users to create groups
+                  according to location, type, or purpose for better multi-agents management. Please
+                  refer to <xref href="addGroups=20220814194547.xml"/> for more details.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><uicontrol>Organize</uicontrol></p>
+              </entry>
+              <entry>
+                <p>The <uicontrol>Organize</uicontrol> tool allows users to edit description for
+                  agents, move agent(s) to another group, and remove agent(s)/group(s). Please refer
+                  to <xref href="organizeAgents=20220814195911.xml"/> and <xref
+                    href="moveRemoveAgents=20220814213405.xml"/> for more details.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><uicontrol>Protection</uicontrol></p>
+              </entry>
+              <entry>
+                <p>The <uicontrol>Protection </uicontrol>tool allows users to configure Maintenance
+                  Mode, update Approved List when the Lock Down feature is turned on, and customize
+                  file scan settings. Please refer to <xref
+                    href="sPconfigureMaintenanceMode=20220802170455.xml">Configure Maintenance
+                    Mode</xref>, <xref href="updateApproveList=20220802163342.xml">Update Approved
+                    List</xref>, and <xref href="scanNow=20220802142350.xml">Scan Now</xref> for
+                  more details.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><uicontrol>Update</uicontrol></p>
+              </entry>
+              <entry>
+                <p>The <uicontrol>Update</uicontrol> tool allows users to update scan components and
+                  deploy patches for StellarProtect agents. Please refer to <xref
+                    href="sPupdateComponents=20220803103820.xml"/> and <xref
+                    href="sPdeployPatch=20220803104012.xml"/> for more details.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><uicontrol>Import/Export</uicontrol><?oxy_custom_end?></p>
+              </entry>
+              <entry>
+                <p>Currently StellarProtect doesn't support the <uicontrol>Import/Export</uicontrol>
+                  tool. This tool is used for StellarProtect (Legacy Mode) agent management.</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <fig id="fig_ovs_s4j_n5b">
+        <title>The Agents Screen - Table Header</title>
+        <image href="../images/agentsScreenHeader=20220814214629.png" id="image_os1_v4j_n5b"/>
+      </fig>
+      <table frame="all" rowsep="1" colsep="1" id="table_vqs_zw4_k5b">
+        <title>Table Header</title>
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="2.08*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>Headers</p>
+              </entry>
+              <entry>
+                <p>Description</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <p><wintitle>Name</wintitle></p>
+              </entry>
+              <entry>
+                <p>
+                  <ul id="ul_kdj_ly4_k5b">
+                    <li>
+                      <p><image href="../images/agentIcon=20220804220153.png" id="image_sbv_zx4_k5b"
+                        />: This icon indicates an agent.</p>
+                    </li>
+                    <li>
+                      <p><image href="../images/groupIcon=20220804220303.png" id="image_mjj_fy4_k5b"
+                        />: This icon indicates a group.</p>
+                    </li>
+                    <li>
+                      <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>&lt;new
+                        icon><?oxy_custom_end?>: This icon indicates the agent's license is expired
+                        and needs to be renewed.</p>
+                    </li>
+                  </ul>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>IP Address</wintitle></p>
+              </entry>
+              <entry>
+                <p>Indicates the IP Address of the endpoint (one IP address corresponds to a single
+                  agent).</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>Protection</wintitle></p>
+              </entry>
+              <entry>
+                <p>
+                  <ul id="ul_gbn_r1p_k5b">
+                    <li>
+                      <p><image href="../images/lockIcon=20220804221106.png" id="image_ftz_2z4_k5b"
+                        />: This icon indicates the endpoint's Application Lockdown feature is
+                        enabled.</p>
+                    </li>
+                    <li>
+                      <p><image href="../images/shieldIcon=20220804221001.png"
+                          id="image_fgm_bz4_k5b"/>: This icon indicates the endpoint is under
+                        protection.</p>
+                    </li>
+                    <li>
+                      <p><image href="../images/maintenanceModeIcon=20220804223314.png"
+                          id="image_fsw_ccp_k5b"/>This icon indicates the endpoint is on the
+                        maintenance mode.</p>
+                    </li>
+                    <li>
+                      <p><image href="../images/riskIcon=20220804223452.png" id="image_sz1_3cp_k5b"
+                        />This icon indicates the endpoint has no protection at all and is exposured
+                        to security threat.</p>
+                    </li>
+                  </ul>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>Group</wintitle></p>
+              </entry>
+              <entry>
+                <p>Indicates the parent group name of the agent/group.<note id="note_iwl_zfj_n5b">
+                    <p>If the agent/group does not have a parent group, either texts listed below
+                      will appear in the column.<ul id="ul_nkl_x2j_n5b">
+                        <li>
+                          <p><uicontrol>-</uicontrol> : This symbol indicates the group is at the
+                            top level of the agent/group tree structure.</p>
+                        </li>
+                        <li>
+                          <p><uicontrol>All</uicontrol>: This icon indicates the agent does not
+                            belong to any group defined by users, so the agent is placed under the
+                              <uicontrol>All</uicontrol> group by default.</p>
+                        </li>
+                      </ul></p>
+                  </note></p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>Policy Interitance</wintitle></p>
+              </entry>
+              <entry>
+                <p>
+                  <ul id="ul_n51_4z4_k5b">
+                    <li>
+                      <p><uicontrol>Inherited</uicontrol>: Indicates the policy settings for the
+                        agent/group are inherited from its parent group.</p>
+                    </li>
+                    <li>
+                      <p><uicontrol>Customized</uicontrol>: Indicates the policy settings for the
+                        agent/group are customized by users.</p>
+                    </li>
+                    <li>
+                      <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><uicontrol
+                          id="uicontrol_jzq_gjj_n5b"><?oxy_custom_end?>Self-managed</uicontrol>:
+                        Indicates the agent/group is free from the StellarOne console's management
+                        and can self-manage its own policy settings.</p>
+                    </li>
+                    <li>
+                      <p><image href="../images/greenLight=20220804221500.png"
+                          id="image_h5p_5z4_k5b"/>: The green light indicates the policy settings
+                        for the agent/group synchronize with the StellarOne console.</p>
+                    </li>
+                    <li>
+                      <p><image href="../images/grayLight=20220804221533.png" id="image_l4c_vz4_k5b"
+                        />: The gray light indicates the policy settings for the agent/group does
+                        not synchronize with the StellarOne console.</p>
+                    </li>
+                  </ul>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>Agent Version</wintitle></p>
+              </entry>
+              <entry>
+                <p>Indicates the firmware version of the agent.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>Last Connection</wintitle></p>
+              </entry>
+              <entry>
+                <p>Indicates the last time the agent was connected with the StellarOne console.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><wintitle><?oxy_custom_end?>Function
+                    Type</wintitle></p>
+              </entry>
+              <entry>
+                <p>Indicates two function types under the StellarProtect:<ul id="ul_xsq_tlj_n5b">
+                    <li>
+                      <p>StellarProtect: suitable for devices with Windows 7 or later versions.</p>
+                    </li>
+                    <li>StellarProtect (Legacy Mode): suitable for devices with Windows
+                      XP/2000.</li>
+                  </ul></p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><wintitle>Actions</wintitle></p>
+              </entry>
+              <entry>
+                <p>Under this header, users can <ul id="ul_xnl_b2k_n5b">
+                    <li>
+                      <p>click <image href="../images/policyIcon=20220814234230.png"
+                          id="image_d4s_zdk_n5b"/>, the Policy icon for linking to the
+                          <wintitle>General Info</wintitle> policy page. </p>
+                    </li>
+                    <li>
+                      <p>click the kebab menu (three dots menu) for organizing agents and
+                        renaming/removing groups. Please refer to <xref
+                          href="organizeAgents=20220814195911.xml"/> and <xref
+                          href="moveRemoveAgents=20220814213405.xml"/> for more details.</p>
+                    </li>
+                  </ul></p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <fig id="fig_hy4_v4j_n5b">
+        <title>The Agents Screen - Other Tools</title>
+        <image href="../images/agentsScreenSearch=20220814214511.png" id="image_c24_w4j_n5b"/>
+      </fig>
+      <table frame="all" rowsep="1" colsep="1" id="table_eql_y4j_n5b">
+        <title>Other Tools</title>
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>Tools</p>
+              </entry>
+              <entry>
+                <p>Description</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <p><uicontrol>Filter</uicontrol></p>
+              </entry>
+              <entry>
+                <p><image href="../images/searchBar=20220814215012.png" id="image_e2q_kpj_n5b"/>:
+                  This tool allows users to quickly find the agents/groups by sorting and searching.
+                  Please refer to <xref href="searchAgentGroups=20220814215659.xml"/> for more
+                  details.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><uicontrol>Table Display Settings</uicontrol></p>
+              </entry>
+              <entry>
+                <p><image href="../images/tableSettings=20220814215037.png" id="image_p4f_qqj_n5b"
+                  />: This tool allows users to customize the table display settings by:<ul
+                    id="ul_wky_bj5_k5b">
+                    <li>
+                      <p>going to and forth the display pages</p>
+                    </li>
+                    <li>
+                      <p>selecting how many agents/groups to be displayed per page and specifiying
+                        only certain contents to be displayed in the <wintitle>Cusomize Table
+                          Display</wintitle> setting.</p>
+                    </li>
+                    <li>
+                      <p>manually refreshing the table for the latest outputs</p>
+                    </li>
+                  </ul></p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+  <related-links>
+    <link href="policyScreen=20220729152024.xml"/>
+  </related-links>
+</reference>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">User-Defined Suspicious Objects</title>
+    <taskbody>
+        <context>
+            <p>The <uicontrol>User-Defined Suspicious Object</uicontrol> allows users to manually
+                add the file hashes (SHA-1 or SHA-2) or paths of new IOC (Indicators of Compromise)
+                into the blocked-file list, which prevents all managed endpoints from being infected
+                by the malicious files.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the target agent or agent group and click the <uicontrol>Policy
+                        Inheritance</uicontrol> link.</cmd>
+            </step>
+            <step>
+                <cmd>Scroll down and find the <wintitle>User-Defined Suspicious Object</wintitle>
+                    section at the right side of the screen.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol>. The <wintitle>Add Item to User-Defined
+                        Suspicious Objects</wintitle> window appears.</cmd>
+            </step>
+            <step>
+                <cmd>Select <uicontrol>Hash</uicontrol> or <uicontrol>File Patch</uicontrol> as the
+                    suspicious file type.</cmd>
+            </step>
+            <step>
+                <cmd>Specify the file hash or path in the corresponding text field.</cmd>
+            </step>
+            <step>
+                <cmd>(Optional) Input notes in the <uicontrol>Notes</uicontrol> text field.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>OK</uicontrol> to complete this task.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Advanced Settings</title>
+    <taskbody>
+        <context>
+            <p>The <uicontrol>Advanced Settings</uicontrol> for the <uicontrol>Real-Time Malware
+                    Scan</uicontrol> and <uicontrol>Scheduled Scan</uicontrol> provides more
+                configurations for the types of the files to be scanned, the action after possible
+                security risk is detected, and the scan exclusion list.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>Policy</uicontrol>
+                        <uicontrol>Industrial-Grade Next-Generation Antivirus</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Advanced Settings</uicontrol> under the
+                        <uicontrol>Real-Time Malware Scan</uicontrol> function:</cmd>
+                <info>
+                    <ul id="ul_scj_n1p_n5b">
+                        <li>
+                            <p>The <uicontrol>Advanced Settings</uicontrol> configuration window
+                                appears.</p>
+                        </li>
+                        <li>
+                            <p>The configuration window consists of three sections: <wintitle>Files
+                                    to Scan</wintitle>, <wintitle>Scan Action</wintitle>, and
+                                    <wintitle>Scan Exclusions.</wintitle></p>
+                        </li>
+                        <li>
+                            <p>
+                                <ol id="ol_kg4_tw4_n5b">
+                                    <li>
+                                        <p>
+                                            <ul id="ul_mg4_tw4_n5b">
+                                                <li>
+                                                  <p>In the <wintitle>Files to Scan</wintitle>
+                                                  section, check <uicontrol>Scan compressed
+                                                  files</uicontrol> and select the
+                                                  <uicontrol>Maximum layers</uicontrol> between 1
+                                                  and 20 for the compressed files.</p>
+                                                </li>
+                                                <li>
+                                                  <p>To skip files over a certain size, check
+                                                  <uicontrol>Skip files larger than</uicontrol> and
+                                                  specify the file size between 1 and 9999 MB. Files
+                                                  exceeding the specified file size will not be
+                                                  scanned.</p>
+                                                </li>
+                                            </ul>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>In the <uicontrol>Scan Action</uicontrol> section, users
+                                            pre-define the action once threats are detected during
+                                            the scanning process. Select
+                                                <uicontrol>Quarantine</uicontrol> to place the
+                                            malicious or infected files detected in an isolated
+                                            folder for futher checking. Select <uicontrol>No
+                                                action</uicontrol> to produce only a readout of
+                                            results with no actions taken on the suspicious
+                                            files.</p>
+                                    </li>
+                                    <li>
+                                        <p>The <uicontrol>Scan Exclusions</uicontrol> section
+                                            provides users an option to exclude certain folders,
+                                            files, or file extensions from being scanned.</p>
+                                        <ul id="ul_ng4_tw4_n5b">
+                                            <li>
+                                                <p><uicontrol>Folders</uicontrol>: specify a path to
+                                                  the folders that do not require scanning.</p>
+                                            </li>
+                                            <li>
+                                                <p><uicontrol>Files</uicontrol>: specify a path to
+                                                  the files that do not require scanning.</p>
+                                            </li>
+                                            <li>
+                                                <p><uicontrol>File Extensions</uicontrol>: specify
+                                                  the file extension of certain files that do not
+                                                  require scanning.</p>
+                                                <note id="note_og4_tw4_n5b">
+                                                  <p>
+                                                  <ul id="ul_pg4_tw4_n5b">
+                                                  <li>StellarProtect supports only local paths for
+                                                  Scan Exclusions. Remote paths such as an URL or
+                                                  <filepath>\\[Hostname]</filepath> are not
+                                                  supported.</li>
+                                                  <li>
+                                                  <p>It is not required to add ".” or “*.” in front
+                                                  of the file extension.</p>
+                                                  </li>
+                                                  </ul>
+                                                  </p>
+                                                </note>
+                                            </li>
+                                        </ul>
+                                        <note type="tip" id="note_qg4_tw4_n5b">
+                                            <p>Click the "+" or "-" icon to add or delete the
+                                                folder/file paths or file extensions.</p>
+                                        </note>
+                                    </li>
+                                    <li>
+                                        <p>Click <uicontrol>Confirm</uicontrol> to complete the
+                                            advanced settings for Real-Time Malware Scan.</p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Advanced Settings</uicontrol> under the
+                        <uicontrol>Scheduled Scan</uicontrol> function:</cmd>
+                <info>
+                    <ul id="ul_hmg_dcp_n5b">
+                        <li>
+                            <p>
+                                <ol id="ol_ebp_x1p_n5b">
+                                    <li>
+                                        <p>In the <wintitle>Files to Scan</wintitle> section, click
+                                                <uicontrol>All local folders</uicontrol> to scan all
+                                            files in detail, click <uicontrol>Default folders (Quick
+                                                Scan)</uicontrol> for a general scan, or click
+                                                <uicontrol>Specific folders</uicontrol> to specify
+                                            the paths to the folders for scan.<note type="tip"
+                                                id="note_fbp_x1p_n5b">
+                                                <p>Under the <uicontrol>Specific folders</uicontrol>
+                                                  option, click the "+" or "-" icon to add or delete
+                                                  paths to the specific folders.</p>
+                                            </note><ul id="ul_gbp_x1p_n5b">
+                                                <li>
+                                                  <p>(Optional) Check <uicontrol>Scan compressed
+                                                  files</uicontrol> and select the
+                                                  <uicontrol>Maximum layers</uicontrol> between 1
+                                                  and 20 for the compressed files.</p>
+                                                </li>
+                                                <li>
+                                                  <p>(Optional) To skip files over a certain size,
+                                                  check <uicontrol>Skip files larger
+                                                  than</uicontrol> and specify the file size between
+                                                  1 and 9999 MB. Files exceeding the specified file
+                                                  size will not be scanned.</p>
+                                                </li>
+                                            </ul></p>
+                                    </li>
+                                    <li>
+                                        <p>In the <uicontrol>Scan Action</uicontrol> section, users
+                                            pre-define the action once threats are detected during
+                                            the scanning process. Select
+                                                <uicontrol>Quarantine</uicontrol> to place the
+                                            malicious or infected files detected in an isolated
+                                            folder for futher checking. Select <uicontrol>No
+                                                action</uicontrol> to produce only a readout of
+                                            results with no actions taken on the suspicious
+                                            files.</p>
+                                    </li>
+                                    <li>
+                                        <p>(Optional) The <uicontrol>Scan Exclusions</uicontrol>
+                                            section provides users an option to exclude certain
+                                            folders, files, or file extensions from being
+                                            scanned.</p>
+                                        <ul id="ul_hbp_x1p_n5b">
+                                            <li>
+                                                <p><uicontrol>Folders</uicontrol>: specify a path to
+                                                  the folders that do not require scanning.</p>
+                                            </li>
+                                            <li>
+                                                <p><uicontrol>Files</uicontrol>: specify a path to
+                                                  the files that do not require scanning.</p>
+                                            </li>
+                                            <li>
+                                                <p><uicontrol>File Extensions</uicontrol>: specify
+                                                  the file extension of certain files that do not
+                                                  require scanning.</p>
+                                                <note id="note_ibp_x1p_n5b">
+                                                  <p>
+                                                  <ul id="ul_jbp_x1p_n5b">
+                                                  <li>StellarProtect supports only local paths for
+                                                  Scan Exclusions. Remote paths such as an URL or
+                                                  <filepath>\\[Hostname]</filepath> are not
+                                                  supported.</li>
+                                                  <li>
+                                                  <p>It is not required to add ".” or “*.” in front
+                                                  of the file extension.</p>
+                                                  </li>
+                                                  </ul>
+                                                  </p>
+                                                </note>
+                                            </li>
+                                        </ul>
+                                        <note type="tip" id="note_kbp_x1p_n5b">
+                                            <p>Click the "+" or "-" icon to add or delete paths to
+                                                the specific folders/files or file extensions for
+                                                specific file types .</p>
+                                        </note>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>Click <uicontrol>Confirm</uicontrol> to complete the advanced
+                                settings for Scheduled Scan.</p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

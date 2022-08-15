@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Device Control</title>
+    <taskbody>
+        <context>
+            <p>StellarProtect supports USB storage device access control. In StellarProtect agent
+                side, when USB device control has been enabled, every time users plug in USB
+                devices, the agent will prompt a message for users to confirm if the USB device
+                access is allowed. In order to facilitate the trusted USB device access, users can
+                add the USB device information into the <uicontrol>Device Control</uicontrol> list,
+                allowing the specified device to access directly without further check.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Go to <uicontrol>Agents</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the target agent or agent group and click the corresponding link
+                    under the <uicontrol>Policy Inheritance</uicontrol> header.</cmd>
+            </step>
+            <step>
+                <cmd>Make sure the <uicontrol>Device Control</uicontrol> toggle is switched
+                    on.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol>. The <wintitle>Add Trusted USB
+                        Device</wintitle> window appears.</cmd>
+            </step>
+            <step>
+                <cmd>Specify at least one of the following information for the trusted USB
+                    device.</cmd>
+                <info>
+                    <ul id="ul_n4r_sjn_n5b">
+                        <li>
+                            <p><uicontrol>Vendor ID</uicontrol></p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Product ID</uicontrol></p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Serial number</uicontrol></p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>OK</uicontrol> to complete the setting.</cmd>
+            </step>
+            <step>
+                <cmd>Check if the USB device is successfully added in the device control list.</cmd>
+            </step>
+            <step>
+                <cmd>To edit the USB device information, select the USB device and click the edit
+                    icon under the <wintitle>Actions</wintitle> header. A pop-up window appears.
+                    Edit the USB device information in the related text fields and then click
+                        <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>To remove a USB device from trusted list, choose either way listed below. </cmd>
+                <info>
+                    <ul id="ul_d4k_qkn_n5b">
+                        <li>
+                            <p>For removing mutiple USB devices at the same time, select the USB
+                                devices and click the <uicontrol>Delete</uicontrol> button next to
+                                the <uicontrol>+Add</uicontrol> button.</p>
+                        </li>
+                        <li>
+                            <p>For removing only one USB devices, click the edit icon under the
+                                    <wintitle>Actions</wintitle> header.</p>
+                        </li>
+                    </ul>
+                    <p>A pop-up <wintitle>Notification</wintitle> window appears. Click
+                            <uicontrol>Confirm</uicontrol> to delete the USB device(s).</p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

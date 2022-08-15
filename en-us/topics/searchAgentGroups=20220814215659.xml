@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Search Options for Agents/Groups</title>
+  <refbody>
+    <table frame="all" id="table_y3z_sbk_n5b">
+      <title>Search Options for Agents/Groups</title>
+      <tgroup cols="2">
+        <colspec colname="c1" colnum="1" colwidth="1*"/>
+        <colspec colname="c2" colnum="2" colwidth="1*"/>
+        <thead>
+          <row>
+            <entry>
+              <p>Options</p>
+            </entry>
+            <entry>
+              <p>Descriptions</p>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <p>Agent</p>
+            </entry>
+            <entry>
+              <p>The name of the agent. Type the full or partial endpoint host name to locate the
+                specific agent.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>IP Address</p>
+            </entry>
+            <entry>
+              <p>Type the IPv4 address.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>IP Range</p>
+            </entry>
+            <entry>
+              <p>Type the IPv4 address range.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Group</p>
+            </entry>
+            <entry>
+              <p>The name of the group. Select the available group.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Policy Inheritance</p>
+            </entry>
+            <entry>
+              <p>Select among <uicontrol>Inherited</uicontrol>, <uicontrol>Customized</uicontrol>,
+                and <uicontrol>Self-managed</uicontrol> as three categories of Policy
+                Inheritance.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Policy Deployment</p>
+            </entry>
+            <entry>
+              <p>The status of policy deployment from StellarOne to Agents. Select
+                  <uicontrol>Completed</uicontrol> or <uicontrol>In Progress</uicontrol>.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Agent Version</p>
+            </entry>
+            <entry>
+              <p>Type the Agent Version.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Last Connection</p>
+            </entry>
+            <entry>
+              <p>The last time the agents connected with StellarOne. Select the default time period
+                or select <uicontrol>Custom</uicontrol> to specify your own time period. Default
+                time period:<ul id="ul_or1_rck_n5b">
+                  <li>
+                    <p>Last 1 hour</p>
+                  </li>
+                  <li>
+                    <p>Last 24 hours</p>
+                  </li>
+                  <li>
+                    <p>Last 7 days</p>
+                  </li>
+                  <li>
+                    <p>Last 30 days</p>
+                  </li>
+                </ul></p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+              <p>Function Type</p><?oxy_custom_end?>
+            </entry>
+            <entry>
+              <p>Select <uicontrol>StellarProtect</uicontrol> or <uicontrol>StellarProtect (Legacy
+                  Mode)</uicontrol></p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Operating System</p>
+            </entry>
+            <entry>
+              <p>Select an operating system.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Description</p>
+            </entry>
+            <entry>
+              <p>Type the full or partial description to query specific endpoints.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </refbody>
+</reference>

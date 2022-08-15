@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Add Accounts</title>
+    <taskbody>
+        <context id="context_vlv_tyc_m5b">
+            <p>This section describes how to add user accounts for accessing StellarOne web
+                console.</p>
+        </context>
+        <steps id="steps_ddb_xdd_m5b">
+            <step>
+                <cmd>Log on to the web console using an account with the
+                    <wintitle>Admin</wintitle>role.</cmd>
+                <info>
+                    <note id="note_nk2_dyj_m5b">
+                        <ul id="ul_gj5_dyj_m5b">
+                            <li>
+                                <p>The logon credentials entered here are case-sensitive.</p>
+                            </li>
+                            <li>
+                                <p>Only the account  with the <wintitle>Admin</wintitle>role can
+                                    manage user accounts.</p>
+                            </li>
+                        </ul>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Account Management</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add User</uicontrol> button, and then the <wintitle>Add User
+                        Account</wintitle> window appears.</cmd>
+            </step>
+            <step>
+                <cmd>Specify the <wintitle>Authentication Source</wintitle>
+                        (<uicontrol>Local</uicontrol> or <uicontrol>SAML Identity
+                        Provider</uicontrol>).</cmd>
+                <choices id="choices_yzy_xxj_m5b">
+                    <choice>
+                        <p>To add a <uicontrol>Local</uicontrol> user, specify the
+                                <wintitle>ID</wintitle> and <wintitle>Name</wintitle>.</p>
+                    </choice>
+                    <choice>
+                        <p>To add an <uicontrol>SAML Identity Provider</uicontrol> user, specify
+                                <wintitle>Email for SAML Account Mapping</wintitle> and
+                                <wintitle>Name</wintitle>.<note id="note_vn2_szj_m5b" type="note">
+                                <p>To allow an SAML Identity Provider user to log in using Single
+                                    Sign-On (SSO), click the <uicontrol>Single Sign On
+                                        Configuration</uicontrol> link. Please refer to <xref
+                                        href="singleSignOn=20220811092626.xml"/> for procedures.</p>
+                            </note></p>
+                    </choice>
+                </choices>
+                <info>
+                    <note id="note_s3t_1zj_m5b">
+                        <p>The <wintitle>ID</wintitle>, <wintitle>Name</wintitle>, and
+                                <wintitle>Email for SAML Account Mapping</wintitle> entered here are
+                            case-sensitive.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd><wintitle>Role</wintitle>: Select among the account roles
+                        <uicontrol>Admin</uicontrol>, <uicontrol>Operator</uicontrol> or
+                        <uicontrol>Viewer </uicontrol>(Default). Please refer to <xref
+                        href="accountManagement=20220728112101.xml"/> for more details on the
+                    account privileges.</cmd>
+                <info>
+                    <ul id="ul_jyc_2ck_m5b">
+                        <li>
+                            <p>For a <uicontrol>Local</uicontrol> user, specify the <wintitle>Local
+                                    Password</wintitle> and re-type it for confirmation.</p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd><wintitle>Group Control</wintitle>: Select the groups the target account is
+                    allowed to access or view.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol> to complete the user account
+                    creation.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

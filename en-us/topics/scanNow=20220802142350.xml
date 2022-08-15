@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Scan Now</title>
+    <taskbody>
+        <context>
+            <p>Users can manually initiate Scan Now on selected endpoints and deploy the scan
+                settings on one or several StellarProtect target endpoints.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Select one or more endpoints (agents or groups) by clicking the checkboxes next
+                    to them.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Protection</uicontrol> button from the Tool Bar at the top
+                    of the <wintitle>Agents</wintitle> screen.</cmd>
+            </step>
+            <step>
+                <cmd>A pop-up window appears. Click the <uicontrol>Scan Now</uicontrol>
+                    option.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>The configuration window appears.</cmd>
+                <info>
+                    <fig id="fig_ck2_ydy_j5b">
+                        <title>Scan Now Configuration</title>
+                        <image href="../images/scanNowOverview=20220802144529.png"
+                            id="image_ncd_p2y_j5b"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>The configuration window consists of three sections: <wintitle>Files to
+                        Scan</wintitle>, <wintitle>Scan Action</wintitle>, and <wintitle>Scan
+                        Exclusions.</wintitle></cmd>
+                <info>
+                    <ol id="ol_dg2_3fy_j5b">
+                        <li>
+                            <p>In the <wintitle>Files to Scan</wintitle> section, click
+                                    <uicontrol>All local folders</uicontrol> to scan all files in
+                                detail, click <uicontrol>Default folders (Quick Scan)</uicontrol>
+                                for a general scan, or click <uicontrol>Specific folders</uicontrol>
+                                to specify the paths to the folders for scan.<note
+                                    id="note_mrc_xgy_j5b" type="tip">
+                                    <p>Under the <uicontrol>Specific folders</uicontrol> option,
+                                        click the "+" or "-" icon to add or delete paths to the
+                                        specific folders.</p>
+                                </note><ul id="ul_ddf_rhy_j5b">
+                                    <li>
+                                        <p>(Optional) Check <uicontrol>Scan compressed
+                                                files</uicontrol> and select the <uicontrol>Maximum
+                                                layers</uicontrol> between 1 and 20 for the
+                                            compressed files.</p>
+                                    </li>
+                                    <li>
+                                        <p>(Optional) To skip files over a certain size, check
+                                                <uicontrol>Skip files larger than</uicontrol> and
+                                            specify the file size between 1 and 9999 MB. Files
+                                            exceeding the specified file size will not be
+                                            scanned.</p>
+                                    </li>
+                                    <li>
+                                        <p>(Optional) Check <uicontrol>Aggressive scan (include all
+                                                OT applications and CA files)</uicontrol> to allow
+                                            scanning files in existing trusted list.</p>
+                                    </li>
+                                </ul></p>
+                        </li>
+                        <li>
+                            <p>In the <uicontrol>Scan Action</uicontrol> section, users pre-define
+                                the action once threats are detected during the scanning process.
+                                Select <uicontrol>Quarantine</uicontrol> to place the malicious or
+                                infected files detected in an isolated folder for futher checking.
+                                Select <uicontrol>No action</uicontrol> to produce only a readout of
+                                results with no actions taken on the suspicious files.</p>
+                        </li>
+                        <li>
+                            <p>(Optional) The <uicontrol>Scan Exclusions</uicontrol> section
+                                provides users an option to exclude certain folders, files, or file
+                                extensions from being scanned.</p>
+                            <ul id="ul_rf5_fny_j5b">
+                                <li>
+                                    <p><uicontrol>Folders</uicontrol>: specify a path to the folders
+                                        that do not require scanning.</p>
+                                </li>
+                                <li>
+                                    <p><uicontrol>Files</uicontrol>: specify a path to the files
+                                        that do not require scanning.</p>
+                                </li>
+                                <li>
+                                    <p><uicontrol>File Extensions</uicontrol>: specify the file
+                                        extension of certain files that do not require scanning.</p>
+                                    <note id="note_o34_tpy_j5b">
+                                        <p>
+                                            <ul id="ul_m1l_gqy_j5b">
+                                                <li>StellarProtect supports only local paths for
+                                                  Scan Exclusions. Remote paths such as an URL or
+                                                  <filepath>\\[Hostname]</filepath> are not
+                                                  supported.</li>
+                                                <li>
+                                                  <p>It is not required to add ".” or “*.” in front
+                                                  of the file extension.</p>
+                                                </li>
+                                            </ul>
+                                        </p>
+                                    </note>
+                                </li>
+                            </ul>
+                            <note type="tip" id="note_r1k_k4y_j5b">
+                                <p>Click the "+" or "-" icon to add or delete paths to the specific
+                                    folders/files or file extensions for specific file types .</p>
+                            </note>
+                        </li>
+                    </ol>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>OK</uicontrol> to deploy the settings to the selected agents
+                    or groups.</cmd>
+            </step>
+            <step>
+                <cmd>The <wintitle>Command Deployment</wintitle> window appears showing the
+                    deployment status. Click the <uicontrol>Close</uicontrol> button to close the
+                    window.</cmd>
+                <info>
+                    <fig id="fig_mfs_4py_j5b">
+                        <title>Scan Now Deployed</title>
+                        <image href="../images/scanNowDeployed=20220802160920.png"
+                            id="image_wk4_ppy_j5b"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

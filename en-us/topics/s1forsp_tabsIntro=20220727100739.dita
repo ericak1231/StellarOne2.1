@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_zl2_q3r_c5b">
+    <title>Key Features and Benefits</title>
+    <refbody>
+        <section id="section_t4c_v3r_c5b">
+            <p>StellarOne provides following features and benefits.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_p4k_djr_c5b">
+                <title>Features and Benefits</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Feature</p>
+                            </entry>
+                            <entry>
+                                <p>Benefit</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Dashboard</p>
+                            </entry>
+                            <entry>
+                                <p>The web console dashboard provides summarized information about
+                                    monitored StellarProtect agents.</p>
+                                <p>Administrators can check deployed StellarProtect agent status
+                                    easily, and can generate security reports related to
+                                    StellarProtect agent activity for specified periods, including
+                                    the top endpoints with blocked events, top blocked files, CPU
+                                    usage, memory usage, and disk usage.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Agents Management</p>
+                            </entry>
+                            <entry>
+                                <p>When the devices install StellarProtect, they will register to
+                                        <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME"/> as agents
+                                    automatically. These agents will be managed by <ph
+                                        conkeyref="PRODvars/PRODUCT_SHORT_NAME"/>, and users can add
+                                    a group or groups to manage agents as well as configure them
+                                    with individual or group-based policies.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Event/Logs Managment</p>
+                            </entry>
+                            <entry>
+                                <p><ph conkeyref="PRODvars/PRODUCT_SHORT_NAME"/> has 4 types of
+                                    events and logs, which provide users with analysis and
+                                    management functions. Using the notification function,
+                                    administrators and auditors can query and analyze events to
+                                    quickly find the root cause of the problem.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Administration Management</p>
+                            </entry>
+                            <entry>
+                                <p><ph conkeyref="PRODvars/PRODUCT_SHORT_NAME"/> supports several
+                                    functions specifically for managing endpoints running
+                                    StellarProtect: <ul id="ul_h2f_wbf_35b">
+                                        <li>
+                                            <p>Account Management </p>
+                                        </li>
+                                        <li>
+                                            <p>Single Sign-On</p>
+                                        </li>
+                                        <li>
+                                            <p>System Time</p>
+                                        </li>
+                                        <li>
+                                            <p>Syslog Forwarding</p>
+                                        </li>
+                                        <li>
+                                            <p>Log Purge</p>
+                                        </li>
+                                        <li>
+                                            <p>Schedule Report</p>
+                                        </li>
+                                        <li>
+                                            <p>Notification</p>
+                                        </li>
+                                        <li>
+                                            <p>SMTP Setting</p>
+                                        </li>
+                                        <li>
+                                            <p>Proxy </p>
+                                        </li>
+                                        <li>
+                                            <p>Downloads/Updates</p>
+                                        </li>
+                                        <li>
+                                            <p>Firmware</p>
+                                        </li>
+                                        <li>
+                                            <p>SSL Certificate</p>
+                                        </li>
+                                        <li>
+                                            <p>License</p>
+                                        </li>
+                                        <li>
+                                            <p>OT Intelligent Trust</p>
+                                        </li>
+                                    </ul></p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

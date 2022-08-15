@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Account Types</title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p><indexterm>account management</indexterm>StellarOne user accounts are categorized into
+        three types as listed below.</p>
+    </section>
+    <table frame="all" rowsep="1" colsep="1" id="table_qhb_bvm_35b">
+      <title>StellarOne Account Types</title>
+      <tgroup cols="3">
+        <colspec colname="c1" colnum="1" colwidth="1*"/>
+        <colspec colname="c2" colnum="2" colwidth="1.02*"/>
+        <colspec colname="c3" colnum="3" colwidth="2.39*"/>
+        <thead>
+          <row>
+            <entry>
+              <p><indexterm>account management<indexterm>account
+                types</indexterm></indexterm>Account Types</p>
+            </entry>
+            <entry>
+              <p><indexterm>account management<indexterm>access rights</indexterm></indexterm>Access
+                Rights</p>
+            </entry>
+            <entry>
+              <p><indexterm>account
+                management<indexterm>privileges</indexterm></indexterm>Privileges</p>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <p>Admin</p>
+            </entry>
+            <entry>
+              <p>Full control</p>
+            </entry>
+            <entry>
+              <ul id="ul_qg5_3p2_m5b">
+                <li>
+                  <p>Manage StellarOne: The privilege of configuring system settings</p>
+                </li>
+                <li>
+                  <p>Account Management: The privilege of managing StellarOne accounts</p>
+                </li>
+                <li>
+                  <p>Manage Group: The privilege of creating, moving, or deleting groups</p>
+                </li>
+                <li>
+                  <p>Policy Configuration: The privilege of defining policy for Agents such as USB
+                    Control and Intelligent Runtime Learning</p>
+                </li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Operator</p>
+            </entry>
+            <entry>
+              <p>Asset control</p>
+            </entry>
+            <entry>
+              <ul id="ul_d4t_xq2_m5b">
+                <li>
+                  <p>Manage Group: The privilege of creating, moving, or deleting groups</p>
+                </li>
+                <li>
+                  <p>Policy Configuration: The privilege of defining policy for Agents such as USB
+                    Control and Intelligent Runtime Learning</p>
+                </li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Viewer</p>
+            </entry>
+            <entry>
+              <p>Read only</p>
+            </entry>
+            <entry>
+              <ul>
+                <li>
+                  <p>Read only for the Dashboard, Agent Events logs, as well as the configurations
+                    of the Agent's Policy, Scheduled Report, Notification, and StellarOne's Scan
+                    Component information.</p>
+                </li>
+                <li>
+                  <p>Allowed to download the Agent's installer package and
+                      <filepath>Group.ini</filepath></p>
+                </li>
+                <li>
+                  <p>Allowed to change his/her own account password.</p>
+                </li>
+              </ul>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </refbody>
+</reference>

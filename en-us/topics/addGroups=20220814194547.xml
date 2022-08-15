@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Add Groups</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <uicontrol>Agents</uicontrol> in the top navigation bar of the StellarOne
+                    web console.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>+Add Group</uicontrol> button in the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>The <wintitle>Add New Agent Group</wintitle> window appears. Specify the group
+                    name in the text field.</cmd>
+                <info>
+                    <note id="note_i1z_dtj_n5b">
+                        <p>
+                            <ul id="ul_xvh_2tj_n5b">
+                                <li>
+                                    <p>The maximum length limitation of a group name is 50
+                                        characters.</p>
+                                </li>
+                                <li>
+                                    <p>The maximum number of group levels is 15 levels.</p>
+                                </li>
+                            </ul>
+                        </p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol> to add the group.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

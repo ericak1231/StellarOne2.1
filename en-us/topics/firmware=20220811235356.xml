@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Importing Firmware</title>
+    <taskbody>
+        <steps id="steps_mcf_xks_m5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Firmware</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Import</uicontrol> button to import the firmware patch
+                    file (e.g. acus.fw_1.2.0137.acf) to StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>The <wintitle>Firmware Update</wintitle> window appears. The
+                        <wintitle>Version</wintitle> shows the current StellarOne build version, the
+                        <wintitle>Release Date</wintitle> and <wintitle>Description</wintitle> show
+                    the current information for the StellarOne patch file.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Apply</uicontrol> to apply the patch to StellarOne.</cmd>
+                <info>
+                    <fig id="fig_rjn_lns_m5b">
+                        <title>Firmware update</title>
+                        <image href="../images/firmwareUpdate=20220812133030.png"
+                            id="image_s53_mns_m5b"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Confirm the notification description.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Install Now</uicontrol> to implement the update or
+                        <uicontrol>Abort</uicontrol> to stop the update.</cmd>
+                <info>
+                    <fig id="fig_hbb_nns_m5b">
+                        <title>Firmware Update Notice</title>
+                        <image href="../images/firmwareNotify=20220812133048.png"
+                            id="image_yzn_pns_m5b"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

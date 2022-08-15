@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Agent Component Update Schedule</title>
+    <taskbody>
+        <context>
+            <p>Users can configure the component update schedule for the StellarProtect agents via
+                StellarOne webconsole. So the system can run component update automatically at
+                users' assigned time frequency.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Under <uicontrol>Policy</uicontrol> tab, switch on the <uicontrol>Schedule
+                        Update</uicontrol> toggle under <wintitle>Agent Component Update
+                        Schedule</wintitle>.</cmd>
+                <info>
+                    <p>
+                        <note id="note_qsf_2lh_35b" type="tip">
+                            <p>It is suggested to determine the agent's component update schedule by
+                                referring to the StellarOne console's component update schedule
+                                setting first.</p>
+                        </note>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>(Optional) Click <uicontrol>StellarOne scan component update
+                        shcdule</uicontrol> and view the current settings of StellarOne's component
+                    update schedule.</cmd>
+                <info>
+                    <p>
+                        <note id="note_wqd_rbm_35b">
+                            <p>Only users logged in with adminitrator or operator account can edit
+                                StellarOne component update schedule.</p>
+                        </note>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>After the <uicontrol>Schedule Update</uicontrol> is switched on, radio buttons
+                    under <uicontrol>Frequency</uicontrol> and <uicontrol>Star Time</uicontrol>
+                    selection field appear, enabling users to schedule component update for the
+                    agent(s.)</cmd>
+                <info>
+                    <p>
+                        <ul id="ul_oxs_k2m_35b">
+                            <li>
+                                <p>The default setting for <uicontrol>Weekly</uicontrol> update is
+                                        <uicontrol>every Sunday</uicontrol>. </p>
+                            </li>
+                            <li>
+                                <p>The default setting for <uicontrol>Monthly</uicontrol> update is
+                                        <uicontrol>on day 01</uicontrol></p>
+                            </li>
+                            <li>
+                                <p>The default setting for <uicontrol>Start Time</uicontrol> is
+                                        <uicontrol>00:00</uicontrol>.</p>
+                            </li>
+                        </ul>
+                    </p>
+                    <note id="note_ijz_ylm_35b" type="important">
+                        <p>Since not every month contains the date 29th, 30th, or 31st, e.g.,
+                            Feburary only has 28 days (29 days on a leap year), it is recommended to
+                            select <uicontrol>The last day of the month</uicontrol> for monthly
+                            update frequency. This helps prevent the system from bypassing the
+                            update in the month that does not contain the date 29th, 30th, or
+                            31st.</p>
+                    </note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">About System Logs Screen</title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <fig id="fig_mw5_2f5_k5b">
+        <title>System Logs Screen</title>
+        <image href="../images/systemLogs=20220809152830.png" id="image_cvm_gf5_k5b"/>
+      </fig>
+      <table frame="all" id="table_xkn_q35_k5b">
+        <title>About System Logs Screen</title>
+        <tgroup cols="3">
+          <colspec colname="newCol1" colnum="1" colwidth="1*"/>
+          <colspec colname="c1" colnum="2" colwidth="4.99*"/>
+          <colspec colname="c2" colnum="3" colwidth="11.09*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>No.</p>
+              </entry>
+              <entry>
+                <p>Item</p>
+              </entry>
+              <entry>
+                <p>Description</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <p>1</p>
+              </entry>
+              <entry>
+                <p>Export</p>
+              </entry>
+              <entry>
+                <p>Users can export log list as an <filepath>.csv</filepath> file by clicking the
+                    <uicontrol>Export</uicontrol> button. It provides a drop-down menu consisting
+                  of:</p>
+                <ul id="ul_ydt_glx_l5b">
+                  <li>
+                    <p><uicontrol>Export Selected</uicontrol>: This button is activated when users
+                      select the checkbox(es) next to the logs to be exported.</p>
+                  </li>
+                  <li>
+                    <p><uicontrol>Export All</uicontrol>: This button is always activated for users
+                      to export all logs.</p>
+                  </li>
+                </ul>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2</p>
+              </entry>
+              <entry>
+                <p>Filter</p>
+              </entry>
+              <entry>
+                <p>Users can filter logs by selecting or input certain severity level directly in
+                  the search bar. The severity levels are listed as below:</p>
+                <ul id="ul_syq_kjx_l5b">
+                  <li>
+                    <p>Warning</p>
+                  </li>
+                  <li>
+                    <p>Notice</p>
+                  </li>
+                  <li>
+                    <p>Information</p>
+                  </li>
+                  <li>
+                    <p>Debug</p>
+                  </li>
+                  <li>
+                    <p>Emergency</p>
+                  </li>
+                  <li>
+                    <p>Alert</p>
+                  </li>
+                  <li>
+                    <p>Critical</p>
+                  </li>
+                  <li>
+                    <p>Error</p>
+                  </li>
+                </ul>
+                <p>After users set the search criteria and click the search button, the screen
+                  displays the search result. Meanwhile, the filtering criteria appears above the
+                    <uicontrol>Export</uicontrol> button. Close it to clear the search criteria and
+                  return to the initial screen.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>3</p>
+              </entry>
+              <entry>
+                <p>Log display setting</p>
+              </entry>
+              <entry>
+                <p>Users can customize how many logs to be displayed either by:<ul
+                    id="ul_ehp_2sx_l5b">
+                    <li>
+                      <p>the number of the latest logs records</p>
+                    </li>
+                    <li>
+                      <p>the logs generated within a particular period</p>
+                    </li>
+                  </ul></p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4</p>
+              </entry>
+              <entry>
+                <p>Screen display setting</p>
+              </entry>
+              <entry>
+                <p>By clicking this button, users can customize the System Logs screen display
+                    by:<ul id="ul_wky_bj5_k5b">
+                    <li>
+                      <p>selecting how many logs to be displayed per page</p>
+                    </li>
+                    <li>
+                      <p>hiding certain contents by unchecking <uicontrol>Time</uicontrol>,
+                          <uicontrol>Severity</uicontrol>, or <uicontrol>Message</uicontrol> in the
+                          <wintitle>Cusomize Table Display</wintitle> window.</p>
+                    </li>
+                  </ul></p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5</p>
+              </entry>
+              <entry>
+                <p>Refresh</p>
+              </entry>
+              <entry>
+                <p>The button allows users to manually refresh the screen for the latest log
+                  outputs.</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

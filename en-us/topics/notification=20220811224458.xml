@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Notification and SMTP Settings</title>
+    <taskbody>
+        <context>
+            <p>The settings allow users to receive notifications of warning or outbreak events by
+                emails.</p>
+        </context>
+        <steps id="steps_pt3_g3m_m5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>SMTP Settings</uicontrol>
+                    </menucascade> for specifying the SMTP server setting required for notification
+                    sending.</cmd>
+            </step>
+            <step>
+                <cmd>Specify the <wintitle>Server address</wintitle>, <wintitle>Port</wintitle>, and
+                        <wintitle>Sender</wintitle>.</cmd>
+            </step>
+            <step>
+                <cmd>(Optional) If the SMTP server requires authentication, click the checkbox next
+                    to <uicontrol>SMTP server requires authentication</uicontrol>. Specify the
+                        <uicontrol>User name</uicontrol> and <uicontrol>Password</uicontrol> as the
+                    SMTP server authentication credential.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Send Test Email</uicontrol> button to send a test email
+                    from StellarOne (This step is essential for Step 12).</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol> to complete the SMTP setting.</cmd>
+            </step>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Notification</uicontrol>
+                    </menucascade> for notification criteria and email setting.</cmd>
+            </step>
+            <step>
+                <cmd>Under the <wintitle>Warning Level Agent Events</wintitle>, click the
+                        <uicontrol>Send warning level agent events</uicontrol> toggle to enable
+                    it.</cmd>
+                <info>
+                    <note id="note_ywl_nd4_m5b">
+                        <p>When the switch under <wintitle>Warning Level Agent Events</wintitle> is
+                            enabled, StellarOne console will send a notification to your email when
+                            an incident happens that triggers a “<b>Warning</b>”.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Under the <wintitle>Outbreak</wintitle>, click the <uicontrol>Send outbreak
+                        notifications</uicontrol> toggle to enable it.</cmd>
+                <info>
+                    <note id="note_pc3_xd4_m5b">
+                        <p>When the switch under <wintitle>Outbreak</wintitle> is enabled,
+                            StellarOne console will send a notification to your email when more than
+                            a specified number of open warning messages have appeared in a specified
+                            time period.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Define an outbreak by the number of detections and the detection period.</cmd>
+                <info>
+                    <ul id="ul_sg1_q24_m5b">
+                        <li>
+                            <p>Specify the number of occurrences of an event in the field of
+                                    <uicontrol>Number of warnings in a time period</uicontrol> (1-
+                                20000).</p>
+                        </li>
+                        <li>
+                            <p>Specify the time frame during which the event has occurred in the
+                                field of <uicontrol>The time period of those warnings</uicontrol> (1
+                                - 60 minutes).</p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Under <wintitle>Email Notifications</wintitle>, specify the email address for
+                    receiving the notifications in the field of <uicontrol>Send
+                    to</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol> to complete the setting.</cmd>
+            </step>
+            <step>
+                <cmd>Go to the specified email box to check if you receive the test email sent from
+                    StellarOne (refer to Step 4).</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Account Management</title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p>Go to <menucascade>
+          <uicontrol>Administration</uicontrol>
+          <uicontrol>Account Management</uicontrol>
+        </menucascade> to manage user accounts for accessing the StellarOne web console. The
+          <wintitle>Account Management</wintitle> screen provides two tabs:
+          <uicontrol>Users</uicontrol> and <uicontrol>Roles</uicontrol> The former one allows users
+        to manage accounts, and the latter one provides information about different privileges for
+        different accounts.</p>
+      <fig id="fig_hcd_xbf_m5b">
+        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+        <title>Account Management Screen (need to change due to adding API)</title><?oxy_custom_end?>
+        <image href="../images/accountManagement=20220810170713.png" id="image_p5b_ybf_m5b"/>
+      </fig>
+      <table frame="all" id="table_snz_xgf_m5b">
+        <title>About Account Management Screen - Users</title>
+        <tgroup cols="3">
+          <colspec colname="newCol1" colnum="1" colwidth="1*"/>
+          <colspec colname="c1" colnum="2" colwidth="4.56*"/>
+          <colspec colname="c2" colnum="3" colwidth="11.52*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>No.</p>
+              </entry>
+              <entry>
+                <p>Item</p>
+              </entry>
+              <entry>
+                <p>Description</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <p>1</p>
+              </entry>
+              <entry><uicontrol>+Add User</uicontrol></entry>
+              <entry>
+                <p>This button allows users to add account(s) for accessing StellarOne web console.
+                  Please refer to <xref href="addUser=20220810174621.xml"/> for procedures.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2</p>
+              </entry>
+              <entry><uicontrol>Delete</uicontrol></entry>
+              <entry>
+                <p>This button allows users to delete account(s) that are redundant. Please refer to
+                    <xref href="deleteUser=20220810175328.xml"/> for procedures.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>3</p>
+              </entry>
+              <entry><uicontrol>Actions</uicontrol></entry>
+              <entry>
+                <p>This button allows users to edit or delete account(s). Please refer to <xref
+                    href="actionsUserAccounts=20220810175416.xml"/> for procedures.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4</p>
+              </entry>
+              <entry>
+                <p>Screen display setting</p>
+              </entry>
+              <entry>
+                <p>By clicking this button, users can customize the screen display by:<ul
+                    id="ul_unz_xgf_m5b">
+                    <li>
+                      <p>selecting how many items to be displayed on one page</p>
+                    </li>
+                    <li>
+                      <p>hiding certain contents by unchecking items related to the titles in the
+                          <wintitle>Cusomize Table Display</wintitle> window.</p>
+                    </li>
+                  </ul></p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5</p>
+              </entry>
+              <entry>
+                <p>Log off</p>
+              </entry>
+              <entry>
+                <p/>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p>For more information about the <uicontrol>Roles</uicontrol> page, please go to <xref
+          href="accountManagement=20220728112101.xml"/>.</p>
+    </section>
+  </refbody>
+</reference>

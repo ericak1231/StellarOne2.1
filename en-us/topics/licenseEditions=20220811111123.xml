@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">License Editions</title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p><indexterm>license editions</indexterm>See below as the three kinds of license editions for
+        the Stellar Series version 2.0. The StellarProtect supports Windows 7 or later versions; the
+        StellarProtect (Legacy Mode) supports Windows XP/2000.</p>
+      <table frame="all" rowsep="1" colsep="1" id="table_oz4_5hm_k5b">
+        <title>License Editions</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="2.54*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.76*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>Edition</p>
+              </entry>
+              <entry>
+                <p>Primary Function</p>
+              </entry>
+              <entry>
+                <p>Duration</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry morerows="1">
+                <p><indexterm>license
+                  models<indexterm>StellarICS</indexterm></indexterm>StellarICS</p>
+              </entry>
+              <entry>
+                <p>StellarProtect Agent:</p>
+                <ul id="ul_tkb_plv_l5b">
+                  <li>
+                    <p>Anti-Virus (Real-Time Malware Scan) </p>
+                  </li>
+                  <li>
+                    <p>Application Lockdown</p>
+                  </li>
+                </ul>
+              </entry>
+              <entry morerows="1">
+                <p>Annual</p>
+              </entry>
+            </row>
+            <row>
+              <entry>StellarProtect (Legacy Mode) Agent:<ul id="ul_y11_slv_l5b">
+                  <li>
+                    <p>Application Lockdown (with on-demand scanning)</p>
+                  </li>
+                </ul></entry>
+            </row>
+            <row>
+              <entry morerows="1">
+                <p><indexterm>license
+                  models<indexterm>StellarKiosk</indexterm></indexterm>StellarKiosk</p>
+              </entry>
+              <entry>
+                <p>StellarProtect Agent:</p>
+                <ul id="ul_qj1_pjm_k5b">
+                  <li>
+                    <p>Anti-Virus (Real-Time Malware Scan)</p>
+                  </li>
+                </ul>
+              </entry>
+              <entry morerows="1">
+                <p>Annual</p>
+                <note id="note_v1l_q3m_k5b">
+                  <p>StellarKiosk was named StellarMix before the Stellar Series version 1.2 patch
+                    1.</p>
+                </note>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>StellarProtect (Legacy Mode) Agent:</p>
+                <ul id="ul_zmy_q5v_l5b">
+                  <li>
+                    <p>Application Lockdown (with on-demand scanning)</p>
+                  </li>
+                </ul>
+              </entry>
+            </row>
+            <row>
+              <entry morerows="1">
+                <p><indexterm>license
+                  models<indexterm>StellarOEM</indexterm></indexterm>StellarOEM</p>
+              </entry>
+              <entry>
+                <p>StellarProtect Agent:</p>
+                <ul id="ul_zmq_mvv_l5b">
+                  <li>
+                    <p>Application Lockdown</p>
+                  </li>
+                </ul>
+              </entry>
+              <entry morerows="1">
+                <p>Perpetual</p>
+                <note id="note_i4p_3ml_k5b">
+                  <p>
+                    <ul id="ul_cjx_hsl_m5b">
+                      <li>
+                        <p>StellarOEM provides permanent use and 5-year technial support for the
+                          Stellar Series.</p>
+                      </li>
+                      <li>
+                        <p>StellarOEM was named Perpetual before the Stellar Series version 1.2
+                          patch 1.</p>
+                      </li>
+                    </ul>
+                  </p>
+                </note>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>StellarProtect (Legacy Mode) Agent:</p>
+                <ul id="ul_zc3_mvv_l5b">
+                  <li>
+                    <p>Application Lockdown</p>
+                  </li>
+                </ul>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

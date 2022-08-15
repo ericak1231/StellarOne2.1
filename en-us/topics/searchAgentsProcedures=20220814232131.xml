@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Search for Agents/Groups</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <uicontrol>Agents</uicontrol> in the top navigation bar of the StellarOne
+                    web console.</cmd>
+            </step>
+            <step>
+                <cmd>At the top-right corner of the screen, search for specific endpoints by
+                    selecting criteria from the drop-down list and specify additional search
+                    criteria as required.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

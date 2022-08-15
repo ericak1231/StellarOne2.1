@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Change Activation Code</title>
+    <taskbody>
+        <context id="context_lsx_xq4_35b">
+            <p>If users need to change the Activation Code, please follow below steps.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Contact your TXOne sales representative for changing Activation Code.</cmd>
+            </step>
+            <step>
+                <cmd>After you receive the new Activation Code, go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>License</uicontrol>
+                    </menucascade>, and click <uicontrol>Specify Activation Code</uicontrol>
+                    button.</cmd>
+            </step>
+            <step>
+                <cmd>Input the new Activation Code and click <uicontrol>Save</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Renew License</uicontrol> to update your product
+                    license.</cmd>
+                <info>
+                    <note id="note_vmr_pr4_35b">
+                        <p>It is required to click <uicontrol>Renew License</uicontrol> button for
+                            StellarOne console to connect with TXOne Product License Server.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>A message with <uicontrol>Licenses have been updated successfully</uicontrol>
+                    appears. and the message of the <uicontrol>Last Updated</uicontrol> is changed
+                    to the date and time the license is updated. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

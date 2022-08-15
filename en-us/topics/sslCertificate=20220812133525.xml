@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Importing SSL Certificate</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>SSL Certificate</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Import Certificate</uicontrol>, and then the <wintitle>Import
+                        Certificate</wintitle> window appears.</cmd>
+                <info>
+                    <ul id="ul_zns_nps_m5b">
+                        <li>
+                            <p>Click the <uicontrol>Select file…</uicontrol> next to the
+                                    <wintitle>Certificate</wintitle> option to select the target
+                                certificate.</p>
+                        </li>
+                        <li>
+                            <p>Click the <uicontrol>Select file…</uicontrol> next to the
+                                    <wintitle>Private Key</wintitle> option to select the target
+                                Private Key.</p>
+                        </li>
+                        <li>
+                            <p>(Optional) Specify the passphrase in the
+                                    <wintitle>Passphrase</wintitle> text field.</p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Import and Restart</uicontrol> to start importing the target
+                    certificate.</cmd>
+                <info>
+                    <note id="note_nqb_mps_m5b">
+                        <p>Importing the certificate requires restarting the StellarOne console.</p>
+                    </note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

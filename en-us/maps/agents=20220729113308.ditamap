@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[]>
+
+<map xml:lang="en-us" id="GUID-1ECA0072-F533-416E-9722-726DBC89C79B" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+	<title id="GUID-54C9CE99-220D-41F2-9AB3-2ABB55D05ADE">Agents</title>
+	<topicref href="../topics/agentsIntroPage=20220729145028.xml">
+		<topicref href="../topics/aboutAgentsScreen=20220729144212.xml">
+			<topicref href="../topics/addGroups=20220814194547.xml"/>
+			<topicref href="../topics/organizeAgents=20220814195911.xml"/>
+			<topicref href="../topics/moveRemoveAgents=20220814213405.xml"/>
+			<topicref href="../topics/searchAgentsProcedures=20220814232131.xml">
+				<topicref href="../topics/searchAgentGroups=20220814215659.xml"/>
+			</topicref>
+		</topicref>
+		<topicref href="../topics/agentsProtection=20220802101514.xml">
+			<topicref href="../topics/sPconfigureMaintenanceMode=20220802170455.xml"/>
+			<topicref href="../topics/updateApproveList=20220802163342.xml"/>
+			<topicref href="../topics/scanNow=20220802142350.xml"/>
+		</topicref>
+		<topicref href="../topics/agentsUpdate=20220803103542.xml">
+			<topicref href="../topics/sPupdateComponents=20220803103820.xml"/>
+			<topicref href="../topics/sPdeployPatch=20220803104012.xml"/>
+		</topicref>
+	</topicref>
+</map>

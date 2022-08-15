@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Server Accounts Overview</title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p><indexterm>server accounts</indexterm>TXOne StellarOne features web console accounts with
+        different privileges and limitations. Use these accounts to configure StellarOne and to
+        monitor or manage StellarProtect agents. The following table outlines typical StellarOne
+        tasks and the account privileges required to perform them.</p>
+    </section>
+    <table frame="all" rowsep="1" colsep="1" id="table_qhb_bvm_35b">
+      <title>StellarOne Account Types</title>
+      <tgroup cols="4">
+        <colspec colname="c1" colnum="1" colwidth="1*"/>
+        <colspec colname="c2" colnum="2" colwidth="1.1*"/>
+        <colspec colname="c3" colnum="3" colwidth="1.14*"/>
+        <colspec colname="newCol4" colnum="4" colwidth="1.15*"/>
+        <thead>
+          <row>
+            <entry morerows="1">
+              <p><indexterm>server accounts<indexterm>task</indexterm></indexterm>Task</p>
+            </entry>
+            <entry nameend="newCol4" namest="c2">
+              <p><indexterm>server accounts<indexterm>account privilege
+                  allowed</indexterm></indexterm>Account Privilege Allowed</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Admin</p>
+            </entry>
+            <entry>
+              <p>Operator</p>
+            </entry>
+            <entry>
+              <p>Viewer</p>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <p>Dashboard</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Configure Application Lockdown</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Configure Maintenance Mode</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Configure Device Control</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Add trusted files</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Add trusted USB devices</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Scan now</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Update Approved List</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Update agent components</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Deploy agent patch</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Check connection </p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Collect event logs </p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Import / Export (Approved List / agent configuration)</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Organize (edit description / move / delete)</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Configure group policy</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Configure global policy</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Monitor agent event logs</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Monitor server event logs</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Monitor system logs</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Monitor audit logs</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Account management</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Single Sign-On</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>System time settings</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Syslog forwarding</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Log purge</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Schedule report</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Notification settings</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>SMTP settings</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Proxy settings</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>Downloads / Updates</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Firmware update</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>SSL Certificate</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>License management</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry>
+              <p>√</p>
+            </entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </refbody>
+</reference>

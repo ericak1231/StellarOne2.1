@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Dashboard</title>
+ <conbody>
+  <p>This chapter provides an overview of the StellarOne web console's dashboard and introduces how
+   to configure the dashboard settings.</p>
+  <p>Topics in this chapter include:</p>
+  <ul id="ul_bmm_21d_n5b">
+   <li>
+    <p><xref href="aboutDashboardScreen=20220814000008.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="widgetsForSp=20220814002454.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="addWidgets=20220814003715.xml"/></p>
+   </li>
+  </ul>
+ </conbody>
+</concept>

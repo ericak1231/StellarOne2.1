@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Logs</title>
+ <conbody>
+  <p>This chapter describes how to access StellarOne-generated logs and the logs related to
+   StellarProtect agents, as well as includes detailed log information for advanced administrator
+   management. Topics in this chapter include:</p>
+  <ul id="ul_fbx_1n4_l5b">
+   <li>
+    <p><xref href="logAgentEvents=20220805152248.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="logServerEvents=20220808103015.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="systemLogs=20220809152235.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="auditLogs=20220809172341.xml"/></p>
+   </li>
+  </ul>
+ </conbody>
+</concept>

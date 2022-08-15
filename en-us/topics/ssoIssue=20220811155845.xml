@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Resolving the SSO Issue</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Open the <wintitle>Users</wintitle> folder under the <wintitle>Active Directory
+                        Users and Computers</wintitle> in IdP server.</cmd>
+            </step>
+            <step>
+                <cmd>Right-click on the user account used for SSO, and then go to <menucascade>
+                        <uicontrol>Properties </uicontrol>
+                        <uicontrol>General</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Check the <wintitle>E-mail</wintitle> field. Make sure the email input here is
+                    consistent with the account email used for accessing StellarOne web
+                    console.</cmd>
+                <info>
+                    <fig id="fig_ls4_qfm_m5b">
+                        <title>Resolving SSO Issue - Email Check</title>
+                        <image href="../images/ssoIssue=20220811164320.png" id="image_pkc_tfm_m5b"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Make sure the system time in IdP and StellarOne servers are synchronized. Below
+                    are suggested procedures for time synchronization setting.</cmd>
+                <info>
+                    <ol id="ol_esq_rgm_m5b">
+                        <li>
+                            <p>Ensure the time in the IdP server synchronizes with the host PC that
+                                runs the StellarOne Virtual Machine (VM).</p>
+                        </li>
+                        <li>
+                            <p>Open the VM settings of StellarOne. Go to <menucascade>
+                                    <uicontrol>Options</uicontrol>
+                                    <uicontrol>VMware Tools</uicontrol>
+                                </menucascade>.</p>
+                        </li>
+                        <li>
+                            <p>Click the checkbox of <uicontrol>Synchronize guest time with
+                                    host</uicontrol>, and then click <uicontrol>OK</uicontrol>.</p>
+                            <fig id="fig_yqy_2hm_m5b">
+                                <title>Virtual Machine Settings - Time Synchronization</title>
+                                <image href="../images/ssoVmSettigs=20220811165451.png"
+                                    id="image_hzv_ghm_m5b"/>
+                            </fig>
+                        </li>
+                    </ol>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Audit Log Filtering </title>
+    <taskbody>
+        <context id="context_vlv_tyc_m5b">
+            <p>This section describes how to filter the <wintitle>Audit Log</wintitle> to find the
+                most relevant log messages.</p>
+        </context>
+        <steps id="steps_ddb_xdd_m5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Logs</uicontrol>
+                        <uicontrol>Audit Log</uicontrol>
+                    </menucascade>. Click the <uicontrol>Severity</uicontrol> next to the search
+                    bar, and then a drop-down menu appears.</cmd>
+            </step>
+            <step>
+                <cmd>There are two types of log filtering based on the drop-down menu. Choose from
+                    either one listed below depending on your needs.</cmd>
+                <info>
+                    <ul id="ul_vgz_34d_m5b">
+                        <li>
+                            <p>Select the <uicontrol>User ID</uicontrol> or <uicontrol>Client
+                                    IP</uicontrol>, and then type the search strings in the search
+                                field for viewing logs related to certain user account or IP
+                                address.</p>
+                        </li>
+                        <li>
+                            <p>Select the <uicontrol>Severity</uicontrol>, a search box with an
+                                arrow pointing downwards appears. Tap on it to see the options
+                                listed below. Select one of them for viewing the log records by
+                                different levels.<ul id="ul_qw2_ym2_m5b">
+                                    <li>
+                                        <p>Warning</p>
+                                    </li>
+                                    <li>
+                                        <p>Notice</p>
+                                    </li>
+                                    <li>
+                                        <p>Information</p>
+                                    </li>
+                                    <li>
+                                        <p>Debug</p>
+                                    </li>
+                                    <li>
+                                        <p>Emergency</p>
+                                    </li>
+                                    <li>
+                                        <p>Alert</p>
+                                    </li>
+                                    <li>
+                                        <p>Critical</p>
+                                    </li>
+                                    <li>
+                                        <p>Error</p>
+                                    </li>
+                                </ul></p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the search icon next to the search bar, and then the screen will display
+                    the search result. </cmd>
+            </step>
+            <step>
+                <cmd>To clear the search criteria, close the filtering criteria appears above the
+                        <uicontrol>Export</uicontrol> button.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

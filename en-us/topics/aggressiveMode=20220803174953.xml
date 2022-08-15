@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Aggressive Mode</title>
+    <taskbody>
+        <context>
+            <p><indexterm>Operations Behavior Anomaly Detection<indexterm>Aggressive
+                        Mode</indexterm></indexterm>Under either <uicontrol>Detect</uicontrol> or
+                    <uicontrol>Enforce</uicontrol> mode, users have one more option,
+                    <uicontrol>Aggressive Mode,</uicontrol> for stronger antivirus protection. This
+                feature helps enhance protection by adding parameter identification in the
+                monitoring task, allowing users to check the operation process and its accompanied
+                changes in parameters under monitoring. <note id="note_zcl_j45_k5b">
+                    <p>The <uicontrol>Aggressive Mode</uicontrol> executes strict and inflexible
+                        blocking rules for ensuring the utmost security. Please take flexibility
+                        requirements into consider before enabling this function.</p>
+                </note></p>
+            <fig id="fig_qpd_jzf_k5b">
+                <title>Operations Behavior Anomaly Detection - Aggressive Mode
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(need to
+                    change the screenshot)<?oxy_custom_end?></title>
+                <image href="../images/obadAggressive=20220805113818.png" id="image_tfh_lzf_k5b"/>
+            </fig>
+        </context>
+        <example id="example_h4d_nlg_k5b">
+            <p>Please see below as an example of the <uicontrol>Aggressive Mode</uicontrol>
+                execution process .<ol id="ol_kzp_nbt_k5b">
+                    <li>
+                        <p>When users selects the <uicontrol>Learn</uicontrol> mode under the
+                                <wintitle>Operation Behavior Anomaly Detection</wintitle>, the
+                            following process is learned: <ul id="ul_wyf_trt_k5b">
+                                <li>
+                                    <p><filepath>explorer.exe</filepath> →
+                                            <filepath>cmd.exe</filepath> →
+                                            <filepath>powershell.exe</filepath>  →
+                                            <filepath>script.ps1</filepath>
+                                        <codeph>argument1</codeph></p>
+                                </li>
+                            </ul></p>
+                    </li>
+                    <li>
+                        <p>When users switch to the <uicontrol>Detect</uicontrol> or
+                                <uicontrol>Enforce</uicontrol> mode, and on condition that the
+                                <uicontrol>Aggressive Mode</uicontrol> is disabled, though the
+                                <codeph>argument1</codeph> is replaced by
+                            <codeph>argument2</codeph>, the following process is allowed: <ul
+                                id="ul_fqh_5rt_k5b">
+                                <li>
+                                    <p><filepath>explorer.exe</filepath> →
+                                            <filepath>cmd.exe</filepath> →
+                                            <filepath>powershell.exe</filepath>  →
+                                            <filepath>script.ps1</filepath>
+                                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><codeph>argument2</codeph><?oxy_custom_end?></p>
+                                    <note id="note_ijf_3tt_k5b">
+                                        <p>The
+                                                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><codeph>argument2</codeph><?oxy_custom_end?>
+                                            is the new data that's passed into the process and
+                                            becomes the process' parameter, which does not count as
+                                            an unrecognized application in the process.</p>
+                                    </note>
+                                </li>
+                            </ul></p>
+                    </li>
+                    <li>
+                        <p>When users select the <uicontrol>Enforce</uicontrol> mode, the following
+                            process is blocked because an unrecognized application
+                                    <codeph><b>malware.exe</b></codeph> is detected: <ul
+                                id="ul_lf3_xrt_k5b">
+                                <li>
+                                    <p><codeph><b>malware.exe</b></codeph> →
+                                            <filepath>cmd.exe</filepath> →
+                                            <filepath>powershell.exe</filepath>  →
+                                            <filepath>script.ps1</filepath>
+                                        <codeph>argument1</codeph></p>
+                                </li>
+                            </ul></p>
+                    </li>
+                    <li>
+                        <p>When the <uicontrol>Aggressive Mode</uicontrol> is enabled, no matter
+                            it's under the <uicontrol>Detect</uicontrol> or
+                                <uicontrol>Enforce</uicontrol> mode, both of the following processes
+                            are blocked:<ul id="ul_qwq_k2t_k5b">
+                                <li>
+                                    <p><codeph><b>malware.exe</b></codeph> →
+                                            <filepath>cmd.exe</filepath> →
+                                            <filepath>powershell.exe</filepath>  →
+                                            <filepath>script.ps1</filepath>
+                                        <codeph>argument1</codeph></p>
+                                </li>
+                                <li>
+                                    <p><filepath>explorer.exe</filepath> →
+                                            <filepath>cmd.exe</filepath> →
+                                            <filepath>powershell.exe</filepath>  →
+                                            <filepath>script.ps1</filepath>
+                                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><codeph>argument2</codeph><?oxy_custom_end?></p>
+                                    <note id="note_cpp_g5t_k5b">
+                                        <p>The
+                                                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><codeph>argument2</codeph><?oxy_custom_end?>
+                                            is detected as an unrecognized parameter that must be
+                                            blocked under <uicontrol>Aggressive
+                                            Mode</uicontrol>.</p>
+                                    </note>
+                                </li>
+                            </ul></p>
+                    </li>
+                    <li>
+                        <p>In conclusion, when <uicontrol>Aggressive Mode</uicontrol> is enabled,
+                            only the exact process (the process learned in Step 1) is allowed:<ul
+                                id="ul_d51_ftt_k5b">
+                                <li>
+                                    <p><filepath>explorer.exe</filepath> →
+                                            <filepath>cmd.exe</filepath> →
+                                            <filepath>powershell.exe</filepath>  →
+                                            <filepath>script.ps1</filepath>
+                                        <codeph>argument1</codeph></p>
+                                </li>
+                            </ul></p>
+                    </li>
+                </ol></p>
+        </example>
+    </taskbody>
+</task>

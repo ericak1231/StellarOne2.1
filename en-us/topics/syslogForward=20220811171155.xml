@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Syslog Forwarding</title>
+    <taskbody>
+        <context>
+            <p>Users can forward the Server and Agent Event logs to an external Syslog server for
+                increasing monitoring and management capabilities. TXOne StellarOne console forwards
+                logs in the Common Event Format (CEF). Make sure your Syslog server supports the
+                Common Event Format (CEF).</p>
+        </context>
+        <steps id="steps_pt3_g3m_m5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Syslog Forwarding</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Forward logs to syslog server (CEF only)</uicontrol>
+                    toggle to switch on the function.</cmd>
+            </step>
+            <step>
+                <cmd>Specify the <uicontrol>Server Address</uicontrol>, <uicontrol>Port</uicontrol>,
+                    and <uicontrol>Protocol</uicontrol> of the Syslog server.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol> to complete the settings.</cmd>
+                <info>Please refer to <xref href="referenceOfSyslogForward=20220811172144.xml"/>,
+                        <xref href="spServerEventOfSyslogForward=20220811172432.xml"/>, or <xref
+                        href="sOneServerEventOfSyslogForward=20220811172528.xml"/> for details on
+                    the logs forwarded in the Common Event Format (CEF).</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

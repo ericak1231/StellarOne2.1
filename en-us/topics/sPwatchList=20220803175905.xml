@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Watchlist</title>
+    <taskbody>
+        <context>
+            <p><indexterm>Operations Behavior Anomaly
+                    Detection<indexterm>Watchlist</indexterm></indexterm>Users can manually add
+                commonly-abused applications used in operations and processes to the
+                    <uicontrol>Watchlist</uicontrol> for strengthening security monitoring. By
+                default, StellarProtect monitors <filepath>Powershell.exe</filepath>,
+                    <filepath>wscript.exe</filepath>, <filepath>cscript.exe</filepath>,
+                    <filepath>mshta.exe</filepath>, <filepath>psexec.exe</filepath> when the
+                    <uicontrol>Operations Behavior Anomaly Detection</uicontrol> is enabled.</p>
+        </context>
+        <steps id="steps_yw2_pqs_k5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>Policy Inheritance</uicontrol>
+                    </menucascade>, scroll down and find the <wintitle>Operations Behavior Anomaly
+                        Detection</wintitle> section, select <uicontrol>Learn</uicontrol>,
+                        <uicontrol>Detect</uicontrol>, or <uicontrol>Enforce</uicontrol> mode.</cmd>
+                <info>
+                    <note id="note_od5_frs_k5b">
+                        <p>The default setting for <wintitle>Operations Behavior Anomaly
+                                Detection</wintitle> is <uicontrol>Disable</uicontrol>. If users
+                            don't enable <wintitle>Operations Behavior Anomaly Detection</wintitle>,
+                            the process monitoring will not be activated.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>In addition to the default applications that will be monitored by
+                    StellarProtect, if users need to add other applications for monitoring, please
+                    click the <uicontrol>Watchlist</uicontrol> link.</cmd>
+                <stepxmp>
+                    <fig id="fig_qpd_jzf_k5b">
+                        <title>Operations Behavior Anomaly Detection - Watchlist
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(need
+                            to change screenshot)<?oxy_custom_end?></title>
+                        <image href="../images/obadWatchlist=20220805093002.png"
+                            id="image_rhk_kks_k5b"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>The <wintitle>Watchlist</wintitle> window appears. Click
+                        <uicontrol>+Add</uicontrol> and then input the application to be
+                    monitored.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add</uicontrol> and the added application appears in the
+                        <wintitle>Monitored Application</wintitle> list.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
+                <info>
+                    <note id="note_qps_nxs_k5b">
+                        <p>Users can delete the added application(s) by clicking the trash-can icon
+                            under the <uicontrol>Actions</uicontrol>.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Users can check the Agent event logs to see if there's any anomalous operation
+                    or process detected. Please refer to <xref
+                        href="logAgentEvents=20220805152248.xml"/>  for more details.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

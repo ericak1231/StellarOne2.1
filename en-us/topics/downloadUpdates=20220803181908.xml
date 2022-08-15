@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Downloads/Updates</title>
+    <taskbody>
+        <context id="context_vbg_y2r_m5b">
+            <p>The <wintitle>Downloads/Updates</wintitle> page allows users to configure scan
+                component settings for StellarOne, to download the Agent Installer Package and
+                import or delete the patch files for StellarProtect, as well as to download the
+                    <filepath>Group.ini</filepath> file for registering StellarProtect agents to a
+                specific group via StellarOne.</p>
+        </context>
+        <steps id="steps_vyt_vgr_m5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Downloads/Updates</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Under the <wintitle>StellarOne</wintitle> tab:</cmd>
+                <info>
+                    <ul id="ul_zlq_ftr_m5b">
+                        <li>
+                            <p>To start the component update for StellarOne immediately, click the
+                                    <uicontrol>Update Now</uicontrol> button under <wintitle>Scan
+                                    Component</wintitle> section.</p>
+                            <note id="note_qhm_r3r_m5b">
+                                <p>
+                                    <ul id="ul_t4m_fjr_m5b">
+                                        <li>
+                                            <p>By clicking the <uicontrol>Update Now</uicontrol>,
+                                                StellarOne will download and update the latest
+                                                components. All of the pattern and engine versions
+                                                available are listed under the <uicontrol>Update
+                                                  Now</uicontrol> button.</p>
+                                        </li>
+                                        <li>Users can refer to the <uicontrol>Last
+                                                Updated:</uicontrol> next to the <uicontrol>Update
+                                                Now</uicontrol> button for the last time the scan
+                                            component was updated.</li>
+                                    </ul>
+                                </p>
+                            </note>
+                        </li>
+                        <li>
+                            <p>To schedule for the component update, click the toggle
+                                    <uicontrol>Schedule Update</uicontrol> under the <wintitle>Scan
+                                    Component Update Schedule</wintitle> to enable the function.</p>
+                            <ul id="ul_mhm_gnr_m5b">
+                                <li>
+                                    <p>Click the radio buttons under <wintitle>Frequency</wintitle>
+                                        to set the frequency by <uicontrol>Daily</uicontrol>,
+                                            <uicontrol>Weekly</uicontrol>, or
+                                            <uicontrol>Monthly</uicontrol>.<note
+                                            id="note_nkj_h4r_m5b" type="important">
+                                            <p>Since not every month contains the date 29th, 30th,
+                                                or 31st, e.g., Feburary only has 28 days (29 days on
+                                                a leap year), it is recommended to select
+                                                  <uicontrol>The last day of the month</uicontrol>
+                                                for monthly update frequency. This helps prevent the
+                                                system from bypassing the update in the month that
+                                                does not contain the date 29th, 30th, or 31st.</p>
+                                        </note></p>
+                                </li>
+                                <li>
+                                    <p>Click the <uicontrol>Start Time</uicontrol> to determine when
+                                        to start the scheduled scan component update.</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>To specify the download source for StellarOne, click either of the
+                                radio buttons under <wintitle>Scan Component Update Source
+                                    (StellarOne)</wintitle>. If users select <uicontrol>ActiveUpdate
+                                    server</uicontrol>, the component update will be downloaded
+                                directly from the ActiveUpdate server. If the StellarOne server can
+                                not connect to the ActiveUpdate server or if users host an update
+                                server in an internal network, please select  <uicontrol>Other
+                                    update source</uicontrol> and specify the address in the text
+                                field.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>To specify the download source for StellarProtect agents, click
+                                either of the radio buttons under <wintitle>Scan Component Update
+                                    Source (Agents)</wintitle>. Users can download the component
+                                update source directly from the StellarOne server, or select
+                                    <uicontrol>Other update source</uicontrol> and specify the
+                                address in the text field.</p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Under the <wintitle>StellarProtect</wintitle> tab:</cmd>
+                <info>
+                    <ul id="ul_cqb_btr_m5b">
+                        <li>
+                            <p>To download the latest Agent Installer Package for StellarProtect.
+                                Click the <uicontrol>Download</uicontrol> button.<note
+                                    id="note_wzp_cwr_m5b">
+                                    <p>If the StellarOne and StellarProtect uses proxy for
+                                        communication, click the <uicontrol>Proxy</uicontrol> link
+                                        or go to <menucascade>
+                                            <uicontrol>Administration</uicontrol>
+                                            <uicontrol>Proxy</uicontrol>
+                                        </menucascade> to complete the proxy configuration before
+                                        downloading the installer package. Please refer to <xref
+                                            href="proxy=20220811232823.xml"/> for detailed
+                                        procedures.</p>
+                                </note></p>
+                        </li>
+                        <li>
+                            <p>To directly register the StellarProtect agent to a specific group via
+                                StellarOne console, click the <uicontrol>download a
+                                    Group.ini</uicontrol> link and add it into the installer
+                                package. Please refer to <xref
+                                    href="groupMapping=20220812111150.xml"/> for detailed
+                                procedures.</p>
+                        </li>
+                        <li>
+                            <p>To import the patch files for StellarProtect, click the
+                                    <uicontrol>Import</uicontrol> button to import a patch
+                                manually.</p>
+                        </li>
+                        <li>
+                            <p>To remove StellarProtect patch file(s), click the checkbox(es) next
+                                to the patch file name(s), and then the
+                                    <uicontrol>Delete</uicontrol> button appears next to the
+                                    <uicontrol>Import</uicontrol> button. Click the
+                                    <uicontrol>Delete</uicontrol> button to remove the selected
+                                entries. </p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

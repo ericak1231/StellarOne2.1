@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Scheduled Scan</title>
+    <taskbody>
+        <context>
+            <p>Users can customize a regular antivirus scan schedule for elevating vulnerability
+                scanning to its potential, as well as providing less burden on technical
+                operators.</p>
+        </context>
+        <steps id="steps_hj1_xv4_n5b">
+            <step>
+                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the target agent or agent group and click the <uicontrol>Policy
+                        Inheritance </uicontrol> link.</cmd>
+            </step>
+            <step>
+                <cmd>Go to the <uicontrol>Scheduled Scan</uicontrol> in the
+                        <wintitle>Industrial-Grade Next-Generation Antivirus</wintitle>
+                    section.</cmd>
+            </step>
+            <step>
+                <cmd>Enable the <uicontrol>Scheduled Scan</uicontrol> function by simply clicking
+                    the toggle to switch it on.</cmd>
+            </step>
+            <step>
+                <cmd>Click the calendar icon. A <wintitle>Schedule</wintitle> window appears.</cmd>
+            </step>
+            <step>
+                <cmd>Select one of the radio buttons listed below for determining the scan
+                    frequency.</cmd>
+                <info>
+                    <p>
+                        <ul id="ul_oxs_k2m_35b">
+                            <li>
+                                <p><uicontrol>Daily</uicontrol>: perform scanning every day</p>
+                            </li>
+                            <li>
+                                <p><uicontrol>Weekly</uicontrol>: perform scanning every week (by
+                                    default it's set as <uicontrol>every Sunday</uicontrol>)</p>
+                            </li>
+                            <li>
+                                <p><uicontrol>Monthly</uicontrol>: perform scanning every month (by
+                                    default it's set as <uicontrol>on day 01</uicontrol>)</p>
+                            </li>
+                        </ul>
+                    </p>
+                    <note id="note_ijz_ylm_35b" type="important">
+                        <p>Since not every month contains the date 29th, 30th, or 31st, e.g.,
+                            Feburary only has 28 days (29 days on a leap year), it is recommended
+                            NOT to select the date 29th, 30th, or 31st for monthly update frequency.
+                            This helps prevent the system from bypassing the update in the month
+                            that does not contain the date 29th, 30th, or 31st.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Specify the scan start time in the <uicontrol>Start Time</uicontrol> field (by
+                    default it's set as <uicontrol>00:00</uicontrol>).</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol> to complete the setting.</cmd>
+                <info>
+                    <note id="note_wr1_hz4_n5b">
+                        <p>You can refer to the <xref href="ScanAdvancedSettings=20220815151900.xml"
+                                >Advanced Settings</xref> for more configurations for the types of
+                            the files to be scanned, the action after possible security risk is
+                            detected, and the scan exclusion list.</p>
+                    </note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

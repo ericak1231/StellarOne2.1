@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">About the Web Console</title>
+ <conbody>
+    <p>TXOne StellarOne is a management console with web GUI for users to access via web browsers.
+      StellarOne is packaged in an Open Virtual Appliance (OVA) or Virtual Hard Disk v2 (VHDX)
+      format. The OVA file supports VMware ESXi and VMware Workstation systems, and the VHDX file
+      supports Windows Hyper-V Manager Windows system.<note id="note_sxg_wsj_25b">
+        <p>Supported browsers:<ul id="ul_mt4_dtj_25b">
+            <li>
+              <p>Google Chrome 87 or later versions</p>
+            </li>
+            <li>
+              <p>Microsoft Edge 79 or later versions</p>
+            </li>
+            <li>
+              <p>Mozilla Firefox 78 or later versions</p>
+            </li>
+          </ul></p>
+      </note></p>
+  <p>For users who log on StellarOne for the first time, please refer to <xref
+    href="openingConsole=20220721162458.xml"/>.</p>
+  <p>For more details about the installation for StellarOne, please refer to the <xref
+        href="https://docs.trendmicro.com/all/ent/txone-sp/v2.0/en-us/txsp_one_2.0_ig.pdf"
+        format="pdf" scope="external">StellarOne Installation Guide</xref>.</p>
+ </conbody>
+</concept>

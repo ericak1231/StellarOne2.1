@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Generate an API Key</title>
+    <taskbody>
+        <context>
+            <p>Users can generate API keys and set the expiration dates for different user accounts
+                to enhance account management efficiency.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Log on to the web console using an account with the <wintitle>Admin</wintitle>
+                    role.</cmd>
+                <info>
+                    <note id="note_nk2_dyj_m5b">
+                        <ul id="ul_gj5_dyj_m5b">
+                            <li>
+                                <p>The logon credentials entered here are case-sensitive.</p>
+                            </li>
+                        </ul>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Account Management</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd> Under the <uicontrol>Users</uicontrol> tab, find the user ID you want to
+                    modify and go to the kebab menu under <uicontrol>Actions</uicontrol> at the
+                    right of the screen.</cmd>
+            </step>
+            <step>
+                <cmd>Click on the kebab menu, and then select the <uicontrol>Generate API
+                        Key</uicontrol> option.</cmd>
+            </step>
+            <step>
+                <cmd>The <uicontrol>Generate API Key</uicontrol> window appears. Click the date
+                    picker and choose an expiration date on the pop-up calendar. Click
+                        <uicontrol>Confirm</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>An API key is generated. Click the clipboard for copying the generated API
+                    key.</cmd>
+                <info>
+                    <p>
+                        <note id="note_v4k_lnn_35b" type="important">
+                            <p>Make sure to back up the copied API key before proceeding to the next
+                                step. The API key will not be displayed again for security
+                                reason.</p>
+                        </note>
+                    </p>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Check the result under <wintitle>API Key Expiry Date</wintitle> for the result
+                    or mouse hover above the kebab menu of the user account, and the expiration date
+                    of the API key will appear.</cmd>
+                <stepresult>
+                    <fig id="fig_cft_w4n_35b">
+                        <title>API Key Expiry Date</title>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

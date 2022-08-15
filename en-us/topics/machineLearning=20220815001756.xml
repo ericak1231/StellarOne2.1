@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Predictive Machine Learning</title>
+ <conbody>
+  <p>The <uicontrol>Predictive Machine Learning</uicontrol> uses intelligent machine learning
+   technology to correlate threat information and perform an in-depth file analysis for emerging
+   unknown security risk detection through digital DNA fingerprinting, API mapping, and other file
+   properties. <uicontrol>Predictive Machine Learning</uicontrol> also performs a behavioral
+   analysis on unknown or low-prevalence processes to determine if an emerging or unknown threat is
+   attempting to infect your network. <uicontrol>Predictive Machine Learning</uicontrol> is a
+   powerful tool that helps protect your assets and network environment against unidentified threats
+   and zero-day attacks.</p>
+  <p>Turn on the <uicontrol>Predictive Machine Learning</uicontrol> function by simply checking it
+   after you enable the <uicontrol>Real-Time Malware Scan</uicontrol>.</p>
+ </conbody>
+</concept>

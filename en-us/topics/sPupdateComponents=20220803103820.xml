@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Update Agent Components</title>
+    <taskbody>
+        <context>
+            <p>Users can update StellarProtect agent components on selected endpoints via StellarOne
+                web console. It is recommended to update agent components regularly to protect the
+                endpoints from the latest security threats.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Select one or more endpoints (agents or groups) by clicking the checkboxes next
+                    to them.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Update</uicontrol> button from the Tool Bar at the top of
+                    the <wintitle>Agents</wintitle> screen.</cmd>
+            </step>
+            <step>
+                <cmd>A pop-up window appears. Click <uicontrol>Update Agent Components</uicontrol>
+                    option.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>The <wintitle>Update Agent Components</wintitle> window appears. Click
+                        <uicontrol>OK</uicontrol> to start the update.</cmd>
+                <info>
+                    <note id="note_ktd_qg2_k5b" type="important">
+                        <p>Do not restart or turn off the endpoints during the update. The update
+                            process may take some time to complete.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>The <wintitle>Command Deployment</wintitle> window appears showing the update
+                    status. Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
+                <stepresult>
+                    <fig id="fig_qxx_2h2_k5b">
+                        <title>Update Agent Components</title>
+                        <image href="../images/sPupdateComponent=20220803105233.png"
+                            id="image_grv_fh2_k5b"/>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

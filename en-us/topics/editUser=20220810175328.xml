@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Edit Accounts</title>
+    <taskbody>
+        <context id="context_vlv_tyc_m5b">
+            <p>This section describes how to edit user accounts that have been created.</p>
+        </context>
+        <steps id="steps_ddb_xdd_m5b">
+            <step>
+                <cmd>Log on to the web console using an account with the
+                    <wintitle>Admin</wintitle>role.</cmd>
+                <info>
+                    <note id="note_nk2_dyj_m5b">
+                        <ul id="ul_gj5_dyj_m5b">
+                            <li>
+                                <p>The logon credentials entered here are case-sensitive.</p>
+                            </li>
+                            <li>
+                                <p>Only the account  with the <wintitle>Admin</wintitle> role can
+                                    manage user accounts.</p>
+                            </li>
+                        </ul>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Account Management</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Under the <wintitle>Actions</wintitle> column, click the pencil icon
+                    corresponding to the user account that you wan to edit.</cmd>
+            </step>
+            <step>
+                <cmd>The <wintitle>Edit User Account</wintitle> window appears.</cmd>
+                <choices id="choices_m2q_k2k_m5b">
+                    <choice>
+                        <p>For a <wintitle>Local</wintitle> user, the account
+                                <wintitle>Role</wintitle>, <wintitle>Name</wintitle>,
+                                <wintitle>Password</wintitle>, <wintitle>Group Control</wintitle>,
+                            and <wintitle>Description</wintitle> can be edited.</p>
+                    </choice>
+                    <choice>
+                        <p>For a <wintitle>SAML Identity Provider</wintitle> user, the account
+                                <wintitle>Role</wintitle>, <wintitle>Name</wintitle>,
+                                <wintitle>Group Control</wintitle>, and
+                                <wintitle>Description</wintitle> can be edited.</p>
+                        <note id="note_vn2_szj_m5b" type="note">
+                            <p>To allow an SAML Identity Provider user to log in using Single
+                                Sign-On (SSO), click the <uicontrol>Single Sign On
+                                    Configuration</uicontrol> link. Please refer to <xref
+                                    href="singleSignOn=20220811092626.xml"/> for procedures.</p>
+                        </note>
+                    </choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol> to complete the user account
+                    editing.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

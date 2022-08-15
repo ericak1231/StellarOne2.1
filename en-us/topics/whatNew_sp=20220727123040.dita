@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_zl2_q3r_c5b">
+    <title>What's New</title>
+    <refbody>
+        <section id="section_t4c_v3r_c5b">
+            <p>TXOne <ph
+                    conref="../conref-vars/Product_Variables_s1forsp=20220726133941.xml#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/PRODUCT_NAME_TRADEMARKED"
+                    >PRODUCT_NAME_TRADEMARKED</ph>
+                <ph
+                    conref="../conref-vars/Product_Variables_s1forsp=20220726133941.xml#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/PRODUCT_VERSION"
+                    >PRODUCT_VERSION</ph> provides following new features and enhancements.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_p4k_djr_c5b">
+                <title>What's New in TXOne StellarOne 2.0</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Feature</p>
+                            </entry>
+                            <entry>
+                                <p>Benefit</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>Application Lockdown</p>
+                            </entry>
+                            <entry>
+                                <p>Users can increase protection level to stop malicious attacks by
+                                    enabling the Application Lockdown. This function requires users
+                                    to create an Application List and provides two modes:</p>
+                                <ul id="ul_pf5_ngg_35b">
+                                    <li>
+                                        <p>Detection:  The applications that are not in the Approved
+                                            List will be allowed to run, and users will receive a
+                                            notification.</p>
+                                    </li>
+                                    <li>
+                                        <p>Prevention: The applications that are not in the Approved
+                                            List will be blocked from running, and users will
+                                            receive a notification.</p>
+                                    </li>
+                                </ul>
+                                <p>The Application Lockdown mode can also be disabled in case users
+                                    may have the needs, but it is recommended to have this function
+                                    enabled.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Agent Component Update Schedule</p>
+                            </entry>
+                            <entry>
+                                <p>In addition to the existing function of component update schedule
+                                    for console side (<ph
+                                        conref="../conref-vars/Product_Variables_s1forsp=20220726133941.xml#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/PRODUCT_SHORT_NAME"
+                                        >PRODUCT_SHORT_NAME</ph>), now users can also configure the
+                                    component update schedule for the agents (StellarProtect). So
+                                    the system can run component update automatically at users'
+                                    assigned time frequency.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                                <p>Agent Policy Enforcement / Detach from Server /
+                                Unsync</p><?oxy_custom_end?>
+                            </entry>
+                            <entry>
+                                <p/>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Real-Time Malware Scan in Maitenance Mode</p>
+                            </entry>
+                            <entry>
+                                <p/>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Generate an API Key for Account Management</p>
+                            </entry>
+                            <entry>
+                                <p>This function enables users to generate an API key and set the
+                                    expiration dates for different user accounts.</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

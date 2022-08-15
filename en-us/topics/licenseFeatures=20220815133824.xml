@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Features of License Editions</title>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p><indexterm>license features</indexterm>StellarICS, StellarKiosk, and StellarOEM license
+        editions provides different features, allowing users in diverse industries to select based
+        on their specific needs.</p>
+      <table frame="all" rowsep="1" colsep="1" id="table_oz4_5hm_k5b">
+        <title>Features of License Editions</title>
+        <tgroup cols="4">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.89*"/>
+          <colspec colname="newCol3" colnum="3" colwidth="1.74*"/>
+          <colspec colname="c3" colnum="4" colwidth="1.67*"/>
+          <thead>
+            <row>
+              <entry>Features</entry>
+              <entry>StellarICS</entry>
+              <entry>
+                <p>StellarKiosk</p>
+              </entry>
+              <entry>StellarOEN</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <p>Next Generation AntiVirus (NGAV)</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>-</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Operation/Application Lockdown</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>-</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Operations Behavior Anomaly Detection​</p>
+                <p>​</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Industrial Application and Certificate Repository</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>-</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>OT/ICS Application Safeguard</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>-</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Intelligent Runtime Learning (Predictive Machine Learning)</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>-</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Trusted USB Device Control</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Legacy Systems Compatibility</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+              <entry>
+                <p>√</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>
