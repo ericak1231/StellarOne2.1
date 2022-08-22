@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-863DEBEC-C3A7-4441-88EE-BA7F4BC0CBBE" xml:lang="en-us" outputclass="legal">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Privacy and Personal Data Collection
+  Disclosure</title>
+ <conbody>
+  <p id="ppdc_intro">Certain features available in TXOne Networks products collect and send feedback
+   regarding product usage and detection information to TXOne Networks. Some of this data is
+   considered personal in certain jurisdictions and under certain regulations. If you do not want
+   TXOne Networks to collect personal data, you must ensure that you disable the related
+   features.</p>
+  <p id="ppdc_kb_intro">The following link outlines the types of data that TXOne Networks collects
+   and provides detailed instructions on how to disable the specific features that feedback the
+   information.</p>
+  <p
+   conref="../../../../Github%20Mirror/ApexOneMac/en-us/SharedResources/Legal/Privacy_and_Personal_Data_Collection_Disclosure_conref=GUID-A693341A-5DCD-4967-9806-1C89F9857354=4=en-us=.xml#GUID-A693341A-5DCD-4967-9806-1C89F9857354/ppdc_kb_link"/>
+  <p>Data collected by TXOne Networks is subject to the conditions stated in the TXOne Networks
+   Privacy Notice:</p>
+  <p><xref href="https://www.txone.com/privacy-policy/" format="html" scope="external"/></p>
+ </conbody>
+</concept>

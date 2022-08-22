@@ -112,11 +112,10 @@
                 <p>Information</p>
               </entry>
               <entry>
-                <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>intelli_av<?oxy_custom_end?></p>
+                <p>intelli_av</p>
               </entry>
               <entry>
-                <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ICS Inventory
-                  List Update Succeeded<?oxy_custom_end?></p>
+                <p>ICS Inventory List Update Succeeded</p>
               </entry>
               <entry>
                 <p>The ICS Inventory List has been updated successfully.</p>
