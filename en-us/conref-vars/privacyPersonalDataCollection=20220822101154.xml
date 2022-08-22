@@ -12,8 +12,8 @@
   <p id="ppdc_kb_intro">The following link outlines the types of data that TXOne Networks collects
    and provides detailed instructions on how to disable the specific features that feedback the
    information.</p>
-  <p
-   conref="../../../../Github%20Mirror/ApexOneMac/en-us/SharedResources/Legal/Privacy_and_Personal_Data_Collection_Disclosure_conref=GUID-A693341A-5DCD-4967-9806-1C89F9857354=4=en-us=.xml#GUID-A693341A-5DCD-4967-9806-1C89F9857354/ppdc_kb_link"/>
+  <p><xref format="html" scope="external"
+    href="https://success.trendmicro.com/data-collection-disclosure"/></p>
   <p>Data collected by TXOne Networks is subject to the conditions stated in the TXOne Networks
    Privacy Notice:</p>
   <p><xref href="https://www.txone.com/privacy-policy/" format="html" scope="external"/></p>
