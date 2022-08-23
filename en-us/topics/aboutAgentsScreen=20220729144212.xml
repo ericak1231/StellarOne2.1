@@ -14,7 +14,16 @@
         StellarOne and enables users to perform configuration tasks, which are one-time commands for
         triggering immediate actions.</p>
       <note id="note_rzk_zd5_35b">
-        <p>All agents are under the All group by default.</p>
+        <p>
+          <ul id="ul_hh3_swt_p5b">
+            <li>
+              <p>All agents are under the All group by default.</p>
+            </li>
+            <li>
+              <p>The screen automatically refreshes every 5 minutes.</p>
+            </li>
+          </ul>
+        </p>
       </note>
     </section>
     <section>
