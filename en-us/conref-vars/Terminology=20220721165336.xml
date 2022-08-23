@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
 <reference id="GUID-65441838-6FAD-40BB-8753-84AC811C8F3A" xml:lang="en-us">
 <title id="GUID-11ABB854-6A2A-4FF7-8DF7-83EFDE9C68B3">Terminology</title>
-<refbody><section id="GUID-01F66FA5-5D29-4FB0-AA84-0CA2AA9A500F"><p>The following table provides the official terminology
-used throughout the <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> documentation:</p></section>
+<refbody><section id="GUID-01F66FA5-5D29-4FB0-AA84-0CA2AA9A500F"><p>The following table provides the official terminology used throughout the TXOne <ph
+                    conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> documentation:</p></section>
 <table colsep="1" frame="all" rowsep="1">
 <tgroup cols="2" colsep="1" outputclass="Properties" rowsep="1">
 <colspec colname="1" colnum="1" colwidth="34*"/>
@@ -16,77 +16,63 @@ used throughout the <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph>
 </thead>
 <tbody>
 <row rowsep="1">
-<entry colname="1"><p>Agent or <ph conkeyref="CLIENTvars/TREND_CLIENT_PROGRAM_SINGLE">trend_client_program_single</ph></p></entry>
-<entry colname="2"><p>The <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph>
-                                <ph conkeyref="CLIENTvars/TREND_CLIENT_PROGRAM_SINGLE">trend_client_program_single</ph> program installed on an
-                                endpoint</p></entry>
+<entry colname="1">
+                            <p>server</p>
+                        </entry>
+<entry colname="2"><p>The <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> console server program</p></entry>
 </row>
 <row rowsep="1">
-<entry colname="1"><p>Endpoint</p></entry>
-<entry colname="2"><p>The computer where the <ph conkeyref="CLIENTvars/TREND_CLIENT_PROGRAM_SINGLE">trend_client_program_single</ph> is installed</p></entry>
+<entry colname="1"><p>server endpoint</p></entry>
+<entry colname="2"><p>The host where the  <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> server is
+                                installed</p></entry>
 </row>
 <row rowsep="1">
-<entry colname="1"><p>Agent user (or user)</p></entry>
-<entry colname="2"><p>The person managing the <ph conkeyref="CLIENTvars/TREND_CLIENT_PROGRAM_SINGLE">trend_client_program_single</ph> on the endpoint</p></entry>
+<entry colname="1"><p>agents</p></entry>
+<entry colname="2"><p>The host running the StellarProtect program</p></entry>
 </row>
 <row rowsep="1">
 <entry colname="1">
-<p>Server</p>
+<p>NAT agents</p>
 </entry>
-<entry colname="2"><p>The <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> server
-program</p></entry>
+<entry colname="2"><p>The agents that are built under the routers with the Network Address Translation (NAT) function
+                                enabled</p></entry>
 </row>
 <row rowsep="1">
-<entry colname="1"><p>Server computer</p></entry>
-<entry colname="2"><p>The computer where the <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> server
-is installed</p></entry>
+<entry colname="1"><p>managed agents</p>
+                            <p> managed endpoints</p></entry>
+<entry colname="2"><p>The hosts running the StellarProtect program that are known to the <ph
+                                    conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> server
+                                program</p></entry>
+</row>
+<row rowsep="1">
+<entry colname="1"><p>target endpoints</p></entry>
+<entry colname="2"><p>The hosts where the <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> managed agents
+                                will be installed</p></entry>
 </row>
 <row rowsep="1">
 <entry colname="1"><p>Administrator (or <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> administrator)</p></entry>
-<entry colname="2"><p>The person managing the <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> server</p></entry>
+<entry colname="2">
+                            <p>The person managing the <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME"
+                                    >productname</ph> server</p>
+                        </entry>
 </row>
 <row rowsep="1">
-<entry colname="1"><p>Console</p></entry>
-<entry colname="2"><p>The user interface for configuring and managing <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> server
-                                and <ph conkeyref="CLIENTvars/TREND_CLIENT_PROGRAM_SINGLE">trend_client_program_single</ph> settings</p><p>The console for the server program is called "web console", while the console for
-                                the <ph conkeyref="CLIENTvars/TREND_CLIENT_PROGRAM_SINGLE">trend_client_program_single</ph> program is called "agent
-                                console".</p></entry>
+<entry colname="1"><p><ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> console</p></entry>
+<entry colname="2"><p>The user interface for configuring and managing <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME"
+                                    >productname</ph> settings and the agents managed by <ph
+                                    conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph></p></entry>
 </row>
 <row rowsep="1">
-<entry colname="1"><p>Security risk</p></entry>
-<entry colname="2"><p>The collective term for virus/malware, spyware/grayware, and
-web threats</p></entry>
+<entry colname="1"><p>CLI</p></entry>
+<entry colname="2"><p>Command Line Interface</p></entry>
 </row>
 <row rowsep="1">
-<entry colname="1"><p>Product service</p></entry>
-<entry colname="2"><p>The <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME">productname</ph> service,
-which is managed from the Microsoft Management Console (MMC)</p></entry>
-</row>
-<row rowsep="1">
-<entry colname="1"><p>Components</p></entry>
-<entry colname="2"><p>Responsible for scanning, detecting, and
-taking actions against security risks</p></entry>
-</row>
-<row rowsep="1">
-<entry colname="1"><p><filepath id="CLIENT_INSTALL_PATH">Agent installation folder</filepath></p></entry>
-<entry colname="2"><p>The folder on the endpoint that contains the <ph conkeyref="CLIENTvars/TREND_CLIENT_PROGRAM_SINGLE">trend_client_program_single</ph> files</p><p><filepath>/Library/Application Support/TrendMicro</filepath></p></entry>
-</row>
-<row rowsep="1">
-<entry colname="1"><p>Dual-stack</p></entry>
-<entry colname="2"><p>An entity that has both IPv4 and IPv6 addresses.
-For example:</p><ul id="GUID-5174D101-A376-4A1E-B56C-FFFB98186C51"><li><p>A dual-stack endpoint is an endpoint with both IPv4 and IPv6 addresses.</p></li>
-<li><p>A dual-stack agent refers to an agent installed on a dual-stack
-endpoint.</p></li>
-<li><p>A dual-stack proxy server, such as DeleGate, can convert between
-IPv4 and IPv6 addresses.</p></li></ul></entry>
-</row>
-<row rowsep="1">
-<entry colname="1"><p>Pure IPv4</p></entry>
-<entry colname="2"><p>An entity that only has an IPv4 address</p></entry>
-</row>
-<row rowsep="0">
-<entry colname="1"><p>Pure IPv6</p></entry>
-<entry colname="2"><p>An entity that only has an IPv6 address</p></entry>
+<entry colname="1"><p>license activation</p></entry>
+<entry colname="2">
+                            <p>Includes the type of <ph conkeyref="PRODvars/PRODUCT_SHORT_NAME"
+                                    >productname</ph> server installation and the allowed period of
+                                usage that you can use the application</p>
+                        </entry>
 </row>
 </tbody>
 </tgroup></table></refbody></reference>
