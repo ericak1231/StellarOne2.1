@@ -26,9 +26,4 @@
     <chapter href="maps/administration=20220728111800.ditamap" format="ditamap"/>
     <chapter href="maps/Technical_Support_TXOne=20220722223813.ditamap" format="ditamap"/>
     <appendices href="maps/appendix=20220822105107.ditamap" format="ditamap"/>
-    <ul id="ul_dh3_v3w_g5b">
-        <li><p><xref href="conref-vars/Documentation=20220721170208.xml"/></p></li>
-        <li><p><xref href="topics/stellarOneAudience=20220722152248.dita"/></p></li>
-        <li><p><xref href="conref-vars/Document_Conventions=20220722155128.xml"/></p></li>
-    </ul>
 </bookmap>

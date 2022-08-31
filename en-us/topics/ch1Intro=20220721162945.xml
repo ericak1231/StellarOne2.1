@@ -3,15 +3,17 @@
 <concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
     <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Introduction</title>
     <conbody>
-        <p>This section introduces TXOne <tm tmtype="tm">StellarOne</tm> and provides an overview of
-            its features.</p>
+        <p>This section introduces TXOne StellarOne and provides an overview of its features.</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>
-                <p><xref href="aboutStellarOne=20220721163021.dita"/></p>
+                <p><xref href="aboutStellarOne=20220721163021.xml"/></p>
             </li>
             <li>
-                <p><xref href="keyFeaturesBenefits=20220721162659.dita"/></p>
+                <p><xref href="keyFeaturesBenefits=20220721162659.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="whatNew_sp=20220727123040.xml"/></p>
             </li>
         </ul>
     </conbody>
