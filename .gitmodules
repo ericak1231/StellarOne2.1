@@ -16,3 +16,6 @@
 [submodule "en-us/SharedResources/DeepDiscoveryFrontMatter"]
 	path = en-us/SharedResources/DeepDiscoveryFrontMatter
 	url = git@adc.github.trendmicro.com:HIE-ELIXIR/DeepDiscoveryFrontMatter.git
+[submodule "en-us/TechnicalSupportChapter"]
+	path = en-us/TechnicalSupportChapter
+	url = git@adc.github.trendmicro.com:HIE-ELIXIR/TechnicalSupportChapter.git

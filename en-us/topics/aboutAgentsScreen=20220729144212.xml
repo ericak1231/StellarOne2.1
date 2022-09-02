@@ -142,8 +142,8 @@
                     </li>
                     <li>
                       <p><image href="../images/licenseExpired=20220902123648.png"
-                          id="image_rtm_qy4_s5b" scalefit="yes"/>: This icon indicates the agent's
-                        license is expired and needs to be renewed.</p>
+                          id="image_rtm_qy4_s5b" scalefit="no" scale="20"/>: This icon indicates the
+                        agent's license is expired and needs to be renewed.</p>
                     </li>
                   </ul>
                 </p>
@@ -212,7 +212,7 @@
             </row>
             <row>
               <entry>
-                <p><wintitle>Policy Interitance</wintitle></p>
+                <p><wintitle>Policy Inheritance</wintitle></p>
               </entry>
               <entry>
                 <p>
@@ -233,12 +233,12 @@
                     <li>
                       <p><image href="../images/greenLight=20220804221500.png"
                           id="image_h5p_5z4_k5b"/>: The green light indicates the policy settings
-                        for the agent/group synchronize with the StellarOne console.</p>
+                        for the agent synchronizes with the StellarOne console.</p>
                     </li>
                     <li>
                       <p><image href="../images/grayLight=20220804221533.png" id="image_l4c_vz4_k5b"
-                        />: The gray light indicates the policy settings for the agent/group does
-                        not synchronize with the StellarOne console.</p>
+                        />: The gray light indicates the policy settings for the agent does not
+                        synchronize with the StellarOne console.</p>
                     </li>
                   </ul>
                 </p>
@@ -333,17 +333,15 @@
                 <p><uicontrol>Table Display Settings</uicontrol></p>
               </entry>
               <entry>
-                <p><fig id="fig_ol3_skp_n5b">
-                    <image href="../images/tableSettings=20220814215037.png" id="image_p4f_qqj_n5b"
-                    />
-                  </fig>: This tool allows users to customize the table display settings by:<ul
+                <p><image href="../images/tableSettings=20220814215037.png" id="image_p4f_qqj_n5b"/>
+                  : This tool allows users to customize the table display settings by:<ul
                     id="ul_wky_bj5_k5b">
                     <li>
                       <p>going to and forth the display pages</p>
                     </li>
                     <li>
-                      <p>selecting how many agents/groups to be displayed per page and specifiying
-                        only certain contents to be displayed in the <wintitle>Cusomize Table
+                      <p>selecting how many agents/groups to be displayed per page and specifying
+                        only certain contents to be displayed in the <wintitle>Customize Table
                           Display</wintitle> setting.</p>
                     </li>
                     <li>

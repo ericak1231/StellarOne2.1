@@ -27,10 +27,10 @@
                             </entry>
                             <entry>
                                 <p>The web console dashboard provides summarized information about
-                                    monitored StellarProtect agents.</p>
-                                <p>Administrators can check deployed StellarProtect agent status
-                                    easily, and can generate security reports related to
-                                    StellarProtect agent activity for specified periods.</p>
+                                    monitored agents.</p>
+                                <p>Administrators can check deployed agent status easily, and can
+                                    generate security reports related to specific agent activity for
+                                    specified periods.</p>
                             </entry>
                         </row>
                         <row>
@@ -38,11 +38,12 @@
                                 <p>Centralized Agent Management</p>
                             </entry>
                             <entry>
-                                <p>TXOne StellarOne for StellarProtect allows administrators to
-                                    perform the following tasks:</p>
+                                <p>TXOne StellarOne allows administrators to perform the following
+                                    tasks:</p>
                                 <ul id="ul_a5s_x1m_g5b">
                                     <li>
-                                        <p>Monitor StellarProtect agent status</p>
+                                        <p>Monitor StellarProtect/StellarProtect (Legacy Mode) agent
+                                            status</p>
                                     </li>
                                     <li>
                                         <p>Examine connection status</p>
@@ -51,7 +52,8 @@
                                         <p>View configurations</p>
                                     </li>
                                     <li>
-                                        <p>Collect agent logs on-demand or by policy</p>
+                                        <p>Collect agent logs on-demand or by policy -
+                                            StellarProtect (Legacy Mode) only</p>
                                     </li>
                                     <li>
                                         <p>Turn agent Application Lockdown on or off</p>
@@ -82,11 +84,12 @@
                                 <p>Centralized Event Management</p>
                             </entry>
                             <entry>
-                                <p>On endpoints protected by StellarProtect agents, administrators
-                                    can monitor status and events, as well as respond when files are
-                                    blocked from running. TXOne StellarOne for StellarProtect
-                                    provides event management features that let administrators
-                                    quickly know about and take action on blocked file events.</p>
+                                <p>On endpoints protected by StellarProtect/StellarProtect (Legacy
+                                    Mode) agents, administrators can monitor status and events, as
+                                    well as respond when files are blocked from running. TXOne
+                                    StellarOne provides event management features that let
+                                    administrators quickly know about and take action on blocked
+                                    file events.</p>
                             </entry>
                         </row>
                         <row>

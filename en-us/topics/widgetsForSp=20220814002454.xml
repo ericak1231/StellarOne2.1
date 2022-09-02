@@ -110,7 +110,7 @@
                           <p>Endpoints</p>
                         </entry>
                         <entry>
-                          <p>Number of endpoints which reported a blocked event for the file</p>
+                          <p>Total number of endpoints which reported the same file event</p>
                         </entry>
                       </row>
                       <row>
@@ -139,7 +139,8 @@
                 <p>Click the <image href="../images/widgetRefreshIcon=20220814010039.png"
                     id="image_u5p_chd_n5b"/> button to start auto refresh. Click the <image
                     href="../images/stopRefreshIcon=20220814010319.png" id="image_avq_lhd_n5b"/>
-                  button to pause auto refresh.</p>
+                  button to pause auto refresh. By default the system runs auto-refresh every 5
+                  minutes.</p>
               </li>
               <li>
                 <p>The <image href="../images/widgetDropDownIcon=20220814011647.png"

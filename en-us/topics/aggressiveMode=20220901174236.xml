@@ -35,9 +35,9 @@
                     </li>
                     <li>
                         <p>When users switch to the <uicontrol>Detect</uicontrol> or
-                                <uicontrol>Enforce</uicontrol> mode, and disable the
+                                <uicontrol>Enforce</uicontrol> mode and disable the
                                 <uicontrol>Aggressive Mode</uicontrol>, StellarProtect will not
-                            block recognized program calls with unidentified parameters, so the
+                            block recognized program calls with unidentified parameters, thus the
                             following process is allowed: <ul id="ul_fqh_5rt_k5b">
                                 <li>
                                     <p><filepath>explorer.exe</filepath> →

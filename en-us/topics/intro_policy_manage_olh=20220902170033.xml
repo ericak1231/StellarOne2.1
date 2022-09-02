@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Policy Management</title>
+ <conbody>
+  <p>Unlike the settings offered on the <wintitle>Agents</wintitle> screen (which are one-time
+   commands for triggering immediate actions), users configure the <wintitle>Policy</wintitle>
+   settings for long-term pattern deployment on the agents.</p>
+  <p>After users organize agents into various groups and build up multi-level hierarchy among the
+   groups (parent groups above child groups), they can configure the <wintitle>Policy</wintitle>
+   settings for the top-level groups and apply the policy settings to each level by:<ul
+    id="ul_jpf_rpw_m5b">
+    <li>
+     <p>Policy <uicontrol>Inherited</uicontrol>: The group policy is inherited from the parent
+      group</p>
+    </li>
+    <li>
+     <p>Policy <uicontrol>Customized</uicontrol>: The group policy is customized for specific
+      agents/groups via StellarOne console</p>
+    </li>
+    <li>
+     <p>Policy <uicontrol>Self-managed</uicontrol>: The group policy is self-managed by local
+      agents/groups. The local agents/groups are free from the StellarOne console's policy
+      management and the operators at local side can configure policy settings on their own.</p>
+    </li>
+   </ul></p>
+  <p>Topics in this chapter include:</p>
+ </conbody>
+</concept>

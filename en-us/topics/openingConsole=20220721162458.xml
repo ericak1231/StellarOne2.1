@@ -74,7 +74,7 @@
                         </stepxmp>
                         <info>
                             <note id="note_uql_xw5_35b">
-                                <p>It si recommended to enable <uicontrol>TXOne OT Intelligent
+                                <p>It is recommended to enable <uicontrol>TXOne OT Intelligent
                                         Trust</uicontrol> to enhance security deployment Please
                                     refer to <xref href="otIntelligentTrust=20220811235612.xml"/>
                                     for more details.</p>
@@ -96,26 +96,18 @@
                     accounts to log on remotely via a web browser.</cmd>
             </step>
             <step>
-                <cmd>Type the address of the StellarOne in the following
-                        format:<filepath>https://&lt;targetserver IP address></filepath>. The log on
-                    screen will appear.</cmd>
-            </step>
-            <step>
-                <cmd>Provide logon credentials, and then click <uicontrol>Log On</uicontrol>.</cmd>
-            </step>
-            <step>
                 <cmd>(Optional) You can change your password by clicking the ID icon at the top righ
                     corner of the screen, and then click <uicontrol>Change
                     Password</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>(Optional) For security reason, you can manually log off by clicking the ID
+                <cmd>(Optional) For security reasons, you can manually log off by clicking the ID
                     icon at the top righ corner of the screen, and then click <uicontrol>Log
                         Off</uicontrol>.</cmd>
                 <info>
                     <note id="note_wdh_b55_35b">
                         <p>Users will be automatically logged off the console if no operations are
-                            executed within 30 minutes.</p>
+                            performed within 30 minutes.</p>
                     </note>
                 </info>
             </step>

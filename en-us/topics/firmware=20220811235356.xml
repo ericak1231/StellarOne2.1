@@ -13,26 +13,19 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>Import</uicontrol> button to import the firmware patch
-                    file (e.g. acus.fw_1.2.0137.acf) to StellarOne.</cmd>
+                    file (e.g. acus.fw_2.0.xxxx.acf) to StellarOne.</cmd>
             </step>
             <step>
                 <cmd>The <wintitle>Firmware Update</wintitle> window appears. The
                         <wintitle>Version</wintitle> shows the current StellarOne build version, the
                         <wintitle>Release Date</wintitle> and <wintitle>Description</wintitle> show
-                    the current information for the StellarOne patch file.</cmd>
+                    the information for the StellarOne patch file.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Apply</uicontrol> to apply the patch to StellarOne.</cmd>
-                <stepxmp otherprops="PRINT">
-                    <fig id="fig_rjn_lns_m5b" otherprops="PRINT">
-                        <title>Firmware update</title>
-                        <image href="../images/firmwareUpdate=20220812133030.png"
-                            id="image_s53_mns_m5b"/>
-                    </fig>
-                </stepxmp>
             </step>
             <step>
-                <cmd>Confirm the notification description.</cmd>
+                <cmd>Read the upgrade notice carefully.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Install Now</uicontrol> to implement the update or
