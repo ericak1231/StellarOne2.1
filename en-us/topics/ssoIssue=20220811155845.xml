@@ -22,7 +22,8 @@
                 <info>
                     <fig id="fig_ls4_qfm_m5b">
                         <title>Resolving SSO Issue - Email Check</title>
-                        <image href="../images/ssoIssue=20220811164320.png" id="image_pkc_tfm_m5b"/>
+                        <image href="../images/ssoIssue=20220811164320.png" id="image_pkc_tfm_m5b"
+                            scalefit="no" scale="50"/>
                     </fig>
                 </info>
             </step>
@@ -44,14 +45,16 @@
                         <li>
                             <p>Click the checkbox of <uicontrol>Synchronize guest time with
                                     host</uicontrol>, and then click <uicontrol>OK</uicontrol>.</p>
-                            <fig id="fig_yqy_2hm_m5b">
-                                <title>Virtual Machine Settings - Time Synchronization</title>
-                                <image href="../images/ssoVmSettigs=20220811165451.png"
-                                    id="image_hzv_ghm_m5b"/>
-                            </fig>
                         </li>
                     </ol>
                 </info>
+                <stepxmp>
+                    <fig id="fig_yqy_2hm_m5b">
+                        <title>Virtual Machine Settings - Time Synchronization</title>
+                        <image href="../images/ssoVmSettigs=20220811165451.png"
+                            id="image_hzv_ghm_m5b" scalefit="no" scale="50"/>
+                    </fig>
+                </stepxmp>
             </step>
         </steps>
     </taskbody>

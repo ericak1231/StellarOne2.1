@@ -17,7 +17,7 @@
       <p>Scroll down and find the <wintitle>Operations Behavior Anomaly Detection</wintitle>
         section.</p>
       <p>Basically, the <wintitle>Operations Behavior Anomaly Detection</wintitle> has four
-          modes:<fig id="fig_in5_tyf_k5b">
+          modes:<fig id="fig_in5_tyf_k5b" otherprops="PRINT">
           <title>Operations Behavior Anomaly Detection
             (<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>need to change
             screenshot)<?oxy_custom_end?></title>
@@ -55,7 +55,7 @@
                 <p>Under either <uicontrol>Detect</uicontrol> or <uicontrol>Enforce</uicontrol>
                   mode, users have one more option, <uicontrol>Aggressive Mode,</uicontrol> for
                   stronger antivirus protection. Please refer to <xref
-                    href="aggressiveMode=20220803174953.xml"/> for more details.</p>
+                    href="aggressiveMode=20220901174236.xml"/> for more details.</p>
               </li>
               <li>
                 <p>Users can manually add commonly-abused applications used in operations and

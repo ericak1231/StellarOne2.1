@@ -35,15 +35,6 @@
                 <cmd>In addition to the default applications that will be monitored by
                     StellarProtect, if users need to add other applications for monitoring, please
                     click the <uicontrol>Watchlist</uicontrol> link.</cmd>
-                <stepxmp>
-                    <fig id="fig_qpd_jzf_k5b">
-                        <title>Operations Behavior Anomaly Detection - Watchlist
-                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(need
-                            to change screenshot)<?oxy_custom_end?></title>
-                        <image href="../images/obadWatchlist=20220805093002.png"
-                            id="image_rhk_kks_k5b"/>
-                    </fig>
-                </stepxmp>
             </step>
             <step>
                 <cmd>The <wintitle>Watchlist</wintitle> window appears. Click

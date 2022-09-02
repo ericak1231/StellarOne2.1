@@ -7,7 +7,7 @@
   <p>This chapter describes how to access StellarOne-generated logs and the logs related to
    StellarProtect agents, as well as includes detailed log information for advanced administrator
    management. Topics in this chapter include:</p>
-  <ul id="ul_fbx_1n4_l5b">
+  <ul id="ul_fbx_1n4_l5b" otherprops="PRINT">
    <li>
     <p><xref href="logAgentEvents=20220805152248.xml"/></p>
    </li>

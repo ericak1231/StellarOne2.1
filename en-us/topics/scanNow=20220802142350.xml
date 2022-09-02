@@ -35,13 +35,13 @@
             </step>
             <step>
                 <cmd>The configuration window appears.</cmd>
-                <info>
-                    <fig id="fig_ck2_ydy_j5b">
+                <stepxmp otherprops="PRINT">
+                    <fig id="fig_ck2_ydy_j5b" otherprops="PRINT">
                         <title>Scan Now Configuration</title>
                         <image href="../images/scanNowOverview=20220802144529.png"
                             id="image_ncd_p2y_j5b"/>
                     </fig>
-                </info>
+                </stepxmp>
             </step>
             <step>
                 <cmd>The configuration window consists of three sections: <wintitle>Files to
@@ -136,13 +136,13 @@
                 <cmd>The <wintitle>Command Deployment</wintitle> window appears showing the
                     deployment status. Click the <uicontrol>Close</uicontrol> button to close the
                     window.</cmd>
-                <info>
-                    <fig id="fig_mfs_4py_j5b">
+                <stepxmp otherprops="PRINT">
+                    <fig id="fig_mfs_4py_j5b" props="PRINT">
                         <title>Scan Now Deployed</title>
                         <image href="../images/scanNowDeployed=20220802160920.png"
                             id="image_wk4_ppy_j5b"/>
                     </fig>
-                </info>
+                </stepxmp>
             </step>
         </steps>
     </taskbody>

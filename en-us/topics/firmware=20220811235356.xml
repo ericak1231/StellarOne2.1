@@ -23,13 +23,13 @@
             </step>
             <step>
                 <cmd>Click <uicontrol>Apply</uicontrol> to apply the patch to StellarOne.</cmd>
-                <info>
-                    <fig id="fig_rjn_lns_m5b">
+                <stepxmp otherprops="PRINT">
+                    <fig id="fig_rjn_lns_m5b" otherprops="PRINT">
                         <title>Firmware update</title>
                         <image href="../images/firmwareUpdate=20220812133030.png"
                             id="image_s53_mns_m5b"/>
                     </fig>
-                </info>
+                </stepxmp>
             </step>
             <step>
                 <cmd>Confirm the notification description.</cmd>
@@ -37,13 +37,13 @@
             <step>
                 <cmd>Click <uicontrol>Install Now</uicontrol> to implement the update or
                         <uicontrol>Abort</uicontrol> to stop the update.</cmd>
-                <info>
-                    <fig id="fig_hbb_nns_m5b">
+                <stepxmp otherprops="PRINT">
+                    <fig id="fig_hbb_nns_m5b" otherprops="PRINT">
                         <title>Firmware Update Notice</title>
                         <image href="../images/firmwareNotify=20220812133048.png"
                             id="image_yzn_pns_m5b"/>
                     </fig>
-                </info>
+                </stepxmp>
             </step>
         </steps>
     </taskbody>

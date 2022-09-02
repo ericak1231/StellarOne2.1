@@ -10,7 +10,7 @@
           <uicontrol>License</uicontrol>
         </menucascade> to add or renew licenses for Stellar products. Below table lists details
         about the <wintitle>License</wintitle> page.</p>
-      <fig id="fig_ntq_jc4_35b">
+      <fig id="fig_ntq_jc4_35b" otherprops="PRINT">
         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
         <title>License Page &lt;image should be updated, remember to blur the AC field></title><?oxy_custom_end?>
         <image href="../images/licensePage=20220728160252.png" id="image_ofb_nf4_35b"/>
@@ -67,7 +67,7 @@
                     <p>Trial: a trial version with excluded features or limited functions.</p>
                   </li>
                   <li>
-                    <p>Perpetual: provides permanent use and 5-year technial support</p>
+                    <p>Perpetual: provides permanent use and 5-year technical support</p>
                   </li>
                 </ul>
               </entry>

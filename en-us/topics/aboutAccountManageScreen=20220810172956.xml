@@ -13,7 +13,7 @@
           <uicontrol>Users</uicontrol> and <uicontrol>Roles</uicontrol> The former one allows users
         to manage accounts, and the latter one provides information about different privileges for
         different accounts.</p>
-      <fig id="fig_hcd_xbf_m5b">
+      <fig id="fig_hcd_xbf_m5b" otherprops="PRINT">
         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
         <title>Account Management Screen (need to change due to adding API)</title><?oxy_custom_end?>
         <image href="../images/accountManagement=20220810170713.png" id="image_p5b_ybf_m5b"/>

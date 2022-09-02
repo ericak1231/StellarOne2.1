@@ -27,7 +27,7 @@
       </note>
     </section>
     <section>
-      <fig id="fig_hll_jcv_35b">
+      <fig id="fig_hll_jcv_35b" otherprops="PRINT">
         <title>The Agents Screen - Toolbar</title>
         <image href="../images/agentsScreenTabBar=20220814193731.png" id="image_jbm_sx4_k5b"/>
       </fig>
@@ -105,7 +105,7 @@
           </tbody>
         </tgroup>
       </table>
-      <fig id="fig_ovs_s4j_n5b">
+      <fig id="fig_ovs_s4j_n5b" otherprops="PRINT">
         <title>The Agents Screen - Table Header</title>
         <image href="../images/agentsScreenHeader=20220814214629.png" id="image_os1_v4j_n5b"/>
       </fig>
@@ -133,21 +133,17 @@
                 <p>
                   <ul id="ul_kdj_ly4_k5b">
                     <li>
-                      <p><fig id="fig_avm_4kp_n5b">
-                          <image href="../images/agentIcon=20220804220153.png"
-                            id="image_sbv_zx4_k5b"/>
-                        </fig>: This icon indicates an agent.</p>
+                      <p><image href="../images/agentIcon=20220804220153.png" id="image_sbv_zx4_k5b"
+                        />: This icon indicates an agent.</p>
                     </li>
                     <li>
-                      <p><fig id="fig_ygt_4kp_n5b">
-                          <image href="../images/groupIcon=20220804220303.png"
-                            id="image_mjj_fy4_k5b"/>
-                        </fig>: This icon indicates a group.</p>
+                      <p><image href="../images/groupIcon=20220804220303.png" id="image_mjj_fy4_k5b"
+                        />: This icon indicates a group.</p>
                     </li>
                     <li>
-                      <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>&lt;new
-                        icon><?oxy_custom_end?>: This icon indicates the agent's license is expired
-                        and needs to be renewed.</p>
+                      <p><image href="../images/licenseExpired=20220902123648.png"
+                          id="image_rtm_qy4_s5b" scalefit="yes"/>: This icon indicates the agent's
+                        license is expired and needs to be renewed.</p>
                     </li>
                   </ul>
                 </p>
@@ -170,29 +166,23 @@
                 <p>
                   <ul id="ul_gbn_r1p_k5b">
                     <li>
-                      <p><fig id="fig_frl_pkp_n5b">
-                          <image href="../images/lockIcon=20220804221106.png" id="image_ftz_2z4_k5b"
-                          />
-                        </fig>: This icon indicates the endpoint's Application Lockdown feature is
+                      <p><image href="../images/lockIcon=20220804221106.png" id="image_ftz_2z4_k5b"
+                        />: This icon indicates the endpoint's Application Lockdown feature is
                         enabled.</p>
                     </li>
                     <li>
-                      <p><fig id="fig_xmp_pkp_n5b">
-                          <image href="../images/shieldIcon=20220804221001.png"
-                            id="image_fgm_bz4_k5b"/>
-                        </fig>: This icon indicates the endpoint is under protection.</p>
+                      <p><image href="../images/shieldIcon=20220804221001.png"
+                          id="image_fgm_bz4_k5b"/>: This icon indicates the endpoint is under
+                        protection.</p>
                     </li>
                     <li>
-                      <p><fig id="fig_kp5_pkp_n5b">
-                          <image href="../images/maintenanceModeIcon=20220804223314.png"
-                            id="image_fsw_ccp_k5b"/>
-                        </fig>This icon indicates the endpoint is on the maintenance mode.</p>
+                      <p><image href="../images/maintenanceModeIcon=20220804223314.png"
+                          id="image_fsw_ccp_k5b"/>: This icon indicates the endpoint is on the
+                        maintenance mode.</p>
                     </li>
                     <li>
-                      <p><fig id="fig_dhy_pkp_n5b">
-                          <image href="../images/riskIcon=20220804223452.png" id="image_sz1_3cp_k5b"
-                          />
-                        </fig>This icon indicates the endpoint has no protection at all and is
+                      <p><image href="../images/riskIcon=20220804223452.png" id="image_sz1_3cp_k5b"
+                        />: This icon indicates the endpoint has no protection at all and is
                         exposured to security threat.</p>
                     </li>
                   </ul>
@@ -241,18 +231,14 @@
                         self-manage its own policy settings.</p>
                     </li>
                     <li>
-                      <p><fig id="fig_asj_qkp_n5b">
-                          <image href="../images/greenLight=20220804221500.png"
-                            id="image_h5p_5z4_k5b"/>
-                        </fig>: The green light indicates the policy settings for the agent/group
-                        synchronize with the StellarOne console.</p>
+                      <p><image href="../images/greenLight=20220804221500.png"
+                          id="image_h5p_5z4_k5b"/>: The green light indicates the policy settings
+                        for the agent/group synchronize with the StellarOne console.</p>
                     </li>
                     <li>
-                      <p><fig id="fig_sf4_qkp_n5b">
-                          <image href="../images/grayLight=20220804221533.png"
-                            id="image_l4c_vz4_k5b"/>
-                        </fig>: The gray light indicates the policy settings for the agent/group
-                        does not synchronize with the StellarOne console.</p>
+                      <p><image href="../images/grayLight=20220804221533.png" id="image_l4c_vz4_k5b"
+                        />: The gray light indicates the policy settings for the agent/group does
+                        not synchronize with the StellarOne console.</p>
                     </li>
                   </ul>
                 </p>
@@ -295,11 +281,9 @@
               <entry>
                 <p>Under this header, users can <ul id="ul_xnl_b2k_n5b">
                     <li>
-                      <p>click <fig id="fig_izr_rkp_n5b">
-                          <image href="../images/policyIcon=20220814234230.png"
-                            id="image_d4s_zdk_n5b"/>
-                        </fig>, the Policy icon for linking to the <wintitle>General Info</wintitle>
-                        policy page. </p>
+                      <p>click <image href="../images/policyIcon=20220814234230.png"
+                          id="image_d4s_zdk_n5b"/>, the Policy icon for linking to the
+                          <wintitle>General Info</wintitle> policy page. </p>
                     </li>
                     <li>
                       <p>click the kebab menu (three dots menu) for organizing agents and
@@ -313,7 +297,7 @@
           </tbody>
         </tgroup>
       </table>
-      <fig id="fig_hy4_v4j_n5b">
+      <fig id="fig_hy4_v4j_n5b" otherprops="PRINT">
         <title>The Agents Screen - Other Tools</title>
         <image href="../images/agentsScreenSearch=20220814214511.png" id="image_c24_w4j_n5b"/>
       </fig>
@@ -338,11 +322,10 @@
                 <p><uicontrol>Filter</uicontrol></p>
               </entry>
               <entry>
-                <p><fig id="fig_hxc_skp_n5b">
-                    <image href="../images/searchBar=20220814215012.png" id="image_e2q_kpj_n5b"/>
-                  </fig>: This tool allows users to quickly find the agents/groups by sorting and
-                  searching. Please refer to <xref href="searchAgentGroups=20220814215659.xml"/> for
-                  more details.</p>
+                <p><image href="../images/searchBar=20220814215012.png" id="image_e2q_kpj_n5b"/>:
+                  This tool allows users to quickly find the agents/groups by sorting and searching.
+                  Please refer to <xref href="searchAgentGroups=20220814215659.xml"/> for more
+                  details.</p>
               </entry>
             </row>
             <row>

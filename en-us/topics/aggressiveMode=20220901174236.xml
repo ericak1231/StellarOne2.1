@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Aggressive Mode</title>
+    <taskbody>
+        <context>
+            <p><indexterm>Operations Behavior Anomaly Detection<indexterm>Aggressive
+                        Mode</indexterm></indexterm>Under either <uicontrol>Detect</uicontrol> or
+                    <uicontrol>Enforce</uicontrol> mode, users have one more option,
+                    <uicontrol>Aggressive Mode,</uicontrol> for stronger antivirus protection. This
+                feature helps enhance protection by adding parameter identification in the
+                monitoring task, allowing users to check the operation process and its accompanied
+                changes in parameters under monitoring. <note id="note_zcl_j45_k5b">
+                    <p>The <uicontrol>Aggressive Mode</uicontrol> executes strict rules for ensuring
+                        the utmost security by allowing only the recognized calls with identified
+                        parameters from monitored operation processes.</p>
+                </note></p>
+        </context>
+        <example id="example_h4d_nlg_k5b">
+            <p>Below is an example of how the <uicontrol>Aggressive Mode</uicontrol> works.<ol
+                    id="ol_kzp_nbt_k5b">
+                    <li>
+                        <p>When users select the <uicontrol>Learn</uicontrol> mode under the
+                                <wintitle>Operation Behavior Anomaly Detection</wintitle>, the
+                            following process is learned: <ul id="ul_wyf_trt_k5b">
+                                <li>
+                                    <p><filepath>explorer.exe</filepath> →
+                                            <filepath>cmd.exe</filepath> →
+                                            <filepath>powershell.exe</filepath> →
+                                            <filepath>script.ps1</filepath>
+                                        <codeph>argument1</codeph></p>
+                                </li>
+                            </ul></p>
+                    </li>
+                    <li>
+                        <p>When users switch to the <uicontrol>Detect</uicontrol> or
+                                <uicontrol>Enforce</uicontrol> mode, and disable the
+                                <uicontrol>Aggressive Mode</uicontrol>, StellarProtect will not
+                            block recognized program calls with unidentified parameters, so the
+                            following process is allowed: <ul id="ul_fqh_5rt_k5b">
+                                <li>
+                                    <p><filepath>explorer.exe</filepath> →
+                                            <filepath>cmd.exe</filepath> →
+                                            <filepath>powershell.exe</filepath> →
+                                            <filepath>script.ps1</filepath>
+                                        <codeph>argument2</codeph></p>
+                                    <note id="note_ijf_3tt_k5b">
+                                        <p>The <codeph>argument2</codeph> is the new data that's
+                                            passed into the process and thus changes the process'
+                                            parameter, which does not count as an unrecognized
+                                            application in the process when <uicontrol>Aggressive
+                                                Mode</uicontrol> is disabled.</p>
+                                    </note>
+                                </li>
+                            </ul></p>
+                    </li>
+                    <li>
+                        <p>When the <uicontrol>Aggressive Mode</uicontrol> is enabled, no matter
+                            it's under the <uicontrol>Detect</uicontrol> or
+                                <uicontrol>Enforce</uicontrol> mode, the following process is not
+                                allowed:<ul id="ul_qwq_k2t_k5b">
+                                <li>
+                                    <p><filepath>explorer.exe</filepath> →
+                                            <filepath>cmd.exe</filepath> →
+                                            <filepath>powershell.exe</filepath> →
+                                            <filepath>script.ps1</filepath>
+                                        <codeph>argument2</codeph></p>
+                                    <note id="note_cpp_g5t_k5b">
+                                        <p>The <codeph>argument2</codeph> is detected as an
+                                            unrecognized parameter that must be blocked when
+                                                <uicontrol>Aggressive Mode</uicontrol> is
+                                            enabled.</p>
+                                    </note>
+                                </li>
+                            </ul></p>
+                    </li>
+                    <li>
+                        <p>In conclusion, when <uicontrol>Aggressive Mode</uicontrol> is enabled,
+                            only the exact process (the process learned in Step 1) is allowed:<ul
+                                id="ul_d51_ftt_k5b">
+                                <li>
+                                    <p><filepath>explorer.exe</filepath> →
+                                            <filepath>cmd.exe</filepath> →
+                                            <filepath>powershell.exe</filepath> →
+                                            <filepath>script.ps1</filepath>
+                                        <codeph>argument1</codeph></p>
+                                </li>
+                            </ul></p>
+                    </li>
+                </ol></p>
+        </example>
+    </taskbody>
+</task>

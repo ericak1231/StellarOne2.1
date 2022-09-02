@@ -115,9 +115,7 @@
                 <info>
                     <note id="note_wdh_b55_35b">
                         <p>Users will be automatically logged off the console if no operations are
-                            executed within
-                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>??<?oxy_custom_end?>
-                            minutes.</p>
+                            executed within 30 minutes.</p>
                     </note>
                 </info>
             </step>

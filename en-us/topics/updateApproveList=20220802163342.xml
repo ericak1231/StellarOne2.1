@@ -39,7 +39,7 @@
                 <cmd>A pop-up <uicontrol>Update Approved List</uicontrol>window appears. Click
                         <uicontrol>OK</uicontrol> to start the Approved List update process.</cmd>
                 <info>
-                    <fig id="fig_rqb_kgz_j5b">
+                    <fig id="fig_rqb_kgz_j5b" otherprops="PRINT">
                         <title>Update Approved List</title>
                         <image href="../images/updateApprovedList=20220802175014.png"
                             id="image_h4w_kgz_j5b"/>
@@ -54,7 +54,7 @@
                 <cmd>The <wintitle>Update Approved List</wintitle> window appears showing the update
                     status. Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
                 <info>
-                    <fig id="fig_mfs_4py_j5b">
+                    <fig id="fig_mfs_4py_j5b" otherprops="PRINT">
                         <title>Update Approved List</title>
                         <image href="../images/spUpdateApprovedList=20220802180355.png"
                             id="image_b2d_q2z_j5b"/>

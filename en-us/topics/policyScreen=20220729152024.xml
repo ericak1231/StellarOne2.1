@@ -16,7 +16,7 @@
           <p>You can also click the the corresponding <uicontrol>Policy Inheritance</uicontrol> link
             of the <uicontrol>All</uicontrol> group to check it's policy settings.</p>
         </note></p>
-      <fig id="fig_asp_jmv_35b">
+      <fig id="fig_asp_jmv_35b" otherprops="PRINT" outputclass="PRINT">
         <title>Switch Options of the Policy Screen</title>
         <image href="../images/policyScreenOptions=20220815140042.png" id="image_lyn_bxw_m5b"/>
       </fig>
@@ -82,7 +82,7 @@
       </table>
     </section>
     <section>
-      <fig id="fig_qnv_zyw_m5b">
+      <fig id="fig_qnv_zyw_m5b" otherprops="PRINT">
         <title>Functions of the Policy Screen</title>
         <image href="../images/policyScreenFunctions=20220815140407.png" id="image_rnv_zyw_m5b"/>
       </fig>

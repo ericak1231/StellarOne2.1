@@ -16,7 +16,8 @@
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Select the <uicontrol>StellarProtect</uicontrol> tab.</cmd>
+                <cmd>Select the <uicontrol>StellarProtect</uicontrol> or <uicontrol>StellarProtect
+                        (Legacy Mode)</uicontrol> tab.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Download</uicontrol> to download the Installer Package.</cmd>
@@ -28,9 +29,8 @@
                 <cmd>The <wintitle>Select a group</wintitle> window appears.</cmd>
             </step>
             <step>
-                <cmd>Select a group for the StellarProtect agent and click
-                        <uicontrol>Download</uicontrol>. Click the <uicontrol>Close</uicontrol>
-                    button to close the window.</cmd>
+                <cmd>Select a group for the agent and click <uicontrol>Download</uicontrol>. Click
+                    the <uicontrol>Close</uicontrol> button to close the window.</cmd>
             </step>
             <step>
                 <cmd>A file named <filepath>Group.ini</filepath> has been downloaded. Place the
@@ -38,8 +38,9 @@
                     installer package</cmd>
             </step>
             <step>
-                <cmd>User can check the StellarOne console and StellarProtect agent console to see
-                    if the agent is successfully registered.</cmd>
+                <cmd>User can check the StellarOne console and StellarProtect or StellarProtect
+                    (Legacy Mode) agent console to see if the agent is successfully
+                    registered.</cmd>
             </step>
         </steps>
     </taskbody>

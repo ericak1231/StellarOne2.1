@@ -38,8 +38,8 @@
                 <cmd>A pop-up <wintitle>Deploy Agent Patches</wintitle>window with the patch list
                     appears. Select the version of the patch for deployment and click the checkbox
                     next to it.</cmd>
-                <stepxmp>
-                    <fig id="fig_pqs_jng_k5b">
+                <stepxmp otherprops="PRINT">
+                    <fig id="fig_pqs_jng_k5b" otherprops="PRINT">
                         <title>Select the Patch Version</title>
                         <image href="../images/spDeployPatchUpdateLink=20220803181645.png"
                             id="image_lt3_lng_k5b"/>
@@ -55,8 +55,8 @@
             <step>
                 <cmd>Click <uicontrol>OK</uicontrol> to start the patch deployment process for the
                     agents. Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
-                <stepresult>
-                    <fig id="fig_rqb_kgz_j5b">
+                <stepresult otherprops="PRINT">
+                    <fig id="fig_rqb_kgz_j5b" otherprops="PRINT">
                         <title>Deploy Agent Patches</title>
                         <image href="../images/deployAgentPatch=20220803181140.png"
                             id="image_h4w_kgz_j5b"/>

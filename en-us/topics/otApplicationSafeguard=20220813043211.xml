@@ -8,10 +8,13 @@
             <p><uicontrol>OT Application Safeguard</uicontrol> is an industrial-based change control
                 protection. This feature ensures the StellarProtect-recognized ICS applications can
                 be updated without being blocked or restricted. In addition, users can enable ICS
-                application protection to secure recognized ICS application executable binary files.
-                Basically, StellarProtect will auto-detect currently-installed OT/ICS applications
-                and put them under protection. The recognized OT/ICS applications will be shown on
-                the <uicontrol>General Info</uicontrol> page.</p>
+                application protection to secure recognized ICS application executable binary
+                    files.<note id="note_ynd_s5b_s5b">
+                    <p>At the beginning, StellarProtect will auto-detect currently-installed OT/ICS
+                        applications and put them under protection. The recognized OT/ICS
+                        applications will be shown on the <uicontrol>General Info</uicontrol>
+                        page.</p>
+                </note></p>
         </context>
         <steps>
             <step>
@@ -33,7 +36,7 @@
                 <info>
                     <note id="note_nz2_5zm_n5b">
                         <p>Be sure to enable the <uicontrol>Maintenance Mode</uicontrol> before
-                            installing tnew OT/ICS applications. After the installation process is
+                            installing new OT/ICS applications. After the installation process is
                             completed, disable the <uicontrol>Maintenance Mode</uicontrol> and then
                             StellarProtect will auto re-scan the newly-added OT/ICS applications. If
                             any new applications are found, they will be added into the OT/ICS
