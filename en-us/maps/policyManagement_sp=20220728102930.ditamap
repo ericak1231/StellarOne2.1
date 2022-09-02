@@ -4,29 +4,28 @@
 <map xml:lang="en-us" id="GUID-1ECA0072-F533-416E-9722-726DBC89C79B" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
 	<title id="GUID-54C9CE99-220D-41F2-9AB3-2ABB55D05ADE">Policy Management</title>
 	<topicref href="../topics/intro_policy_manage_olh=20220902170033.xml">
-		<topicref href="../topics/policyScreen=20220729152024.xml">
-			<topicref href="../topics/applicationLockdown=20220729151400.xml">
-				<topicref href="../topics/lockdownExclusions=20220729170241.xml"/>
-			</topicref>
-			<topicref href="../topics/industrialGradeNextGenAv=20220813050723.xml">
-				<topicref href="../topics/realTimeScan=20220813041755.xml">
-					<topicref href="../topics/machineLearning=20220815001756.xml"/>
-				</topicref>
-				<topicref href="../topics/scheduleScan=20220813041937.xml"/>
-				<topicref href="../topics/ScanAdvancedSettings=20220815151900.xml"/>
-			</topicref>
-			<topicref href="../topics/scanComponentUpdateSchedule=20220727154928.xml"/>
-			<topicref href="../topics/obad=20220803162325.xml">
-				<topicref href="../topics/aggressiveMode=20220901174236.xml"/>
-				<topicref href="../topics/sPwatchList=20220803175905.xml"/>
-			</topicref>
-			<topicref href="../topics/otApplicationSafeguard=20220813043211.xml"/>
-			<topicref href="../topics/dllInjectionProtection=20220813043642.xml"/>
-			<topicref href="../topics/deviceControl=20220813051321.xml"/>
-			<topicref href="../topics/userDefinedSuspicious=20220813044821.xml"/>
-			<topicref href="../topics/agentPassword=20220813045107.xml"/>
-			<topicref href="../topics/patchTask=20220815002505.xml"/>
-			<topicref href="../topics/trustedCertificates=20220813045623.xml"/>
+		<topicref href="../topics/policyScreen=20220729152024.xml"/>
+		<topicref href="../topics/applicationLockdown=20220729151400.xml">
+			<topicref href="../topics/lockdownExclusions=20220729170241.xml"/>
 		</topicref>
+		<topicref href="../topics/industrialGradeNextGenAv=20220813050723.xml">
+			<topicref href="../topics/realTimeScan=20220813041755.xml">
+				<topicref href="../topics/machineLearning=20220815001756.xml"/>
+			</topicref>
+			<topicref href="../topics/scheduleScan=20220813041937.xml"/>
+			<topicref href="../topics/ScanAdvancedSettings=20220815151900.xml"/>
+		</topicref>
+		<topicref href="../topics/scanComponentUpdateSchedule=20220727154928.xml"/>
+		<topicref href="../topics/obad=20220803162325.xml">
+			<topicref href="../topics/aggressiveMode=20220901174236.xml"/>
+			<topicref href="../topics/sPwatchList=20220803175905.xml"/>
+		</topicref>
+		<topicref href="../topics/otApplicationSafeguard=20220813043211.xml"/>
+		<topicref href="../topics/dllInjectionProtection=20220813043642.xml"/>
+		<topicref href="../topics/deviceControl=20220813051321.xml"/>
+		<topicref href="../topics/userDefinedSuspicious=20220813044821.xml"/>
+		<topicref href="../topics/agentPassword=20220813045107.xml"/>
+		<topicref href="../topics/patchTask=20220815002505.xml"/>
+		<topicref href="../topics/trustedCertificates=20220813045623.xml"/>
 	</topicref>
 </map>
