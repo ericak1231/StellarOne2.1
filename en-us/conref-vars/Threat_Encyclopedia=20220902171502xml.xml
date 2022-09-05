@@ -7,9 +7,10 @@
             products that create a custom defense strategy. The Threat Encyclopedia provides a
             comprehensive list of names and symptoms for various blended threats, including known
             malware, spam, malicious URLs, and known vulnerabilities. </p>
-        <p>Go to <xref conkeyref="TSXrefvars/threatEncyclopedia"/> and <xref
-                href="https://www.encyclopedia.txone.com/" format="html" scope="external"/> to learn
-            more about:</p>
+        <p>Go to </p>
+        <p><xref conkeyref="TSXrefvars/threatEncyclopedia"/> and</p>
+        <p><xref href="https://www.encyclopedia.txone.com/" format="html" scope="external"/> to
+            learn more about:</p>
 <ul id="GUID-A3D06474-C279-4054-BAF4-4DA7EEC09FC7"><li><p>Malware and malicious mobile code currently active or "in the wild"</p></li>
 <li><p>Correlated threat information pages to form a complete web
 attack story</p></li>
