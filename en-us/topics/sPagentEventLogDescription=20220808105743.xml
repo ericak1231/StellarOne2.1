@@ -254,14 +254,8 @@
                 <p>Operations Behavior Anomaly Detection Enabled</p>
               </entry>
               <entry>
-                <ul id="ul_akv_nfw_l5b">
-                  <li>
-                    <p>Mode: %Mode% </p>
-                  </li>
-                  <li>
-                    <p>Level: %Level%</p>
-                  </li>
-                </ul>
+                <p>Mode: %Mode% </p>
+                <p>Level: %Level%</p>
               </entry>
             </row>
             <row>
@@ -278,29 +272,13 @@
                 <p>Added Operations Behavior Anomaly Detection Approved Operation</p>
               </entry>
               <entry>
-                <ul id="ul_r2k_pfw_l5b">
-                  <li>
-                    <p>Access User: %USERNAME%</p>
-                  </li>
-                  <li>
-                    <p>ID: %ID%</p>
-                  </li>
-                  <li>
-                    <p>Target Process: %PATH% %ARGUMENT% </p>
-                  </li>
-                  <li>
-                    <p>Parent Process 1: %PATH% %ARGUMENT%</p>
-                  </li>
-                  <li>
-                    <p> Parent Process 2: %PATH% %ARGUMENT% </p>
-                  </li>
-                  <li>
-                    <p>Parent Process 3: %PATH% %ARGUMENT%</p>
-                  </li>
-                  <li>
-                    <p> Parent Process 4: %PATH% %ARGUMENT%</p>
-                  </li>
-                </ul>
+                <p>Access User: %USERNAME%</p>
+                <p>ID: %ID%</p>
+                <p>Target Process: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 1: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 2: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 3: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 4: %PATH% %ARGUMENT%</p>
               </entry>
             </row>
             <row>
@@ -317,26 +295,12 @@
                 <p>Removed Operations Behavior Anomaly Detection Approved Operation</p>
               </entry>
               <entry>
-                <ul id="ul_fpv_zfw_l5b">
-                  <li>
-                    <p>ID: %ID%</p>
-                  </li>
-                  <li>
-                    <p>Target Process: %PATH% %ARGUMENT% </p>
-                  </li>
-                  <li>
-                    <p>Parent Process 1: %PATH% %ARGUMENT%</p>
-                  </li>
-                  <li>
-                    <p> Parent Process 2: %PATH% %ARGUMENT% </p>
-                  </li>
-                  <li>
-                    <p>Parent Process 3: %PATH% %ARGUMENT%</p>
-                  </li>
-                  <li>
-                    <p> Parent Process 4: %PATH% %ARGUMENT%</p>
-                  </li>
-                </ul>
+                <p>ID: %ID%</p>
+                <p>Target Process: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 1: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 2: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 3: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 4: %PATH% %ARGUMENT%</p>
               </entry>
             </row>
             <row>
@@ -387,20 +351,10 @@
                 <p>Trusted USB Device Added</p>
               </entry>
               <entry>
-                <ul id="ul_wjw_q5w_l5b">
-                  <li>
-                    <p>Vendor ID: %HEX%</p>
-                  </li>
-                  <li>
-                    <p>Product ID: %HEX%</p>
-                  </li>
-                  <li>
-                    <p>Serial Number: %STRING%</p>
-                  </li>
-                  <li>
-                    <p>Type: permanent or one time</p>
-                  </li>
-                </ul>
+                <p>Vendor ID: %HEX%</p>
+                <p>Product ID: %HEX%</p>
+                <p>Serial Number: %STRING%</p>
+                <p>Type: permanent or one time</p>
               </entry>
             </row>
             <row>
@@ -417,17 +371,239 @@
                 <p>Trusted USB Device Removed</p>
               </entry>
               <entry>
-                <ul id="ul_wdx_v5w_l5b">
-                  <li>
-                    <p>Vendor ID: %HEX%</p>
-                  </li>
-                  <li>
-                    <p>Product ID: %HEX%</p>
-                  </li>
-                  <li>
-                    <p>Serial Number: %STRING%</p>
-                  </li>
-                </ul>
+                <p>Vendor ID: %HEX%</p>
+                <p>Product ID: %HEX%</p>
+                <p>Serial Number: %STRING%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1792</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Access Image Path: %PATH%</p>
+                <p>Access User: %USERNAME%</p>
+                <p>Mode: %MODE%</p>
+                <p>List: %LIST%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1793</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Added to Approved List in Maintenance Mode</p>
+              </entry>
+              <entry>
+                <p>Path: %PATH%</p>
+                <p>Hash: %SHA256_HEXSTR%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1794</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Approved List updated in Maintenance Mode</p>
+              </entry>
+              <entry>
+                <p>Path: %PATH%</p>
+                <p>Hash: %SHA256_HEXSTR%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1795</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Approved List initialization started</p>
+              </entry>
+              <entry>
+                <p>Approved List initialization started</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1796</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Approved List initialization completed</p>
+              </entry>
+              <entry>
+                <p>Approved List initialization completed</p>
+                <p>Count: %COUNT%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1797</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Application Lockdown enabled</p>
+              </entry>
+              <entry>
+                <p>Application Lockdown enabled</p>
+                <p>Mode: %MODE%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1798</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>DLL/Driver Lockdown enabled</p>
+              </entry>
+              <entry>
+                <p>DLL/Driver Lockdown enabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1799</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Script Lockdown enabled</p>
+              </entry>
+              <entry>
+                <p>Script Lockdown enabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>1800</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Intelligent Runtime Learning enabled</p>
+              </entry>
+              <entry>
+                <p>Intelligent Runtime Learning enabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2048</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>update</p>
+              </entry>
+              <entry>
+                <p>Component update has started.</p>
+              </entry>
+              <entry>
+                <p>Component update has started</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2049</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>update</p>
+              </entry>
+              <entry>
+                <p>Component update has ended.</p>
+              </entry>
+              <entry>
+                <p>Component update has ended.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2050</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>update</p>
+              </entry>
+              <entry>
+                <p>Scheduled component update has been enabled. Next update will be on
+                  %NEXT_UPDATE_LOCAL_TIME_STR% (agent's local system time).</p>
+              </entry>
+              <entry>
+                <p>Scheduled component update has been enabled.Next update will be on
+                  %NEXT_UPDATE_LOCAL_TIME_STR% (agent's local system time).</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>2051</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>update</p>
+              </entry>
+              <entry>
+                <p>Scheduled component update has been disabled.</p>
+              </entry>
+              <entry>
+                <p>Scheduled component update has been disabled.</p>
               </entry>
             </row>
             <row>
@@ -466,6 +642,45 @@
             </row>
             <row>
               <entry>
+                <p>4354</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>system</p>
+              </entry>
+              <entry>
+                <p>Unable to update file: %dst_path%</p>
+              </entry>
+              <entry>
+                <p>Unable to update file.</p>
+                <p>Source Path: %src_path%</p>
+                <p>Destination Path: %dst_path%</p>
+                <p>Error Code: %err_code%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4355</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>system</p>
+              </entry>
+              <entry>
+                <p>Unable to apply patch. File Name: %file_name%</p>
+              </entry>
+              <entry>
+                <p>Unable to apply patch.</p>
+                <p>File Name: %file_name%</p>
+                <p>Error Code: %err_code%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
                 <p>4609</p>
               </entry>
               <entry>
@@ -479,26 +694,13 @@
               </entry>
               <entry>
                 <p>Incoming files were scanned by antivirus. Actions were taken according to
-                    settings.<ul id="ul_ucx_jvw_l5b">
-                    <li>
-                      <p>File Path: %PATH%</p>
-                    </li>
-                    <li>
-                      <p>File Hash: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Threat Type: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Threat Name: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Action Result: %INTEGER% </p>
-                    </li>
-                    <li>
-                      <p>Quarantine Path: %PATH%</p>
-                    </li>
-                  </ul></p>
+                  settings.</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
+                <p>Action Result: %INTEGER% </p>
+                <p>Quarantine Path: %PATH%</p>
               </entry>
             </row>
             <row>
@@ -516,26 +718,37 @@
               </entry>
               <entry>
                 <p>Incoming files were scanned by next-generation antivirus. Actions were taken
-                  according to settings.<ul id="ul_qgv_pvw_l5b">
-                    <li>
-                      <p>File Path: %PATH%</p>
-                    </li>
-                    <li>
-                      <p>File Hash: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Threat Type: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Threat Name: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Action Result: %INTEGER% </p>
-                    </li>
-                    <li>
-                      <p>Quarantine Path: %PATH%</p>
-                    </li>
-                  </ul></p>
+                  according to settings.</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
+                <p>Action Result: %INTEGER% </p>
+                <p>Quarantine Path: %PATH%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>4611</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>intelli_av</p>
+              </entry>
+              <entry>
+                <p>Local Files Scanned, Action Taken by Antivirus: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Local files were scanned by antivirus. Actions were taken according to
+                  settings.</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
+                <p>Action Result: %INTEGER%</p>
+                <p>Quarantine Path: %PATH%</p>
               </entry>
             </row>
             <row>
@@ -553,26 +766,13 @@
               </entry>
               <entry>
                 <p>Local files were scanned by next-generation antivirus. Actions were taken
-                  according to settings.<ul id="ul_i4p_vvw_l5b">
-                    <li>
-                      <p>File Path: %PATH%</p>
-                    </li>
-                    <li>
-                      <p>File Hash: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Threat Type: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Threat Name: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Action Result: %INTEGER% </p>
-                    </li>
-                    <li>
-                      <p>Quarantine Path: %PATH%</p>
-                    </li>
-                  </ul></p>
+                  according to settings.</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
+                <p>Action Result: %INTEGER% </p>
+                <p>Quarantine Path: %PATH%</p>
               </entry>
             </row>
             <row>
@@ -589,14 +789,9 @@
                 <p>Suspicious Program Execution Blocked: %PATH%</p>
               </entry>
               <entry>
-                <p>Suspicious program execution was blocked.<ul id="ul_qzv_yvw_l5b">
-                    <li>
-                      <p>File Path: %PATH%</p>
-                    </li>
-                    <li>
-                      <p>File Hash: %STRING%</p>
-                    </li>
-                  </ul></p>
+                <p>Suspicious program execution was blocked.</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
               </entry>
             </row>
             <row>
@@ -613,20 +808,11 @@
                 <p>Suspicious Program Currently Running: %PATH%</p>
               </entry>
               <entry>
-                <p>Suspicious program is currently running.<ul id="ul_msh_cww_l5b">
-                    <li>
-                      <p>Process ID: %PID%</p>
-                    </li>
-                    <li>
-                      <p>File Path: %PATH%</p>
-                    </li>
-                    <li>
-                      <p>File Hash: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>File Credibility: %STRING%</p>
-                    </li>
-                  </ul></p>
+                <p>Suspicious program is currently running.</p>
+                <p>Process ID: %PID%</p>
+                <p>File Path: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>File Credibility: %STRING%</p>
               </entry>
             </row>
             <row>
@@ -643,20 +829,11 @@
                 <p>Application Execution Blocked By Antivirus: %PATH%</p>
               </entry>
               <entry>
-                <p>Application execution was blocked by antivirus.<ul id="ul_qgp_hww_l5b">
-                    <li>
-                      <p>Target Process: %PATH%</p>
-                    </li>
-                    <li>
-                      <p>File Hash: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Threat Type: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Threat Name: %STRING%</p>
-                    </li>
-                  </ul></p>
+                <p>Application execution was blocked by antivirus.</p>
+                <p>Target Process: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
               </entry>
             </row>
             <row>
@@ -673,21 +850,11 @@
                 <p>Application Execution Blocked By Next-Generation Antivirus: %PATH%</p>
               </entry>
               <entry>
-                <p>Application execution was blocked by next-generation antivirus.<ul
-                    id="ul_dl2_qww_l5b">
-                    <li>
-                      <p>Target Process: %PATH%</p>
-                    </li>
-                    <li>
-                      <p>File Hash: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Threat Type: %STRING%</p>
-                    </li>
-                    <li>
-                      <p>Threat Name: %STRING%</p>
-                    </li>
-                  </ul></p>
+                <p>Application execution was blocked by next-generation antivirus.</p>
+                <p>Target Process: %PATH%</p>
+                <p>File Hash: %STRING%</p>
+                <p>Threat Type: %STRING%</p>
+                <p>Threat Name: %STRING%</p>
               </entry>
             </row>
             <row>
@@ -721,26 +888,12 @@
                 <p>Process Allowed by Operations Behavior Anomaly Detection: %PATH% %ARGUMENT%</p>
               </entry>
               <entry>
-                <ul id="ul_grw_3xw_l5b">
-                  <li>
-                    <p>Access User: %USERNAME%</p>
-                  </li>
-                  <li>
-                    <p>Parent Process 1: %PATH% %ARGUMENT%</p>
-                  </li>
-                  <li>
-                    <p> Parent Process 2: %PATH% %ARGUMENT% </p>
-                  </li>
-                  <li>
-                    <p>Parent Process 3: %PATH% %ARGUMENT%</p>
-                  </li>
-                  <li>
-                    <p> Parent Process 4: %PATH% %ARGUMENT%</p>
-                  </li>
-                  <li>
-                    <p>Mode: %Mode%</p>
-                  </li>
-                </ul>
+                <p>Access User: %USERNAME%</p>
+                <p>Parent Process 1: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 2: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 3: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 4: %PATH% %ARGUMENT%</p>
+                <p>Mode: %Mode%</p>
               </entry>
             </row>
             <row>
@@ -757,26 +910,12 @@
                 <p>Process Blocked by Operations Behavior Anomaly Detection: %PATH% %ARGUMENT%</p>
               </entry>
               <entry>
-                <ul id="ul_p2z_nxw_l5b">
-                  <li>
-                    <p>Access User: %USERNAME%</p>
-                  </li>
-                  <li>
-                    <p>Parent Process 1: %PATH% %ARGUMENT%</p>
-                  </li>
-                  <li>
-                    <p> Parent Process 2: %PATH% %ARGUMENT% </p>
-                  </li>
-                  <li>
-                    <p>Parent Process 3: %PATH% %ARGUMENT%</p>
-                  </li>
-                  <li>
-                    <p> Parent Process 4: %PATH% %ARGUMENT%</p>
-                  </li>
-                  <li>
-                    <p>Mode: %Mode%</p>
-                  </li>
-                </ul>
+                <p>Access User: %USERNAME%</p>
+                <p>Parent Process 1: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 2: %PATH% %ARGUMENT% </p>
+                <p>Parent Process 3: %PATH% %ARGUMENT%</p>
+                <p> Parent Process 4: %PATH% %ARGUMENT%</p>
+                <p>Mode: %Mode%</p>
               </entry>
             </row>
             <row>
@@ -810,15 +949,9 @@
                 <p>ICS File Change Blocked by SafeGuard: %PATH%</p>
               </entry>
               <entry>
-                <p>ICS files changed to executable files were blocked by SafeGuard. <ul
-                    id="ul_eqs_vxw_l5b">
-                    <li>
-                      <p>Blocked Process: %PATH%</p>
-                    </li>
-                    <li>
-                      <p> Target File: %PATH%</p>
-                    </li>
-                  </ul></p>
+                <p>ICS files changed to executable files were blocked by SafeGuard. </p>
+                <p>Blocked Process: %PATH%</p>
+                <p>Target File: %PATH%</p>
               </entry>
             </row>
             <row>
@@ -835,14 +968,9 @@
                 <p>ICS Process Manipulation Blocked by SafeGuard: %PATH%</p>
               </entry>
               <entry>
-                <p>ICS Process Manipulation was blocked by SafeGuard. <ul id="ul_ady_yxw_l5b">
-                    <li>
-                      <p>Blocked Process: %PATH%</p>
-                    </li>
-                    <li>
-                      <p> Target Process: %PATH%</p>
-                    </li>
-                  </ul></p>
+                <p>ICS Process Manipulation was blocked by SafeGuard.</p>
+                <p>Blocked Process: %PATH%</p>
+                <p> Target Process: %PATH%</p>
               </entry>
             </row>
             <row>
@@ -876,23 +1004,155 @@
                 <p>USB Access Blocked: %PATH%</p>
               </entry>
               <entry>
-                <ul id="ul_dy5_jyw_l5b">
-                  <li>
-                    <p>Access Image Path: %PATH%</p>
-                  </li>
-                  <li>
-                    <p>Access User: %USERNAME%</p>
-                  </li>
-                  <li>
-                    <p>Vendor ID: %HEX%</p>
-                  </li>
-                  <li>
-                    <p>Product ID: %HEX%</p>
-                  </li>
-                  <li>
-                    <p>Serial Number: %STRING%</p>
-                  </li>
-                </ul>
+                <p>Access Image Path: %PATH%</p>
+                <p>Access User: %USERNAME%</p>
+                <p>Vendor ID: %HEX%</p>
+                <p>Product ID: %HEX%</p>
+                <p>Serial Number: %STRING%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5888</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>File access allowed: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Access Image Path: %PATH%</p>
+                <p>Access User: %USERNAME%</p>
+                <p>Mode: %MODE%</p>
+                <p>Reason: %ALLOWED_REASON%</p>
+                <p>File hash allowed: %SHA256_HEXSTR%%THROTTLING_INFO_MSG%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5889</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>File access blocked: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Access Image Path: %PATH%</p>
+                <p>Access User: %USERNAME%</p>
+                <p>Mode: %MODE%</p>
+                <p>Reason: %BLOCKED_REASON%</p>
+                <p>File hash blocked: %SHA256_HEXSTR%%THROTTLING_INFO_MSG%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5890</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Unable to add to or update Approved List: %PATH%</p>
+              </entry>
+              <entry>
+                <p>Unable to add to or update Approved List: %PATH%</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5891</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Application Lockdown disabled</p>
+              </entry>
+              <entry>
+                <p>Application Lockdown disabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5892</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>DLL/Driver Lockdown disabled</p>
+              </entry>
+              <entry>
+                <p>DLL/Driver Lockdown disabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5893</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Script Lockdown disabled</p>
+              </entry>
+              <entry>
+                <p>Script Lockdown disabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5894</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Intelligent Runtime Learning disabled</p>
+              </entry>
+              <entry>
+                <p>Intelligent Runtime Learning disabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>5895</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>lockdown</p>
+              </entry>
+              <entry>
+                <p>Approved List initialization canceled</p>
+              </entry>
+              <entry>
+                <p>Approved List initialization canceled</p>
               </entry>
             </row>
             <row>

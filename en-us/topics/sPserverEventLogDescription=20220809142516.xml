@@ -51,7 +51,7 @@
                   <p>33041</p>
                 </entry>
                 <entry>
-                  <p>Modify in common use (DLL Injection Prevention, USB Device Control, ICS
+                  <p>Modify in common use (DLL Injection Prevention, USB Vector Control, ICS
                     Application Safeguard, OBAD) setting for [%s] group policy with version: %s</p>
                 </entry>
               </row>
@@ -76,7 +76,7 @@
                   <p>33044</p>
                 </entry>
                 <entry>
-                  <p>Maintain USB Device Control list for [%s] group policywith version: %s</p>
+                  <p>Maintain USB Vector Control list for [%s] group policy with version: %s</p>
                 </entry>
               </row>
               <row>
@@ -132,6 +132,32 @@
               </row>
               <row>
                 <entry>
+                  <p>33057</p>
+                </entry>
+                <entry>
+                  <p>Maintain an authorized process for [%s] group policy with version: %s</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>33058</p>
+                </entry>
+                <entry>
+                  <p>Modify scheduled pattern update</p>
+                  <p>Modify schedule update setting<b>s</b> for [%s] group policy with version:
+                    %s</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>33059</p>
+                </entry>
+                <entry>
+                  <p>Modify lockdown config for [%s] group policy with version: %s</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
                   <p>33105</p>
                 </entry>
                 <entry>
@@ -143,9 +169,7 @@
                   <p>33106</p>
                 </entry>
                 <entry>
-                  <p>Send protection command &lt;Configure
-                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Change
-                    Window<?oxy_custom_end?>> to agents</p>
+                  <p>Send protection command &lt;Configure Change Window> to agents</p>
                 </entry>
               </row>
               <row>
@@ -174,10 +198,26 @@
               </row>
               <row>
                 <entry>
+                  <p>33110</p>
+                </entry>
+                <entry>
+                  <p>Send protection command &lt;Initialize Lockdown Approved List> to agents</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
                   <p>33121</p>
                 </entry>
                 <entry>
-                  <p>Send event action to agent (%s)</p>
+                  <p>Apply event action to agent (%AGENT_NAME%)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>33122</p>
+                </entry>
+                <entry>
+                  <p>Apply event action &lt;%ACTION_TYPE%> to agent(s)</p>
                 </entry>
               </row>
               <row>

@@ -47,13 +47,6 @@
             <step>
                 <cmd>The <wintitle>Command Deployment</wintitle> window appears showing the update
                     status. Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
-                <stepresult otherprops="PRINT">
-                    <fig id="fig_qxx_2h2_k5b" otherprops="PRINT">
-                        <title>Update Agent Components</title>
-                        <image href="../images/sPupdateComponent=20220803105233.png"
-                            id="image_grv_fh2_k5b"/>
-                    </fig>
-                </stepresult>
             </step>
         </steps>
     </taskbody>

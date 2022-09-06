@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Industrial-Grade Next-Generation
+  Antivirus</title>
+ <conbody>
+  <p>The Industrial-Grade Next-Generation Antivirus provides ICS root of trust and advanced threat
+   scan to secure the endpoints without interrupting the endpoints's operations. Related settings
+   include:</p>
+ </conbody>
+</concept>
