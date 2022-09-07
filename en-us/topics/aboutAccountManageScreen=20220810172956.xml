@@ -8,27 +8,24 @@
       <p>Go to <menucascade>
           <uicontrol>Administration</uicontrol>
           <uicontrol>Account Management</uicontrol>
-        </menucascade> to manage user accounts for accessing the StellarOne web console. The
-          <wintitle>Account Management</wintitle> screen provides two tabs:
-          <uicontrol>Users</uicontrol> and <uicontrol>Roles</uicontrol> The former one allows users
-        to manage accounts, and the latter one provides information about different privileges for
+        </menucascade> to manage user accounts for accessing the StellarOne web console.</p>
+      <p>The <wintitle>Account Management</wintitle> screen have two tabs:
+          <uicontrol>Users</uicontrol> and <uicontrol>Roles</uicontrol>. The former one allows users
+        to manage accounts; the latter one provides information about different privileges for
         different accounts.</p>
       <fig id="fig_hcd_xbf_m5b" otherprops="PRINT">
         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
         <title>Account Management Screen (need to change due to adding API)</title><?oxy_custom_end?>
-        <image href="../images/accountManagement=20220810170713.png" id="image_p5b_ybf_m5b"/>
+        <image href="../images/accountManagement=20220810170713.png" id="image_p5b_ybf_m5b"
+          otherprops="PRINT"/>
       </fig>
       <table frame="all" id="table_snz_xgf_m5b">
         <title>About Account Management Screen - Users</title>
-        <tgroup cols="3">
-          <colspec colname="newCol1" colnum="1" colwidth="1*"/>
-          <colspec colname="c1" colnum="2" colwidth="4.56*"/>
-          <colspec colname="c2" colnum="3" colwidth="11.52*"/>
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="3*"/>
+          <colspec colname="c2" colnum="2" colwidth="11.52*"/>
           <thead>
             <row>
-              <entry>
-                <p>No.</p>
-              </entry>
               <entry>
                 <p>Item</p>
               </entry>
@@ -39,9 +36,6 @@
           </thead>
           <tbody>
             <row>
-              <entry>
-                <p>1</p>
-              </entry>
               <entry><uicontrol>+Add User</uicontrol></entry>
               <entry>
                 <p>This button allows users to add account(s) for accessing StellarOne web console.
@@ -49,19 +43,13 @@
               </entry>
             </row>
             <row>
-              <entry>
-                <p>2</p>
-              </entry>
               <entry><uicontrol>Delete</uicontrol></entry>
               <entry>
-                <p>This button allows users to delete account(s) that are redundant. Please refer to
-                    <xref href="deleteUser=20220810175416.xml"/> for procedures.</p>
+                <p>This button allows users to delete account(s). Please refer to <xref
+                    href="deleteUser=20220810175416.xml"/> for procedures.</p>
               </entry>
             </row>
             <row>
-              <entry>
-                <p>3</p>
-              </entry>
               <entry><uicontrol>Actions</uicontrol></entry>
               <entry>
                 <p>This button allows users to edit or delete account(s). Please refer to <xref
@@ -70,10 +58,9 @@
             </row>
             <row>
               <entry>
-                <p>4</p>
-              </entry>
-              <entry>
-                <p>Screen display setting</p>
+                <p><b>Screen display setting</b><image
+                    href="../images/screen_display_settings=20220907103300.png"
+                    id="image_j4z_yry_t5b" scalefit="no" scale="50"/></p>
               </entry>
               <entry>
                 <p>By clicking this button, users can customize the screen display by:<ul
@@ -90,19 +77,18 @@
             </row>
             <row>
               <entry>
-                <p>5</p>
+                <p><b>Log off</b><image href="../images/account_name_icon=20220907103537.png"
+                    id="image_utf_gsy_t5b" scalefit="no" scale="50"/></p>
               </entry>
               <entry>
-                <p>Log off</p>
-              </entry>
-              <entry>
-                <p/>
+                <p>Click the account icon at the top-right corner of the screen to change your
+                  password or log off.</p>
               </entry>
             </row>
           </tbody>
         </tgroup>
       </table>
-      <p>For more information about the <uicontrol>Roles</uicontrol> page, please go to <xref
+      <p>For more information about the <uicontrol>Roles</uicontrol> tab, please visit <xref
           href="accountManagement=20220728112101.xml"/>.</p>
     </section>
   </refbody>

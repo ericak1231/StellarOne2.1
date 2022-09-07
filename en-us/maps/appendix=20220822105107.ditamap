@@ -4,12 +4,12 @@
 <map xml:lang="en-us" id="GUID-1ECA0072-F533-416E-9722-726DBC89C79B" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
 	<title id="GUID-54C9CE99-220D-41F2-9AB3-2ABB55D05ADE">Appendices</title>
     <topicref href="../topics/appendices_olh=20220902183610.xml">
-        <topicref href="../topics/logDescriptions=20220815170737.xml">
+        <topicref href="../topics/logDescriptions_olh=20220907095945.xml">
             <topicref href="../topics/sPagentEventLogDescription=20220808105743.xml"/>
             <topicref href="../topics/sPserverEventLogDescription=20220809142516.xml"/>
             <topicref href="../topics/sOneserverEventLogDescription=20220809150242.xml"/>
         </topicref>
-        <topicref href="../topics/syslogContentCeF=20220811175913.xml">
+        <topicref href="../topics/syslogContentCeF_olh=20220907100042.xml">
             <topicref href="../topics/referenceOfSyslogForward=20220811172144.xml"/>
             <topicref href="../topics/spServerEventOfSyslogForward=20220811172432.xml"/>
             <topicref href="../topics/sOneServerEventOfSyslogForward=20220811172528.xml"/>

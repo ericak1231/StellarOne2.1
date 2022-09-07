@@ -13,432 +13,432 @@
     <table frame="all" rowsep="1" colsep="1" id="table_qhb_bvm_35b">
       <title>StellarOne Account Types</title>
       <tgroup cols="4">
-        <colspec colname="c1" colnum="1" colwidth="1*"/>
+        <colspec colname="c1" colnum="1" colwidth="1*" align="left"/>
         <colspec colname="c2" colnum="2" colwidth="1.1*"/>
         <colspec colname="c3" colnum="3" colwidth="1.14*"/>
         <colspec colname="newCol4" colnum="4" colwidth="1.15*"/>
         <thead>
-          <row>
+          <row valign="middle">
             <entry morerows="1">
               <p><indexterm>server accounts<indexterm>task</indexterm></indexterm>Task</p>
             </entry>
-            <entry nameend="newCol4" namest="c2">
+            <entry nameend="newCol4" namest="c2" align="center" valign="middle">
               <p><indexterm>server accounts<indexterm>account privilege
                   allowed</indexterm></indexterm>Account Privilege Allowed</p>
             </entry>
           </row>
           <row>
-            <entry>
+            <entry align="center" valign="middle">
               <p>Admin</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>Operator</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>Viewer</p>
             </entry>
           </row>
         </thead>
         <tbody>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Dashboard</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Configure Application Lockdown</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Configure Maintenance Mode</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Configure Device Control</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Add trusted files</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Add trusted USB devices</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Scan now</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Update Approved List</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Update agent components</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Deploy agent patch</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Check connection </p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Collect event logs </p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Import / Export (Approved List / agent configuration)</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Organize (edit description / move / delete)</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Configure group policy</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Configure global policy</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Monitor agent event logs</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Monitor server event logs</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Monitor system logs</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Monitor audit logs</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Account management</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
-            <entry/>
+            <entry align="center" valign="middle"/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Single Sign-On</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
-            <entry/>
+            <entry align="center" valign="middle"/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>System time settings</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Syslog forwarding</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Log purge</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Schedule report</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Notification settings</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>SMTP settings</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Proxy settings</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Downloads / Updates</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>Firmware update</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
-            <entry/>
+            <entry align="center" valign="middle"/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>SSL Certificate</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
-            <entry/>
+            <entry align="center" valign="middle"/>
+            <entry align="center" valign="middle"/>
           </row>
-          <row>
+          <row valign="middle">
             <entry>
               <p>License management</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry>
+            <entry align="center" valign="middle">
               <p>√</p>
             </entry>
-            <entry/>
+            <entry align="center" valign="middle"/>
           </row>
         </tbody>
       </tgroup>

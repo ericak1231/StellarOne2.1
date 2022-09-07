@@ -7,19 +7,16 @@
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
       <fig id="fig_mw5_2f5_k5b" otherprops="PRINT">
         <title>Server Events Logs for SterllarProtect</title>
-        <image href="../images/sPserverEvents=20220808105144.png" id="image_cvm_gf5_k5b"/>
+        <image href="../images/sPserverEvents=20220808105144.png" id="image_cvm_gf5_k5b"
+          otherprops="PRINT"/>
       </fig>
       <table frame="all" id="table_xkn_q35_k5b">
         <title>About StellarProtect Server Events Screen</title>
-        <tgroup cols="3">
-          <colspec colname="newCol1" colnum="1" colwidth="1*"/>
-          <colspec colname="c1" colnum="2" colwidth="4.66*"/>
-          <colspec colname="c2" colnum="3" colwidth="11.41*"/>
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="3*"/>
+          <colspec colname="c2" colnum="2" colwidth="11.41*"/>
           <thead>
             <row>
-              <entry>
-                <p>No.</p>
-              </entry>
               <entry>
                 <p>Item</p>
               </entry>
@@ -30,9 +27,6 @@
           </thead>
           <tbody>
             <row>
-              <entry>
-                <p>1</p>
-              </entry>
               <entry>
                 <p>Export</p>
               </entry>
@@ -54,9 +48,6 @@
             </row>
             <row>
               <entry>
-                <p>2</p>
-              </entry>
-              <entry>
                 <p>Filter</p>
               </entry>
               <entry>
@@ -66,9 +57,6 @@
               </entry>
             </row>
             <row>
-              <entry>
-                <p>3</p>
-              </entry>
               <entry>
                 <p>Log display setting</p>
               </entry>
@@ -85,9 +73,6 @@
               </entry>
             </row>
             <row>
-              <entry>
-                <p>4</p>
-              </entry>
               <entry>
                 <p>Screen display setting</p>
               </entry>
@@ -108,9 +93,6 @@
             </row>
             <row>
               <entry>
-                <p>5</p>
-              </entry>
-              <entry>
                 <p>Refresh</p>
               </entry>
               <entry>
@@ -123,19 +105,16 @@
       </table>
       <fig id="fig_jmf_kq4_l5b" otherprops="PRINT">
         <title>Server Events Logs for SterllarOne</title>
-        <image href="../images/sOneServerEvents=20220808105450.png" id="image_ixc_tq4_l5b"/>
+        <image href="../images/sOneServerEvents=20220808105450.png" id="image_ixc_tq4_l5b"
+          otherprops="PRINT"/>
       </fig>
       <table frame="all" id="table_ugy_cc2_m5b">
         <title>About StellarOne Server Events Screen</title>
-        <tgroup cols="3">
-          <colspec colname="newCol1" colnum="1" colwidth="1*"/>
-          <colspec colname="c1" colnum="2" colwidth="4.66*"/>
-          <colspec colname="c2" colnum="3" colwidth="11.41*"/>
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="3*"/>
+          <colspec colname="c2" colnum="2" colwidth="11.41*"/>
           <thead>
             <row>
-              <entry>
-                <p>No.</p>
-              </entry>
               <entry>
                 <p>Item</p>
               </entry>
@@ -146,9 +125,6 @@
           </thead>
           <tbody>
             <row>
-              <entry>
-                <p>1</p>
-              </entry>
               <entry>
                 <p>Export</p>
               </entry>
@@ -170,9 +146,6 @@
             </row>
             <row>
               <entry>
-                <p>2</p>
-              </entry>
-              <entry>
                 <p>Screen display setting</p>
               </entry>
               <entry>
@@ -191,9 +164,6 @@
               </entry>
             </row>
             <row>
-              <entry>
-                <p>3</p>
-              </entry>
               <entry>
                 <p>Refresh</p>
               </entry>
