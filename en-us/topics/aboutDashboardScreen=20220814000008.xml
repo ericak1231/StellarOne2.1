@@ -21,9 +21,9 @@
         <title>About the Dashboard Screen</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="2.13*"/>
+          <colspec colname="c2" colnum="2" colwidth="2.82*"/>
           <thead>
-            <row>
+            <row valign="middle">
               <entry>
                 <p>Function</p>
               </entry>
@@ -33,31 +33,34 @@
             </row>
           </thead>
           <tbody>
-            <row>
+            <row valign="middle">
               <entry>
-                <p><indexterm>dashboard<indexterm>summary</indexterm></indexterm>The
-                    <uicontrol>Summary</uicontrol> tab</p>
+                <p><indexterm>dashboard<indexterm>summary</indexterm></indexterm><uicontrol>Summary</uicontrol>
+                </p>
               </entry>
               <entry>
                 <p>Under this tab, two widgets for monitoring StellarProtect agent events can be
                     added:<ul id="ul_un3_5bd_n5b">
                     <li>
-                      <p><wintitle>Top Endpoints with Blocked Events</wintitle></p>
+                      <p><uicontrol>Top Endpoints with Blocked Events</uicontrol></p>
                     </li>
                     <li>
-                      <p><wintitle>Top Blocked Files</wintitle></p>
+                      <p><uicontrol>Top Blocked Files</uicontrol></p>
                     </li>
                   </ul>Please refer to <xref href="widgetsForSp=20220814002454.xml"/> and <xref
                     href="addWidgets=20220814003715.xml"/> for more details.</p>
+                <note id="note_i4j_1bd_n5b">
+                  <p>By default the <uicontrol>Summary</uicontrol> tab page is set as the landing
+                    page of the <wintitle>Dashboard</wintitle>.</p>
+                </note>
               </entry>
             </row>
-            <row>
+            <row valign="middle">
               <entry>
-                <p><indexterm>dashboard<indexterm>system</indexterm></indexterm>The
-                    <uicontrol>System</uicontrol> tab</p>
+                <p><indexterm>dashboard<indexterm>system</indexterm></indexterm><uicontrol>System</uicontrol></p>
               </entry>
               <entry>
-                <p>Under this tab, users can check StellarOne console's system status by:<ul
+                <p>Under this tab, users can check StellarOne console's system status related to:<ul
                     id="ul_gtq_hzc_n5b">
                     <li>
                       <p>CPU Usage</p>
@@ -71,23 +74,19 @@
                   </ul></p>
               </entry>
             </row>
-            <row>
+            <row valign="middle">
               <entry>
                 <p><indexterm>dashboard<indexterm>tab settings</indexterm></indexterm><uicontrol>Tab
                     Settings</uicontrol></p>
               </entry>
               <entry>
                 <p>This button allows users to customize their own tab names. By simply clicking
-                  this button, inputing the desired tab name in the <uicontrol>Tab Name</uicontrol>
-                  field, and clicking <uicontrol>OK</uicontrol>, users can easily change the tab
-                    name.<note id="note_i4j_1bd_n5b">
-                    <p>The <uicontrol>Summary</uicontrol> tab is added to the
-                        <wintitle>Dashboard</wintitle> by default when there are no user-defined
-                      tabs.</p>
-                  </note></p>
+                  this button, specifying the desired tab name in the <uicontrol>Tab
+                    Name</uicontrol> field, and clicking <uicontrol>OK</uicontrol>, users can easily
+                  change the tab name.</p>
               </entry>
             </row>
-            <row>
+            <row valign="middle">
               <entry>
                 <p><indexterm>dashboard<indexterm>add widgets</indexterm></indexterm><uicontrol>Add
                     Widgets</uicontrol></p>
@@ -98,13 +97,13 @@
                     href="addWidgets=20220814003715.xml"/> for more details.</p>
               </entry>
             </row>
-            <row>
+            <row valign="middle">
               <entry>
                 <p><indexterm>dashboard<indexterm>print</indexterm></indexterm><uicontrol>Print</uicontrol></p>
               </entry>
               <entry>
-                <p>This button allows users to print the current <wintitle>Summary</wintitle> or
-                    <wintitle>System</wintitle> page.</p>
+                <p>This button allows users to print the current <uicontrol>Summary</uicontrol> or
+                    <uicontrol>System</uicontrol> page.</p>
               </entry>
             </row>
           </tbody>

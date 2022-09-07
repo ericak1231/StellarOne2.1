@@ -9,9 +9,9 @@
                 <title>Features and Benefits</title>
                 <tgroup cols="2">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
-                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="3.18*"/>
                     <thead>
-                        <row>
+                        <row valign="middle">
                             <entry>
                                 <p>Feature</p>
                             </entry>
@@ -21,7 +21,7 @@
                         </row>
                     </thead>
                     <tbody>
-                        <row>
+                        <row valign="middle">
                             <entry>
                                 <p>Dashboard</p>
                             </entry>
@@ -33,7 +33,7 @@
                                     specified periods.</p>
                             </entry>
                         </row>
-                        <row>
+                        <row valign="middle">
                             <entry>
                                 <p>Centralized Agent Management</p>
                             </entry>
@@ -79,7 +79,7 @@
                                 </ul>
                             </entry>
                         </row>
-                        <row>
+                        <row valign="middle">
                             <entry>
                                 <p>Centralized Event Management</p>
                             </entry>
@@ -92,7 +92,7 @@
                                     file events.</p>
                             </entry>
                         </row>
-                        <row>
+                        <row valign="middle">
                             <entry>
                                 <p>Server Event Auditing</p>
                             </entry>

@@ -12,11 +12,11 @@
         <title>Features of License Editions</title>
         <tgroup cols="4">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="1.89*"/>
-          <colspec colname="newCol3" colnum="3" colwidth="1.74*"/>
-          <colspec colname="c3" colnum="4" colwidth="1.67*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.89*" align="center"/>
+          <colspec colname="newCol3" colnum="3" colwidth="1.74*" align="center"/>
+          <colspec colname="c3" colnum="4" colwidth="1.67*" align="center"/>
           <thead>
-            <row>
+            <row valign="middle">
               <entry>Features</entry>
               <entry>StellarICS</entry>
               <entry>
@@ -26,7 +26,7 @@
             </row>
           </thead>
           <tbody>
-            <row>
+            <row valign="middle">
               <entry>
                 <p>Next Generation AntiVirus (NGAV)</p>
               </entry>
@@ -40,7 +40,7 @@
                 <p>-</p>
               </entry>
             </row>
-            <row>
+            <row valign="middle">
               <entry>
                 <p>Operation/Application Lockdown</p>
               </entry>
@@ -54,7 +54,7 @@
                 <p>√</p>
               </entry>
             </row>
-            <row>
+            <row valign="middle">
               <entry>
                 <p>Operations Behavior Anomaly Detection​</p>
                 <p>​</p>
@@ -69,7 +69,7 @@
                 <p>√</p>
               </entry>
             </row>
-            <row>
+            <row valign="middle">
               <entry>
                 <p>Industrial Application and Certificate Repository</p>
               </entry>
@@ -83,7 +83,7 @@
                 <p>√</p>
               </entry>
             </row>
-            <row>
+            <row valign="middle">
               <entry>
                 <p>OT/ICS Application Safeguard</p>
               </entry>
@@ -97,7 +97,7 @@
                 <p>√</p>
               </entry>
             </row>
-            <row>
+            <row valign="middle">
               <entry>
                 <p>Intelligent Runtime Learning (Predictive Machine Learning)</p>
               </entry>
@@ -111,7 +111,7 @@
                 <p>√</p>
               </entry>
             </row>
-            <row>
+            <row valign="middle">
               <entry>
                 <p>Trusted USB Device Control</p>
               </entry>
@@ -125,7 +125,7 @@
                 <p>√</p>
               </entry>
             </row>
-            <row>
+            <row valign="middle">
               <entry>
                 <p>Legacy Systems Compatibility</p>
               </entry>

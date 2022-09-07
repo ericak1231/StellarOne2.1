@@ -5,9 +5,9 @@
     <taskbody>
         <steps id="steps_gjx_t5d_m4">
             <step>
-                <cmd>In a web browser, type the address of the StellarOne in the following
-                        format:<filepath>https://&lt;targetserver IP address></filepath>. The log on
-                    screen will appear.</cmd>
+                <cmd>In a web browser, type the address of the StellarOne in the following format:
+                        <filepath>https://&lt;targetserver IP address></filepath>. The log on screen
+                    will appear.</cmd>
             </step>
             <step>
                 <cmd>Enter your credentials (user name and password).</cmd>
@@ -32,17 +32,17 @@
                     procedures to complete the initial settings.</cmd>
                 <substeps id="substeps_ov1_fq4_25b">
                     <substep>
-                        <cmd>The <wintitle>Login Information Setup</wintitle> modal window will
-                            appear and prompt you to change password. Confirm your password
-                            settings:</cmd>
+                        <cmd>The <uicontrol>Login Information Setup </uicontrol> window will appear
+                            and prompt you to change password. Confirm your password settings
+                            by:</cmd>
                         <info>
                             <ul id="ul_ssl_gq4_25b">
                                 <li>
-                                    <p>Input your new password in <uicontrol>New
+                                    <p>specifying your new password in the <uicontrol>New
                                             Password</uicontrol> text field.</p>
                                 </li>
                                 <li>
-                                    <p>Input the password again in <uicontrol>Confirm
+                                    <p>specifying the password again in the <uicontrol>Confirm
                                             Password</uicontrol> text field.</p>
                                 </li>
                             </ul>
@@ -62,14 +62,14 @@
                                 Code</uicontrol> instead of <uicontrol>Continue</uicontrol>.</cmd>
                     </substep>
                     <substep>
-                        <cmd>The <wintitle>EULA/OT Intelligent Trust Agreement</wintitle> screen
+                        <cmd>The <uicontrol>EULA/OT Intelligent Trust Agreement</uicontrol> screen
                             will appear. Click the links to read the documents carefully and click
                             the checkboxes to proceed to next step.</cmd>
-                        <stepxmp>
-                            <fig id="fig_bgp_vv5_35b">
+                        <stepxmp otherprops="PRINT">
+                            <fig id="fig_bgp_vv5_35b" otherprops="PRINT">
                                 <title>The EULA/OT Intelligent Trust Agreement</title>
                                 <image href="../images/EULA=20220729135619.png"
-                                    id="image_wss_yv5_35b"/>
+                                    id="image_wss_yv5_35b" otherprops="PRINT"/>
                             </fig>
                         </stepxmp>
                         <info>
@@ -102,7 +102,7 @@
             </step>
             <step>
                 <cmd>(Optional) For security reasons, you can manually log off by clicking the ID
-                    icon at the top righ corner of the screen, and then click <uicontrol>Log
+                    icon at the top right corner of the screen, and then click <uicontrol>Log
                         Off</uicontrol>.</cmd>
                 <info>
                     <note id="note_wdh_b55_35b">

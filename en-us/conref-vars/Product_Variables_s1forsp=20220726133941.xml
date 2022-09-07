@@ -162,6 +162,52 @@
                         </entry>
                         <entry colname="4">PRODUCT_ALTERNATIVE_NAME</entry>
                     </row>
+                    <row>
+                        <entry colname="1"><ph
+                                conref="#GUID-9B1F4613-F003-47D2-ADAD-A0B5FC242EAA/PRODUCT_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph></entry>
+                        <entry colname="2"><ph>StellarProtect (Legacy Mode)</ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">Alternate product name</draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">PRODUCT_SPLM_ALTERNATIVE_NAME</entry>
+                    </row>
+                    <row>
+                        <entry colname="1"/>
+                        <entry colname="2"><ph>StellarEnforce</ph></entry>
+                        <entry colname="3">
+                            <draft-comment translate="no">Alternate product name</draft-comment>
+                        </entry>
+                        <entry colname="4">PRODUCT_SPLM_PREVIOUS_NAME</entry>
+                    </row>
+                    <row>
+                        <entry colname="1"/>
+                        <entry colname="2"><ph>This Installation Guide introduces TXOne StellarOne
+                                and guides administrators through installation and
+                            deployment.</ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">IG opening sentence in
+                                    Preface</draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">IG_PREFACE</entry>
+                    </row>
+                    <row>
+                        <entry colname="1"/>
+                        <entry colname="2"><ph>This Administrator's Guide introduces TXOne
+                                StellarOne and covers all aspects of product
+                            management.</ph></entry>
+                        <entry colname="3">
+                            <p>
+                                <draft-comment translate="no">AG opening sentence in
+                                    Preface</draft-comment>
+                            </p>
+                        </entry>
+                        <entry colname="4">AG_PREFACE</entry>
+                    </row>
                 </tbody>
             </tgroup>
         </table>

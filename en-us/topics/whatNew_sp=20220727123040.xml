@@ -9,9 +9,9 @@
                 <title>What's New in TXOne StellarOne 2.0</title>
                 <tgroup cols="2">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
-                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.78*"/>
                     <thead>
-                        <row>
+                        <row valign="middle">
                             <entry>
                                 <p>Feature</p>
                             </entry>
@@ -21,66 +21,68 @@
                         </row>
                     </thead>
                     <tbody>
-                        <row>
+                        <row valign="middle">
                             <entry>
                                 <p>Application Lockdown</p>
                             </entry>
                             <entry>
-                                <p>Users can increase protection level to stop malicious attacks by
-                                    enabling the Application Lockdown. This function requires users
-                                    to create an Application List and provides two modes:</p>
+                                <p>This feature prevents malware attacks and increases protection
+                                    level by locking down files defined in an Application List.
+                                    Three modes are available for selection:</p>
                                 <ul id="ul_pf5_ngg_35b">
                                     <li>
-                                        <p>Detection:  The applications that are not in the Approved
+                                        <p>Detect: The applications that are not in the Approved
                                             List will be allowed to run, and users will receive a
                                             notification.</p>
                                     </li>
                                     <li>
-                                        <p>Prevention: The applications that are not in the Approved
+                                        <p>Enforce: The applications that are not in the Approved
                                             List will be blocked from running, and users will
                                             receive a notification.</p>
                                     </li>
+                                    <li>
+                                        <p>Disable: The Application Lockdown mode can also be
+                                            disabled in case users may have the needs, but it is
+                                            recommended to have this function enabled.</p>
+                                    </li>
                                 </ul>
-                                <p>The Application Lockdown mode can also be disabled in case users
-                                    may have the needs, but it is recommended to have this function
-                                    enabled.</p>
                             </entry>
                         </row>
-                        <row>
+                        <row valign="middle">
                             <entry>
                                 <p>Agent Component Update Schedule</p>
                             </entry>
                             <entry>
-                                <p>In addition to the existing function of component update schedule
-                                    for console side (StellarOne), now users can also configure the
-                                    component update schedule for the agents (StellarProtect). So
-                                    the system can run component update automatically at users'
-                                    assigned time frequency.</p>
+                                <p>In addition to the existing component update schedule function of
+                                    the StellarOne console, now users can also configure the
+                                    component update schedule for the agents (StellarProtect). The
+                                    system can run component update automatically at users' assigned
+                                    time frequency.</p>
                             </entry>
                         </row>
-                        <row>
+                        <row valign="middle">
                             <entry>
                                 <p>Self-management Group Policy</p>
                             </entry>
                             <entry>
-                                <p>This newly-added group policy allows the operators at the local
-                                    side to configure the agents' policy settings on their own. Once
-                                    being switched to the self-management status, the local agents
-                                    are free from the StellarOne console's policy management.</p>
+                                <p>This newly-added group policy allows the operators on site to
+                                    configure the agents' policy settings on their own. Once being
+                                    switched to the self-management status, the local agents are
+                                    free from the StellarOne console's policy management.</p>
                             </entry>
                         </row>
-                        <row>
+                        <row valign="middle">
                             <entry>
                                 <p>Real-Time Malware Scan in Maintenance Mode</p>
                             </entry>
                             <entry>
                                 <p>A Real-Time Malware Scan toggle switch is added under the
                                     Maintenance Mode option, reminding users to enable Real-Time
-                                    Malware Scan when executing Maintenance Mode to ensure seamless
+                                    Malware Scan during the maintenance period for seamless
                                     protection.</p>
                             </entry>
                         </row>
-                        <row>
+                        <row valign="middle">
                             <entry>
                                 <p>Generate an API Key for Account Management</p>
                             </entry>

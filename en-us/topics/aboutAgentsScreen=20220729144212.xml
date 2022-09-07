@@ -17,7 +17,7 @@
         <p>
           <ul id="ul_hh3_swt_p5b">
             <li>
-              <p>All agents are under the All group by default.</p>
+              <p>All agents are under the <uicontrol>All</uicontrol> group by default.</p>
             </li>
             <li>
               <p>The screen automatically refreshes every 5 minutes.</p>
@@ -36,7 +36,7 @@
         <title>Toolbar</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="2.97*"/>
+          <colspec colname="c2" colnum="2" colwidth="4.7*"/>
           <thead>
             <row>
               <entry>
@@ -53,9 +53,9 @@
                 <p><uicontrol>+Add Group</uicontrol></p>
               </entry>
               <entry>
-                <p>The <uicontrol>+Add Group</uicontrol> tool allows users to create groups
-                  according to location, type, or purpose for better multi-agent management. Please
-                  refer to <xref href="addGroups=20220814194547.xml"/> for more details.</p>
+                <p>This tool allows users to create groups according to location, type, or purpose
+                  for better multi-agent management. Please refer to <xref
+                    href="addGroups=20220814194547.xml"/> for more details.</p>
               </entry>
             </row>
             <row>
@@ -63,9 +63,9 @@
                 <p><uicontrol>Organize</uicontrol></p>
               </entry>
               <entry>
-                <p>The <uicontrol>Organize</uicontrol> tool allows users to edit description for
-                  agent(s), move agent(s) to another group, and remove agent(s)/group(s). Please
-                  refer to <xref href="organizeAgents=20220814195911.xml"/> and <xref
+                <p>This tool allows users to edit description for agent(s), move agent(s) to another
+                  group, and remove agent(s)/group(s). Please refer to <xref
+                    href="organizeAgents=20220814195911.xml"/> and <xref
                     href="moveRemoveAgents=20220814213405.xml"/> for more details.</p>
               </entry>
             </row>
@@ -74,13 +74,12 @@
                 <p><uicontrol>Protection</uicontrol></p>
               </entry>
               <entry>
-                <p>The <uicontrol>Protection </uicontrol>tool allows users to configure Maintenance
-                  Mode, update Approved List when the Lock Down feature is turned on, and customize
-                  file scan settings. Please refer to <xref
-                    href="sPconfigureMaintenanceMode=20220802170455.xml">Configure Maintenance
-                    Mode</xref>, <xref href="updateApproveList=20220802163342.xml">Update Approved
-                    List</xref>, and <xref href="scanNow=20220802142350.xml">Scan Now</xref> for
-                  more details.</p>
+                <p>This tool allows users to configure Maintenance Mode, update Approved List when
+                  the Application Lockdown feature is enabled, and customize file scan settings.
+                  Please refer to <xref href="sPconfigureMaintenanceMode=20220802170455.xml"
+                    >Configure Maintenance Mode</xref>, <xref
+                    href="updateApproveList=20220802163342.xml">Update Approved List</xref>, and
+                    <xref href="scanNow=20220802142350.xml">Scan Now</xref> for more details.</p>
               </entry>
             </row>
             <row>
@@ -88,9 +87,8 @@
                 <p><uicontrol>Update</uicontrol></p>
               </entry>
               <entry>
-                <p>The <uicontrol>Update</uicontrol> tool allows users to update components and
-                  deploy patches for agents. Please refer to <xref
-                    href="sPupdateComponents=20220803103820.xml"/> and <xref
+                <p>This tool allows users to update components and deploy patches for agents. Please
+                  refer to <xref href="sPupdateComponents=20220803103820.xml"/> and <xref
                     href="sPdeployPatch=20220803104012.xml"/> for more details.</p>
               </entry>
             </row>
@@ -115,7 +113,7 @@
         <title>Table Header</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="2.89*"/>
+          <colspec colname="c2" colnum="2" colwidth="3.99*"/>
           <thead>
             <row>
               <entry>
@@ -198,7 +196,9 @@
               <entry>
                 <p>Indicates the parent group name of the agent/group.</p>
                 <p>If the agent/group does not have a parent group, either texts listed below will
-                  appear in the column.<ul id="ul_nkl_x2j_n5b">
+                  appear in the column.</p>
+                <p>
+                  <ul id="ul_nkl_x2j_n5b">
                     <li>
                       <p><uicontrol>-</uicontrol> : This symbol indicates the group is at the top
                         level of the agent/group tree structure.</p>
@@ -208,7 +208,8 @@
                         to any group defined by users, so the agent is placed under the
                           <uicontrol>All</uicontrol> group by default.</p>
                     </li>
-                  </ul></p>
+                  </ul>
+                </p>
               </entry>
             </row>
             <row>
@@ -312,7 +313,7 @@
         <title>Other Tools</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="2.36*"/>
+          <colspec colname="c2" colnum="2" colwidth="3.96*"/>
           <thead>
             <row>
               <entry>
