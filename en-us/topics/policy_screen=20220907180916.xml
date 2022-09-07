@@ -84,9 +84,8 @@
     </section>
     <section>
       <fig id="fig_qnv_zyw_m5b" otherprops="PRINT">
-        <title>Functions of the Policy Screen</title>
-        <image href="../images/policyScreenFunctions=20220815140407.png" id="image_rnv_zyw_m5b"
-          otherprops="PRINT"/>
+        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+        <title>Functions of the Policy Screen</title><?oxy_custom_end?>
       </fig>
     </section>
     <table frame="all" rowsep="1" colsep="1" id="table_tt1_nmv_35b">
