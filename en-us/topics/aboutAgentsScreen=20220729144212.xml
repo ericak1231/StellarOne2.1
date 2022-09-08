@@ -36,7 +36,7 @@
         <title>Toolbar</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="4.7*"/>
+          <colspec colname="c2" colnum="2" colwidth="3.99*"/>
           <thead>
             <row>
               <entry>
@@ -127,7 +127,7 @@
           <tbody>
             <row>
               <entry>
-                <p><wintitle>Name</wintitle></p>
+                <p><uicontrol>Name</uicontrol></p>
               </entry>
               <entry>
                 <p>
@@ -151,7 +151,7 @@
             </row>
             <row>
               <entry>
-                <p><wintitle>IP Address</wintitle></p>
+                <p><uicontrol>IP Address</uicontrol></p>
               </entry>
               <entry>
                 <p>Indicates the IP Address of the endpoint (one IP address corresponds to a single
@@ -160,7 +160,7 @@
             </row>
             <row>
               <entry>
-                <p><wintitle>Protection</wintitle></p>
+                <p><uicontrol>Protection</uicontrol></p>
               </entry>
               <entry>
                 <p>
@@ -191,7 +191,7 @@
             </row>
             <row>
               <entry>
-                <p><wintitle>Group</wintitle></p>
+                <p><uicontrol>Group</uicontrol></p>
               </entry>
               <entry>
                 <p>Indicates the parent group name of the agent/group.</p>
@@ -214,7 +214,7 @@
             </row>
             <row>
               <entry>
-                <p><wintitle>Policy Inheritance</wintitle></p>
+                <p><uicontrol>Policy Inheritance</uicontrol></p>
               </entry>
               <entry>
                 <p>
@@ -253,7 +253,17 @@
             </row>
             <row>
               <entry>
-                <p><wintitle>Agent Version</wintitle></p>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <p><uicontrol>Approved List</uicontrol></p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <p/><?oxy_custom_end?>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><uicontrol>Agent Version</uicontrol></p>
               </entry>
               <entry>
                 <p>Indicates the firmware version of the agent.</p>
@@ -261,7 +271,7 @@
             </row>
             <row>
               <entry>
-                <p><wintitle>Last Connection</wintitle></p>
+                <p><uicontrol>Last Connection</uicontrol></p>
               </entry>
               <entry>
                 <p>Indicates the last time the agent was connected with the StellarOne console.</p>
@@ -269,7 +279,7 @@
             </row>
             <row>
               <entry>
-                <p><wintitle>Function Type</wintitle></p>
+                <p><uicontrol>Function Type</uicontrol></p>
               </entry>
               <entry>
                 <p>Indicates two function types of StellarProtect:<ul id="ul_xsq_tlj_n5b">
@@ -283,7 +293,7 @@
             </row>
             <row>
               <entry>
-                <p><wintitle>Actions</wintitle></p>
+                <p><uicontrol>Actions</uicontrol></p>
               </entry>
               <entry>
                 <p>Under this header, users can <ul id="ul_xnl_b2k_n5b">
@@ -313,7 +323,7 @@
         <title>Other Tools</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="3.96*"/>
+          <colspec colname="c2" colnum="2" colwidth="3.99*"/>
           <thead>
             <row>
               <entry>
@@ -363,7 +373,4 @@
       </table>
     </section>
   </refbody>
-  <related-links>
-    <link href="policy_screen=20220907180916.xml"/>
-  </related-links>
 </reference>

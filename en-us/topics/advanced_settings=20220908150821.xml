@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Advanced Settings</title>
+ <conbody>
+  <p>The <uicontrol>Advanced Settings</uicontrol> for the <uicontrol>Real-Time Malware
+    Scan</uicontrol> and <uicontrol>Scheduled Scan</uicontrol> provides more configurations for the
+   types of the files to be scanned, the action after possible security risk is detected, and the
+   scan exclusion list.</p>
+ </conbody>
+</concept>

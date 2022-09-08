@@ -5,8 +5,8 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Configure Application Lockdown</title>
     <taskbody>
         <context>
-            <p>When Application Lockdown is turned on, the Agent will only be able to access
-                applications that in the Approved List. </p>
+            <p>When Application Lockdown is turned on, the agent will only be able to access
+                applications that are in the Approved List. </p>
         </context>
         <steps id="steps_hgj_l3v_35b">
             <step>
@@ -15,26 +15,36 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
-                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
-                    by StellarOne.</cmd>
+                    screen. The <uicontrol>Agents</uicontrol> screen displays a list of agents
+                    managed by StellarOne.</cmd>
             </step>
             <step>
-                <cmd>Navigate to the target agent or agent group and click the <uicontrol>Policy
+                <cmd>Navigate to the target agent or group and click the <uicontrol>Policy
                         Inheritance </uicontrol> link.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
-                    StellarOne web console. The <wintitle>Agents</wintitle> screen displays a list
-                    of agents managed by StellarOne. Navigate to the target agent or agent group and
-                    click the <uicontrol>Policy Inheritance </uicontrol> link.</cmd>
+                <cmd>Go to the <uicontrol>Application Lockdown</uicontrol> section.</cmd>
             </step>
             <step>
-                <cmd/>
+                <cmd>Three modes are avaible for selection:</cmd>
                 <info>
+                    <ul id="ul_yww_l2h_55b">
+                        <li>
+                            <p>Detect: When an application not in the Approved List launches, it is
+                                allowed and users will receive a notification.</p>
+                        </li>
+                        <li>
+                            <p>Enforce: When an application not in the Approved List launches, it is
+                                blocked and users will receive a notification.</p>
+                        </li>
+                        <li>
+                            <p>Disable: Application Lockdown is turned off.</p>
+                        </li>
+                    </ul>
                     <note id="note_tdv_b5v_35b">
-                        <p>For how to configure the Approved List, please refer to the <xref
-                                href="lockdownExclusions=20220729170241.xml">Lockdown
-                                Exclusions</xref> section.</p>
+                        <p>For how to configure exclusion settings for the Approved List, please
+                            refer to the <xref href="lockdownExclusions=20220729170241.xml">Lockdown
+                                Exclusions</xref>.</p>
                     </note>
                 </info>
             </step>

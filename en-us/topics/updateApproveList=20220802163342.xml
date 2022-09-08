@@ -5,10 +5,10 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Update Approved List</title>
     <taskbody>
         <context>
-            <p>This function allows users to update the Approved List on selected StellarProtect
-                agents by several simple clicks. The Approved List must be periodically updated so
-                the newly-added applications can run on the endpoints when the  Lock Down feature is
-                turned on.</p>
+            <p>This function allows users to update the Approved List on selected agents/groups by
+                several simple clicks. The Approved List must be periodically updated so the
+                newly-added applications can run on the endpoints when the Application Lockdown
+                feature is turned on.</p>
         </context>
         <steps>
             <step>
@@ -36,18 +36,19 @@
                 <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>A pop-up <uicontrol>Update Approved List</uicontrol>window appears. Click
+                <cmd>A pop-up <uicontrol>Update Approved List</uicontrol> window appears. Click
                         <uicontrol>OK</uicontrol> to start the Approved List update process.</cmd>
                 <info>
                     <note id="note_gnv_s2z_j5b" type="warning">
-                        <p>Do not restart or turn off the endpoint during the update. The update
+                        <p>Do not restart or turn off the endpoint(s) during the update. The update
                             process may take more than 30 minutes to complete.</p>
                     </note>
                 </info>
             </step>
             <step>
-                <cmd>The <wintitle>Update Approved List</wintitle> window appears showing the update
-                    status. Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
+                <cmd>The <uicontrol>Update Approved List</uicontrol> window appears showing the
+                    update status. Click the <uicontrol>Close</uicontrol> button to close the
+                    window.</cmd>
             </step>
         </steps>
     </taskbody>

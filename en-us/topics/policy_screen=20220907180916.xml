@@ -17,9 +17,8 @@
             of the <uicontrol>All</uicontrol> group to check it's policy settings.</p>
         </note></p>
       <fig id="fig_asp_jmv_35b" otherprops="PRINT">
-        <title>Switch Options of the Policy Screen</title>
-        <image href="../images/policyScreenOptions=20220815140042.png" id="image_lyn_bxw_m5b"
-          otherprops="PRINT"/>
+        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+        <title>Switch Options of the Policy Screen</title><?oxy_custom_end?>
       </fig>
       <table frame="all" id="table_ohx_dxw_m5b">
         <title>Switch Options of the Policy Screen</title>
@@ -39,8 +38,8 @@
           <tbody>
             <row>
               <entry>
-                <p><indexterm>policy<indexterm>Product (function
-                    type)</indexterm></indexterm><uicontrol>Funtion Type</uicontrol></p>
+                <p><indexterm>policy<indexterm>Function
+                    Type)</indexterm></indexterm><uicontrol>Funtion Type</uicontrol></p>
               </entry>
               <entry>
                 <p>The dropdown button next to the <uicontrol>Function Type</uicontrol> allows users
@@ -50,8 +49,8 @@
             </row>
             <row>
               <entry>
-                <p><indexterm>policy<indexterm>Policy Inheritance</indexterm><uicontrol>Policy
-                      Inheritance</uicontrol></indexterm></p>
+                <p><indexterm>policy<indexterm>Policy
+                    Inheritance</indexterm></indexterm><uicontrol>Policy Inheritance</uicontrol></p>
               </entry>
               <entry>
                 <p>The toggle button allows users to enable or disable the group policy inheritance
@@ -60,7 +59,7 @@
             </row>
             <row>
               <entry>
-                <p><indexterm>policy<indexterm>Self-management</indexterm><uicontrol>Self-management</uicontrol></indexterm></p>
+                <p><indexterm>policy<indexterm>Self-management</indexterm></indexterm><uicontrol>Self-management</uicontrol></p>
               </entry>
               <entry>
                 <p>The toggle button allows users to enable or disable the agent's self-management,
@@ -156,7 +155,7 @@
                 Safeguard</uicontrol></p>
             </entry>
             <entry>
-              <p>This function ensures continuous operations by allowing the ICS applications
+              <p>This function ensures continuous operations by allowing the OT applications
                 recognized by StellarProtect to be updated without being blocked or restricted.
                 Please refer to <xref href="otApplicationSafeguard=20220813043211.xml"/> for more
                 details.</p>
@@ -233,7 +232,4 @@
       </tgroup>
     </table>
   </refbody>
-  <related-links>
-    <link href="aboutAgentsScreen=20220729144212.xml"/>
-  </related-links>
 </reference>

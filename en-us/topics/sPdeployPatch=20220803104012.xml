@@ -6,7 +6,7 @@
     <taskbody>
         <context>
             <p>Users can deploy patch files for StellarProtect agents on selected endpoints via
-                StellarOne web console. It is recommended to update agent components regularly to
+                StellarOne web console. It is recommended to update agent patches regularly to
                 protect the endpoints from the latest security threats.</p>
         </context>
         <steps>
@@ -35,7 +35,7 @@
                 <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>A pop-up <wintitle>Deploy Agent Patches</wintitle>window with the patch list
+                <cmd>A pop-up <uicontrol>Deploy Agent Patches</uicontrol> window with the patch list
                     appears. Select the version of the patch for deployment and click the checkbox
                     next to it.</cmd>
                 <stepxmp otherprops="PRINT">

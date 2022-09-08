@@ -8,7 +8,7 @@
       <title>Search Options for Agents/Groups</title>
       <tgroup cols="2">
         <colspec colname="c1" colnum="1" colwidth="1*"/>
-        <colspec colname="c2" colnum="2" colwidth="1*"/>
+        <colspec colname="c2" colnum="2" colwidth="2.14*"/>
         <thead>
           <row>
             <entry>
@@ -58,9 +58,9 @@
               <p>Policy Inheritance</p>
             </entry>
             <entry>
-              <p>Select among <uicontrol>Inherited</uicontrol>, <uicontrol>Customized</uicontrol>,
-                and <uicontrol>Self-managed</uicontrol> as three categories of Policy
-                Inheritance.</p>
+              <p>Three kinds of Policy Inheritance: <uicontrol>Inherited</uicontrol>,
+                  <uicontrol>Customized</uicontrol>, and <uicontrol>Self-managed</uicontrol>, are
+                available for selection.</p>
             </entry>
           </row>
           <row>

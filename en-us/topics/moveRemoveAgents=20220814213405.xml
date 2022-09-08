@@ -5,7 +5,7 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Organize Agents/Groups</title>
     <taskbody>
         <context>
-            <p>Users can organizing agents/groups by <ul id="ul_kcc_dyj_n5b">
+            <p>Users can organizing agents/groups by: <ul id="ul_kcc_dyj_n5b">
                     <li>
                         <p>renaming groups</p>
                     </li>
@@ -31,10 +31,10 @@
                     by StellarOne.</cmd>
             </step>
             <step>
-                <cmd>To rename a group, click the kebab menu (three dots menu) corresponding to the
-                    target group under the <wintitle>Actions</wintitle> header. A drop-down menu
-                    appears. Select the <uicontrol>Rename</uicontrol> button and then a pop-up
-                    window appears. Delete the old group name and replace it wih a new one.  Click
+                <cmd>To rename a group, click the kebab menu (three dots menu) of the target group
+                    under the <uicontrol>Actions</uicontrol> header. A drop-down menu appears.
+                    Select the <uicontrol>Rename</uicontrol> button and then a pop-up window
+                    appears. Delete the old group name and replace it wih a new one. Click
                         <uicontrol>Confirm</uicontrol> to complete this task.</cmd>
                 <info>
                     <note id="note_p2v_xyj_n5b">
@@ -67,9 +67,9 @@
                         </note>
                     </choice>
                     <choice>To remove a single agent or group, click the kebab menu (three dots
-                        menu) corresponding to the target agent/group under the
-                            <wintitle>Actions</wintitle> header. A drop-down menu appears. Select
-                        the <uicontrol>Remove</uicontrol> button to remove the agent/group.</choice>
+                        menu) of the target agent/group under the <uicontrol>Actions</uicontrol>
+                        header. A drop-down menu appears. Select the <uicontrol>Remove</uicontrol>
+                        button to remove the agent/group.</choice>
                 </choices>
                 <info>
                     <note id="note_xjg_2xj_n5b" type="important">
@@ -88,13 +88,15 @@
                     </choice>
                     <choice>
                         <p>To move a single agent to another group, click the kebab menu (three dots
-                            menu) corresponding to the target agent under the
-                                <wintitle>Actions</wintitle> header.</p>
-                        <p>A drop-down menu appears. Select the <uicontrol>Move</uicontrol> button
-                            and then a pop-up window appears. Select the group and click
-                                <uicontrol>Confirm</uicontrol> to complete this task.</p>
+                            menu) of the target agent under the <uicontrol>Actions</uicontrol>
+                            header.</p>
                     </choice>
                 </choices>
+                <stepresult>
+                    <p>A drop-down menu appears. Select the <uicontrol>Move</uicontrol> button and
+                        then a pop-up window appears. Select the group and click
+                            <uicontrol>Confirm</uicontrol> to complete this task.</p>
+                </stepresult>
             </step>
         </steps>
     </taskbody>

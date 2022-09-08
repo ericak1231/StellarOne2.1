@@ -5,8 +5,8 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Scan Now</title>
     <taskbody>
         <context>
-            <p>Users can manually initiate Scan Now on selected endpoints and deploy the scan
-                settings on one or several StellarProtect target endpoints.</p>
+            <p>Users can manually initiate <uicontrol>Scan Now</uicontrol> on selected endpoints and
+                deploy the scan settings on one or several target endpoints.</p>
         </context>
         <steps>
             <step>
@@ -37,16 +37,16 @@
                 <cmd>The configuration window appears.</cmd>
             </step>
             <step>
-                <cmd>The configuration window consists of three sections: <wintitle>Files to
-                        Scan</wintitle>, <wintitle>Scan Action</wintitle>, and <wintitle>Scan
-                        Exclusions.</wintitle></cmd>
+                <cmd>The configuration window consists of three sections: <uicontrol>Files to
+                        Scan</uicontrol>, <uicontrol>Scan Action</uicontrol>, and <uicontrol>Scan
+                        Exclusions</uicontrol>.</cmd>
                 <info>
                     <ol id="ol_dg2_3fy_j5b">
                         <li>
-                            <p>In the <wintitle>Files to Scan</wintitle> section, click
+                            <p>In the <uicontrol>Files to Scan</uicontrol> section, click
                                     <uicontrol>All local folders</uicontrol> to scan all files in
-                                detail, click <uicontrol>Default folders (Quick Scan)</uicontrol>
-                                for a general scan, or click <uicontrol>Specific folders</uicontrol>
+                                detail; click <uicontrol>Default folders (Quick Scan)</uicontrol>
+                                for a general scan; or click <uicontrol>Specific folders</uicontrol>
                                 to specify the paths to the folders for scan.<note
                                     id="note_mrc_xgy_j5b" type="tip">
                                     <p>Under the <uicontrol>Specific folders</uicontrol> option,
@@ -76,7 +76,7 @@
                         <li>
                             <p>In the <uicontrol>Scan Action</uicontrol> section, users pre-define
                                 the action once threats are detected during the scanning process.
-                                Select <uicontrol>Quarantine</uicontrol> to place the malicious or
+                                Select <uicontrol>Quarantine</uicontrol> to place the suspcious or
                                 infected files detected in an isolated folder for futher checking.
                                 Select <uicontrol>No action</uicontrol> to produce only a readout of
                                 results with no actions taken on the suspicious files.</p>
@@ -101,7 +101,8 @@
                                         <p>
                                             <ul id="ul_m1l_gqy_j5b">
                                                 <li>StellarProtect supports only local paths for
-                                                  Scan Exclusions. Remote paths such as an URL or
+                                                  <uicontrol>Scan Exclusions</uicontrol>. Remote
+                                                  paths such as an URL or
                                                   <filepath>\\[Hostname]</filepath> are not
                                                   supported.</li>
                                                 <li>
@@ -122,11 +123,11 @@
                 </info>
             </step>
             <step>
-                <cmd>Click <uicontrol>OK</uicontrol> to deploy the settings to the selected agents
-                    or groups.</cmd>
+                <cmd>Click <uicontrol>OK</uicontrol> to deploy the settings to the selected
+                    endpoints.</cmd>
             </step>
             <step>
-                <cmd>The <wintitle>Command Deployment</wintitle> window appears showing the
+                <cmd>The <uicontrol>Command Deployment</uicontrol> window appears showing the
                     deployment status. Click the <uicontrol>Close</uicontrol> button to close the
                     window.</cmd>
             </step>

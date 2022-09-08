@@ -6,9 +6,9 @@
     <taskbody>
         <context>
             <p>When <uicontrol>Application Lockdown</uicontrol> is enabled, the Agent will only be
-                able to access applications that are in the Approved List. The <uicontrol>Exception
-                    Paths</uicontrol> allows users to configure lockdown exclusion settings for the
-                Approved List.</p>
+                able to access applications that are in the Approved List. However, the
+                    <uicontrol>Exception Paths</uicontrol> allows users to configure lockdown
+                exclusion settings for the Approved List.</p>
         </context>
         <steps>
             <step>
@@ -96,6 +96,8 @@
                             <li>
                                 <p>Find the exception path to be deleted and click the corresponding
                                     Delete icon under the <uicontrol>Actions</uicontrol> header.</p>
+                            </li>
+                            <li>
                                 <p>A warning message window appears. Click
                                         <uicontrol>Confirm</uicontrol> to delete the selected
                                     item.</p>

@@ -2,10 +2,10 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Advanced Settings for Real-Time Malware
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Advanced Settings for Scheduled
         Scan</title>
     <taskbody>
-        <steps>
+        <steps id="steps_svl_rjh_55b">
             <step>
                 <cmd>Go to <menucascade>
                         <uicontrol>Agents</uicontrol>
@@ -14,8 +14,8 @@
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Advanced Settings</uicontrol> in the <uicontrol>Real-Time
-                        Malware Scan</uicontrol> section:</cmd>
+                <cmd>Click the <uicontrol>Advanced Settings</uicontrol> in the <uicontrol>Scheduled
+                        Scan</uicontrol> section:</cmd>
             </step>
             <step>
                 <cmd>The <uicontrol>Advanced Settings</uicontrol> configuration window
@@ -27,19 +27,28 @@
                         Exclusions</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>In the <uicontrol>Files to Scan</uicontrol> section:</cmd>
+                <cmd>In the <uicontrol>Files to Scan</uicontrol> section, click <b>All local
+                        folders</b> to scan all files in detail; click <b>Default folders (Quick
+                        Scan)</b> for a general scan; or click <b>Specific folders</b> to specify
+                    the paths to the folders for scan.</cmd>
+                <info>
+                    <note id="note_uv4_2kh_55b" type="tip">
+                        <p>Under the <b>Specific folders</b> option, click the "+" or "-" icon to
+                            add or delete paths to the specific folders.</p>
+                    </note>
+                </info>
                 <info>
                     <ul id="ul_clf_33h_55b">
                         <li>
-                            <p> check <uicontrol>Scan compressed files</uicontrol> and select the
-                                    <uicontrol>Maximum layers</uicontrol> between 1 and 20 for the
-                                compressed files.</p>
+                            <p>(Optional) Check <uicontrol>Scan compressed files</uicontrol> and
+                                select the <uicontrol>Maximum layers</uicontrol> between 1 and 20
+                                for the compressed files.</p>
                         </li>
                         <li>
-                            <p>To skip scanning files over a certain size, check <uicontrol>Skip
-                                    files larger than</uicontrol> and specify the file size between
-                                1 and 9999 MB. Files exceeding the specified file size will not be
-                                scanned.</p>
+                            <p>(Optional) To skip scanning files over a certain size, check
+                                    <uicontrol>Skip files larger than</uicontrol> and specify the
+                                file size between 1 and 9999 MB. Files exceeding the specified file
+                                size will not be scanned.</p>
                         </li>
                     </ul>
                 </info>
@@ -53,24 +62,21 @@
                     files.</cmd>
             </step>
             <step>
-                <cmd>The <uicontrol>Scan Exclusions</uicontrol> section provides users an option to
-                    exclude certain folders, files, or file extensions from being scanned.</cmd>
+                <cmd>(Optional) The <uicontrol>Scan Exclusions</uicontrol> section provides users an
+                    option to exclude certain folders, files, or file extensions from being
+                    scanned.</cmd>
                 <info>
-                    <ul id="ul_ng4_tw4_n5b">
+                    <ul>
                         <li>
                             <p><uicontrol>Folders</uicontrol>: specify a path to the folders that do
                                 not require scanning.</p>
-                        </li>
-                        <li>
                             <p><uicontrol>Files</uicontrol>: specify a path to the files that do not
                                 require scanning.</p>
-                        </li>
-                        <li>
                             <p><uicontrol>File Extensions</uicontrol>: specify the file extension of
                                 certain files that do not require scanning.</p>
-                            <note id="note_og4_tw4_n5b">
+                            <note id="note_zhg_mkh_55b">
                                 <p>
-                                    <ul id="ul_pg4_tw4_n5b">
+                                    <ul id="ul_a3g_mkh_55b">
                                         <li>StellarProtect supports only local paths for Scan
                                             Exclusions. Remote paths such as an URL or
                                                 <filepath>\\[Hostname]</filepath> are not
@@ -82,9 +88,9 @@
                                     </ul>
                                 </p>
                             </note>
-                            <note type="tip" id="note_qg4_tw4_n5b">
-                                <p>Click the "+" or "-" icon to add or delete the folder/file paths
-                                    or file extensions.</p>
+                            <note type="tip" id="note_kbp_x1p_n5b">
+                                <p>Click the "+" or "-" icon to add or delete paths to the specific
+                                    folders/files or file extensions for specific file types .</p>
                             </note>
                         </li>
                     </ul>
@@ -92,7 +98,7 @@
             </step>
             <step>
                 <cmd>Click <uicontrol>Confirm</uicontrol> to complete the advanced settings for
-                    Real-Time Malware Scan.</cmd>
+                    Scheduled Scan.</cmd>
             </step>
         </steps>
     </taskbody>

@@ -13,7 +13,10 @@
 				<topicref href="../topics/machineLearning=20220815001756.xml"/>
 			</topicref>
 			<topicref href="../topics/scheduleScan=20220813041937.xml"/>
-			<topicref href="../topics/ScanAdvancedSettings=20220815151900.xml"/>
+			<topicref href="../topics/advanced_settings=20220908150821.xml">
+				<topicref href="../topics/ScanAdvancedSettings=20220815151900.xml"/>
+				<topicref href="../topics/scheduled_scan_advanced_settings=20220908150610.xml"/>
+			</topicref>
 		</topicref>
 		<topicref href="../topics/scanComponentUpdateSchedule=20220727154928.xml"/>
 		<topicref href="../topics/obad=20220803162325.xml">

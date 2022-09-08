@@ -46,15 +46,10 @@
                 <cmd>The configuration window appears. Please read the notice and check either
                         <uicontrol>Enable</uicontrol> or <uicontrol>Disable</uicontrol> radio
                     button.</cmd>
-                <info>
-                    <fig id="fig_igq_vvy_j5b">
-                        <title>Configure Maintenance Mode</title>
-                    </fig>
-                </info>
                 <choices id="choices_m1n_qjx_j5b">
                     <choice>
                         <p>Click <uicontrol>Enable</uicontrol> to start the Maintenance Mode
-                            settings. Please go to Step 7 for next procedure.</p>
+                            settings. Please go to Step 8 for next procedure.</p>
                     </choice>
                     <choice>
                         <p>Click <menucascade>
@@ -67,7 +62,7 @@
                                 <p>A warning message appears. Please read carefully before
                                     proceeding to next step.<note id="note_jh3_yyx_j5b"
                                         type="important">
-                                        <p>If the Maintenance Mode is ended, the StellarProtect will
+                                        <p>If the Maintenance Mode is ended, the endpoint(s) will
                                             start blocking the execution of files that are not
                                             recognized by the OT Application Safeguard.</p>
                                     </note></p>
@@ -87,10 +82,10 @@
                 <choices id="choices_tq3_5zx_j5b">
                     <choice>
                         <p>Click the <uicontrol>Schedule</uicontrol> radio button, and then click
-                            the edit icon to select the start date and input the start time for
-                            executing Maintenance Mode. After that, specify the duration of the
-                            maintenance period in <uicontrol>Maintenance Mode will be ended
-                                after</uicontrol>.</p>
+                            the edit icon to select the start date and specify the start time for
+                            Maintenance Mode. After that, specify the duration of the maintenance
+                            period in <uicontrol>Maintenance Mode will be ended
+                            after</uicontrol>.</p>
                     </choice>
                     <choice>
                         <p>Click the <uicontrol>Start now</uicontrol> radio button, and then specify
@@ -100,24 +95,19 @@
                 </choices>
             </step>
             <step>
-                <cmd>Users can choose to enable or disable <uicontrol>Real-Time Malware
-                        Scan</uicontrol> when executing <uicontrol>Maintenance Mode</uicontrol> by
-                    clicking the toggle switch. The default setting is ON.</cmd>
+                <cmd>A toggle switch for enabling/disabling <uicontrol>Real-Time Malware
+                        Scan</uicontrol> is added under the Maintenance Mode option. The default
+                    setting is ON.</cmd>
                 <info>
                     <note id="note_xbf_yzy_j5b">
                         <ul id="ul_tlv_3bz_j5b">
                             <li>
-                                <p>It is reommended to enable <uicontrol>Real-Time Malware
-                                        Scan</uicontrol> when executing <uicontrol>Maintenance
-                                        Mode</uicontrol> to ensure seamless protection.</p>
-                            </li>
-                            <li>
-                                <p>If <uicontrol>Real-Time Malware Scan</uicontrol> is disabled in
-                                    the policy setting, users can choose to enable or disable
-                                    real-time virus scan when executing <uicontrol>Maintenance
-                                        Mode</uicontrol>. If it is enabled in the policy setting,
-                                    there is no option for disabling scan function when executing
-                                        <uicontrol>Maintenance Mode</uicontrol>.</p>
+                                <p>If users disable <uicontrol>Real-Time Malware Scan</uicontrol> in
+                                    the policy setting, it is reommended to enable the
+                                        <uicontrol>Real-Time Malware Scan</uicontrol> toggle switch
+                                    here during maintenance period to ensure seamless protection.
+                                    After maintenance period ends, the system will follow the
+                                    original policy setting (Real-Time Malware Scan disabled).</p>
                             </li>
                             <li>
                                 <p>Please refer to <xref href="realTimeScan=20220813041755.xml"/>
