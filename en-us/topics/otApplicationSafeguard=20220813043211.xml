@@ -6,14 +6,13 @@
     <taskbody>
         <context>
             <p><uicontrol>OT Application Safeguard</uicontrol> is an industrial-based change control
-                protection. This feature ensures the StellarProtect-recognized ICS applications can
-                be updated without being blocked or restricted. In addition, users can enable ICS
-                application protection to secure recognized ICS application executable binary
+                protection. This feature ensures the StellarProtect-recognized OT applications to be
+                updated without being blocked or restricted. In addition, users can enable OT
+                application protection to secure recognized OT application executable binary
                     files.<note id="note_ynd_s5b_s5b">
-                    <p>At the beginning, StellarProtect will auto-detect currently-installed OT/ICS
-                        applications and put them under protection. The recognized OT/ICS
-                        applications will be shown on the <uicontrol>General Info</uicontrol>
-                        page.</p>
+                    <p>Upon launch, StellarProtect will auto-detect currently-installed OT
+                        applications and put them under protection. The recognized OT applications
+                        will be shown on the <uicontrol>General Info</uicontrol> tab page.</p>
                 </note></p>
         </context>
         <steps>
@@ -31,18 +30,18 @@
                         <uicontrol>Actions</uicontrol> header.</cmd>
             </step>
             <step>
-                <cmd>The <wintitle>General Info</wintitle> screen appears. Check the OT Applications
-                    automatically recognized by the StellarProtect agent.</cmd>
+                <cmd>The <uicontrol>General Info</uicontrol> screen appears. Check the OT
+                    Applications automatically recognized by the StellarProtect agent.</cmd>
                 <info>
                     <note id="note_nz2_5zm_n5b">
                         <p>Be sure to enable the <uicontrol>Maintenance Mode</uicontrol> before
-                            installing new OT/ICS applications. After the installation process is
-                            completed, disable the <uicontrol>Maintenance Mode</uicontrol> and then
-                            StellarProtect will auto re-scan the newly-added OT/ICS applications. If
-                            any new applications are found, they will be added into the OT/ICS
-                            Application Safeguard list. Please refer to <xref
-                                href="sPconfigureMaintenanceMode=20220802170455.xml"/> for more
-                            details.</p>
+                            installing new OT applications. After the installation process
+                            completes, disable the <uicontrol>Maintenance Mode</uicontrol> and then
+                            StellarProtect will auto re-scan the newly-added OT applications. Any
+                            new applications found will be added into the OT Application Safeguard
+                            list. Please refer to <xref
+                                href="sPconfigureMaintenanceMode=20220802170455.xml"/> for how to
+                            enable this function.</p>
                     </note>
                 </info>
             </step>
@@ -53,10 +52,10 @@
                     <ol id="ol_mmj_t2n_n5b">
                         <li>
                             <p>Click the <uicontrol>Policy</uicontrol> tab and scroll down and find
-                                the <wintitle>OT Application Safeguard</wintitle> section at the
-                                left side of the screen.</p>
+                                the <uicontrol>OT Application Safeguard</uicontrol> at the left side
+                                of the screen.</p>
                         </li>
-                        <li>Make sure the <wintitle>OT Application Safeguard</wintitle> toggle is
+                        <li>Make sure the <uicontrol>OT Application Safeguard</uicontrol> toggle is
                             switched on.</li>
                         <li>
                             <p>Click <uicontrol>File/Folder</uicontrol>, and then a pop-up window
@@ -65,11 +64,12 @@
                         <li>
                             <p>Click the <uicontrol>+Add</uicontrol> button, and then select
                                     <uicontrol>Folder</uicontrol> or <uicontrol>File</uicontrol> and
-                                input the folder or file path in the corresponding text fields.</p>
+                                specify the folder or file path in the corresponding text
+                                fields.</p>
                             <note id="note_m4g_zcn_n5b">
                                 <p>By default StellarProtect will only protect the PE files
                                         (<filepath>.exe</filepath> and <filepath>.dll</filepath>)
-                                    under the selected folder and and its subfolder(s).</p>
+                                    under the selected folder and its subfolder(s).</p>
                             </note>
                         </li>
                         <li>
@@ -90,7 +90,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Users are also allowed to add user-defined processes.</cmd>
+                <cmd>Users can also add user-defined processes.</cmd>
                 <info>
                     <ol id="ol_kmv_q2n_n5b">
                         <li>
@@ -107,13 +107,13 @@
                             <note id="note_lqk_3fn_n5b" type="important">
                                 <p>By adding the authorized process, users may set other
                                     applications to be trusted and change the protected
-                                    files/folders previousely defined by users as well as the PE
-                                    files for OT applications detected by agents. Please note if any
-                                    malicious file has been set into the authorized process,
-                                    StellarProtect cannot prevent this file from modifying the
-                                    OT/ICS applications since it has been already excluded from the
-                                    StellarProtect’s monitoring process. Make sure the user-defined
-                                    authorized process is safe before adding it.</p>
+                                    files/folders previousely defined as well as the PE files for OT
+                                    applications detected by agents. Please note if any malicious
+                                    file has been set into the authorized process, StellarProtect
+                                    cannot prevent this file from modifying the OT applications
+                                    since it has been already excluded from the StellarProtect’s
+                                    monitoring process. Make sure the user-defined authorized
+                                    process is safe before adding it.</p>
                             </note>
                         </li>
                         <li>

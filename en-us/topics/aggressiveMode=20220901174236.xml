@@ -6,7 +6,7 @@
     <taskbody>
         <context>
             <p><indexterm>Operations Behavior Anomaly Detection<indexterm>Aggressive
-                        Mode</indexterm></indexterm>Under either <uicontrol>Detect</uicontrol> or
+                        Mode</indexterm></indexterm>In either <uicontrol>Detect</uicontrol> or
                     <uicontrol>Enforce</uicontrol> mode, users have one more option,
                     <uicontrol>Aggressive Mode,</uicontrol> for stronger antivirus protection. This
                 feature helps enhance protection by adding parameter identification in the
@@ -18,11 +18,12 @@
                 </note></p>
         </context>
         <example id="example_h4d_nlg_k5b">
-            <p>Below is an example of how the <uicontrol>Aggressive Mode</uicontrol> works.<ol
-                    id="ol_kzp_nbt_k5b">
+            <p>Below is an example of how the <uicontrol>Aggressive Mode</uicontrol> works.</p>
+            <p>
+                <ol id="ol_kzp_nbt_k5b">
                     <li>
                         <p>When users select the <uicontrol>Learn</uicontrol> mode under the
-                                <wintitle>Operation Behavior Anomaly Detection</wintitle>, the
+                                <uicontrol>Operation Behavior Anomaly Detection</uicontrol>, the
                             following process is learned: <ul id="ul_wyf_trt_k5b">
                                 <li>
                                     <p><filepath>explorer.exe</filepath> →
@@ -88,7 +89,8 @@
                                 </li>
                             </ul></p>
                     </li>
-                </ol></p>
+                </ol>
+            </p>
         </example>
     </taskbody>
 </task>

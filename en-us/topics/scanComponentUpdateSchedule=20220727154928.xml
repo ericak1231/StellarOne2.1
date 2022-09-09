@@ -6,14 +6,27 @@
     <taskbody>
         <context>
             <p>Users can configure the component update schedule for the StellarProtect agents via
-                StellarOne webconsole. So the system can run component update automatically at
+                StellarOne webconsole; thus the system can run component update automatically at
                 users' assigned time frequency.</p>
         </context>
         <steps>
             <step>
-                <cmd>Under <uicontrol>Policy</uicontrol> tab, switch on the <uicontrol>Schedule
-                        Update</uicontrol> toggle under <wintitle>Agent Component Update
-                        Schedule</wintitle>.</cmd>
+                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console. </cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the target agent or group and click its corresponding
+                        <uicontrol>Policy Inheritance </uicontrol> link.</cmd>
+            </step>
+            <step>
+                <cmd>On the <uicontrol>Policy</uicontrol> tab page, toggle on the
+                        <uicontrol>Schedule Update</uicontrol> in the <uicontrol>Agent Component
+                        Update Schedule</uicontrol> section.</cmd>
                 <info>
                     <p>
                         <note id="note_qsf_2lh_35b" type="tip">
@@ -26,21 +39,21 @@
             </step>
             <step>
                 <cmd>(Optional) Click <uicontrol>StellarOne scan component update
-                        shcdule</uicontrol> and view the current settings of StellarOne's component
+                        shcdule</uicontrol> and view the current settings for StellarOne's component
                     update schedule.</cmd>
                 <info>
                     <p>
                         <note id="note_wqd_rbm_35b">
-                            <p>Only users logged in with adminitrator or operator account can edit
+                            <p>Only users logged in with administrator or operator account can edit
                                 StellarOne component update schedule.</p>
                         </note>
                     </p>
                 </info>
             </step>
             <step>
-                <cmd>After the <uicontrol>Schedule Update</uicontrol> is switched on, radio buttons
-                    under <uicontrol>Frequency</uicontrol> and <uicontrol>Star Time</uicontrol>
-                    selection field appear, enabling users to schedule component update for the
+                <cmd>After the <uicontrol>Schedule Update</uicontrol> is toggled on, radio buttons
+                    for setting the <uicontrol>Frequency</uicontrol> and <uicontrol>Start
+                        Time</uicontrol> appear, enabling users to schedule component update for the
                     agent(s.)</cmd>
                 <info>
                     <p>
@@ -61,7 +74,7 @@
                     </p>
                     <note id="note_ijz_ylm_35b" type="important">
                         <p>Since not every month contains the date 29th, 30th, or 31st, e.g.,
-                            Feburary only has 28 days (29 days on a leap year), it is recommended to
+                            February only has 28 days (29 days on a leap year), it is recommended to
                             select <uicontrol>The last day of the month</uicontrol> for monthly
                             update frequency. This helps prevent the system from bypassing the
                             update in the month that does not contain the date 29th, 30th, or

@@ -19,15 +19,17 @@
                 <cmd>Go to <menucascade>
                         <uicontrol>Agents</uicontrol>
                         <uicontrol>Policy Inheritance</uicontrol>
-                    </menucascade>, scroll down and find the <wintitle>Operations Behavior Anomaly
-                        Detection</wintitle> section, select <uicontrol>Learn</uicontrol>,
-                        <uicontrol>Detect</uicontrol>, or <uicontrol>Enforce</uicontrol> mode.</cmd>
+                    </menucascade>, scroll down and find the <uicontrol>Operations Behavior Anomaly
+                        Detection</uicontrol>. Enable <uicontrol>Operations Behavior Anomaly
+                        Detection</uicontrol> by selecting <uicontrol>Learn</uicontrol>,
+                        <uicontrol>Detect</uicontrol>, or <uicontrol>Enforce</uicontrol>.</cmd>
                 <info>
                     <note id="note_od5_frs_k5b">
-                        <p>The default setting for <wintitle>Operations Behavior Anomaly
-                                Detection</wintitle> is <uicontrol>Disable</uicontrol>. If users
-                            don't enable <wintitle>Operations Behavior Anomaly Detection</wintitle>,
-                            the process monitoring will not be activated.</p>
+                        <p>The default setting for <uicontrol>Operations Behavior Anomaly
+                                Detection</uicontrol> is <uicontrol>Disable</uicontrol>. If users
+                            don't enable <uicontrol>Operations Behavior Anomaly
+                                Detection</uicontrol>, the process monitoring will not be
+                            activated.</p>
                     </note>
                 </info>
             </step>
@@ -37,16 +39,16 @@
                     click the <uicontrol>Watchlist</uicontrol> link.</cmd>
             </step>
             <step>
-                <cmd>The <wintitle>Watchlist</wintitle> window appears. Click
-                        <uicontrol>+Add</uicontrol> and then input the application to be
+                <cmd>The <uicontrol>Watchlist</uicontrol> window appears. Click
+                        <uicontrol>+Add</uicontrol> and then specify the application to be
                     monitored.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Add</uicontrol> and the added application appears in the
-                        <wintitle>Monitored Application</wintitle> list.</cmd>
+                        <uicontrol>Monitored Application</uicontrol> list.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
+                <cmd>Click <uicontrol>Close</uicontrol> to close the window.</cmd>
                 <info>
                     <note id="note_qps_nxs_k5b">
                         <p>Users can delete the added application(s) by clicking the trash-can icon

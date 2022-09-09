@@ -21,16 +21,16 @@
                     by StellarOne.</cmd>
             </step>
             <step>
-                <cmd>Navigate to the target agent or agent group and click the <uicontrol>Policy
-                        Inheritance</uicontrol> link.</cmd>
+                <cmd>Navigate to the target agent or group and click its corresponding
+                        <uicontrol>Policy Inheritance</uicontrol> link.</cmd>
             </step>
             <step>
-                <cmd>Scroll down and find the <wintitle>User-Defined Suspicious Object</wintitle>
-                    section at the right side of the screen.</cmd>
+                <cmd>Scroll down and find the <uicontrol>User-Defined Suspicious Object</uicontrol>
+                    at the right side of the screen.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>Add</uicontrol>. The <wintitle>Add Item to User-Defined
-                        Suspicious Objects</wintitle> window appears.</cmd>
+                <cmd>Click <uicontrol>Add</uicontrol>. The <uicontrol>Add Item to User-Defined
+                        Suspicious Objects</uicontrol> window appears.</cmd>
             </step>
             <step>
                 <cmd>Select <uicontrol>Hash</uicontrol> or <uicontrol>File Patch</uicontrol> as the
@@ -40,7 +40,7 @@
                 <cmd>Specify the file hash or path in the corresponding text field.</cmd>
             </step>
             <step>
-                <cmd>(Optional) Input notes in the <uicontrol>Notes</uicontrol> text field.</cmd>
+                <cmd>(Optional) Specify notes in the <uicontrol>Notes</uicontrol> text field.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>OK</uicontrol> to complete this task.</cmd>

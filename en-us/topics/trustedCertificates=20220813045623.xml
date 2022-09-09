@@ -19,8 +19,8 @@
                     by StellarOne.</cmd>
             </step>
             <step>
-                <cmd>Navigate to the target agent or agent group and click the corresponding link
-                    under the <uicontrol>Policy Inheritance</uicontrol> header.</cmd>
+                <cmd>Navigate to the target agent or group and click the corresponding link under
+                    the <uicontrol>Policy Inheritance</uicontrol> header.</cmd>
             </step>
             <step>
                 <cmd>Go to <menucascade>
@@ -43,10 +43,10 @@
                         </li>
                         <li>
                             <p>For removing only one trusted certificate, click the edit icon under
-                                the <wintitle>Actions</wintitle> header.</p>
+                                the <uicontrol>Actions</uicontrol> header.</p>
                         </li>
                     </ul>
-                    <p>A pop-up <wintitle>Notification</wintitle> window appears. Click
+                    <p>A pop-up <uicontrol>Notification</uicontrol> window appears. Click
                             <uicontrol>Confirm</uicontrol> to delete the selected
                         certificate(s).</p>
                 </info>

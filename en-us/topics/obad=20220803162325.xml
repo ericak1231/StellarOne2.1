@@ -7,16 +7,15 @@
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
       <p><indexterm>Operations Behavior Anomaly Detection</indexterm>StellarProtect provides the
-          <wintitle>Operations Behavior Anomaly Detection</wintitle> to protect the endpoints from
+          <uicontrol>Operations Behavior Anomaly Detection</uicontrol> to protect the endpoints from
         fileless attacks. </p>
       <p>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the StellarOne web
         console. Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
-        screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed by
-        StellarOne. Navigate to the target agent or agent group and click the <uicontrol>Policy
-          Inheritance </uicontrol>link.</p>
-      <p>Scroll down and find the <wintitle>Operations Behavior Anomaly Detection</wintitle>
-        section.</p>
-      <p>Basically, the <wintitle>Operations Behavior Anomaly Detection</wintitle> has four
+        screen. The <uicontrol>Agents</uicontrol> screen displays a list of agents managed by
+        StellarOne. Navigate to the target agent or group and click the <uicontrol>Policy
+          Inheritance</uicontrol> link.</p>
+      <p>Scroll down and find the <uicontrol>Operations Behavior Anomaly Detection</uicontrol>.</p>
+      <p>Basically, the <uicontrol>Operations Behavior Anomaly Detection</uicontrol> has four
           modes:<fig id="fig_in5_tyf_k5b" otherprops="PRINT">
           <title>Operations Behavior Anomaly Detection
             (<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>need to change
@@ -27,9 +26,9 @@
           <li>
             <p><indexterm>Operations Behavior Anomaly Detection<indexterm>Learn
                 Mode</indexterm></indexterm><uicontrol>Learn</uicontrol>: Under this mode,
-              StellarProtect will monitor unrecognized program calls and add them to the trusted
-              operations list. In this way, the agent will continuously learn more and more
-              ICS-related program call behaviors.</p>
+              StellarProtect will monitor unrecognized program calls and add them to the
+              trusted-operation list. In this way, the agent will continuously learn more and more
+              OT-related program call behaviors.</p>
           </li>
           <li>
             <p><indexterm>Operations Behavior Anomaly Detection<indexterm>Detect
@@ -46,16 +45,16 @@
           <li>
             <p><indexterm>Operations Behavior Anomaly Detection<indexterm>Disable
                 Mode</indexterm></indexterm><uicontrol>Disable</uicontrol>: Under this mode, the
-                <wintitle>Operations Behavior Anomaly Detection</wintitle> is disabled and
+                <uicontrol>Operations Behavior Anomaly Detection</uicontrol> is disabled and
               protection for fileless attacks is turned off.</p>
           </li>
         </ul><note id="note_dyy_c15_k5b">
           <p>
             <ul id="ul_ahh_g15_k5b">
               <li>
-                <p>Under either <uicontrol>Detect</uicontrol> or <uicontrol>Enforce</uicontrol>
-                  mode, users have one more option, <uicontrol>Aggressive Mode,</uicontrol> for
-                  stronger antivirus protection. Please refer to <xref
+                <p>In either <uicontrol>Detect</uicontrol> or <uicontrol>Enforce</uicontrol> mode,
+                  users have one more option, <uicontrol>Aggressive Mode,</uicontrol> for stronger
+                  antivirus protection. Please refer to <xref
                     href="aggressiveMode=20220901174236.xml"/> for more details.</p>
               </li>
               <li>

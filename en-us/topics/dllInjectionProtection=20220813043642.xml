@@ -19,12 +19,12 @@
             </step>
             <step>
                 <cmd>The <wintitle>Agents</wintitle> screen displays a list of agents managed by
-                    StellarOne. Navigate to the target agent or agent group and click the
+                    StellarOne. Navigate to the target agent or group and click its corresponding
                         <uicontrol>Policy Inheritance </uicontrol>link.</cmd>
             </step>
             <step>
-                <cmd>Scroll down and find the <wintitle>DLL Injection Protection</wintitle> section
-                    at the left side of the screen.</cmd>
+                <cmd>Scroll down and find the <uicontrol>DLL Injection Protection</uicontrol> at the
+                    left side of the screen.</cmd>
             </step>
             <step>
                 <cmd>Click the toggle <uicontrol>Enable DLL Injection Protection</uicontrol> to
