@@ -5,7 +5,7 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Audit Log Filtering </title>
     <taskbody>
         <context id="context_vlv_tyc_m5b">
-            <p>This section describes how to filter the <wintitle>Audit Log</wintitle> to find the
+            <p>This section describes how to filter the <uicontrol>Audit Log</uicontrol> to find the
                 most relevant log messages.</p>
         </context>
         <steps id="steps_ddb_xdd_m5b">

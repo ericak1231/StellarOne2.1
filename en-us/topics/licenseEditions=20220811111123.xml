@@ -7,7 +7,7 @@
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
       <p><indexterm>license editions</indexterm>See below as the three kinds of license editions for
         the Stellar Series version 2.0. The StellarProtect supports Windows 7 or later versions; the
-        StellarProtect (Legacy Mode) supports Windows XP/2000.</p>
+        StellarProtect (Legacy Mode) supports legacy platforms such as Windows XP/2000.</p>
       <table frame="all" rowsep="1" colsep="1" id="table_oz4_5hm_k5b">
         <title>License Editions</title>
         <tgroup cols="3">
@@ -71,8 +71,7 @@
               <entry morerows="1">
                 <p>Annual</p>
                 <note id="note_v1l_q3m_k5b">
-                  <p>StellarKiosk was named StellarMix before the Stellar Series version 1.2 patch
-                    1.</p>
+                  <p>StellarKiosk was named StellarMix before the Stellar Series version 2.0.</p>
                 </note>
               </entry>
             </row>
@@ -109,8 +108,7 @@
                           Stellar Series.</p>
                       </li>
                       <li>
-                        <p>StellarOEM was named Perpetual before the Stellar Series version 1.2
-                          patch 1.</p>
+                        <p>StellarOEM was named Perpetual before the Stellar Series version 2.0.</p>
                       </li>
                     </ul>
                   </p>

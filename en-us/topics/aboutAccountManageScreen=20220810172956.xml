@@ -9,7 +9,7 @@
           <uicontrol>Administration</uicontrol>
           <uicontrol>Account Management</uicontrol>
         </menucascade> to manage user accounts for accessing the StellarOne web console.</p>
-      <p>The <wintitle>Account Management</wintitle> screen have two tabs:
+      <p>The <uicontrol>Account Management</uicontrol> screen have two tabs:
           <uicontrol>Users</uicontrol> and <uicontrol>Roles</uicontrol>. The former one allows users
         to manage accounts; the latter one provides information about different privileges for
         different accounts.</p>
@@ -58,37 +58,32 @@
             </row>
             <row>
               <entry>
-                <p><b>Screen display setting</b><image
-                    href="../images/screen_display_settings=20220907103300.png"
-                    id="image_j4z_yry_t5b" scalefit="no" scale="50"/></p>
+                <p><b>Screen display setting</b></p>
               </entry>
-              <entry>
-                <p>By clicking this button, users can customize the screen display by:<ul
-                    id="ul_unz_xgf_m5b">
+              <entry><image href="../images/screen_display_settings=20220907103300.png"
+                  id="image_j4z_yry_t5b" scalefit="no" scale="50"/><p>By clicking this button, users
+                  can customize the screen display by:<ul id="ul_unz_xgf_m5b">
                     <li>
                       <p>selecting how many items to be displayed on one page</p>
                     </li>
                     <li>
                       <p>hiding certain contents by unchecking items related to the titles in the
-                          <wintitle>Cusomize Table Display</wintitle> window.</p>
+                          <uicontrol>Customize Table Display</uicontrol> window.</p>
                     </li>
-                  </ul></p>
-              </entry>
+                  </ul></p></entry>
             </row>
             <row>
               <entry>
-                <p><b>Log off</b><image href="../images/account_name_icon=20220907103537.png"
-                    id="image_utf_gsy_t5b" scalefit="no" scale="50"/></p>
+                <p><b>Log off</b></p>
               </entry>
-              <entry>
-                <p>Click the account icon at the top-right corner of the screen to change your
-                  password or log off.</p>
-              </entry>
+              <entry><image href="../images/account_name_icon=20220907103537.png"
+                  id="image_utf_gsy_t5b" scalefit="no" scale="50"/><p>Click the account icon at the
+                  top-right corner of the screen to change your password or log off.</p></entry>
             </row>
           </tbody>
         </tgroup>
       </table>
-      <p>For more information about the <uicontrol>Roles</uicontrol> tab, please visit <xref
+      <p>For more information about the <uicontrol>Roles</uicontrol> tab page, please visit <xref
           href="accountManagement=20220728112101.xml"/>.</p>
     </section>
   </refbody>

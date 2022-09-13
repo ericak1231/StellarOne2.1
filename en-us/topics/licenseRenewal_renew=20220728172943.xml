@@ -20,8 +20,8 @@
             </step>
             <step>
                 <cmd>A message with <uicontrol>Licenses have been updated successfully</uicontrol>
-                    appears. and the message of the <uicontrol>Last Updated</uicontrol> is changed
-                    to the date and time the license is updated. </cmd>
+                    appears. The <uicontrol>Last Updated</uicontrol> item now shows the date and
+                    time the license was updated. </cmd>
             </step>
         </steps>
     </taskbody>

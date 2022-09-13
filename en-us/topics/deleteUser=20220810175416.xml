@@ -9,8 +9,8 @@
         </context>
         <steps id="steps_ddb_xdd_m5b">
             <step>
-                <cmd>Log on to the web console using an account with the <wintitle>Admin</wintitle>
-                    role.</cmd>
+                <cmd>Log on to the web console using an account with the
+                        <uicontrol>Admin</uicontrol> role.</cmd>
                 <info>
                     <note id="note_nk2_dyj_m5b">
                         <ul id="ul_gj5_dyj_m5b">
@@ -18,8 +18,8 @@
                                 <p>The logon credentials entered here are case-sensitive.</p>
                             </li>
                             <li>
-                                <p>Only the account with the <wintitle>Admin</wintitle> role can
-                                    manage user accounts.</p>
+                                <p>Only users logged on with the <uicontrol>Admin</uicontrol> role
+                                    can manage user accounts.</p>
                             </li>
                         </ul>
                     </note>
@@ -36,8 +36,8 @@
                 <choices id="choices_kjz_kll_m5b">
                     <choice>
                         <p>To delete only one user account at a time, under the
-                                <wintitle>Actions</wintitle> column, click the trash-can icon
-                            corresponding to the user account you wan to delete.</p>
+                                <uicontrol>Actions</uicontrol> column, click the trash-can icon
+                            corresponding to the target user account.</p>
                     </choice>
                     <choice>
                         <p>To delete multiple user accounts at a time, click the checkboxes next to
@@ -48,7 +48,7 @@
                 </choices>
             </step>
             <step>
-                <cmd>The <wintitle>Delete User Account</wintitle> window appears.</cmd>
+                <cmd>The <uicontrol>Delete User Account</uicontrol> window appears.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Confirm</uicontrol> to delete the user account(s).</cmd>

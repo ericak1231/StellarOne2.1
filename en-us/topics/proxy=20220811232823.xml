@@ -17,8 +17,8 @@
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Click the toggle switch of the <uicontrol>Proxy Settings...</uicontrol> to
-                    enable below settings.</cmd>
+                <cmd>Toggle on the <uicontrol>Proxy Settings...</uicontrol> to enable below
+                    settings.</cmd>
                 <info>
                     <ul id="ul_dmf_hh4_m5b">
                         <li>

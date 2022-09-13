@@ -13,8 +13,8 @@
       <table frame="all" id="table_xkn_q35_k5b">
         <title>About System Logs Screen</title>
         <tgroup cols="2">
-          <colspec colname="c1" colnum="1" colwidth="3*"/>
-          <colspec colname="c2" colnum="2" colwidth="11.09*"/>
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="3*"/>
           <thead>
             <row>
               <entry>
@@ -51,8 +51,8 @@
                 <p>Filter</p>
               </entry>
               <entry>
-                <p>Users can filter logs by selecting or input certain severity level directly in
-                  the search bar. The severity levels are listed as below:</p>
+                <p>Users can filter logs by selecting or specifying certain severity level directly
+                  in the search bar. The severity levels are listed as below:</p>
                 <ul id="ul_syq_kjx_l5b">
                   <li>
                     <p>Warning</p>
@@ -106,15 +106,15 @@
                 <p>Screen display setting</p>
               </entry>
               <entry>
-                <p>By clicking this button, users can customize the System Logs screen display
-                    by:<ul id="ul_wky_bj5_k5b">
+                <p>By clicking this button, users can customize the screen display by:<ul
+                    id="ul_wky_bj5_k5b">
                     <li>
                       <p>selecting how many logs to be displayed per page</p>
                     </li>
                     <li>
                       <p>hiding certain contents by unchecking <uicontrol>Time</uicontrol>,
                           <uicontrol>Severity</uicontrol>, or <uicontrol>Message</uicontrol> in the
-                          <wintitle>Cusomize Table Display</wintitle> window.</p>
+                          <uicontrol>Customize Table Display</uicontrol> window.</p>
                     </li>
                   </ul></p>
               </entry>

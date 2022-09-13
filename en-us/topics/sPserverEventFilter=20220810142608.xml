@@ -34,8 +34,8 @@
                                 categories.</p>
                             <ul id="ul_gnw_jzd_m5b">
                                 <li>
-                                    <p><uicontrol>Group Name</uicontrol>: The <wintitle>Select a
-                                            group</wintitle> window appears. Select one group and
+                                    <p><uicontrol>Group Name</uicontrol>: The <uicontrol>Select a
+                                            group</uicontrol> window appears. Select one group and
                                         click <uicontrol>Confirm</uicontrol> for viewing its log
                                         records.</p>
                                 </li>
@@ -65,7 +65,8 @@
                         <p>Please refer to <xref
                                 href="sPserverEventLogDescription=20220809142516.xml"/> and <xref
                                 href="sOneserverEventLogDescription=20220809150242.xml"/> in the
-                            Appendices for more details.</p>
+                            Appendices for more details about event IDs and corresponding log
+                            information..</p>
                     </note>
                 </info>
             </step>

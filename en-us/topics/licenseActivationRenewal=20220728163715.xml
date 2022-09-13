@@ -24,7 +24,7 @@
                 <info>
                     <ol id="ol_zcd_m4t_m5b">
                         <li>
-                            <p>The <wintitle>Specify Activation Code</wintitle> window appears.
+                            <p>The <uicontrol>Specify Activation Code</uicontrol> window appears.
                                 Input the new Activation Code to renew license for StellarOne
                                 console.</p>
                         </li>
@@ -46,8 +46,8 @@
                         <uicontrol>Renew License</uicontrol> button.</cmd>
             </step>
             <step>
-                <cmd>The StellarOne will connect to the TXOne Product License server for
-                    licensing.</cmd>
+                <cmd>The StellarOne will connect to the TXOne Product License server for license
+                    renewal.</cmd>
             </step>
         </steps>
     </taskbody>

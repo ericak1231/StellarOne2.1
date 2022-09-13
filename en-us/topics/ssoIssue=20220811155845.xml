@@ -6,8 +6,8 @@
     <taskbody>
         <steps>
             <step>
-                <cmd>Open the <wintitle>Users</wintitle> folder under the <wintitle>Active Directory
-                        Users and Computers</wintitle> in IdP server.</cmd>
+                <cmd>Open the <uicontrol>Users</uicontrol> folder under the <uicontrol>Active
+                        Directory Users and Computers</uicontrol> in IdP server.</cmd>
             </step>
             <step>
                 <cmd>Right-click on the user account used for SSO, and then go to <menucascade>
@@ -16,14 +16,14 @@
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Check the <wintitle>E-mail</wintitle> field. Make sure the email input here is
-                    consistent with the account email used for accessing StellarOne web
+                <cmd>Check the <uicontrol>E-mail</uicontrol> field. Make sure the email input here
+                    is consistent with the account email used for accessing StellarOne web
                     console.</cmd>
                 <info>
                     <fig id="fig_ls4_qfm_m5b">
                         <title>Resolving SSO Issue - Email Check</title>
                         <image href="../images/ssoIssue=20220811164320.png" id="image_pkc_tfm_m5b"
-                            scalefit="no" scale="50"/>
+                            scalefit="no" scale="50" placement="break"/>
                     </fig>
                 </info>
             </step>
@@ -52,7 +52,7 @@
                     <fig id="fig_yqy_2hm_m5b">
                         <title>Virtual Machine Settings - Time Synchronization</title>
                         <image href="../images/ssoVmSettigs=20220811165451.png"
-                            id="image_hzv_ghm_m5b" scalefit="no" scale="50"/>
+                            id="image_hzv_ghm_m5b" scalefit="no" scale="50" placement="break"/>
                     </fig>
                 </stepxmp>
             </step>

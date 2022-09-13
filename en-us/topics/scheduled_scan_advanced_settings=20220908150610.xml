@@ -70,8 +70,12 @@
                         <li>
                             <p><uicontrol>Folders</uicontrol>: specify a path to the folders that do
                                 not require scanning.</p>
+                        </li>
+                        <li>
                             <p><uicontrol>Files</uicontrol>: specify a path to the files that do not
                                 require scanning.</p>
+                        </li>
+                        <li>
                             <p><uicontrol>File Extensions</uicontrol>: specify the file extension of
                                 certain files that do not require scanning.</p>
                             <note id="note_zhg_mkh_55b">

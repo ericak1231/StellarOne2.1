@@ -5,7 +5,7 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Agent Events Log Filtering </title>
     <taskbody>
         <context id="context_vlv_tyc_m5b">
-            <p>This section describes how to filter the <wintitle>Agent Events</wintitle> logs to
+            <p>This section describes how to filter the <uicontrol>Agent Events</uicontrol> logs to
                 find the most relevant log messages.</p>
         </context>
         <steps id="steps_ddb_xdd_m5b">
@@ -35,8 +35,8 @@
                                 see the options under different categories.</p>
                             <ul id="ul_gnw_jzd_m5b">
                                 <li>
-                                    <p><uicontrol>Agent Group</uicontrol>: The <wintitle>Select a
-                                            group</wintitle> window appears. Select one group and
+                                    <p><uicontrol>Agent Group</uicontrol>: The <uicontrol>Select a
+                                            group</uicontrol> window appears. Select one group and
                                         click <uicontrol>Confirm</uicontrol> for viewing its log
                                         records.</p>
                                 </li>
@@ -46,7 +46,7 @@
                                         viewing the relevant log records.<note id="note_aws_j12_m5b">
                                             <p>Please refer to <xref
                                                   href="sPagentEventLogDescription=20220808105743.xml"
-                                                /> for more details on different event types.</p>
+                                                /> for more details about different event types.</p>
                                         </note></p>
                                 </li>
                                 <li>

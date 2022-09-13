@@ -5,11 +5,11 @@
   <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">About the Policy Screen</title>
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
-      <p id="steps_policy_screen"><indexterm>policy</indexterm>Click the
-          <uicontrol>Agents</uicontrol> tab in the top navigation bar of the StellarOne web console.
-        Click the <uicontrol>All</uicontrol> group, and then a screen displays the second level of
-        groups/agents managed by StellarOne. Navigate to the target agent or group, and then click
-        its corresponding <uicontrol>Policy Inheritance</uicontrol>
+      <p id="steps_policy_screen"><indexterm>policy screen</indexterm><indexterm>policy
+          setting</indexterm>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar
+        of the StellarOne web console. Click the <uicontrol>All</uicontrol> group, and then a screen
+        displays the second level of groups/agents managed by StellarOne. Navigate to the target
+        agent or group, and then click its corresponding <uicontrol>Policy Inheritance</uicontrol>
           (<uicontrol>Inherited</uicontrol>, <uicontrol>Customized</uicontrol>, or
           <uicontrol>Self-managed</uicontrol>). Then the <wintitle>Policy</wintitle> screen
           appears.<note id="note_h5h_bww_m5b">
@@ -24,7 +24,7 @@
         <title>Switch Options of the Policy Screen</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.9*"/>
           <thead>
             <row>
               <entry>
@@ -38,7 +38,7 @@
           <tbody>
             <row>
               <entry>
-                <p><indexterm>policy<indexterm>Function
+                <p><indexterm>policy screen<indexterm>Function
                     Type)</indexterm></indexterm><uicontrol>Funtion Type</uicontrol></p>
               </entry>
               <entry>
@@ -49,7 +49,7 @@
             </row>
             <row>
               <entry>
-                <p><indexterm>policy<indexterm>Policy
+                <p><indexterm>policy screen<indexterm>Policy
                     Inheritance</indexterm></indexterm><uicontrol>Policy Inheritance</uicontrol></p>
               </entry>
               <entry>
@@ -59,7 +59,8 @@
             </row>
             <row>
               <entry>
-                <p><indexterm>policy<indexterm>Self-management</indexterm></indexterm><uicontrol>Self-management</uicontrol></p>
+                <p><indexterm>policy
+                    screen<indexterm>Self-management</indexterm></indexterm><uicontrol>Self-management</uicontrol></p>
               </entry>
               <entry>
                 <p>The toggle button allows users to enable or disable the agent's self-management,
@@ -68,7 +69,7 @@
             </row>
             <row>
               <entry>
-                <p><indexterm>policy<indexterm>General
+                <p><indexterm>policy screen<indexterm>General
                     Info/Policy</indexterm></indexterm><uicontrol>General
                     Info</uicontrol>/<uicontrol>Policy</uicontrol></p>
               </entry>
@@ -91,7 +92,7 @@
       <title>Functions of the Policy Screen</title>
       <tgroup cols="2">
         <colspec colname="c1" colnum="1" colwidth="1*"/>
-        <colspec colname="c2" colnum="2" colwidth="1*"/>
+        <colspec colname="c2" colnum="2" colwidth="1.9*"/>
         <thead>
           <row>
             <entry>
@@ -105,7 +106,7 @@
         <tbody>
           <row>
             <entry>
-              <p><indexterm>policy<indexterm>Application
+              <p><indexterm>policy setting<indexterm>Application
                   Lockdown</indexterm></indexterm><uicontrol>Application Lockdown</uicontrol></p>
             </entry>
             <entry>
@@ -116,8 +117,8 @@
           </row>
           <row>
             <entry>
-              <p><indexterm>policy<indexterm>Industrial-Grade Next-Generation
-                  Antivirus</indexterm></indexterm><uicontrol>Industrial-Grade Next-Generation
+              <p><indexterm>policy setting<indexterm>Industrial-Grade Next-Generation
+                    Antivirus</indexterm></indexterm><uicontrol>Industrial-Grade Next-Generation
                   Antivirus</uicontrol></p>
             </entry>
             <entry>
@@ -128,7 +129,7 @@
           </row>
           <row>
             <entry>
-              <p><indexterm>policy<indexterm>Agent Component Update
+              <p><indexterm>policy setting<indexterm>Agent Component Update
                   Schedule</indexterm></indexterm><uicontrol>Agent Component Update
                   Schedule</uicontrol></p>
             </entry>
@@ -139,8 +140,8 @@
           </row>
           <row>
             <entry>
-              <p><indexterm>policy<indexterm>Operation Behavior Anomaly
-                  Detection</indexterm></indexterm><uicontrol>Operation Behavior Anomaly
+              <p><indexterm>policy setting<indexterm>Operation Behavior Anomaly
+                    Detection</indexterm></indexterm><uicontrol>Operation Behavior Anomaly
                   Detection</uicontrol></p>
             </entry>
             <entry>
@@ -150,7 +151,7 @@
           </row>
           <row>
             <entry>
-              <p><indexterm>policy<indexterm>OT Application
+              <p><indexterm>policy setting<indexterm>OT Application
                   Safeguard</indexterm></indexterm><uicontrol>OT Application
                 Safeguard</uicontrol></p>
             </entry>
@@ -163,7 +164,7 @@
           </row>
           <row>
             <entry>
-              <p><indexterm>policy<indexterm>DLL Injection
+              <p><indexterm>policy setting<indexterm>DLL Injection
                   Protection</indexterm></indexterm><uicontrol>DLL Injection
                 Protection</uicontrol></p>
             </entry>
@@ -174,8 +175,8 @@
           </row>
           <row>
             <entry>
-              <p><indexterm>policy<indexterm>Device Control</indexterm></indexterm><uicontrol>Device
-                  Control</uicontrol></p>
+              <p><indexterm>policy setting<indexterm>Device
+                  Control</indexterm></indexterm><uicontrol>Device Control</uicontrol></p>
             </entry>
             <entry>
               <p>This function provides protection against unauthorized access of USB devices.
@@ -185,7 +186,7 @@
           </row>
           <row>
             <entry>
-              <p><indexterm>policy<indexterm>User-Defined Suspicious
+              <p><indexterm>policy setting<indexterm>User-Defined Suspicious
                   Objects</indexterm></indexterm><uicontrol>User-Defined Suspicious
                   Objects</uicontrol></p>
             </entry>
@@ -197,8 +198,8 @@
           </row>
           <row>
             <entry>
-              <p><indexterm>policy<indexterm>Agent Password</indexterm></indexterm><uicontrol>Agent
-                  Password</uicontrol></p>
+              <p><indexterm>policy setting<indexterm>Agent
+                  Password</indexterm></indexterm><uicontrol>Agent Password</uicontrol></p>
             </entry>
             <entry>
               <p>This function allows the administrators to change the StellarProtect admin password
@@ -208,7 +209,8 @@
           </row>
           <row>
             <entry>
-              <p><indexterm>policy<indexterm>Patch</indexterm></indexterm><uicontrol>Patch</uicontrol></p>
+              <p><indexterm>policy
+                  setting<indexterm>Patch</indexterm></indexterm><uicontrol>Patch</uicontrol></p>
             </entry>
             <entry>
               <p>This function allows the administrator to deploy patch files to all agents under
@@ -218,7 +220,7 @@
           </row>
           <row>
             <entry>
-              <p><indexterm>policy<indexterm>Trusted
+              <p><indexterm>policy setting<indexterm>Trusted
                   Certificates</indexterm></indexterm><uicontrol>Trusted
                 Certificates</uicontrol></p>
             </entry>

@@ -15,15 +15,15 @@
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>In the <wintitle>Date and Time</wintitle> section, click the pencil icon to
+                <cmd>In the <uicontrol>Date and Time</uicontrol> section, click the edit icon to
                     select the date and time.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>In the <wintitle>Time Zone</wintitle> section, click the arrow downwards in the
-                    blank bar. A drop-down menu with global time zone appears.</cmd>
+                <cmd>In the <uicontrol>Time Zone</uicontrol> section, click the arrow downwards in
+                    the blank bar. A drop-down menu with global time zone appears.</cmd>
             </step>
             <step>
                 <cmd>Select the appropriate time zone for the sytem, and then click

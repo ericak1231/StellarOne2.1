@@ -50,8 +50,9 @@
                                     Component Update Schedule</wintitle> to enable the function.</p>
                             <ul id="ul_mhm_gnr_m5b">
                                 <li>
-                                    <p>Click the radio buttons under <wintitle>Frequency</wintitle>
-                                        to set the frequency by <uicontrol>Daily</uicontrol>,
+                                    <p>Click the radio buttons under
+                                            <uicontrol>Frequency</uicontrol> to set the frequency by
+                                            <uicontrol>Daily</uicontrol>,
                                             <uicontrol>Weekly</uicontrol>, or
                                             <uicontrol>Monthly</uicontrol>.<note
                                             id="note_nkj_h4r_m5b" type="important">
@@ -74,21 +75,21 @@
                     <ul>
                         <li>
                             <p>To specify the download source for StellarOne, click either of the
-                                radio buttons under <wintitle>Scan Component Update Source
-                                    (StellarOne)</wintitle>. If users select <uicontrol>ActiveUpdate
-                                    server</uicontrol>, the component update will be downloaded
-                                directly from the ActiveUpdate server. If the StellarOne server can
-                                not connect to the ActiveUpdate server or if users host an update
-                                server in an internal network, please select  <uicontrol>Other
-                                    update source</uicontrol> and specify the address in the text
-                                field.</p>
+                                radio buttons under <uicontrol>Scan Component Update Source
+                                    (StellarOne)</uicontrol>. If users select
+                                    <uicontrol>ActiveUpdate server</uicontrol>, the component update
+                                will be downloaded directly from the ActiveUpdate server. If the
+                                StellarOne server can not connect to the ActiveUpdate server or if
+                                users host an update server in an internal network, please select
+                                    <uicontrol>Other update source</uicontrol> and specify the
+                                address in the text field.</p>
                         </li>
                     </ul>
                     <ul>
                         <li>
                             <p>To specify the download source for StellarProtect agents, click
-                                either of the radio buttons under <wintitle>Scan Component Update
-                                    Source (Agents)</wintitle>. Users can download the component
+                                either of the radio buttons under <uicontrol>Scan Component Update
+                                    Source (Agents)</uicontrol>. Users can download the component
                                 update source directly from the StellarOne server, or select
                                     <uicontrol>Other update source</uicontrol> and specify the
                                 address in the text field.</p>
@@ -97,7 +98,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Under the <wintitle>StellarProtect</wintitle> tab:</cmd>
+                <cmd>Under the <uicontrol>StellarProtect</uicontrol> tab:</cmd>
                 <info>
                     <ul id="ul_cqb_btr_m5b">
                         <li>

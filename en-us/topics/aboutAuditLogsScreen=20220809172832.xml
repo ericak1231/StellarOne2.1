@@ -28,7 +28,7 @@
           <tbody>
             <row>
               <entry>
-                <p>Export</p>
+                <p>(1) Export</p>
               </entry>
               <entry>
                 <p>Users can export log list as an <filepath>.csv</filepath> file by clicking the
@@ -48,7 +48,7 @@
             </row>
             <row>
               <entry>
-                <p>Filter</p>
+                <p>(2) Filter</p>
               </entry>
               <entry>
                 <p>This tool allows users to search for the relevant log messages for
@@ -58,7 +58,7 @@
             </row>
             <row>
               <entry>
-                <p>Log display setting</p>
+                <p>(3) Log display setting</p>
               </entry>
               <entry>
                 <p>Users can customize how many logs to be displayed either by:<ul
@@ -74,10 +74,10 @@
             </row>
             <row>
               <entry>
-                <p>Screen display setting</p>
+                <p>(4) Screen display setting</p>
               </entry>
               <entry>
-                <p>By clicking this button, users can customize the Audit Logs screen display by:<ul
+                <p>By clicking this button, users can customize the screen display by:<ul
                     id="ul_wky_bj5_k5b">
                     <li>
                       <p>selecting how many logs to be displayed per page</p>
@@ -86,14 +86,14 @@
                       <p>hiding certain contents by unchecking <uicontrol>Time</uicontrol>,
                           <uicontrol>Severity</uicontrol>, <uicontrol>User ID</uicontrol>,
                           <uicontrol>Client IP</uicontrol>, or <uicontrol>Message</uicontrol> in the
-                          <wintitle>Cusomize Table Display</wintitle> window.</p>
+                          <uicontrol>Cusomize Table Display</uicontrol> window.</p>
                     </li>
                   </ul></p>
               </entry>
             </row>
             <row>
               <entry>
-                <p>Refresh</p>
+                <p>(5) Refresh</p>
               </entry>
               <entry>
                 <p>The button allows users to manually refresh the screen for the latest log

@@ -5,8 +5,8 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Group Mapping</title>
     <taskbody>
         <context>
-            <p>This function allows users to directly register the StellarProtect agent to a
-                specific group via the StellarOne web console.</p>
+            <p>This function allows users to directly register agent(s) to a specific group via the
+                StellarOne web console.</p>
         </context>
         <steps>
             <step>
@@ -17,7 +17,7 @@
             </step>
             <step>
                 <cmd>Select the <uicontrol>StellarProtect</uicontrol> or <uicontrol>StellarProtect
-                        (Legacy Mode)</uicontrol> tab.</cmd>
+                        (Legacy Mode)</uicontrol> tab according to your target agent type.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Download</uicontrol> to download the Installer Package.</cmd>
@@ -26,21 +26,21 @@
                 <cmd>Click the <uicontrol>download Group.ini</uicontrol> link.</cmd>
             </step>
             <step>
-                <cmd>The <wintitle>Select a group</wintitle> window appears.</cmd>
+                <cmd>The <uicontrol>Select a group</uicontrol> window appears.</cmd>
             </step>
             <step>
-                <cmd>Select a group for the agent and click <uicontrol>Download</uicontrol>. Click
-                    the <uicontrol>Close</uicontrol> button to close the window.</cmd>
+                <cmd>Select a group for the target agent(s) and click
+                        <uicontrol>Download</uicontrol>. Click the <uicontrol>Close</uicontrol>
+                    button to close the window.</cmd>
             </step>
             <step>
                 <cmd>A file named <filepath>Group.ini</filepath> has been downloaded. Place the
-                        <filepath>Group.ini</filepath> file as the top level file in the agent’s
-                    installer package</cmd>
+                        <filepath>Group.ini</filepath> file as the top level file in the installer
+                    package(s) of the target agent(s).</cmd>
             </step>
             <step>
-                <cmd>User can check the StellarOne console and StellarProtect or StellarProtect
-                    (Legacy Mode) agent console to see if the agent is successfully
-                    registered.</cmd>
+                <cmd>User can check the StellarOne console and the on-site target agent to see if
+                    the agent is successfully registered.</cmd>
             </step>
         </steps>
     </taskbody>

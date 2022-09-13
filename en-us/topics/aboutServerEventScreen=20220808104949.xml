@@ -13,8 +13,8 @@
       <table frame="all" id="table_xkn_q35_k5b">
         <title>About StellarProtect Server Events Screen</title>
         <tgroup cols="2">
-          <colspec colname="c1" colnum="1" colwidth="3*"/>
-          <colspec colname="c2" colnum="2" colwidth="11.41*"/>
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="3*"/>
           <thead>
             <row>
               <entry>
@@ -28,7 +28,7 @@
           <tbody>
             <row>
               <entry>
-                <p>Export</p>
+                <p>(1) Export</p>
               </entry>
               <entry>
                 <p>Users can export log list as an <filepath>.csv</filepath> file by clicking the
@@ -48,7 +48,7 @@
             </row>
             <row>
               <entry>
-                <p>Filter</p>
+                <p>(2) Filter</p>
               </entry>
               <entry>
                 <p>This tool allows users to search for the relevant log messages for
@@ -58,13 +58,13 @@
             </row>
             <row>
               <entry>
-                <p>Log display setting</p>
+                <p>(3) Log display setting</p>
               </entry>
               <entry>
                 <p>Users can customize how many logs to be displayed either by:<ul
                     id="ul_ehp_2sx_l5b">
                     <li>
-                      <p>the number of the latest logs records</p>
+                      <p>the number of the latest log records</p>
                     </li>
                     <li>
                       <p>the logs generated within a particular period</p>
@@ -74,10 +74,10 @@
             </row>
             <row>
               <entry>
-                <p>Screen display setting</p>
+                <p>(4) Screen display setting</p>
               </entry>
               <entry>
-                <p>By clicking this button, users can customize the Audit Logs screen display by:<ul
+                <p>By clicking this button, users can customize the screen display by:<ul
                     id="ul_wky_bj5_k5b">
                     <li>
                       <p>selecting how many logs to be displayed on one page</p>
@@ -93,7 +93,7 @@
             </row>
             <row>
               <entry>
-                <p>Refresh</p>
+                <p>(5) Refresh</p>
               </entry>
               <entry>
                 <p>The button allows users to manually refresh the screen for the latest log
@@ -111,8 +111,8 @@
       <table frame="all" id="table_ugy_cc2_m5b">
         <title>About StellarOne Server Events Screen</title>
         <tgroup cols="2">
-          <colspec colname="c1" colnum="1" colwidth="3*"/>
-          <colspec colname="c2" colnum="2" colwidth="11.41*"/>
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="3*"/>
           <thead>
             <row>
               <entry>
@@ -126,7 +126,7 @@
           <tbody>
             <row>
               <entry>
-                <p>Export</p>
+                <p>(1) Export</p>
               </entry>
               <entry>
                 <p>Users can export log list as an <filepath>.csv</filepath> file by clicking the
@@ -146,11 +146,11 @@
             </row>
             <row>
               <entry>
-                <p>Screen display setting</p>
+                <p>(2) Screen display setting</p>
               </entry>
               <entry>
-                <p>By clicking this button, users can customize the Server Events Logs screen
-                  display by:<ul id="ul_ygy_cc2_m5b">
+                <p>By clicking this button, users can customize the screen display by:<ul
+                    id="ul_ygy_cc2_m5b">
                     <li>
                       <p>selecting how many logs to be displayed per page</p>
                     </li>
@@ -165,7 +165,7 @@
             </row>
             <row>
               <entry>
-                <p>Refresh</p>
+                <p>(3) Refresh</p>
               </entry>
               <entry>
                 <p>The button allows users to manually refresh the screen for the latest log

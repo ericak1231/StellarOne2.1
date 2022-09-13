@@ -12,23 +12,23 @@
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>Import Certificate</uicontrol>, and then the <wintitle>Import
-                        Certificate</wintitle> window appears.</cmd>
+                <cmd>Click <uicontrol>Import Certificate</uicontrol>, and then the <uicontrol>Import
+                        Certificate</uicontrol> window appears.</cmd>
                 <info>
                     <ul id="ul_zns_nps_m5b">
                         <li>
                             <p>Click the <uicontrol>Select file…</uicontrol> next to the
-                                    <wintitle>Certificate</wintitle> option to select the target
+                                    <uicontrol>Certificate</uicontrol> option to select the target
                                 certificate.</p>
                         </li>
                         <li>
                             <p>Click the <uicontrol>Select file…</uicontrol> next to the
-                                    <wintitle>Private Key</wintitle> option to select the target
-                                Private Key.</p>
+                                    <uicontrol>Private Key</uicontrol> option to select the target
+                                private key.</p>
                         </li>
                         <li>
                             <p>(Optional) Specify the passphrase in the
-                                    <wintitle>Passphrase</wintitle> text field.</p>
+                                    <uicontrol>Passphrase</uicontrol> text field.</p>
                         </li>
                     </ul>
                 </info>

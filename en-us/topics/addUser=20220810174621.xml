@@ -11,7 +11,7 @@
         <steps id="steps_ddb_xdd_m5b">
             <step>
                 <cmd>Log on to the web console using an account with the
-                    <wintitle>Admin</wintitle>role.</cmd>
+                        <uicontrol>Admin</uicontrol> role.</cmd>
                 <info>
                     <note id="note_nk2_dyj_m5b">
                         <ul id="ul_gj5_dyj_m5b">
@@ -19,7 +19,7 @@
                                 <p>The logon credentials entered here are case-sensitive.</p>
                             </li>
                             <li>
-                                <p>Only the account  with the <wintitle>Admin</wintitle>role can
+                                <p>Only the account with the <uicontrol>Admin</uicontrol> role can
                                     manage user accounts.</p>
                             </li>
                         </ul>
@@ -33,8 +33,8 @@
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>Add User</uicontrol> button, and then the <wintitle>Add User
-                        Account</wintitle> window appears.</cmd>
+                <cmd>Click <uicontrol>Add User</uicontrol> button, and then the <uicontrol>Add User
+                        Account</uicontrol> window appears.</cmd>
             </step>
             <step>
                 <cmd>Specify the <wintitle>Authentication Source</wintitle>
@@ -43,12 +43,12 @@
                 <choices id="choices_yzy_xxj_m5b">
                     <choice>
                         <p>To add a <uicontrol>Local</uicontrol> user, specify the
-                                <wintitle>ID</wintitle> and <wintitle>Name</wintitle>.</p>
+                                <uicontrol>ID</uicontrol> and <uicontrol>Name</uicontrol>.</p>
                     </choice>
                     <choice>
                         <p>To add an <uicontrol>SAML Identity Provider</uicontrol> user, specify
-                                <wintitle>Email for SAML Account Mapping</wintitle> and
-                                <wintitle>Name</wintitle>.<note id="note_vn2_szj_m5b" type="note">
+                                <uicontrol>Email for SAML Account Mapping</uicontrol> and
+                                <uicontrol>Name</uicontrol>.<note id="note_vn2_szj_m5b" type="note">
                                 <p>To allow an SAML Identity Provider user to log in using Single
                                     Sign-On (SSO), click the <uicontrol>Single Sign On
                                         Configuration</uicontrol> link. Please refer to <xref
@@ -58,14 +58,14 @@
                 </choices>
                 <info>
                     <note id="note_s3t_1zj_m5b">
-                        <p>The <wintitle>ID</wintitle>, <wintitle>Name</wintitle>, and
-                                <wintitle>Email for SAML Account Mapping</wintitle> entered here are
-                            case-sensitive.</p>
+                        <p>The <uicontrol>ID</uicontrol>, <uicontrol>Name</uicontrol>, and
+                                <uicontrol>Email for SAML Account Mapping</uicontrol> entered here
+                            are case-sensitive.</p>
                     </note>
                 </info>
             </step>
             <step>
-                <cmd><wintitle>Role</wintitle>: Select among the account roles
+                <cmd><uicontrol>Role</uicontrol>: Select among the account roles
                         <uicontrol>Admin</uicontrol>, <uicontrol>Operator</uicontrol> or
                         <uicontrol>Viewer </uicontrol>(Default). Please refer to <xref
                         href="accountManagement=20220728112101.xml"/> for more details on the
@@ -73,14 +73,14 @@
                 <info>
                     <ul id="ul_jyc_2ck_m5b">
                         <li>
-                            <p>For a <uicontrol>Local</uicontrol> user, specify the <wintitle>Local
-                                    Password</wintitle> and re-type it for confirmation.</p>
+                            <p>For a <uicontrol>Local</uicontrol> user, specify the <uicontrol>Local
+                                    Password</uicontrol> and re-type it for confirmation.</p>
                         </li>
                     </ul>
                 </info>
             </step>
             <step>
-                <cmd><wintitle>Group Control</wintitle>: Select the groups the target account is
+                <cmd><uicontrol>Group Control</uicontrol>: Select the groups the target account is
                     allowed to access or view.</cmd>
             </step>
             <step>

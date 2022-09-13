@@ -10,8 +10,8 @@
         </context>
         <steps>
             <step>
-                <cmd>Log on to the web console using an account with the <wintitle>Admin</wintitle>
-                    role.</cmd>
+                <cmd>Log on to the web console using an account with the
+                        <uicontrol>Admin</uicontrol> role.</cmd>
                 <info>
                     <note id="note_nk2_dyj_m5b">
                         <ul id="ul_gj5_dyj_m5b">
@@ -34,11 +34,11 @@
                     right of the screen.</cmd>
             </step>
             <step>
-                <cmd>Click on the kebab menu, and then select the <uicontrol>Generate API
+                <cmd>Click on the kebab menu, and then select the <uicontrol>Generate an API
                         Key</uicontrol> option.</cmd>
             </step>
             <step>
-                <cmd>The <uicontrol>Generate API Key</uicontrol> window appears. Click the date
+                <cmd>The <uicontrol>Generate an API Key</uicontrol> window appears. Click the date
                     picker and choose an expiration date on the pop-up calendar. Click
                         <uicontrol>Confirm</uicontrol>.</cmd>
             </step>
@@ -50,7 +50,7 @@
                         <note id="note_v4k_lnn_35b" type="important">
                             <p>Make sure to back up the copied API key before proceeding to the next
                                 step. The API key will not be displayed again for security
-                                reason.</p>
+                                reasons.</p>
                         </note>
                     </p>
                 </info>
@@ -59,14 +59,9 @@
                 <cmd>Click <uicontrol>OK</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Check the result under <wintitle>API Key Expiry Date</wintitle> for the result
-                    or mouse hover above the kebab menu of the user account, and the expiration date
-                    of the API key will appear.</cmd>
-                <stepresult>
-                    <fig id="fig_cft_w4n_35b">
-                        <title>API Key Expiry Date</title>
-                    </fig>
-                </stepresult>
+                <cmd>Check the result under the <uicontrol>API Key Expiry Date</uicontrol> or mouse
+                    over above the kebab menu of the user account, and the expiration date of the
+                    API key will appear.</cmd>
             </step>
         </steps>
     </taskbody>

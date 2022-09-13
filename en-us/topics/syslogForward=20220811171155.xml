@@ -29,8 +29,8 @@
                 <cmd>Click <uicontrol>Save</uicontrol> to complete the settings.</cmd>
                 <info>Please refer to <xref href="referenceOfSyslogForward=20220811172144.xml"/>,
                         <xref href="spServerEventOfSyslogForward=20220811172432.xml"/>, or <xref
-                        href="sOneServerEventOfSyslogForward=20220811172528.xml"/> for details on
-                    the logs forwarded in the Common Event Format (CEF).</info>
+                        href="sOneServerEventOfSyslogForward=20220811172528.xml"/> in the Appendices
+                    for details about the logs forwarded in the Common Event Format (CEF).</info>
             </step>
         </steps>
     </taskbody>

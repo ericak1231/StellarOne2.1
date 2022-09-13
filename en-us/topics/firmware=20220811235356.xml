@@ -16,10 +16,10 @@
                     file (e.g. acus.fw_2.0.xxxx.acf) to StellarOne.</cmd>
             </step>
             <step>
-                <cmd>The <wintitle>Firmware Update</wintitle> window appears. The
-                        <wintitle>Version</wintitle> shows the current StellarOne build version, the
-                        <wintitle>Release Date</wintitle> and <wintitle>Description</wintitle> show
-                    the information for the StellarOne patch file.</cmd>
+                <cmd>The <uicontrol>Firmware Update</uicontrol> window appears. The
+                        <uicontrol>Version</uicontrol> shows the current StellarOne build version,
+                    the <uicontrol>Release Date</uicontrol> and <uicontrol>Description</uicontrol>
+                    show the information for the StellarOne patch file.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Apply</uicontrol> to apply the patch to StellarOne.</cmd>

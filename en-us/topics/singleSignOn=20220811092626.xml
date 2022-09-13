@@ -11,8 +11,8 @@
         </context>
         <steps id="steps_hrr_svl_m5b">
             <step>
-                <cmd>Log on to the web console using an account with the <wintitle>Admin</wintitle>
-                    role.</cmd>
+                <cmd>Log on to the web console using an account with the
+                        <uicontrol>Admin</uicontrol> role.</cmd>
                 <info>
                     <note id="note_nk2_dyj_m5b">
                         <ul id="ul_gj5_dyj_m5b">

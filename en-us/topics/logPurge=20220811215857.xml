@@ -19,10 +19,10 @@
                 <cmd>There are two ways for log purge settings. Users can choose from either one
                     listed below:</cmd>
                 <choices id="choices_nxv_vwn_m5b">
-                    <choice><wintitle>Purge Now</wintitle>:<p>Use this setting to purge logs
+                    <choice><uicontrol>Purge Now</uicontrol>:<p>Use this setting to purge logs
                             immediately.</p><ol id="ol_ovg_bxn_m5b">
                             <li>
-                                <p>Click the drop-down menu next to the <wintitle>Purge</wintitle>
+                                <p>Click the drop-down menu next to the <uicontrol>Purge</uicontrol>
                                     title, and then select the log types to be purged.</p>
                                 <ul id="ul_yrr_hxn_m5b">
                                     <li>
@@ -34,8 +34,8 @@
                                 </ul>
                             </li>
                             <li>
-                                <p>Click the drop-down menu next to the <wintitle>older
-                                        than</wintitle> title, and then select a specified time
+                                <p>Click the drop-down menu next to the <uicontrol>older
+                                        than</uicontrol> title, and then select a specified time
                                     frame. The files older than the time frame will be removed.</p>
                                 <ul id="ul_pvh_kyn_m5b">
                                     <li>
@@ -49,9 +49,9 @@
                                 </ul>
                             </li>
                             <li>
-                                <p>Click the drop-down menu next to the <wintitle>Keep at
-                                        most</wintitle> title, and then select the maximum number of
-                                    log entries to keep.</p>
+                                <p>Click the drop-down menu next to the <uicontrol>Keep at
+                                        most</uicontrol> title, and then select the maximum number
+                                    of log entries to keep.</p>
                                 <ul id="ul_fm1_yyn_m5b">
                                     <li>
                                         <p>0 entries</p>
@@ -68,17 +68,17 @@
                                     will be immediately purged.</p>
                             </li>
                         </ol></choice>
-                    <choice><wintitle>Automatic Purge</wintitle>: <p>Use this setting to set an
+                    <choice><uicontrol>Automatic Purge</uicontrol>: <p>Use this setting to set an
                             automatic purge once per day.</p><ol id="ol_mz3_kzn_m5b">
                             <li>
-                                <p>Specify the log types you wan to purge: <wintitle>System
-                                        Log</wintitle>, <wintitle>Audit Log</wintitle>,
-                                        <wintitle>Server Events</wintitle>, or <wintitle>Agent
-                                        Events</wintitle>.</p>
+                                <p>Specify the log types you wan to purge: <uicontrol>System
+                                        Log</uicontrol>, <uicontrol>Audit Log</uicontrol>,
+                                        <uicontrol>Server Events</uicontrol>, or <uicontrol>Agent
+                                        Events</uicontrol>.</p>
                             </li>
                             <li>
-                                <p>Click the drop-down menu next to the <wintitle>older
-                                        than</wintitle> title, and then select a specified time
+                                <p>Click the drop-down menu next to the <uicontrol>older
+                                        than</uicontrol> title, and then select a specified time
                                     frame. The files older than the time frame will be removed.</p>
                                 <ul id="ul_d3l_p14_m5b">
                                     <li>
@@ -92,9 +92,9 @@
                                 </ul>
                             </li>
                             <li>
-                                <p>Click the drop-down menu next to the <wintitle>Keep at
-                                        most</wintitle> title, and then select the maximum number of
-                                    log entries to keep.</p>
+                                <p>Click the drop-down menu next to the <uicontrol>Keep at
+                                        most</uicontrol> title, and then select the maximum number
+                                    of log entries to keep.</p>
                                 <ul id="ul_l3s_q14_m5b">
                                     <li>
                                         <p>0 entries</p>

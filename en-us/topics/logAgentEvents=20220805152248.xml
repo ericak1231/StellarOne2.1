@@ -5,13 +5,13 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Agent Events</title>
     <taskbody>
         <context id="context_byv_td5_k5b">
-            <p>The StellarOne collects activities on Agent and log them in the <wintitle>Agent
-                    Events</wintitle> screen.</p>
+            <p>The StellarOne collects activities on agents and log them in the <uicontrol>Agent
+                    Events</uicontrol>.</p>
         </context>
         <steps>
             <step>
-                <cmd>Mouse hover the <uicontrol>Logs</uicontrol> tab in the top navigation bar of
-                    the StellarOne web console. Click the <uicontrol>Agent Events</uicontrol>
+                <cmd>Mouse over the <uicontrol>Logs</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console. Click the <uicontrol>Agent Events</uicontrol>
                     option.</cmd>
             </step>
             <step>
@@ -21,12 +21,13 @@
             <step>
                 <cmd>Regarding how to search for the relevant log messages for troubleshooting or
                     analysis. Please refer to <xref href="sPagentEventFilter=20220810100700.xml"/>
-                    for further procedures.</cmd>
+                    for detailed procedures.</cmd>
                 <info>
                     <note id="note_ojq_fnp_n5b">
                         <p>Please refer to <xref
                                 href="sPagentEventLogDescription=20220808105743.xml"/> in the
-                            Appendices for more details.</p>
+                            Appendices for more details about event IDs and corresponding log
+                            information.</p>
                     </note>
                 </info>
             </step>

@@ -17,8 +17,8 @@
                     sending.</cmd>
             </step>
             <step>
-                <cmd>Specify the <wintitle>Server address</wintitle>, <wintitle>Port</wintitle>, and
-                        <wintitle>Sender</wintitle>.</cmd>
+                <cmd>Specify the <uicontrol>Server address</uicontrol>, <uicontrol>Port</uicontrol>,
+                    and <uicontrol>Sender</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd>(Optional) If the SMTP server requires authentication, click the checkbox next
@@ -40,23 +40,23 @@
                     </menucascade> for notification criteria and email setting.</cmd>
             </step>
             <step>
-                <cmd>Under the <wintitle>Warning Level Agent Events</wintitle>, click the
+                <cmd>Under the <uicontrol>Warning Level Agent Events</uicontrol>, click the
                         <uicontrol>Send warning level agent events</uicontrol> toggle to enable
                     it.</cmd>
                 <info>
                     <note id="note_ywl_nd4_m5b">
-                        <p>When the switch under <wintitle>Warning Level Agent Events</wintitle> is
-                            enabled, StellarOne console will send a notification to your email when
-                            an incident happens that triggers a “<b>Warning</b>”.</p>
+                        <p>When the switch under <uicontrol>Warning Level Agent Events</uicontrol>
+                            is enabled, StellarOne console will send a notification to your email
+                            when an incident that triggers a “<b>Warning</b>” happens.</p>
                     </note>
                 </info>
             </step>
             <step>
-                <cmd>Under the <wintitle>Outbreak</wintitle>, click the <uicontrol>Send outbreak
+                <cmd>Under the <uicontrol>Outbreak</uicontrol>, click the <uicontrol>Send outbreak
                         notifications</uicontrol> toggle to enable it.</cmd>
                 <info>
                     <note id="note_pc3_xd4_m5b">
-                        <p>When the switch under <wintitle>Outbreak</wintitle> is enabled,
+                        <p>When the switch under <uicontrol>Outbreak</uicontrol> is enabled,
                             StellarOne console will send a notification to your email when more than
                             a specified number of open warning messages have appeared in a specified
                             time period.</p>
@@ -81,9 +81,8 @@
                 </info>
             </step>
             <step>
-                <cmd>Under <wintitle>Email Notifications</wintitle>, specify the email address for
-                    receiving the notifications in the field of <uicontrol>Send
-                    to</uicontrol>.</cmd>
+                <cmd>Under <uicontrol>Email Notifications</uicontrol>, specify the email address for
+                    receiving the notifications in the <uicontrol>Send to</uicontrol> field.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Save</uicontrol> to complete the setting.</cmd>
