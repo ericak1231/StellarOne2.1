@@ -15,7 +15,12 @@
             href="conref-vars/stellarOne_sp_Privacy_and_Personal_Data_Collection_Variables=20220726135209.xml"
             keys="PPDC_vars"/>
         <topicref href="conref-vars/privacyPersonalDataCollection=20220822101154.xml"/>
-        <mapref href="maps/Preface=20220722145015.ditamap" format="ditamap"/>
+        <preface href="conref-vars/preface_Intro_olh=20220902182731.xml">
+            <topicref href="conref-vars/Documentation=20220721170208.xml"/>
+            <topicref href="topics/stellarOneAudience=20220722152248.xml"/>
+            <topicref href="conref-vars/Document_Conventions=20220722155128.xml"/>
+            <topicref href="conref-vars/Terminology=20220721165336.xml"/>
+        </preface>
     </frontmatter>
     <chapter href="maps/aboutStellarOne_s1forsp=20220726153208.ditamap" format="ditamap"/>
     <chapter href="maps/getStarted=20220729114826.ditamap" format="ditamap"/>
