@@ -14,9 +14,8 @@
         to manage accounts; the latter one provides information about different privileges for
         different accounts.</p>
       <fig id="fig_hcd_xbf_m5b" otherprops="PRINT">
-        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-        <title>Account Management Screen (need to change due to adding API)</title><?oxy_custom_end?>
-        <image href="../images/accountManagement=20220810170713.png" id="image_p5b_ybf_m5b"
+        <title>Account Management Screen</title>
+        <image href="../images/2.0/account_manage=20220914174309.png" id="image_p5b_ybf_m5b"
           otherprops="PRINT"/>
       </fig>
       <table frame="all" id="table_snz_xgf_m5b">
@@ -36,21 +35,23 @@
           </thead>
           <tbody>
             <row>
-              <entry><uicontrol>+Add User</uicontrol></entry>
+              <entry>
+                <p>(1) <uicontrol>+Add User</uicontrol></p>
+              </entry>
               <entry>
                 <p>This button allows users to add account(s) for accessing StellarOne web console.
                   Please refer to <xref href="addUser=20220810174621.xml"/> for procedures.</p>
               </entry>
             </row>
             <row>
-              <entry><uicontrol>Delete</uicontrol></entry>
+              <entry>(2) <uicontrol>Delete</uicontrol></entry>
               <entry>
                 <p>This button allows users to delete account(s). Please refer to <xref
                     href="deleteUser=20220810175416.xml"/> for procedures.</p>
               </entry>
             </row>
             <row>
-              <entry><uicontrol>Actions</uicontrol></entry>
+              <entry>(3) <uicontrol>Actions</uicontrol></entry>
               <entry>
                 <p>This button allows users to edit or delete account(s). Please refer to <xref
                     href="editUser=20220810175328.xml"/> for procedures.</p>
@@ -58,11 +59,11 @@
             </row>
             <row>
               <entry>
-                <p><b>Screen display setting</b></p>
+                <p>(4) <b>Screen display setting</b></p>
               </entry>
               <entry><image href="../images/screen_display_settings=20220907103300.png"
-                  id="image_j4z_yry_t5b" scalefit="no" scale="50"/><p>By clicking this button, users
-                  can customize the screen display by:<ul id="ul_unz_xgf_m5b">
+                  id="image_j4z_yry_t5b" scalefit="no" scale="50" otherprops="OLH"/><p>By clicking
+                  this button, users can customize the screen display by:<ul id="ul_unz_xgf_m5b">
                     <li>
                       <p>selecting how many items to be displayed on one page</p>
                     </li>
@@ -74,11 +75,12 @@
             </row>
             <row>
               <entry>
-                <p><b>Log off</b></p>
+                <p>(5) <b>Account icon</b></p>
               </entry>
               <entry><image href="../images/account_name_icon=20220907103537.png"
-                  id="image_utf_gsy_t5b" scalefit="no" scale="50"/><p>Click the account icon at the
-                  top-right corner of the screen to change your password or log off.</p></entry>
+                  id="image_utf_gsy_t5b" scalefit="no" scale="50" otherprops="OLH"/><p>Click the
+                  account icon at the top-right corner of the screen to change your password or log
+                  off.</p></entry>
             </row>
           </tbody>
         </tgroup>

@@ -41,14 +41,15 @@
                 <stepxmp otherprops="PRINT">
                     <fig id="fig_pqs_jng_k5b" otherprops="PRINT">
                         <title>Select the Patch Version</title>
-                        <image href="../images/spDeployPatchUpdateLink=20220803181645.png"
+                        <image href="../images/2.0/patches_link=20220914171223.png"
                             id="image_lt3_lng_k5b" otherprops="PRINT"/>
                     </fig>
                 </stepxmp>
                 <info>
                     <note id="note_dst_lng_k5b">
-                        <p>Users can also import new patches for agents on the <xref
-                                href="downloadUpdates=20220803181908.xml"/> page.</p>
+                        <p>By clicking the <uicontrol>Update</uicontrol> link, users will be
+                            directed to the <xref href="downloadUpdates=20220803181908.xml"/> page
+                            for importing new patches for agents.</p>
                     </note>
                 </info>
             </step>

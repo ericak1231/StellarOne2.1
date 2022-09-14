@@ -29,7 +29,7 @@
     <section>
       <fig id="fig_hll_jcv_35b" otherprops="PRINT">
         <title>The Agents Screen - Toolbar</title>
-        <image href="../images/agentsScreenTabBar=20220814193731.png" id="image_jbm_sx4_k5b"
+        <image href="../images/2.0/agents_screen_toolbar=20220914162541.png" id="image_jbm_sx4_k5b"
           otherprops="PRINT"/>
       </fig>
       <table frame="all" rowsep="1" colsep="1" id="table_kws_lcv_35b">
@@ -106,8 +106,8 @@
       </table>
       <fig id="fig_ovs_s4j_n5b" otherprops="PRINT">
         <title>The Agents Screen - Table Header</title>
-        <image href="../images/agentsScreenHeader=20220814214629.png" id="image_os1_v4j_n5b"
-          otherprops="PRINT"/>
+        <image href="../images/2.0/agents_screen_table_header=20220914162913.png"
+          id="image_os1_v4j_n5b" otherprops="PRINT"/>
       </fig>
       <table frame="all" rowsep="1" colsep="1" id="table_vqs_zw4_k5b">
         <title>Table Header</title>
@@ -191,29 +191,6 @@
             </row>
             <row>
               <entry>
-                <p><uicontrol>Group</uicontrol></p>
-              </entry>
-              <entry>
-                <p>Indicates the parent group name of the agent/group.</p>
-                <p>If the agent/group does not have a parent group, either texts listed below will
-                  appear in the column.</p>
-                <p>
-                  <ul id="ul_nkl_x2j_n5b">
-                    <li>
-                      <p><uicontrol>-</uicontrol> : This symbol indicates the group is at the top
-                        level of the agent/group tree structure.</p>
-                    </li>
-                    <li>
-                      <p><uicontrol>All</uicontrol>: This icon indicates the agent does not belong
-                        to any group defined by users, so the agent is placed under the
-                          <uicontrol>All</uicontrol> group by default.</p>
-                    </li>
-                  </ul>
-                </p>
-              </entry>
-            </row>
-            <row>
-              <entry>
                 <p><uicontrol>Policy Inheritance</uicontrol></p>
               </entry>
               <entry>
@@ -229,8 +206,8 @@
                     </li>
                     <li>
                       <p><uicontrol id="uicontrol_jzq_gjj_n5b">Self-managed</uicontrol>: Indicates
-                        the agent/group is free from the StellarOne console's management and can
-                        self-manage its own policy settings.</p>
+                        the agent/group is free from the StellarOne console's policy management and
+                        can self-manage its own policy settings.</p>
                     </li>
                     <li>
                       <p><image href="../images/greenLight=20220804221500.png"
@@ -245,7 +222,8 @@
                     <li>
                       <p><image href="../images/icon_self_managed=20220906162758.png"
                           id="image_imb_xft_t5b" scalefit="no" scale="50"/>: The icon indicates the
-                        agent/group is allowed to configure its own policy settings on site.</p>
+                        agent/group is free from the StellarOne console's policy management and is
+                        allowed to configure its own policy settings on site.</p>
                     </li>
                   </ul>
                 </p>
@@ -253,12 +231,11 @@
             </row>
             <row>
               <entry>
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <p><uicontrol>Approved List</uicontrol></p><?oxy_custom_end?>
+                <p><uicontrol>Approved List</uicontrol></p>
               </entry>
               <entry>
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <p/><?oxy_custom_end?>
+                <p>Indicates the total number of applications added in the Approved List. If the
+                  endpoint is creating its Approved List, a progress bar instead will appear.</p>
               </entry>
             </row>
             <row>
@@ -284,10 +261,10 @@
               <entry>
                 <p>Indicates two function types of StellarProtect:<ul id="ul_xsq_tlj_n5b">
                     <li>
-                      <p>StellarProtect: suitable for devices with Windows 7 or later versions.</p>
+                      <p>StellarProtect: for devices with Windows 7 or later versions.</p>
                     </li>
-                    <li>StellarProtect (Legacy Mode): suitable for devices with Windows
-                      XP/2000.</li>
+                    <li>StellarProtect (Legacy Mode): for devices with legacy platforms such as
+                      Windows XP/2000.</li>
                   </ul></p>
               </entry>
             </row>
@@ -299,7 +276,7 @@
                 <p>Under this header, users can <ul id="ul_xnl_b2k_n5b">
                     <li>
                       <p>click <image href="../images/policyIcon=20220814234230.png"
-                          id="image_d4s_zdk_n5b"/>, the policy icon for linking to the
+                          id="image_d4s_zdk_n5b"/>, the policy icon, for linking to the
                           <wintitle>General Info</wintitle> policy page.</p>
                     </li>
                     <li>
@@ -316,8 +293,8 @@
       </table>
       <fig id="fig_hy4_v4j_n5b" otherprops="PRINT">
         <title>The Agents Screen - Other Tools</title>
-        <image href="../images/agentsScreenSearch=20220814214511.png" id="image_c24_w4j_n5b"
-          otherprops="PRINT"/>
+        <image href="../images/2.0/agents_screen_other_tools=20220914164350.png"
+          id="image_c24_w4j_n5b" otherprops="PRINT"/>
       </fig>
       <table frame="all" rowsep="1" colsep="1" id="table_eql_y4j_n5b">
         <title>Other Tools</title>

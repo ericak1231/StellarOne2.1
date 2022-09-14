@@ -65,13 +65,6 @@
                         <cmd>The <uicontrol>EULA/OT Intelligent Trust Agreement</uicontrol> screen
                             will appear. Click the links to read the documents carefully and click
                             the checkboxes to proceed to next step.</cmd>
-                        <stepxmp otherprops="PRINT">
-                            <fig id="fig_bgp_vv5_35b" otherprops="PRINT">
-                                <title>The EULA/OT Intelligent Trust Agreement</title>
-                                <image href="../images/EULA=20220729135619.png"
-                                    id="image_wss_yv5_35b" otherprops="PRINT"/>
-                            </fig>
-                        </stepxmp>
                         <info>
                             <note id="note_uql_xw5_35b">
                                 <p>It is recommended to enable <uicontrol>TXOne OT Intelligent

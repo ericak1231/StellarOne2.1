@@ -78,7 +78,7 @@ Micro t-ball logo, Control Manager, eManager, and ScanMail</p></li></ul></entry>
 <row rowsep="1">
 <entry colname="1"><ph conref="#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/document_part_number"
                   >document_part_number</ph></entry>
-<entry colname="2"><ph id="document_part_number">APEM19540/220624</ph></entry>
+<entry colname="2"><ph id="document_part_number">APEM29594/220907</ph></entry>
 <entry colname="3"><p><draft-comment translate="no">Document release version. See
 note on next page about multiple document sets.</draft-comment></p><ul id="GUID-CE77CDEB-3584-4E3D-96CF-599AE9F9FAD9">
 <li><p>SMEM104607/100822</p></li></ul></entry>
@@ -101,10 +101,12 @@ note on next page about multiple document sets.</draft-comment></p><ul id="GUID-
 <entry colname="4">product_version</entry>
 </row>
 <row rowsep="1">
-<entry colname="1"><ph><xref href="https://docs.trendmicro.com/en-us/enterprise.aspx" format="html"
-                    scope="external"/></ph></entry>
-<entry colname="2"><ph><xref href="https://docs.trendmicro.com/en-us/enterprise.aspx" format="html"
-                    scope="external"/></ph></entry>
+<entry colname="1"><ph><xref
+                    href="http://docs.trendmicro.com/en-us/enterprise/txone-stellarprotect.aspx"
+                    format="html" scope="external"/></ph></entry>
+<entry colname="2"><ph><xref
+                    href="http://docs.trendmicro.com/en-us/enterprise/txone-stellarprotect.aspx"
+                    format="html" scope="external"/></ph></entry>
 <entry colname="3"><p><draft-comment translate="no">Product landing page at the
 online help center. Update to your product’s URL.</draft-comment></p><ul id="GUID-AB23FDCA-C88D-448D-A02E-E4915C55B4B1">
 <li><p><xref href="http://docs.trendmicro.com/en-us/enterprise/scanmail-for-microsoft-exchange.aspx"

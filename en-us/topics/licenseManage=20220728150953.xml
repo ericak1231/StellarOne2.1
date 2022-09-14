@@ -11,9 +11,9 @@
         </menucascade> to add or renew licenses for Stellar products. Below table lists details
         about the <wintitle>License</wintitle> page.</p>
       <fig id="fig_ntq_jc4_35b" otherprops="PRINT">
-        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-        <title>License Page &lt;image should be updated, remember to blur the AC field></title><?oxy_custom_end?>
-        <image href="../images/licensePage=20220728160252.png" id="image_ofb_nf4_35b"/>
+        <title>License Page</title>
+        <image href="../images/2.0/license=20220914180021.png" id="image_ofb_nf4_35b"
+          otherprops="PRINT"/>
       </fig>
       <table frame="all" rowsep="1" colsep="1" id="table_yht_yzn_35b">
         <title>License Information</title>
@@ -52,8 +52,9 @@
                 <p><uicontrol>License Edition</uicontrol></p>
               </entry>
               <entry>
-                <p>Displays current license edition for StellarOne. Please refer to <xref
-                    href="licenseEditions=20220811111123.xml"/> for more details.</p>
+                <p>Displays current license edition for StellarProtect and/or StellarProtect (Legacy
+                  Mode). Please refer to <xref href="licenseEditions=20220811111123.xml"/> for more
+                  details.</p>
               </entry>
             </row>
             <row>
@@ -79,12 +80,12 @@
               <entry>
                 <p>Specifies current number of agents registered to StellarOne and the total number
                   of agents that can be registered to StellarOne. For example, <uicontrol>Seats:
-                    24/10000 </uicontrol>means:<ul id="ul_x1l_bg4_35b">
+                    2/10 </uicontrol>means:<ul id="ul_x1l_bg4_35b">
                     <li>
-                      <p>24 agents have been registered</p>
+                      <p>2 agents have been registered</p>
                     </li>
                     <li>
-                      <p>Up to 10,000 agents can be registered</p>
+                      <p>Up to 10 agents can be registered</p>
                     </li>
                   </ul></p>
               </entry>
@@ -139,7 +140,7 @@
                 <p><uicontrol>Learn More</uicontrol></p>
               </entry>
               <entry>
-                <p>Click the button to go to the online help web page for license details.</p>
+                <p>Click the link to go to the online help web page for more license details.</p>
               </entry>
             </row>
           </tbody>

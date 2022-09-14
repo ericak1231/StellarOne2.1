@@ -57,19 +57,20 @@
                             <entry colname="1">
                                 <p>Knowledge Base</p>
                             </entry>
-                            <entry colname="2"><p>An online database of problem-solving and
-                                    troubleshooting information. It provides the latest information
-                                    about known product issues. To access the Knowledge Base, go to
-                                    the following website:</p><xref
-                                    href="http://success.trendmicro.com" scope="external"
-                                    format="html">http://success.trendmicro.com</xref></entry>
+                            <entry colname="2">
+                                <p>An online database of problem-solving and troubleshooting
+                                    information. It provides the latest information about known
+                                    product issues. To access the Knowledge Base, go to the
+                                    following websites:</p>
+                                <p><xref href="http://success.trendmicro.com" format="html"
+                                        scope="external"/></p>
+                                <p><xref href="https://kb.txone.com/" format="html" scope="external"
+                                    /></p>
+                            </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
-            <p>View and download product documentation at:</p>
-            <p><xref href="http://docs.trendmicro.com/en-us/enterprise.aspx" scope="external"
-                    format="html">http://docs.trendmicro.com/en-us/enterprise.aspx</xref></p>
         </section>
     </refbody>
 </reference>

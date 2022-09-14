@@ -15,15 +15,16 @@
             href="conref-vars/stellarOne_sp_Privacy_and_Personal_Data_Collection_Variables=20220726135209.xml"
             keys="PPDC_vars"/>
         <mapref href="conref-vars/legalMap=20220725120644.ditamap" format="ditamap"/>
-        <mapref href="conref-vars/Preface=20220722145015.ditamap" format="ditamap"/>
+        <topicref href="conref-vars/privacyPersonalDataCollection=20220822101154.xml"/>
+        <preface href="maps/preface_ag=20220913174051.ditamap" format="ditamap"/>
     </frontmatter>
-    <chapter href="maps/aboutStellarOne_s1forsp=20220726153208.ditamap" format="ditamap"/>
-    <chapter href="maps/getStarted=20220729114826.ditamap" format="ditamap"/>
-    <chapter href="maps/dashboard=20220729100803.ditamap" format="ditamap"/>
-    <chapter href="maps/agents=20220729113308.ditamap" format="ditamap"/>
-    <chapter href="maps/policyManagement_sp=20220728102930.ditamap" format="ditamap"/>
-    <chapter href="maps/logs=20220805151406.ditamap" format="ditamap"/>
-    <chapter href="maps/administration=20220728111800.ditamap" format="ditamap"/>
+    <chapter href="maps/intro_ag_pdf=20220914104211.ditamap" format="ditamap"/>
+    <chapter href="maps/get_started_ag_pdf=20220914153715.ditamap" format="ditamap"/>
+    <chapter href="maps/dashboard_ag_pdf=20220914155954.ditamap" format="ditamap"/>
+    <chapter href="maps/agents_ag_pdf=20220914161438.ditamap" format="ditamap"/>
+    <chapter href="maps/policy_manage_sp_ag_pdf=20220914171559.ditamap" format="ditamap"/>
+    <chapter href="maps/logs_ag_pdf=20220914173542.ditamap" format="ditamap"/>
+    <chapter href="maps/administration_ag_pdf=20220914173905.ditamap" format="ditamap"/>
     <chapter href="maps/Technical_Support_TXOne=20220722223813.ditamap" format="ditamap"/>
     <appendix href="topics/logDescriptions=20220815170737.xml">
         <topicref href="topics/sPagentEventLogDescription=20220808105743.xml"/>

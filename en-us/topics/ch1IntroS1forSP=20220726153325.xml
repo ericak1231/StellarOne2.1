@@ -6,7 +6,7 @@
         <p>This section introduces TXOne StellarOne and how it manages the agents providing
             Industrial-Grade Next-Generation Antivirus and Application Lockdown protection to your
             assets. An overview of management functions is provided. This manual will focus on its
-            use for TXOne StellarProtect: an ICS-compatible, high performance and zero touch
+            use for TXOne StellarProtect: an /OTICS-compatible, high performance and zero touch
             endpoint protection solution.</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
@@ -14,10 +14,10 @@
                 <p><xref href="aboutStellarOneSp=20220726161436.xml"/></p>
             </li>
             <li>
-                <p><xref href="keyFeaturesBenefits_sp=20220727101629.dita"/></p>
+                <p><xref href="keyFeaturesBenefits_sp=20220727101629.xml"/></p>
             </li>
             <li>
-                <p><xref href="whatNew_sp=20220727123040.dita"/></p>
+                <p><xref href="whatNew_sp=20220727123040.xml"/></p>
             </li>
         </ul>
     </conbody>

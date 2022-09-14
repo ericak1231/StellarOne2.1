@@ -2,10 +2,17 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
 
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
-  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Search Options for Agents/Groups</title>
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Filter Options for Agents/Groups</title>
   <refbody>
+    <example otherprops="PRINT">
+      <fig id="fig_sjh_vmz_v5b" otherprops="PRINT">
+        <title>Filter Options</title>
+        <image href="../images/2.0/filter_options_agents=20220914164929.png" id="image_n2b_cnz_v5b"
+          otherprops="PRINT"/>
+      </fig>
+    </example>
     <table frame="all" id="table_y3z_sbk_n5b">
-      <title>Search Options for Agents/Groups</title>
+      <title>Filter Options for Agents/Groups</title>
       <tgroup cols="2">
         <colspec colname="c1" colnum="1" colwidth="1*"/>
         <colspec colname="c2" colnum="2" colwidth="2.14*"/>
@@ -22,7 +29,7 @@
         <tbody>
           <row>
             <entry>
-              <p>Agent</p>
+              <p>Name</p>
             </entry>
             <entry>
               <p>The name of the agent. Type the full or partial endpoint host name to locate the
@@ -85,8 +92,8 @@
               <p>Last Connection</p>
             </entry>
             <entry>
-              <p>The last time the agents connected with StellarOne. Select the default time period
-                or select <uicontrol>Custom</uicontrol> to specify your own time period. Default
+              <p>The last time the agents were connected with StellarOne. Select the default time
+                period or select <uicontrol>Custom</uicontrol> to specify a time period. Default
                 time period:<ul id="ul_or1_rck_n5b">
                   <li>
                     <p>Last 1 hour</p>
@@ -105,8 +112,7 @@
           </row>
           <row>
             <entry>
-              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-              <p>Function Type</p><?oxy_custom_end?>
+              <p>Function Type</p>
             </entry>
             <entry>
               <p>Select <uicontrol>StellarProtect</uicontrol> or <uicontrol>StellarProtect (Legacy
@@ -118,7 +124,7 @@
               <p>Operating System</p>
             </entry>
             <entry>
-              <p>Select an operating system.</p>
+              <p>Select an operating system of the target endpoints.</p>
             </entry>
           </row>
           <row>

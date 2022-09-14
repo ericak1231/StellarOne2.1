@@ -52,7 +52,7 @@
                     <fig id="fig_yqy_2hm_m5b">
                         <title>Virtual Machine Settings - Time Synchronization</title>
                         <image href="../images/ssoVmSettigs=20220811165451.png"
-                            id="image_hzv_ghm_m5b" scalefit="no" scale="50" placement="break"/>
+                            id="image_hzv_ghm_m5b" placement="break" scalefit="yes"/>
                     </fig>
                 </stepxmp>
             </step>
