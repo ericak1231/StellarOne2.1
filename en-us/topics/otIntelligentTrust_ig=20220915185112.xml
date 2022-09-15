@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">OT Intelligent Trust</title>
+    <taskbody>
+        <context>
+            <p>When enabled, TXOne OT Intelligent Trust shares anonymous threat information with the
+                Smart Protection Network, allowing TXOne to rapidly indentify and address new
+                threats. You can disable TXOne OT Intelligent Trust anytime through this console. </p>
+        </context>
+    </taskbody>
+</task>
