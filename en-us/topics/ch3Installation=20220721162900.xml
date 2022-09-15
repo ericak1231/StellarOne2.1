@@ -13,13 +13,16 @@
                 <p><xref href="installationFlow=20220722231649.xml"/></p>
             </li>
             <li>
-                <p><xref href="onboardingToVmwareEsxi=20220721162608.dita"/></p>
+                <p><xref href="onboardingToVmwareEsxi=20220721162608.xml"/></p>
             </li>
             <li>
-                <p><xref href="onboardingToVmwareWorkstation=20220721162545.dita"/></p>
+                <p><xref href="onboardingToVmwareWorkstation=20220721162545.xml"/></p>
             </li>
             <li>
-                <p><xref href="onboardingToHyperV=20220721162525.dita"/></p>
+                <p><xref href="onboardingToHyperV=20220721162525.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="openingConsole=20220721162458.xml"/></p>
             </li>
         </ul>
     </conbody>

@@ -2,18 +2,8 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
 <map xml:lang="en-us" id="GUID-5D764D10-E2E1-46DC-846F-FC435A1266AA">
 <title id="GUID-00E5D67B-B691-4AB9-8FB7-5466940CAADA">Introducing StellarOne</title>
-        <topicref href="../topics/ch1Intro=20220721162945.dita">
-                <topicmeta>
-                        <navtitle>Introducing StellarOne</navtitle>
-                </topicmeta>
-                <topicref href="../topics/aboutStellarOne=20220721163021.dita">
-                        <topicmeta>
-                                <navtitle>About StellarOne</navtitle>
-                        </topicmeta>
-                </topicref>
-                <topicref href="../topics/keyFeaturesBenefits=20220721162659.dita">
-                        <topicmeta>
-                                <navtitle>Key Features and Benefits</navtitle>
-                        </topicmeta>
-                </topicref>
+        <topicref href="../topics/ch1Intro=20220721162945.xml">
+                <topicref href="../topics/aboutStellarOne=20220721163021.xml"/>
+                <topicref href="../topics/keyFeaturesBenefits=20220721162659.xml"/>
+                <topicref href="../topics/whatNew_sp=20220727123040.xml"/>
         </topicref></map>

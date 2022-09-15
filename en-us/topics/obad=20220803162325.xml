@@ -16,13 +16,7 @@
           Inheritance</uicontrol> link.</p>
       <p>Scroll down and find the <uicontrol>Operations Behavior Anomaly Detection</uicontrol>.</p>
       <p>Basically, the <uicontrol>Operations Behavior Anomaly Detection</uicontrol> has four
-          modes:<fig id="fig_in5_tyf_k5b" otherprops="PRINT">
-          <title>Operations Behavior Anomaly Detection
-            (<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>need to change
-            screenshot)<?oxy_custom_end?></title>
-          <image href="../images/obadLearn=20220803162833.png" id="image_lt1_2zf_k5b"
-            otherprops="PRINT"/>
-        </fig><ul id="ul_ssn_szf_k5b">
+          modes:<ul id="ul_ssn_szf_k5b">
           <li>
             <p><indexterm>Operations Behavior Anomaly Detection<indexterm>Learn
                 Mode</indexterm></indexterm><uicontrol>Learn</uicontrol>: Under this mode,

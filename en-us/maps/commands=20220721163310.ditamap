@@ -3,10 +3,7 @@
 <map xml:lang="en-us" id="GUID-08C4F5C6-3E11-42EF-8FDA-E53E0145C279">
 <title id="GUID-661953CF-1A39-46A9-95D7-C6491667CF48">Configuring StellarOne via Command Line
         Interface (CLI)</title>
-<topicref href="../topics/ch4Cli=20220721162840.dita">
-        <topicmeta>
-            <navtitle>Configuring StellarOne via Command Line Interface (CLI)</navtitle>
-        </topicmeta>
+    <topicref href="../topics/ch4Cli=20220721162840.xml">
         <topicref href="../topics/accessStellaroneCli=20220721163000.xml">
             <topicmeta>
                 <navtitle>Using the StellarOne Command Line Interface (CLI)</navtitle>

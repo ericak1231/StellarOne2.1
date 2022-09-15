@@ -113,7 +113,7 @@
         <title>Table Header</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="3.99*"/>
+          <colspec colname="c2" colnum="2" colwidth="5*"/>
           <thead>
             <row>
               <entry>
@@ -134,15 +134,15 @@
                   <ul id="ul_kdj_ly4_k5b">
                     <li>
                       <p><image href="../images/agentIcon=20220804220153.png" id="image_sbv_zx4_k5b"
-                        />: This icon indicates an agent.</p>
+                          scalefit="no" scale="50"/>: This icon indicates an agent.</p>
                     </li>
                     <li>
                       <p><image href="../images/groupIcon=20220804220303.png" id="image_mjj_fy4_k5b"
-                        />: This icon indicates a group.</p>
+                          scalefit="no" scale="50"/>: This icon indicates a group.</p>
                     </li>
                     <li>
                       <p><image href="../images/licenseExpired=20220902123648.png"
-                          id="image_rtm_qy4_s5b" scalefit="no" scale="20"/>: This icon indicates the
+                          id="image_rtm_qy4_s5b" scalefit="no" scale="10"/>: This icon indicates the
                         agent's license is expired and needs to be renewed.</p>
                     </li>
                   </ul>
@@ -167,13 +167,13 @@
                   <ul id="ul_gbn_r1p_k5b">
                     <li>
                       <p><image href="../images/lockIcon=20220804221106.png" id="image_ftz_2z4_k5b"
-                        />: This icon indicates the endpoint's Application Lockdown feature is
-                        enabled.</p>
+                          scalefit="no" scale="50"/>: This icon indicates the endpoint's Application
+                        Lockdown feature is enabled.</p>
                     </li>
                     <li>
                       <p><image href="../images/shieldIcon=20220804221001.png"
-                          id="image_fgm_bz4_k5b"/>: This icon indicates the endpoint is under
-                        protection.</p>
+                          id="image_fgm_bz4_k5b" scalefit="no" scale="50"/>: This icon indicates the
+                        endpoint is under protection.</p>
                     </li>
                     <li>
                       <p><image href="../images/maintenanceModeIcon=20220804223314.png"
@@ -211,13 +211,14 @@
                     </li>
                     <li>
                       <p><image href="../images/greenLight=20220804221500.png"
-                          id="image_h5p_5z4_k5b"/>: The green light indicates the policy settings
-                        for the agent synchronizes with the StellarOne console.</p>
+                          id="image_h5p_5z4_k5b" scalefit="no" scale="50"/>: The green light
+                        indicates the policy settings for the agent synchronizes with the StellarOne
+                        console.</p>
                     </li>
                     <li>
                       <p><image href="../images/grayLight=20220804221533.png" id="image_l4c_vz4_k5b"
-                        />: The gray light indicates the policy settings for the agent does not
-                        synchronize with the StellarOne console.</p>
+                          scalefit="no" scale="50"/>: The gray light indicates the policy settings
+                        for the agent does not synchronize with the StellarOne console.</p>
                     </li>
                     <li>
                       <p><image href="../images/icon_self_managed=20220906162758.png"
@@ -276,8 +277,8 @@
                 <p>Under this header, users can <ul id="ul_xnl_b2k_n5b">
                     <li>
                       <p>click <image href="../images/policyIcon=20220814234230.png"
-                          id="image_d4s_zdk_n5b"/>, the policy icon, for linking to the
-                          <wintitle>General Info</wintitle> policy page.</p>
+                          id="image_d4s_zdk_n5b" scalefit="no" scale="50"/>, the policy icon, for
+                        linking to the <wintitle>General Info</wintitle> policy page.</p>
                     </li>
                     <li>
                       <p>click the kebab menu (three dots menu) for organizing agents and

@@ -11,7 +11,7 @@
         </context>
         <steps id="steps_gjx_t5d_m4">
             <step>
-                <cmd>Type <userinput>$ locale ja</userinput> command to switch the language to
+                <cmd>Type <userinput>locale ja</userinput> command to switch the language to
                     Japanese.</cmd>
             </step>
             <step>
@@ -25,7 +25,7 @@
                 </stepxmp>
             </step>
             <step>
-                <cmd>Type <userinput>$ env ls</userinput> command to check current language
+                <cmd>Type <userinput>env ls</userinput> command to check current language
                     setting.</cmd>
                 <stepresult>
                     <fig id="fig_ijl_p4q_25b">

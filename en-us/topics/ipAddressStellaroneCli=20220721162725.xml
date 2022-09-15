@@ -10,7 +10,7 @@
         </context>
         <steps id="steps_gjx_t5d_m4">
             <step>
-                <cmd>Type <userinput>$ iface ls</userinput> to get the IP address of the StellarOne
+                <cmd>Type <userinput>iface ls</userinput> to get the IP address of the StellarOne
                     instance.</cmd>
                 <stepxmp>
                     <fig id="fig_yy3_mfj_25b">
@@ -26,22 +26,22 @@
                         <wintitle>eth0</wintitle> to a static IP address 10.7.19.187/24 with the
                     Gateway IP address 10.7.19.190 </cmd>
                 <info>
-                    <p><userinput>$ iface update eth0 --method static --address 10.7.19.157
-                            --netmask 255.255.255.0 --gateway 10.7.19.254</userinput></p>
+                    <p><userinput>iface update eth0 --method static --address 10.7.19.157 --netmask
+                            255.255.255.0 --gateway 10.7.19.254</userinput></p>
                 </info>
             </step>
             <step>
                 <cmd>Check if the network interface settings are correct, and then type the
                     following command to execute the change.</cmd>
                 <info>
-                    <p><userinput>$ iface restart eth0</userinput></p>
+                    <p><userinput>iface restart eth0</userinput></p>
                 </info>
             </step>
             <step>
                 <cmd>Type following command again for viewing the new network interface
                     settings.</cmd>
                 <info>
-                    <p><userinput>$ iface ls</userinput></p>
+                    <p><userinput>iface ls</userinput></p>
                 </info>
                 <stepxmp>
                     <fig id="fig_sqp_xhj_25b">
@@ -56,18 +56,18 @@
                         <userinput>resolv ls</userinput> to view the DNS server list. For example,
                     the following command adds 8.8.8.8 to the DNS server list</cmd>
                 <info>
-                    <p><userinput>$ resolv mode custom</userinput>
+                    <p><userinput>resolv mode custom</userinput>
                     </p>
                 </info>
                 <info>
-                    <p><userinput>$ resolv add 8.8.8.8</userinput>
+                    <p><userinput>resolv add 8.8.8.8</userinput>
                     </p>
                 </info>
             </step>
             <step>
                 <cmd>Type following command to view the DNS server settings</cmd>
                 <info>
-                    <p><userinput>$ resolv ls</userinput>
+                    <p><userinput>resolv ls</userinput>
                     </p>
                 </info>
                 <stepxmp>
@@ -81,7 +81,7 @@
             <step>
                 <cmd>Type following command to reboot the VM.</cmd>
                 <info>
-                    <p><userinput>$ reboot</userinput>
+                    <p><userinput>reboot</userinput>
                     </p>
                 </info>
             </step>

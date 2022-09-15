@@ -2,9 +2,9 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
 <map xml:lang="en-us" id="GUID-2F1A794B-D019-45A6-A2CA-E9FAFB309FA4">
 <title id="GUID-B88065B0-D77A-4DC4-B697-C9CD28C0B01B">Installation Planning</title>
-    <topicref href="../topics/ch2InstallationPlanning=20220721162918.dita">
-        <topicref href="../topics/systemRequirements=20220721162008.dita"/>
-        <topicref href="../topics/deploymentTime=20220721162758.dita"/>
-        <topicref href="../topics/sEremovedPortsFqdnUsed=20220818165255.dita"/>
+    <topicref href="../topics/ch2InstallationPlanning=20220721162918.xml">
+        <topicref href="../topics/systemRequirements=20220721162008.xml"/>
+        <topicref href="../topics/deploymentTime=20220721162758.xml"/>
+        <topicref href="../topics/sEremovedPortsFqdnUsed=20220818165255.xml"/>
     </topicref>
 </map>

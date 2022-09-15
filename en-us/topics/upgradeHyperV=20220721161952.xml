@@ -10,7 +10,7 @@
         <steps id="steps_gjx_t5d_m4">
             <step>
                 <cmd>Download the <filepath>.acf</filepath> upgrade patch file (e.g.,
-                        <filepath>TXOne-StellarOne-acus.fw-1.2.0134.acf</filepath>) from <xref
+                        <filepath>TXOne-StellarOne-acus.fw-2.x.xxxx.acf</filepath>) from <xref
                         href="https://www.trendmicro.com/en_us/business/products/downloads.html#enterprise-product-updates"
                         format="html" scope="external">Software Download Center</xref>.</cmd>
             </step>
@@ -23,13 +23,6 @@
             <step>
                 <cmd>Click <uicontrol>Import</uicontrol> and select the <filepath>.acf</filepath>
                     file downloaded in Step 1, and then click <uicontrol>Apply</uicontrol>.</cmd>
-                <stepxmp>
-                    <fig id="fig_lgg_nnv_d5b">
-                        <title>Firmware Update</title>
-                        <image href="../images/vmwareFirmwareUpdate=20220721163915.png"
-                            id="image_jc4_vmv_d5b"/>
-                    </fig>
-                </stepxmp>
             </step>
             <step>
                 <cmd>Wait until the following modal window appears, and then click

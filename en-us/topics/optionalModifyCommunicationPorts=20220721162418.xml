@@ -77,23 +77,19 @@
                     <note id="note_ktr_dxq_25b" type="important">
                         <p>Be sure to do either of the following actions after changing the
                             commuication ports for StellarOne via CLI.</p>
-                        <ul id="ul_ltr_dxq_25b">
-                            <li>
-                                <p>Download the agent's installer package containing the new port
-                                    setting from StellarOne, and install it at agent side.</p>
-                            </li>
-                        </ul>
-                        <p>        or</p>
-                        <ul id="ul_n2l_cyv_25b">
-                            <li>
-                                <p>Modify the port setting accordingly in
-                                        <filepath>setup.ini</filepath> or
-                                        <filepath>setup.yaml</filepath> file in the agent's existing
-                                    installer package.</p>
-                            </li>
-                        </ul>
                     </note>
                 </info>
+                <choices>
+                    <choice>
+                        <p>Download the agent's installer package containing the new port setting
+                            from StellarOne, and install it at agent side.</p>
+                    </choice>
+                    <choice>
+                        <p>Modify the port setting accordingly in <filepath>setup.ini</filepath> or
+                                <filepath>setup.yaml</filepath> file in the agent's existing
+                            installer package.</p>
+                    </choice>
+                </choices>
             </step>
         </steps>
     </taskbody>

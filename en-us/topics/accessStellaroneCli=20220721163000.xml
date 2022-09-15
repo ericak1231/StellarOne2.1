@@ -14,7 +14,7 @@
             </step>
             <step>
                 <cmd>Log on by tying <userinput>root</userinput> as the user name,
-                        <userinput>txone</userinput>as the password. </cmd>
+                        <userinput>txone</userinput> as the password. </cmd>
             </step>
             <step>
                 <cmd>After logging on the StellarOne console, type <userinput>help</userinput>

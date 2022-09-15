@@ -23,7 +23,7 @@
                 <ol id="ol_kzp_nbt_k5b">
                     <li>
                         <p>When users select the <uicontrol>Learn</uicontrol> mode under the
-                                <uicontrol>Operation Behavior Anomaly Detection</uicontrol>, the
+                                <uicontrol>Operations Behavior Anomaly Detection</uicontrol>, the
                             following process is learned: <ul id="ul_wyf_trt_k5b">
                                 <li>
                                     <p><filepath>explorer.exe</filepath> →

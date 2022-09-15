@@ -11,17 +11,17 @@
         <steps id="steps_gjx_t5d_m4">
             <step>
                 <cmd>If <filepath>169.254.0.0/16 </filepath> IP range is used in your network
-                    setting, please type <userinput>$ network internal-service-update &lt;New
+                    setting, please type <userinput>network internal-service-update &lt;New
                         IP></userinput> command to set a new IP address for converting IP/16 subnet
                     mask for docker daemon.</cmd>
             </step>
             <step>
                 <cmd>If you want to restore docker daemon back to the default-address-pools
-                        (<filepath>169.254.0.0/16</filepath>), type <userinput>$ network
+                        (<filepath>169.254.0.0/16</filepath>), type <userinput>network
                         internal-service-reset</userinput> command.</cmd>
             </step>
             <step>
-                <cmd>Type <userinput>$ network internal-service-list</userinput> command to display
+                <cmd>Type <userinput>network internal-service-list</userinput> command to display
                     the address pools of docker daemon configuration.</cmd>
             </step>
         </steps>
