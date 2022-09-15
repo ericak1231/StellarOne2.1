@@ -124,7 +124,7 @@
             <entry>
               <p>The industrial-grade next-generation antivirus provides real-time and scheduled
                 scan settings. Please refer to <xref
-                  href="industrialGradeNextGenAv_olh=20220906175353.xml"/> for more details.</p>
+                  href="industrialGradeNextGenAv=20220813050723.xml"/> for more details.</p>
             </entry>
           </row>
           <row>
@@ -140,8 +140,8 @@
           </row>
           <row>
             <entry>
-              <p><indexterm>policy setting<indexterm>Operation Behavior Anomaly
-                    Detection</indexterm></indexterm><uicontrol>Operation Behavior Anomaly
+              <p><indexterm>policy setting<indexterm>Operations Behavior Anomaly
+                    Detection</indexterm></indexterm><uicontrol>Operations Behavior Anomaly
                   Detection</uicontrol></p>
             </entry>
             <entry>
