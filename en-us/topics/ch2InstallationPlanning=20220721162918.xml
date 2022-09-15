@@ -3,26 +3,25 @@
 <concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
     <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Installation Planning</title>
     <conbody>
-        <p>This section shows how to plan for TXOne <tm tmtype="tm">StellarOne</tm>
-            installation.</p>
+        <p>This section shows how to plan for TXOne StellarOne installation.</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>
-                <p><xref href="systemRequirements=20220721162008.dita"/></p>
+                <p><xref href="systemRequirements=20220721162008.xml"/></p>
                 <ul id="ul_ffh_shq_h5b">
                     <li>
-                        <p><xref href="sizingTableVmwareEsxi=20220721162115.dita"/></p>
+                        <p><xref href="sizingTableVmwareEsxi=20220721162115.xml"/></p>
                     </li>
                     <li>
-                        <p><xref href="sizingTableHyperV=20220721162132.dita"/></p>
+                        <p><xref href="sizingTableHyperV=20220721162132.xml"/></p>
                     </li>
                 </ul>
             </li>
             <li>
-                <p><xref href="deploymentTime=20220721162758.dita"/></p>
+                <p><xref href="deploymentTime=20220721162758.xml"/></p>
             </li>
             <li>
-                <p><xref href="sEremovedPortsFqdnUsed=20220818165255.dita"/></p>
+                <p><xref href="sEremovedPortsFqdnUsed=20220818165255.xml"/></p>
             </li>
         </ul>
     </conbody>

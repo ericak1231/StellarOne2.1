@@ -180,7 +180,7 @@
                         <cmd>Configure disk size.</cmd>
                         <info>
                             <note id="note_js1_xlh_25b">
-                                <p>Refer to the <xref href="sizingTableHyperV=20220721162132.dita"
+                                <p>Refer to the <xref href="sizingTableHyperV=20220721162132.xml"
                                         >Sizing Table for Hyper-V System</xref> to determine proper
                                     disk size for StellarOne.</p>
                             </note>
@@ -207,7 +207,7 @@
                 </substeps>
             </step>
             <step>
-                <cmd>(Optional) Refer to <xref href="sizingTableHyperV=20220721162132.dita"/> to
+                <cmd>(Optional) Refer to <xref href="sizingTableHyperV=20220721162132.xml"/> to
                     determine CPU and memory requirements for agent deployment and corresponding
                     StellarOne configuration and resource allocation. It is recommended to at least
                     adopting default settings (4 CPU cores, 16 GB Memory). </cmd>
