@@ -132,15 +132,11 @@
             </fig>
             <ul id="ul_ox5_wgd_n5b">
               <li>
-                <p>Click the <image href="../images/widgetRefreshIcon=20220814010039.png"
-                    id="image_u5p_chd_n5b" scalefit="yes"/> button to start auto refresh. Click the
-                    <image href="../images/stopRefreshIcon=20220814010319.png"
-                    id="image_avq_lhd_n5b" scalefit="yes"/> button to pause auto refresh.</p>
+                <p>Click the play button to start auto refresh. Click the pause button to pause auto
+                  refresh.</p>
               </li>
               <li>
-                <p>The <image href="../images/widgetDropDownIcon=20220814011647.png"
-                    id="image_vyy_fjd_n5b" scalefit="yes"/> dropdown-menu button provides two
-                    functions:<ul id="ul_tym_5hd_n5b">
+                <p>The dropdown-menu button provides two functions:<ul id="ul_tym_5hd_n5b">
                     <li>
                       <p><uicontrol>Widget Settings</uicontrol>:</p>
                       <ul id="ul_r4h_b3d_n5b">

@@ -30,10 +30,8 @@
                         <p>Click the <uicontrol>Policy Inheritance </uicontrol> link.</p>
                     </choice>
                     <choice>
-                        <p>Click <image href="../images/policyIcon=20220814234230.png"
-                                id="image_fzg_ydk_n5b"/>, the Policy icon under the
-                                <wintitle>Actions</wintitle> header, and then click the
-                                <uicontrol>Policy</uicontrol> tab.</p>
+                        <p>Click the Policy icon under the <wintitle>Actions</wintitle> header, and
+                            then click the <uicontrol>Policy</uicontrol> tab.</p>
                     </choice>
                 </choices>
             </step>

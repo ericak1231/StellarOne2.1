@@ -2,10 +2,10 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">DLL Injection Protection</title>
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">DLL Injection Prevention</title>
     <taskbody>
         <context>
-            <p>The <uicontrol>DLL Injection Protection</uicontrol> provides protection against DLL
+            <p>The <uicontrol>DLL Injection Prevention</uicontrol> provides protection against DLL
                 hijacking attacks.</p>
         </context>
         <steps>
@@ -23,11 +23,11 @@
                         <uicontrol>Policy Inheritance </uicontrol>link.</cmd>
             </step>
             <step>
-                <cmd>Scroll down and find the <uicontrol>DLL Injection Protection</uicontrol> at the
+                <cmd>Scroll down and find the <uicontrol>DLL Injection Prevention</uicontrol> at the
                     left side of the screen.</cmd>
             </step>
             <step>
-                <cmd>Click the toggle <uicontrol>Enable DLL Injection Protection</uicontrol> to
+                <cmd>Click the toggle <uicontrol>Enable DLL Injection Prevention</uicontrol> to
                     enable it.</cmd>
             </step>
         </steps>
