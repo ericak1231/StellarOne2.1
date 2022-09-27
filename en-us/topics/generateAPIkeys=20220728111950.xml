@@ -5,8 +5,10 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Generate an API Key</title>
     <taskbody>
         <context>
-            <p>Users can generate API keys and set the expiration dates for different user accounts
-                to enhance account management efficiency.</p>
+            <p>Users can generate API keys and query data from agents via the open API. The
+                expiration dates of the API keys can be set for different user accounts to increase
+                account management efficiency.</p>
+            <p>.</p>
         </context>
         <steps>
             <step>

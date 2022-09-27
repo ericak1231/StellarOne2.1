@@ -29,8 +29,8 @@
                                 <p>The web console dashboard provides summarized information about
                                     monitored agents.</p>
                                 <p>Administrators can check deployed agent status easily, and can
-                                    generate security reports related to specific agent activity for
-                                    specified periods.</p>
+                                    generate security reports (Legacy Mode only) related to specific
+                                    agent activity for specified periods.</p>
                             </entry>
                         </row>
                         <row valign="middle">
@@ -52,8 +52,8 @@
                                         <p>View configurations</p>
                                     </li>
                                     <li>
-                                        <p>Collect agent logs on-demand or by policy -
-                                            StellarProtect (Legacy Mode) only</p>
+                                        <p>Collect agent logs on-demand or by policy - Legacy Mode
+                                            only</p>
                                     </li>
                                     <li>
                                         <p>Turn agent Application Lockdown on or off</p>

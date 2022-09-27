@@ -84,11 +84,12 @@
                         </row>
                         <row valign="middle">
                             <entry>
-                                <p>Generate an API Key for Account Management</p>
+                                <p>Open API</p>
                             </entry>
                             <entry>
-                                <p>This function enables users to generate an API key and set the
-                                    expiration dates for different user accounts.</p>
+                                <p>Provides open API for users to query data from agents. Users can
+                                    also generate API keys and set the expiration dates for
+                                    different user accounts for account management.</p>
                             </entry>
                         </row>
                     </tbody>

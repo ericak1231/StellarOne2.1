@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_pyd_d3r_c5b">
-    <title>About TXOne Stellar Series and StellarOne</title>
+    <title>About TXOne Stellar</title>
     <conbody>
-        <p>TXOne Stellar Series is a first-of-its-kind OT endpoint protection platform, which
-            includes:</p>
+        <p>TXOne Stellar is a first-of-its-kind OT endpoint protection platform, which includes:</p>
         <p>
             <ul id="ul_bbg_sg1_35b">
                 <li>
-                    <p>TXOne StellarOne, the centralized management console designed to streamline
+                    <p>StellarOne, the centralized management console designed to streamline
                         administration of both StellarProtect for modernized systems and
                         StellarProtect (Legacy Model) for legacy systems.</p>
                 </li>
@@ -23,7 +22,7 @@
                 </li>
             </ul>
         </p>
-        <p>Together, the Stellar Series allows protection for modernized and legacy systems running
+        <p>Together, TXOne Stellar allows protection for modernized and legacy systems running
             side-by-side to be coordinated and maintained from the same management console, helping
             protect businesses against security threats and increase productivity.</p>
     </conbody>
