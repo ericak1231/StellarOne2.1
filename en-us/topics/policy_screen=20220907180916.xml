@@ -17,8 +17,9 @@
             of the <uicontrol>All</uicontrol> group to check it's policy settings.</p>
         </note></p>
       <fig id="fig_asp_jmv_35b" otherprops="PRINT">
-        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-        <title>Switch Options of the Policy Screen (NA)</title><?oxy_custom_end?>
+        <title>Switch Options of the Policy Screen</title>
+        <image href="../images/2.0/policy_screen=20220927181912.png" id="image_orb_nmq_z5b"
+          otherprops="PRINT"/>
       </fig>
       <table frame="all" id="table_ohx_dxw_m5b">
         <title>Switch Options of the Policy Screen</title>
@@ -84,8 +85,9 @@
     </section>
     <section>
       <fig id="fig_qnv_zyw_m5b" otherprops="PRINT">
-        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-        <title>Functions of the Policy Screen (TBD)</title><?oxy_custom_end?>
+        <title>Functions of the Policy Screen</title>
+        <image href="../images/2.0/policy_screen=20220927182111.png" id="image_ath_tmq_z5b"
+          otherprops="PRINT"/>
       </fig>
     </section>
     <table frame="all" rowsep="1" colsep="1" id="table_tt1_nmv_35b">
@@ -124,7 +126,7 @@
             <entry>
               <p>The industrial-grade next-generation antivirus provides real-time and scheduled
                 scan settings. Please refer to <xref
-                  href="industrialGradeNextGenAv=20220813050723.xml"/> for more details.</p>
+                  href="industrialGradeNextGenAv_olh=20220906175353.xml"/> for more details.</p>
             </entry>
           </row>
           <row>
