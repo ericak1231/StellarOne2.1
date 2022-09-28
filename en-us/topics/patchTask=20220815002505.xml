@@ -24,6 +24,12 @@
             </step>
             <step>
                 <cmd>Click the checkbox next to the version of the patch file for deployment.</cmd>
+                <info>
+                    <note id="note_wxd_rcv_z5b">
+                        <p>Users can import new patches for the agent on the <xref
+                                href="downloadUpdates=20220803181908.xml"/> page.</p>
+                    </note>
+                </info>
             </step>
             <step>
                 <cmd>The selected patch file will be deployed on the agents under the same group
