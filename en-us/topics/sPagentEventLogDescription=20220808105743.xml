@@ -585,7 +585,7 @@
                   %NEXT_UPDATE_LOCAL_TIME_STR% (agent's local system time).</p>
               </entry>
               <entry>
-                <p>Scheduled component update has been enabled.Next update will be on
+                <p>Scheduled component update has been enabled. Next update will be on
                   %NEXT_UPDATE_LOCAL_TIME_STR% (agent's local system time).</p>
               </entry>
             </row>
