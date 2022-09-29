@@ -3,18 +3,12 @@
 <concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
     <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Upgrade and Migration</title>
     <conbody>
-        <p>This chapter describes how to upgrade TXOne StellarOne or migrate StellarOne to a new
-            instance based on VMware or Windows Hyper-V system.</p>
+        <p>This chapter describes how to upgrade/migrate TXOne StellarOne to a new instance based on
+            VMware or Windows Hyper-V system.</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>
-                <p><xref href="upgradeVmwareEsxi=20220721161930.xml"/></p>
-            </li>
-            <li>
                 <p><xref href="migrationVmwareEsxi=20220721162623.xml"/></p>
-            </li>
-            <li>
-                <p><xref href="upgradeHyperV=20220721161952.xml"/></p>
             </li>
             <li>
                 <p><xref href="migrationHyperV=20220721162635.xml"/></p>
