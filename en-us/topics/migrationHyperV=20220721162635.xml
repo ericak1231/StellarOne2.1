@@ -5,10 +5,11 @@
     <taskbody>
         <context id="GUID-CAD7BEDC-492D-4151-BCB7-1467EFD0B3CC">
             <p><indexterm>Migrate<indexterm>Hyper-V</indexterm></indexterm>This section describes
-                how to upgrade/migrate StellarOne to 2.0 in Windows Hyper-V system. The migration is
-                performed by attaching the external disk of previous StellarOne instance to the
-                StellarOne instance running new firmware version. The migration will transfer
-                previously configured settings to the new StellarOne instance:</p>
+                how to upgrade/migrate StellarOne to 2.0 in Windows Hyper-V system. The
+                upgrade/migration is performed by attaching the external disk of previous StellarOne
+                instance to the StellarOne instance running new firmware version. The
+                upgrade/migration will transfer previously configured settings to the new StellarOne
+                instance:</p>
             <ul id="ul_xwp_g2x_25b">
                 <li>
                     <p>The UUID</p>
@@ -25,8 +26,8 @@
                 </li>
             </ul>
             <note id="note_adg_l2x_25b" type="important">
-                <p>Before executing a system migration, please back up your StellarOne data
-                    first.</p>
+                <p>Before executing a system upgrade/migration, please create a back up of the VM
+                    files first.</p>
             </note>
         </context>
         <steps id="steps_gjx_t5d_m4">
@@ -50,8 +51,8 @@
                             id="image_uvx_nfx_25b"/>
                     </fig>
                 </stepxmp>
-                <stepresult>The previous StellarOne's information will be migrated to the new
-                    StellarOne instance.</stepresult>
+                <stepresult>The data of the previous StellarOne instance will be upgraded/migrated
+                    to new StellarOne instance.</stepresult>
             </step>
         </steps>
     </taskbody>
