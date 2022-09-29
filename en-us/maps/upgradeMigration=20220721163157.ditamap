@@ -3,19 +3,9 @@
 <map xml:lang="en-us" id="GUID-9A4B1241-A4CD-4D7A-94FA-3B11BD9BE6CD">
 <title id="GUID-8F47FD4B-DABE-435F-AF80-585D22B5C2D3">Upgrade and Migration</title>
     <topicref href="../topics/ch5UpgradeMigration=20220721162818.xml">
-        <topicref href="../topics/upgradeVmwareEsxi=20220721161930.xml">
-            <topicmeta>
-                <navtitle>Upgrading StellarOne from Ver. 1.1 to 2.x (VMware)</navtitle>
-            </topicmeta>
-        </topicref>
         <topicref href="../topics/migrationVmwareEsxi=20220721162623.xml">
             <topicmeta>
                 <navtitle>Migrating StellarOne from Ver. 1.0 to 2.x (VMware)</navtitle>
-            </topicmeta>
-        </topicref>
-        <topicref href="../topics/upgradeHyperV=20220721161952.xml">
-            <topicmeta>
-                <navtitle>Upgrading StellarOne from Ver. 1.2 to 2.x (Hyper-V)</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="../topics/migrationHyperV=20220721162635.xml">
