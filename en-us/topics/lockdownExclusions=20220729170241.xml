@@ -49,6 +49,9 @@
                                         <uicontrol>File</uicontrol>, or <uicontrol>Regular
                                         Expression</uicontrol> and input the required information in
                                     the corresponding text field.</p>
+                                <note id="note_orw_qlk_1vb">
+                                    <p>Supports only the real path and hardlink path.</p>
+                                </note>
                             </li>
                             <li>
                                 <p>Click <uicontrol>Add</uicontrol> to complete adding the exception
