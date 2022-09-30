@@ -186,9 +186,11 @@
                     </thead>
                     <tbody>
                         <row>
-                            <entry><p><indexterm>StellarOne Occupied Ports<indexterm>StellarEnforce
-                                            default port</indexterm></indexterm></p>StellarProtect
-                                (Legacy Mode) Default Port</entry>
+                            <entry>
+                                <p><indexterm>StellarOne Occupied Ports<indexterm>StellarEnforce
+                                            default port</indexterm></indexterm>StellarProtect
+                                    (Legacy Mode) Default Port</p>
+                            </entry>
                             <entry>
                                 <p>8000</p>
                             </entry>

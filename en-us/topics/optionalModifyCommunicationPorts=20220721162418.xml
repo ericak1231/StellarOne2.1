@@ -51,6 +51,9 @@
                             <p>&lt;down-port>: Port for sending command to agents</p>
                         </li>
                     </ul>
+                    <note id="note_ed1_npj_1vb">Make sure not to use StellarOne's service port.
+                        Please refer to <b>Table 2-7. StellarOne Occupied Ports</b> in <xref
+                            href="portsFqdnUsed_20220721162325.xml"/>.</note>
                 </info>
                 <stepxmp>
                     <fig id="fig_sqp_xhj_25b">
@@ -61,33 +64,23 @@
                 </stepxmp>
             </step>
             <step>
-                <cmd>Type <userinput>service reload</userinput> to change the up and/or down ports
-                    to specified values.</cmd>
-                <stepresult>
-                    <fig id="fig_vww_nqq_25b">
-                        <title>Agent's Communication Ports Changed</title>
-                        <image href="../images/cliAgentsComPortsChanged=20220721164526.png"
-                            id="image_www_nqq_25b"/>
-                    </fig>
-                </stepresult>
-            </step>
-            <step>
-                <cmd>Reboot the StellarOne web console.</cmd>
+                <cmd>Reboot.</cmd>
                 <info>
-                    <note id="note_ktr_dxq_25b" type="important">
-                        <p>Be sure to do either of the following actions after changing the
-                            commuication ports for StellarOne via CLI.</p>
+                    <note id="note_mkb_wsj_1vb" type="important">
+                        <p>Please note the previously installed package does not contain the new
+                            port setting. Be sure to do either of the following actions after
+                            changing the commuication ports for StellarOne via CLI.</p>
                     </note>
                 </info>
                 <choices>
                     <choice>
                         <p>Download the agent's installer package containing the new port setting
-                            from StellarOne, and install it at agent side.</p>
+                            from StellarOne, and install it on the agent.</p>
                     </choice>
                     <choice>
                         <p>Modify the port setting accordingly in <filepath>setup.ini</filepath> or
-                                <filepath>setup.yaml</filepath> file in the agent's existing
-                            installer package.</p>
+                                <filepath>setup.yaml</filepath>file in the agent's existing
+                            installer package, and reinstall it on the agent.</p>
                     </choice>
                 </choices>
             </step>

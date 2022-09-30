@@ -7,6 +7,9 @@
         <context>
             <p>The <uicontrol>DLL Injection Prevention</uicontrol> provides protection against DLL
                 hijacking attacks.</p>
+            <note id="note_hjh_wvj_1vb">
+                <p>Only x86 platform supports DLL injection Prevention.</p>
+            </note>
         </context>
         <steps>
             <step>

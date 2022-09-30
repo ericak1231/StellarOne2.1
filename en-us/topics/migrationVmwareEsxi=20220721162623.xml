@@ -23,7 +23,7 @@
                 </li>
             </ul>
             <note id="note_adg_l2x_25b" type="important">
-                <p>Before executing a system upgrade/migration, please take a VMware screenshot or
+                <p>Before executing a system upgrade/migration, please take a VMware snapshot or
                     create a backup of the VM files first.</p>
             </note>
         </context>
