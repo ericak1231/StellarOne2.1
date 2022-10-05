@@ -62,10 +62,10 @@
                         </row>
                         <row valign="middle">
                             <entry>
-                                <p>Self-management Group Policy</p>
+                                <p>Self-management Policy Setting</p>
                             </entry>
                             <entry>
-                                <p>This newly-added group policy allows the operators on site to
+                                <p>This newly-added policy option allows the operators on site to
                                     configure the agents' policy settings on their own. Once being
                                     switched to the self-management status, the local agents are
                                     free from the StellarOne console's policy management.</p>
