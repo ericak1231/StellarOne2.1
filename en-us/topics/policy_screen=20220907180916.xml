@@ -59,7 +59,10 @@
               </entry>
               <entry>
                 <p>The toggle button allows users to enable or disable the group policy inheritance
-                  from the parent group.</p>
+                  from the parent group. If the toggle is on, policy settings for the agent/group
+                  are inherited from the parent group; otherwise, server administrators can
+                  customize the policy settings by themselves. Please refer to the <b>Policy
+                    Settings</b> table below for more details about the policies.</p>
               </entry>
             </row>
             <row>
@@ -68,9 +71,8 @@
                     screen<indexterm>Self-management</indexterm></indexterm><uicontrol>Self-management</uicontrol></p>
               </entry>
               <entry>
-                <p>The toggle button allows users to enable or disable the agent's self-management,
-                  which, when enabled, will set the agent free from StellarOne console's policy
-                  management.</p>
+                <p>Please refer to the <b>Policy Settings</b> table below for more details about
+                  this feature.</p>
               </entry>
             </row>
             <row>
@@ -90,13 +92,13 @@
     </section>
     <section>
       <fig id="fig_qnv_zyw_m5b" otherprops="PRINT">
-        <title>Functions of the Policy Screen</title>
+        <title>Policy Options</title>
         <image href="../images/2.0/policy_screen=20220927182111.png" id="image_ath_tmq_z5b"
           otherprops="PRINT"/>
       </fig>
     </section>
     <table frame="all" rowsep="1" colsep="1" id="table_tt1_nmv_35b">
-      <title>Functions of the Policy Screen</title>
+      <title>Policy Settings</title>
       <tgroup cols="2">
         <colspec colname="c1" colnum="1" colwidth="1*"/>
         <colspec colname="c2" colnum="2" colwidth="1.9*"/>
@@ -111,6 +113,18 @@
           </row>
         </thead>
         <tbody>
+          <row>
+            <entry>
+              <p><indexterm>policy
+                  setting<indexterm>Self-management</indexterm></indexterm><uicontrol>Self-management</uicontrol></p>
+            </entry>
+            <entry>
+              <p>The toggle button allows users to enable or disable the agent's self-managementl.
+                When the toggle is on, the agent will be set free from StellarOne console's policy
+                management and the on-site operators can configure the agent's policy settings on
+                their own.</p>
+            </entry>
+          </row>
           <row>
             <entry>
               <p><indexterm>policy setting<indexterm>Application
