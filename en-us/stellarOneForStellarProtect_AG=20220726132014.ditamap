@@ -2,7 +2,7 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
     <booktitle>
-        <mainbooktitle>Administrator's Guide</mainbooktitle>
+        <mainbooktitle>StellarOne Administrator's Guide</mainbooktitle>
     </booktitle>
     <frontmatter>
         <keydef href="conref-vars/Product_Variables_s1forsp=20220726133941.xml" keys="PRODvars"/>

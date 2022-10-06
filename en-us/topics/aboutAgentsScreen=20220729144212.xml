@@ -110,7 +110,7 @@
           id="image_os1_v4j_n5b" otherprops="PRINT"/>
       </fig>
       <table frame="all" rowsep="1" colsep="1" id="table_vqs_zw4_k5b">
-        <title>Table Header</title>
+        <title>Column Headers</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
           <colspec colname="c2" colnum="2" colwidth="5*"/>
@@ -127,7 +127,7 @@
           <tbody>
             <row>
               <entry>
-                <p><uicontrol>Name</uicontrol></p>
+                <p><term>Name</term></p>
               </entry>
               <entry>
                 <p>
@@ -151,7 +151,7 @@
             </row>
             <row>
               <entry>
-                <p><uicontrol>IP Address</uicontrol></p>
+                <p><term>IP Address</term></p>
               </entry>
               <entry>
                 <p>Indicates the IP Address of the endpoint (one IP address corresponds to a single
@@ -160,7 +160,7 @@
             </row>
             <row>
               <entry>
-                <p><uicontrol>Protection</uicontrol></p>
+                <p><term>Protection</term></p>
               </entry>
               <entry>
                 <p>
@@ -191,7 +191,7 @@
             </row>
             <row>
               <entry>
-                <p><uicontrol>Policy Inheritance</uicontrol></p>
+                <p><term>Policy Inheritance</term></p>
               </entry>
               <entry>
                 <p>
@@ -232,7 +232,7 @@
             </row>
             <row>
               <entry>
-                <p><uicontrol>Approved List</uicontrol></p>
+                <p><term>Approved List</term></p>
               </entry>
               <entry>
                 <p>Indicates the total number of applications added in the Approved List. If the
@@ -241,7 +241,7 @@
             </row>
             <row>
               <entry>
-                <p><uicontrol>Agent Version</uicontrol></p>
+                <p><term>Agent Version</term></p>
               </entry>
               <entry>
                 <p>Indicates the firmware version of the agent.</p>
@@ -249,7 +249,7 @@
             </row>
             <row>
               <entry>
-                <p><uicontrol>Last Connection</uicontrol></p>
+                <p><term>Last Connection</term></p>
               </entry>
               <entry>
                 <p>Indicates the last time the agent was connected with the StellarOne console.</p>
@@ -257,7 +257,7 @@
             </row>
             <row>
               <entry>
-                <p><uicontrol>Function Type</uicontrol></p>
+                <p><term>Function Type</term></p>
               </entry>
               <entry>
                 <p>Indicates two function types of StellarProtect:<ul id="ul_xsq_tlj_n5b">
@@ -271,7 +271,7 @@
             </row>
             <row>
               <entry>
-                <p><uicontrol>Actions</uicontrol></p>
+                <p><term>Actions</term></p>
               </entry>
               <entry>
                 <p>Under this header, users can <ul id="ul_xnl_b2k_n5b">

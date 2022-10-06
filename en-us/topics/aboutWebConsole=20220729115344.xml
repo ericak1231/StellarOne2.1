@@ -22,8 +22,9 @@
       </note></p>
   <p>For users who log on StellarOne for the first time, please refer to <xref
     href="openingConsole=20220721162458.xml"/>.</p>
-  <p>For more details about the installation for StellarOne, please refer to the <xref
-        href="https://https://docs.trendmicro.com/all/ent/txone-sp/v2.0/en-us/txso_2.0_ig.pdf/all/ent/txone-sp/v2.0/en-us/txsp_one_2.0_ig.pdf"
-        format="pdf" scope="external">StellarOne Installation Guide</xref>.</p>
+  <p>For more details about the installation for StellarOne, please refer to the <xref format="pdf"
+        scope="external"
+        href="https://docs.trendmicro.com/all/ent/txone-sp/v2.0/en-us/txso_2.0_ig.pdf">StellarOne
+        Installation Guide</xref>.</p>
  </conbody>
 </concept>
