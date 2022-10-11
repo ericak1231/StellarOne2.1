@@ -2,8 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
 <map xml:lang="en-us" id="GUID-5D764D10-E2E1-46DC-846F-FC435A1266AA">
 <title id="GUID-00E5D67B-B691-4AB9-8FB7-5466940CAADA">Introduction</title>
-        <topicref href="../topics/ch1Intro=20220721162945.xml"/>
-        <topicref href="../topics/Intro_olh=20220902165251.xml">
+        <topicref href="../topics/ch1Intro=20220721162945.xml">
                 <topicref href="../topics/aboutStellarOneSp=20220726161436.xml"/>
                 <topicref href="../topics/keyFeaturesBenefits_sp=20220727101629.xml"/>
                 <topicref href="../topics/whatNew_sp=20220727123040.xml"/>
