@@ -6,9 +6,6 @@
         <mainbooktitle>StellarOne Installation Guide</mainbooktitle>
     </booktitle>
 	<bookmeta>
-		<metadata>
-			<data href="covers/2.0/txso_2.0_ig_covers_new_logo_Part1.pdf"/>
-		</metadata>
 		<bookrights>
 			<copyrfirst>
 				<year>2022</year>
@@ -17,6 +14,8 @@
 				<organization>TXOne Networks</organization>
 			</bookowner>
 		</bookrights>
+		<data href="covers/2.0/txso_2.0_ig_covers_new_logo_Part1.pdf"/>
+		<data href="covers/2.0/txso_2.0_ig_covers_new_logo_Part2.pdf"/>
 	</bookmeta>
 	<frontmatter>
 		<keydef href="conref-vars/Product_Variables=20220722153428.xml" keys="PRODvars"/>
@@ -36,10 +35,6 @@
 	<chapter href="maps/commands=20220721163310.ditamap" format="ditamap"/>
 	<chapter href="maps/upgradeMigration=20220721163157.ditamap" format="ditamap"/>
 	<chapter href="maps/Technical_Support_TXOne=20220722223813.ditamap" format="ditamap">
-		<topicmeta>
-			<metadata>
-				<data href="covers/2.0/txso_2.0_ig_covers_new_logo_Part2.pdf"/>
-			</metadata>
-		</topicmeta>
+		<topicmeta/>
 	</chapter>
 </bookmap>
