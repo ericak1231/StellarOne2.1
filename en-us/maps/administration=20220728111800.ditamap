@@ -3,7 +3,7 @@
 
 <map xml:lang="en-us" id="GUID-1ECA0072-F533-416E-9722-726DBC89C79B" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
 	<title id="GUID-54C9CE99-220D-41F2-9AB3-2ABB55D05ADE">Administration</title>
-    <topicref href="../topics/admin_intro_olh=20220902170333.xml">
+    <topicref href="../topics/adminIntro=20220815163236.xml">
         <topicref href="../topics/aboutAccountManageScreen=20220810172956.xml">
             <topicref href="../topics/accountManagement=20220728112101.xml">
                 <topicref href="../topics/sOneAccountOverview=20220810163614.xml"/>

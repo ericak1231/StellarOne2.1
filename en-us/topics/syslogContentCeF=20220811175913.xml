@@ -6,7 +6,7 @@
  <conbody>
   <p>The following tables map syslog content between StellarOne log output and CEF syslog types.</p>
   <p>Topics in this section includes:</p>
-  <ul id="ul_vym_xrm_m5b">
+  <ul id="ul_vym_xrm_m5b" otherprops="PRINT">
    <li>
     <p><xref href="../topics/referenceOfSyslogForward=20220811172144.xml"/></p>
    </li>
