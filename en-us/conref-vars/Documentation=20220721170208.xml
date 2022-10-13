@@ -4,7 +4,8 @@
     <title id="GUID-41588B55-9C96-4AF0-85A9-A80854C6FF3B">About the Documentation</title>
     <refbody>
         <section id="GUID-C4C14E4D-EDAF-4170-95FE-371FE04262D0">
-            <p>TXOne StellarOne documentation includes the following:</p>
+            <p><ph conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> documentation includes the
+                following:</p>
             <table frame="all" colsep="1" rowsep="1">
                 <tgroup cols="2" colsep="1" rowsep="1" outputclass="Properties">
                     <colspec colnum="1" colname="1" colwidth="3*"/>

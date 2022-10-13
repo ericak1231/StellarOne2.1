@@ -4,9 +4,12 @@
     <title>What's New</title>
     <refbody>
         <section id="section_t4c_v3r_c5b">
-            <p>TXOne StellarOne 2.0 provides following new features and enhancements.</p>
+            <p><ph conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/>
+                <ph conkeyref="PRODvars/PRODUCT_VERSION">PRODUCT_VERSION</ph> provides following new
+                features and enhancements.</p>
             <table frame="all" rowsep="1" colsep="1" id="table_p4k_djr_c5b">
-                <title>What's New in TXOne StellarOne 2.0</title>
+                <title>What's New in <ph conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/>
+                    <ph conkeyref="PRODvars/PRODUCT_VERSION">PRODUCT_VERSION</ph></title>
                 <tgroup cols="2">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="1.78*"/>

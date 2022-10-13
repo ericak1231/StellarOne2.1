@@ -7,12 +7,15 @@
  <conbody>
   <p>The Industrial-Grade Next-Generation Antivirus provides ICS root of trust and advanced threat
    scan to secure the endpoints without interrupting the endpoints's operations. Related settings
-    include:<ul id="ul_gtx_shk_n5b">
+    include:<ul id="ul_gtx_shk_n5b" otherprops="PRINT">
     <li>
      <p><xref href="realTimeScan=20220813041755.xml"/></p>
     </li>
     <li>
      <p><xref href="scheduleScan=20220813041937.xml"/></p>
+    </li>
+    <li>
+     <p><xref href="advanced_settings=20220908150821.xml"/></p>
     </li>
    </ul></p>
  </conbody>

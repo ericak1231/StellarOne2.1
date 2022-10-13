@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
 <reference id="GUID-65441838-6FAD-40BB-8753-84AC811C8F3A" xml:lang="en-us">
 <title id="GUID-11ABB854-6A2A-4FF7-8DF7-83EFDE9C68B3">Terminology</title>
-<refbody><section id="GUID-01F66FA5-5D29-4FB0-AA84-0CA2AA9A500F"><p>The following table provides the official terminology used throughout the TXOne StellarOne
-                documentation:</p></section>
+<refbody><section id="GUID-01F66FA5-5D29-4FB0-AA84-0CA2AA9A500F"><p>The following table provides the official terminology used throughout the <ph
+                    conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> documentation:</p></section>
 <table colsep="1" frame="all" rowsep="1">
 <tgroup cols="2" colsep="1" outputclass="Properties" rowsep="1">
 <colspec colname="1" colnum="1" colwidth="34*"/>

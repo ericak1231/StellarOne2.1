@@ -7,18 +7,21 @@
         <p>
             <ul id="ul_bbg_sg1_35b">
                 <li>
-                    <p>StellarOne, the centralized management console designed to streamline
-                        administration of both StellarProtect for modernized systems and
-                        StellarProtect (Legacy Model) for legacy systems.</p>
+                    <p><ph conkeyref="PRODvars/PRODUCT_SERVER_NAME_TM"
+                            >COMPANY_NAME_PRODUCT_LONG_NAME</ph>, the centralized management console
+                        designed to streamline administration of both StellarProtect for modernized
+                        systems and StellarProtect (Legacy Model) for legacy systems.</p>
                 </li>
                 <li>
-                    <p>StellarProtect, the unified agent with industrial-grade next-generation
-                        antivirus and application lockdown endpoint security deployment for
-                        modernized OT/ICS endpoints.</p>
+                    <p><ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM">OFFICIAL_PRODUCT_NAME</ph>,
+                        the unified agent with industrial-grade next-generation antivirus and
+                        application lockdown endpoint security deployment for modernized OT/ICS
+                        endpoints.</p>
                 </li>
                 <li>
-                    <p>StellarProtect (Legacy Model), for trust-list based application lockdown of
-                        legacy and fixed-use OT/ICS endpoints with on-demand AV scan.</p>
+                    <p><ph conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM">PRODUCT_SHORT_NAME</ph>,
+                        for trust-list based application lockdown of legacy and fixed-use OT/ICS
+                        endpoints with on-demand AV scan.</p>
                 </li>
             </ul>
         </p>

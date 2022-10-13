@@ -12,12 +12,12 @@
 				<topicref href="../topics/searchAgentGroups=20220814215659.xml"/>
 			</topicref>
 		</topicref>
-		<topicref href="../topics/agentsProtection_olh=2022906174128.xml">
+		<topicref href="../topics/agentsProtection=20220802101514.xml">
 			<topicref href="../topics/sPconfigureMaintenanceMode=20220802170455.xml"/>
 			<topicref href="../topics/updateApproveList=20220802163342.xml"/>
 			<topicref href="../topics/scanNow=20220802142350.xml"/>
 		</topicref>
-		<topicref href="../topics/agentsUpdate_olh=20220906174649.xml">
+		<topicref href="../topics/agentsUpdate=20220803103542.xml">
 			<topicref href="../topics/sPupdateComponents=20220803103820.xml"/>
 			<topicref href="../topics/sPdeployPatch=20220803104012.xml"/>
 		</topicref>

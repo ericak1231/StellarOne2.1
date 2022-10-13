@@ -4,7 +4,8 @@
     <title>Key Features and Benefits</title>
     <refbody>
         <section id="section_t4c_v3r_c5b">
-            <p>The StellarOne management console provides following features and benefits.</p>
+            <p>The <ph conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> management console
+                provides following features and benefits.</p>
             <table frame="all" rowsep="1" colsep="1" id="table_p4k_djr_c5b">
                 <title>Features and Benefits</title>
                 <tgroup cols="2">
@@ -38,12 +39,14 @@
                                 <p>Centralized Agent Management</p>
                             </entry>
                             <entry>
-                                <p>TXOne StellarOne allows administrators to perform the following
-                                    tasks:</p>
+                                <p><ph conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> allows
+                                    administrators to perform the following tasks:</p>
                                 <ul id="ul_a5s_x1m_g5b">
                                     <li>
-                                        <p>Monitor StellarProtect/StellarProtect (Legacy Mode) agent
-                                            status</p>
+                                        <p>Monitor <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
+                                                >OFFICIAL_PRODUCT_NAME</ph>/<ph
+                                                conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM"
+                                                >PRODUCT_SHORT_NAME</ph> agent status</p>
                                     </li>
                                     <li>
                                         <p>Examine connection status</p>
@@ -84,12 +87,16 @@
                                 <p>Centralized Event Management</p>
                             </entry>
                             <entry>
-                                <p>On endpoints protected by StellarProtect/StellarProtect (Legacy
-                                    Mode) agents, administrators can monitor status and events, as
-                                    well as respond when files are blocked from running. TXOne
-                                    StellarOne provides event management features that let
-                                    administrators quickly know about and take action on blocked
-                                    file events.</p>
+                                <p>On endpoints protected by <ph
+                                        conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
+                                        >OFFICIAL_PRODUCT_NAME</ph><ph
+                                        conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM"
+                                        >PRODUCT_SHORT_NAME</ph> agents, administrators can monitor
+                                    status and events, as well as respond when files are blocked
+                                    from running. <ph
+                                        conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> provides
+                                    event management features that let administrators quickly know
+                                    about and take action on blocked file events.</p>
                             </entry>
                         </row>
                         <row valign="middle">
