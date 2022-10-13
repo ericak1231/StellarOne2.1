@@ -2,7 +2,7 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
     <booktitle>
-        <mainbooktitle>Online Help</mainbooktitle>
+        <mainbooktitle>Stellar 2.0 Patch Online Help</mainbooktitle>
     </booktitle>
     <frontmatter>
         <keydef href="conref-vars/Product_Variables_S1=20221011180201.xml" keys="PRODvars"/>

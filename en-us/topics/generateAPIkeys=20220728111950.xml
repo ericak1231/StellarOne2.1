@@ -8,7 +8,6 @@
             <p>Users can generate API keys and query data from agents via the open API. The
                 expiration dates of the API keys can be set for different user accounts to increase
                 account management efficiency.</p>
-            <p>.</p>
         </context>
         <steps>
             <step>
