@@ -6,7 +6,9 @@
             Administrator's Guide</mainbooktitle>
     </booktitle>
     <bookmeta>
-        <data href="covers/2.0/txsp_one_2.0_ag_covers_new_logo.pdf" otherprops="PRINT"/>
+        <metadata>
+            <data href="covers/2.0/txsp_one_2.0_ag_covers_new_logo.pdf" otherprops="PRINT"/>
+        </metadata>
     </bookmeta>
     <frontmatter>
         <keydef href="conref-vars/Product_Variables_S1=20221011180201.xml" keys="PRODvars"/>
