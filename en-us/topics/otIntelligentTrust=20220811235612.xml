@@ -9,7 +9,7 @@
                 Smart Protection Network, allowing TXOne to rapidly indentify and address new
                 threats. You can disable TXOne OT Intelligent Trust anytime through this console. </p>
         </context>
-        <steps>
+        <steps otherprops="AG">
             <step>
                 <cmd>Go to <menucascade>
                         <uicontrol>Administration</uicontrol>
