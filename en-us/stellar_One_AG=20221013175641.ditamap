@@ -9,15 +9,11 @@
         <data href="covers/2.0/txsp_one_2.0_ag_covers_new_logo.pdf" otherprops="PRINT"/>
     </bookmeta>
     <frontmatter>
-        <keydef
-            href="../../../2.0/StellarOne/en-us/conref-vars/Product_Variables_S1=20221011180201.xml"
-            keys="PRODvars"/>
+        <keydef href="conref-vars/Product_Variables_S1=20221011180201.xml" keys="PRODvars"/>
         <keydef
             href="SharedResources/StandardVariables/TXOne_Networks_Variables=GUID-5D6BFEF9-D904-4EF1-B1E6-E3DE19C3053F=5=en-us=.xml"
             keys="TRENDvars"/>
-        <keydef
-            href="../../../2.0/StellarOne/en-us/conref-vars/stellarOne_LegalVariables=20221012175458.xml"
-            keys="LEGALvars"/>
+        <keydef href="conref-vars/stellarOne_LegalVariables=20221012175458.xml" keys="LEGALvars"/>
         <keydef
             href="conref-vars/stellarOne_sp_Privacy_and_Personal_Data_Collection_Variables=20220726135209.xml"
             keys="PPDC_vars"/>
