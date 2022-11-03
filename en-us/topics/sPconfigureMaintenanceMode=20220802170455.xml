@@ -5,22 +5,24 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Configure Maintenance Mode</title>
     <taskbody>
         <context>
-            <p>To perform file updates on endpoints, users can configure Maintenance Mode settings
-                to define a period when StellarProtect allows all file executions and adds all files
-                that are created, executed, or modified to the Approved List. During the maintenance
-                period, all newly-added files can be updated accompanied with real-time virus scan
-                for consistent security. StellarProtect can learn the newly-added applications and
-                ensure the execution of these applications are under protection.<note
+            <p>To perform file updates on endpoints, users can configure Maintenance Mode to define
+                a period when the agents allows all file executions and adds all files that are
+                created, executed, or modified to the Approved List. The agents can learn the
+                newly-added applications and ensure the execution of these applications are under
+                protection. In addition, during the maintenance period, all newly-added files can be
+                updated along with real-time virus scan for consistent security. <note
                     id="note_awv_pvb_s5b">
                     <p>If users change the policy settings of Application Lockdown, OT Application
                         Safeguard, and Real-Time Malware Scan during maintenance period, the policy
-                        settings will not be enforced until the maintenance period ends.</p>
+                        settings will not be enforced until the maintenance period is ended.</p>
                 </note></p>
         </context>
         <steps>
             <step>
-                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
-                    StellarOne web console.</cmd>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
             </step>
             <step>
                 <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
@@ -36,8 +38,8 @@
                     of the <wintitle>Agents</wintitle> screen.</cmd>
             </step>
             <step>
-                <cmd>A pop-up window appears. Click <uicontrol>Configure Maintenace Mode</uicontrol>
-                    option.</cmd>
+                <cmd>A pop-up window appears. Click the <uicontrol>Configure Maintenace
+                        Mode</uicontrol> option.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
@@ -62,9 +64,10 @@
                                 <p>A warning message appears. Please read carefully before
                                     proceeding to next step.<note id="note_jh3_yyx_j5b"
                                         type="important">
-                                        <p>If the Maintenance Mode is ended, the endpoint(s) will
-                                            start blocking the execution of files that are not
-                                            recognized by the OT Application Safeguard.</p>
+                                        <p>If the Maintenance Mode is ended, the endpoint will start
+                                            blocking the execution of files that are not recognized
+                                            by the Application Lockdown and OT Application
+                                            Safeguard.</p>
                                     </note></p>
                             </li>
                             <li>
@@ -77,7 +80,7 @@
                 </choices>
             </step>
             <step>
-                <cmd>The schedule configuration window appears. Do either of the following for
+                <cmd>The schedule configuration window appears. Do one of the following for
                     scheduling Maintenance Mode.</cmd>
                 <choices id="choices_tq3_5zx_j5b">
                     <choice>
@@ -94,6 +97,7 @@
                     </choice>
                 </choices>
             </step>
+            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
             <step>
                 <cmd>A toggle switch for enabling/disabling <uicontrol>Real-Time Malware
                         Scan</uicontrol> is added under the Maintenance Mode option. The default
@@ -103,18 +107,33 @@
                         <ul id="ul_tlv_3bz_j5b">
                             <li>
                                 <p>If users disable <uicontrol>Real-Time Malware Scan</uicontrol> in
-                                    the policy setting, it is reommended to enable the
+                                    the policy settings, it is reommended to enable the
                                         <uicontrol>Real-Time Malware Scan</uicontrol> toggle switch
                                     here during maintenance period to ensure seamless protection.
                                     After maintenance period ends, the system will follow the
-                                    original policy setting (Real-Time Malware Scan disabled).</p>
+                                    original policy settings (in which the Real-Time Malware Scan is
+                                    disabled).</p>
                             </li>
                             <li>
                                 <p>Please refer to <xref href="realTimeScan=20220813041755.xml"/>
-                                    for more details about this function.</p>
+                                    for more details.</p>
                             </li>
                         </ul>
                     </note>
+                    <fig id="fig_kzg_fmk_jvb">
+                        <title>StellarProtect MTM</title>
+                        <image href="../images/mtm_sp=20221101163308.png" id="image_nsz_fmk_jvb"/>
+                    </fig>
+                </info>
+            </step><?oxy_custom_end?>
+            <step>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <cmd>For StellarProtect (Legacy Mode)</cmd><?oxy_custom_end?>
+                <info>
+                    <fig id="fig_mw1_3mk_jvb">
+                        <title>StellarProtect (Legacy Mode) MTM</title>
+                        <image href="../images/mtm_splm=20221101163400.png" id="image_inj_3mk_jvb"/>
+                    </fig>
                 </info>
             </step>
             <step>

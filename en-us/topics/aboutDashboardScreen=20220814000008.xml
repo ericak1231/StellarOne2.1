@@ -39,8 +39,13 @@
                 </p>
               </entry>
               <entry>
-                <p>Under this tab, two widgets for monitoring StellarProtect agent events can be
-                    added:<ul id="ul_un3_5bd_n5b">
+                <p>Under this tab, two widgets for monitoring <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> and
+                  three for <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph> agent events can be added:<ul id="ul_un3_5bd_n5b">
+                    <li>
+                      <p><uicontrol>Blocked Event History</uicontrol> (Legacy Mode only)</p>
+                    </li>
                     <li>
                       <p><uicontrol>Top Endpoints with Blocked Events</uicontrol></p>
                     </li>

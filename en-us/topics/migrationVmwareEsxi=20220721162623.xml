@@ -1,15 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd"><task id="GUID-520F37FF-48AB-4225-AB65-EB45305114CD" xml:lang="en-us">
-    <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Upgrading/Migrating StellarOne to 2.0
-        (VMware)</title>
+    <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Migrating StellarOne (VMware)</title>
     <taskbody>
         <context id="GUID-CAD7BEDC-492D-4151-BCB7-1467EFD0B3CC">
             <p><indexterm>Migrate<indexterm>VMware</indexterm></indexterm>This section describes how
-                to upgrade/migrate StellarOne to 2.0 in the VMware ESXi or Workstation system. The
-                upgrade/migration is performed by attaching the external disk of previous StellarOne
-                instance to the StellarOne instance running new firmware version. The
-                upgrade/migration will transfer the previously configured settings to the new
-                StellarOne instance:</p>
+                to migrate StellarOne to a new instance on VMware ESXi or Workstation. The migration
+                is performed by attaching the external disk of previous StellarOne instance to the
+                StellarOne instance running new firmware version. The migration will transfer the
+                previously configured settings to the new StellarOne instance, including:</p>
             <ul id="ul_xwp_g2x_25b">
                 <li>
                     <p>The UUID</p>
@@ -23,15 +21,16 @@
                 </li>
             </ul>
             <note id="note_adg_l2x_25b" type="important">
-                <p>Before executing a system upgrade/migration, please take a VMware snapshot or
-                    create a backup of the VM files first.</p>
+                <p>Before executing a system migration, please take a VMware snapshot or create a
+                    backup of the VM files first.</p>
             </note>
         </context>
         <steps id="steps_gjx_t5d_m4">
             <step>
                 <cmd>Launch the new StellarOne instance. Please refer to <xref
                         href="vmwareEsxi=20220721161909.xml"/> or <xref
-                        href="vmwareWorkstation=20220721161841.xml"/> for deployment details.</cmd>
+                        href="vmwareWorkstation=20220721161841.xml"/> for deployment
+                    procedures.</cmd>
             </step>
             <step>
                 <cmd>Close the previous StellarOne instance.</cmd>

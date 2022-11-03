@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Downloading Agent Installer
+        Package/Group.ini File</title>
+    <taskbody>
+        <steps id="steps_vyt_vgr_m5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Downloads/Updates</uicontrol>
+                        <uicontrol>Agent</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>To download the latest Agent Installer Package. Click
+                        <uicontrol>Download</uicontrol>.</cmd>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <stepresult>A zipped folder is downloaded. Extract the folder and proceed with the
+                    installation for the agents. Please refer to the <xref
+                        href="https://docs.trendmicro.com/en-us/enterprise/txone-stellarprotect.aspx"
+                        format="html" scope="external">agent's Installation Guide</xref> for more
+                    details.</stepresult><?oxy_custom_end?>
+            </step>
+            <step>
+                <cmd>(Optional) If the StellarOne uses proxy to communicate with the agents, click
+                    the <uicontrol>Proxy</uicontrol> link or go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Proxy</uicontrol>
+                    </menucascade> to complete the proxy configuration before downloading the
+                    installer package. Please refer to <xref href="proxy=20220811232823.xml"/> for
+                    detailed procedures.</cmd>
+            </step>
+            <step>
+                <cmd>(Optional) To directly register the agent to a specific group via StellarOne
+                    console, click the <uicontrol>download a Group.ini</uicontrol> link and add it
+                    into the agent's installer package. Please refer to <xref
+                        href="groupMapping=20220812111150.xml"/> for more details.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

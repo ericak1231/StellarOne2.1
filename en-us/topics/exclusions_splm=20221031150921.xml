@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Configure Exclusions</title>
+    <taskbody>
+        <context>
+            <p>The <uicontrol>Exclusions</uicontrol> allows users to define trusted certificates,
+                trusted hash values, exception paths, and write protecion list. The trusted
+                certificates defined by users will be bypassed during scanning and will not be
+                blocked by <uicontrol>Application Lockdown</uicontrol>. Meanwhile, the trusted hash
+                values, exception paths, and write protecion allows users to configure lockdown
+                exclusion settings for the Approved List.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_kqb_dvc_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Scroll down and go to the <uicontrol>Exclusions</uicontrol> section.</cmd>
+            </step>
+            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+            <step>
+                <cmd>Configure the <uicontrol>Exclusions</uicontrol> by Import/Export for
+                        <uicontrol>Trusted Certificates</uicontrol> and <uicontrol>Trusted Hash
+                        Values</uicontrol>:</cmd>
+            </step><?oxy_custom_end?>
+            <step>
+                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                <cmd>Manually add lockdown exclusion lists for <uicontrol>Trusted Hash
+                        Values</uicontrol>, <uicontrol>Exception Paths</uicontrol>, and
+                        <uicontrol>Write Protection</uicontrol>:</cmd><?oxy_custom_end?>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <choices id="choices_kwc_pfk_n5b">
+                    <choice>For adding exception paths:<ol id="ol_asy_pfk_n5b">
+                            <li>
+                                <p>Click the <uicontrol>+Add</uicontrol> button, and then a pop-up
+                                    window appears.</p>
+                            </li>
+                            <li>
+                                <p>Select among <uicontrol>Folder</uicontrol>,
+                                        <uicontrol>File</uicontrol>, or <uicontrol>Regular
+                                        Expression</uicontrol> and input the required information in
+                                    the corresponding text field.</p>
+                                <note id="note_orw_qlk_1vb">
+                                    <p>Supports only the real path and hardlink path.</p>
+                                </note>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>Add</uicontrol> to complete adding the exception
+                                    paths for the Approved List.</p>
+                            </li>
+                        </ol></choice>
+                    <choice>For editing existing exception paths:<ol id="ol_rnt_tfk_n5b">
+                            <li>
+                                <p>Find the exception path to be edited and click the corresponding
+                                    Edit icon under the <uicontrol>Actions</uicontrol> header.</p>
+                            </li>
+                            <li>
+                                <p>A pop-up window appears. Select among
+                                        <uicontrol>Folder</uicontrol>, <uicontrol>File</uicontrol>,
+                                    or <uicontrol>Regular Expression</uicontrol> and edit in the
+                                    corresponding text field.</p>
+                            </li>
+                            <li>
+                                <p>Click <uicontrol>Save</uicontrol> to complete editing the
+                                    exception paths for the Approved List.</p>
+                            </li>
+                        </ol></choice>
+                    <choice>
+                        <p>For deleting multiple existing exception paths:</p>
+                        <ol id="ol_jds_tgk_n5b">
+                            <li>
+                                <p>Click the checkboxes next to the existing exception paths.</p>
+                            </li>
+                            <li>
+                                <p>Click the <uicontrol>Delete</uicontrol> button next to the
+                                        <uicontrol>+Add</uicontrol> button.</p>
+                            </li>
+                            <li>
+                                <p>A warning message window appears. Click
+                                        <uicontrol>Confirm</uicontrol> to delete the selected
+                                    items.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                    <choice>
+                        <p>For deleting single existing exception path:</p>
+                        <ol id="ol_uxd_2hk_n5b">
+                            <li>
+                                <p>Find the exception path to be deleted and click the corresponding
+                                    Delete icon under the <uicontrol>Actions</uicontrol> header.</p>
+                            </li>
+                            <li>
+                                <p>A warning message window appears. Click
+                                        <uicontrol>Confirm</uicontrol> to delete the selected
+                                    item.</p>
+                            </li>
+                        </ol>
+                    </choice>
+                </choices><?oxy_custom_end?>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -9,7 +9,7 @@
                     VMwareESXi.</p>
             </li>
             <li>
-                <p>VMware ESXi 6.5.x or later versions is required.</p>
+                <p>VMware ESXi 6.5 or above is required.</p>
             </li>
             <li>
                 <p>The necessary networks have been properly created for ESXi.</p>

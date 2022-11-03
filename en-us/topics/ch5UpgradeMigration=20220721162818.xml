@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
 <concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
-    <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Upgrade and Migration</title>
+    <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Migration and Upgrade</title>
     <conbody>
-        <p>This chapter describes how to upgrade/migrate TXOne StellarOne to a new instance based on
-            VMware or Windows Hyper-V system.</p>
+        <p>This chapter describes how to migrate TXOne <ph
+                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> to a new instance or upgrade
+                <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> based on VMware or
+            Windows Hyper-Vsystem.</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>
@@ -12,6 +14,9 @@
             </li>
             <li>
                 <p><xref href="migrationHyperV=20220721162635.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="upgradeVmwareEsxi=20220721161930.xml"/></p>
             </li>
         </ul>
     </conbody>

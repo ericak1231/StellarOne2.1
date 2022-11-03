@@ -11,8 +11,8 @@
     <ph conkeyref="LEGALvars/company_name">company_name</ph> to collect personal data, you must
    ensure that you disable the related features.</p>
   <p id="ppdc_kb_intro">The following link outlines the types of data that <ph
-    conkeyref="LEGALvars/company_name">company_name</ph> collects and provides detailed instructions
-   on how to disable the specific features that feedback the information.</p>
+        conkeyref="LEGALvars/related_product_list">company_name</ph> collect and provides detailed
+      instructions on how to disable the specific features that feedback the information.</p>
   <p><xref format="html" scope="external"
     href="https://success.trendmicro.com/data-collection-disclosure"/></p>
   <p>Data collected by <ph conkeyref="LEGALvars/company_name">company_name</ph> is subject to the

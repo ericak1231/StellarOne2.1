@@ -55,8 +55,8 @@
                                         <p>View configurations</p>
                                     </li>
                                     <li>
-                                        <p>Collect agent logs on-demand or by policy - Legacy Mode
-                                            only</p>
+                                        <p>Collect agent logs on-demand or by policy (Legacy Mode
+                                            only)</p>
                                     </li>
                                     <li>
                                         <p>Turn agent Application Lockdown on or off</p>
@@ -79,6 +79,15 @@
                                     <li>
                                         <p>Add trusted files and USB devices</p>
                                     </li>
+                                    <li>
+                                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                                        <p>Export agents' information</p><?oxy_custom_end?>
+                                    </li>
+                                    <li>
+                                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                                        <p>Import/Export agents' configurations or Approved List
+                                            (Legacy Mode only)</p><?oxy_custom_end?>
+                                    </li>
                                 </ul>
                             </entry>
                         </row>
@@ -89,14 +98,14 @@
                             <entry>
                                 <p>On endpoints protected by <ph
                                         conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
-                                        >OFFICIAL_PRODUCT_NAME</ph><ph
+                                        >OFFICIAL_PRODUCT_NAME</ph>/<ph
                                         conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM"
                                         >PRODUCT_SHORT_NAME</ph> agents, administrators can monitor
                                     status and events, as well as respond when files are blocked
                                     from running. <ph
                                         conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> provides
                                     event management features that let administrators quickly know
-                                    about and take action on blocked file events.</p>
+                                    about and take action on the blocked-file events.</p>
                             </entry>
                         </row>
                         <row valign="middle">

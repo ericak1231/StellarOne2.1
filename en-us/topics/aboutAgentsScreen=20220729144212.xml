@@ -5,9 +5,10 @@
   <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">About the Agent Screen</title>
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
-      <p>The StellarOne console facilitates agent management by allowing users to organize agents
-        into various groups and build up multi-level hierarchy among the groups (parent groups above
-        child groups), forming an agent/group tree structure.</p>
+      <p>The <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> console facilitates agent
+        management by allowing users to organize agents into various groups and build up multi-level
+        hierarchy among the groups (parent groups above child groups), forming an agent/group tree
+        structure.</p>
       <p>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the StellarOne web
         console. Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
         screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed by
@@ -105,19 +106,19 @@
         </tgroup>
       </table>
       <fig id="fig_ovs_s4j_n5b" otherprops="PRINT">
-        <title>The Agents Screen - Table Header</title>
+        <title>The Agents Screen - Table Headings</title>
         <image href="../images/2.0/agents_screen_table_header=20220914162913.png"
           id="image_os1_v4j_n5b" otherprops="PRINT"/>
       </fig>
       <table frame="all" rowsep="1" colsep="1" id="table_vqs_zw4_k5b">
-        <title>Column Headers</title>
+        <title>Column Headings</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
           <colspec colname="c2" colnum="2" colwidth="5*"/>
           <thead>
             <row>
               <entry>
-                <p>Headers</p>
+                <p>Headings</p>
               </entry>
               <entry>
                 <p>Description</p>

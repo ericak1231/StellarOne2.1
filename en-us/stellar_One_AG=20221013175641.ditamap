@@ -30,14 +30,5 @@
     <chapter href="maps/logs_ag_pdf=20220914173542.ditamap" format="ditamap"/>
     <chapter href="maps/administration_ag_pdf=20220914173905.ditamap" format="ditamap"/>
     <chapter href="maps/Technical_Support_TXOne=20220722223813.ditamap" format="ditamap"/>
-    <appendix href="topics/logDescriptions=20220815170737.xml">
-        <topicref href="topics/sPagentEventLogDescription=20220808105743.xml"/>
-        <topicref href="topics/sPserverEventLogDescription=20220809142516.xml"/>
-        <topicref href="topics/sOneserverEventLogDescription=20220809150242.xml"/>
-    </appendix>
-    <appendix href="topics/syslogContentCeF=20220811175913.xml">
-        <topicref href="topics/referenceOfSyslogForward=20220811172144.xml"/>
-        <topicref href="topics/spServerEventOfSyslogForward=20220811172432.xml"/>
-        <topicref href="topics/sOneServerEventOfSyslogForward=20220811172528.xml"/>
-    </appendix>
+    <appendix href="maps/appendices.ditamap" format="ditamap"/>
 </bookmap>

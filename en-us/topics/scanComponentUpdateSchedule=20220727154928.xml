@@ -5,28 +5,29 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Agent Component Update Schedule</title>
     <taskbody>
         <context>
-            <p>Users can configure the component update schedule for the StellarProtect agents via
-                StellarOne webconsole; thus the system can run component update automatically at
-                users' assigned time frequency.</p>
+            <p>Users can configure the component update schedule for the agents via the <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web console; thus the
+                system can run component update automatically at users' assigned time frequency.</p>
         </context>
         <steps>
             <step>
-                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
-                    StellarOne web console. </cmd>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
-                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
-                    by StellarOne.</cmd>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_sjs_dqd_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
             </step>
             <step>
-                <cmd>Navigate to the target agent or group and click its corresponding
-                        <uicontrol>Policy Inheritance </uicontrol> link.</cmd>
-            </step>
-            <step>
-                <cmd>On the <uicontrol>Policy</uicontrol> tab page, toggle on the
-                        <uicontrol>Schedule Update</uicontrol> in the <uicontrol>Agent Component
-                        Update Schedule</uicontrol> section.</cmd>
+                <cmd>On the <uicontrol>Policy</uicontrol> page, toggle on the <uicontrol>Schedule
+                        Update</uicontrol> in the <uicontrol>Agent Component Update
+                        Schedule</uicontrol> section.</cmd>
                 <info>
                     <p>
                         <note id="note_qsf_2lh_35b" type="tip">

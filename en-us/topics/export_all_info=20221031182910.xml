@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Export all Agent(s) Info</title>
+    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+    <taskbody>
+        <context>
+            <p>Users can deploy patch files for StellarProtect agents on selected endpoints via
+                StellarOne web console. It is recommended to update agent patches regularly to
+                protect the endpoints from the latest security threats.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Select one or more endpoints (agents or groups) by clicking the checkboxes next
+                    to them.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Protection</uicontrol> button from the Tool Bar at the top
+                    of the <wintitle>Agents</wintitle> screen.</cmd>
+            </step>
+            <step>
+                <cmd>A pop-up window appears. Click the <uicontrol>Deploy Agent Patches</uicontrol>
+                    option.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>A pop-up <uicontrol>Deploy Agent Patches</uicontrol> window with the patch list
+                    appears. Select the version of the patch for deployment and click the checkbox
+                    next to it.</cmd>
+                <stepxmp otherprops="PRINT">
+                    <fig id="fig_pqs_jng_k5b" otherprops="PRINT">
+                        <title>Select the Patch Version</title>
+                        <image href="../images/2.0/patches_link=20220914171223.png"
+                            id="image_lt3_lng_k5b" otherprops="PRINT"/>
+                    </fig>
+                </stepxmp>
+                <info>
+                    <note id="note_dst_lng_k5b">
+                        <p>By clicking the <uicontrol>Update</uicontrol> link, users will be
+                            directed to the <xref href="downloadUpdates=20220803181908.xml"/> page
+                            for importing new patches for agents.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>OK</uicontrol> to start the patch deployment process for the
+                    agents. Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
+            </step>
+        </steps>
+    </taskbody><?oxy_custom_end?>
+</task>

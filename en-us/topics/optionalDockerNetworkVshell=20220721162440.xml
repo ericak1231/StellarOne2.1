@@ -10,7 +10,7 @@
         </context>
         <steps id="steps_gjx_t5d_m4">
             <step>
-                <cmd>If <filepath>169.254.0.0/16 </filepath> IP range is used in your network
+                <cmd>If <filepath>169.254.0.0/16</filepath> IP range is used in your network
                     setting, please type <userinput>network internal-service-update &lt;New
                         IP></userinput> command to set a new IP address for converting IP/16 subnet
                     mask for docker daemon.</cmd>

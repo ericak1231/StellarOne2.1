@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Policy Settings for StellarProtect</title>
+ <conbody>
+  <p>Topics in this chapter include:</p>
+  <ul id="ul_j3f_mfv_35b" otherprops="PRINT">
+   <li>
+    <p><xref href="applicationLockdown=20220729151400.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="industrialGradeNextGenAv=20220813050723.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="scanComponentUpdateSchedule=20220727154928.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="obad=20220803162325.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="otApplicationSafeguard=20220813043211.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="dllInjectionProtection=20220813043642.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="trustedCertificates=20220813045623.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="introPolicyManage_sp_splm=20221031163528.xml"/></p>
+   </li>
+  </ul>
+ </conbody>
+</concept>

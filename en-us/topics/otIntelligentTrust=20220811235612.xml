@@ -7,7 +7,7 @@
         <context>
             <p>When enabled, TXOne OT Intelligent Trust shares anonymous threat information with the
                 Smart Protection Network, allowing TXOne to rapidly indentify and address new
-                threats. You can disable TXOne OT Intelligent Trust anytime through this console. </p>
+                threats. You can disable TXOne OT Intelligent Trust anytime on this console. </p>
         </context>
         <steps otherprops="AG">
             <step>
@@ -21,8 +21,8 @@
                     research website.</cmd>
             </step>
             <step>
-                <cmd>To enable TXOne OT Intelligent Trust, click the <uicontrol>Enable TXOne OT
-                        Intelligent Trust (recommended)</uicontrol> toggle to switch it on.</cmd>
+                <cmd>To enable TXOne OT Intelligent Trust, toggle on the <uicontrol>Enable TXOne OT
+                        Intelligent Trust (recommended)</uicontrol>.</cmd>
             </step>
         </steps>
     </taskbody>

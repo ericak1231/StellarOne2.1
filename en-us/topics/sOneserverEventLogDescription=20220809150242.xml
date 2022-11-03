@@ -2,11 +2,12 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
 
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
-  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">StellarOne Server Event Log
-    Descriptions</title>
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Server Event Log Descriptions for <ph
+      conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></title>
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
-      <p>This table lists the server event log descriptions for StellarOne.<table frame="all"
+      <p>This table lists the server event log descriptions for <ph
+          conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.<table frame="all"
           id="table_d1f_xbx_l5b">
           <tgroup cols="2">
             <colspec colname="c1" colnum="1" colwidth="1*"/>

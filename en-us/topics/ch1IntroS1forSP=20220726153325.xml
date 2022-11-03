@@ -3,11 +3,15 @@
 <concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
     <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Introduction</title>
     <conbody>
-        <p>This section introduces TXOne StellarOne and how it manages the agents providing
-            Industrial-Grade Next-Generation Antivirus and Application Lockdown protection to your
-            assets. An overview of management functions is provided. This manual will focus on its
-            use for TXOne StellarProtect: an /OTICS-compatible, high performance and zero touch
-            endpoint protection solution.</p>
+        <p>This section introduces <ph conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> and how
+            it manages the agents providing Industrial-Grade Next-Generation Antivirus and
+            Application Lockdown protection to your assets. An overview of management functions is
+            provided. This manual will focus on its use for <ph
+                conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM">OFFICIAL_PRODUCT_NAME</ph>: an
+            OT/ICS-compatible, high performance and zero touch endpoint protection solution, and <ph
+                conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM">PRODUCT_SHORT_NAME</ph>: a simple,
+            no-maintenance solution to lock down and protect fixed-function computers, helping
+            protect businesses against security threats and increase productivity.</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>

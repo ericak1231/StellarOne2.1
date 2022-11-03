@@ -23,8 +23,9 @@
             <step>
                 <cmd>Type <userinput>iface update</userinput> command for updating the settings of
                     current network interface. For example, the following command sets the interface
-                        <wintitle>eth0</wintitle> to a static IP address 10.7.19.187/24 with the
-                    Gateway IP address 10.7.19.190 </cmd>
+                        <wintitle>eth0</wintitle> to a static IP address
+                        <filepath>10.7.19.157/24</filepath> with the Gateway IP address
+                        <filepath>10.7.19.254</filepath>.</cmd>
                 <info>
                     <p><userinput>iface update eth0 --method static --address 10.7.19.157 --netmask
                             255.255.255.0 --gateway 10.7.19.254</userinput></p>
@@ -54,7 +55,8 @@
             <step>
                 <cmd>Use the <userinput>resolv add</userinput> command to add a DNS server and
                         <userinput>resolv ls</userinput> to view the DNS server list. For example,
-                    the following command adds 8.8.8.8 to the DNS server list</cmd>
+                    the following command adds <filepath>8.8.8.8</filepath> to the DNS server
+                    list</cmd>
                 <info>
                     <p><userinput>resolv mode custom</userinput>
                     </p>

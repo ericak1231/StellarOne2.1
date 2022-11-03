@@ -25,7 +25,7 @@
                     properties.</cmd>
             </step>
             <step>
-                <cmd>Configure settings such as IP address and communication ports. </cmd>
+                <cmd>Configure settings such as IP address and communication ports.</cmd>
             </step>
         </steps>
     </taskbody>

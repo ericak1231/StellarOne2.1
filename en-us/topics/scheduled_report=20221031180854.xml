@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Scheduled Report (Legacy Mode
+        only)</title>
+    <taskbody>
+        <context>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <p>Users can configure the setting to send scheduled reports to <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                via the StellarOne console.</p><?oxy_custom_end?>
+        </context>
+        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+        <steps id="steps_pt3_g3m_m5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Log Purge</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>There are two ways for log purge settings. Users can choose from either one
+                    listed below:</cmd>
+                <choices id="choices_nxv_vwn_m5b">
+                    <choice><uicontrol>Purge Now</uicontrol>:<p>Use this setting to purge logs
+                            immediately.</p><ol id="ol_ovg_bxn_m5b">
+                            <li>
+                                <p>Click the drop-down menu next to the <uicontrol>Purge</uicontrol>
+                                    title, and then select the log types to be purged.</p>
+                                <ul id="ul_yrr_hxn_m5b">
+                                    <li>
+                                        <p>All Logs</p>
+                                    </li>
+                                    <li>
+                                        <p>System Log, Audit Log, Server Events, or Agent Events</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Click the drop-down menu next to the <uicontrol>older
+                                        than</uicontrol> title, and then select a specified time
+                                    frame. The files older than the time frame will be removed.</p>
+                                <ul id="ul_pvh_kyn_m5b">
+                                    <li>
+                                        <p>No limit</p>
+                                    </li>
+                                    <li>
+                                        <p>1 month(s), 2 months(s), 3 months(s), 6 months(s), 12
+                                            months(s), 18 months(s), 24 months(s), 36 months(s), 48
+                                            months(s), 60 months(s)</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Click the drop-down menu next to the <uicontrol>Keep at
+                                        most</uicontrol> title, and then select the maximum number
+                                    of log entries to keep.</p>
+                                <ul id="ul_fm1_yyn_m5b">
+                                    <li>
+                                        <p>0 entries</p>
+                                    </li>
+                                    <li>
+                                        <p>10,000 entries, 50,000 entries, 100,000 entries, 500,000
+                                            entries, 1,000,000 entries, 5,000,000 entries,
+                                            10,000,000 entries</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Click the <uicontrol>Purge</uicontrol> button, and the event logs
+                                    will be immediately purged.</p>
+                            </li>
+                        </ol></choice>
+                    <choice><uicontrol>Automatic Purge</uicontrol>: <p>Use this setting to set an
+                            automatic purge once per day.</p><ol id="ol_mz3_kzn_m5b">
+                            <li>
+                                <p>Specify the log types you wan to purge: <uicontrol>System
+                                        Log</uicontrol>, <uicontrol>Audit Log</uicontrol>,
+                                        <uicontrol>Server Events</uicontrol>, or <uicontrol>Agent
+                                        Events</uicontrol>.</p>
+                            </li>
+                            <li>
+                                <p>Click the drop-down menu next to the <uicontrol>older
+                                        than</uicontrol> title, and then select a specified time
+                                    frame. The files older than the time frame will be removed.</p>
+                                <ul id="ul_d3l_p14_m5b">
+                                    <li>
+                                        <p>No limit</p>
+                                    </li>
+                                    <li>
+                                        <p>1 month(s), 2 months(s), 3 months(s), 6 months(s), 12
+                                            months(s), 18 months(s), 24 months(s), 36 months(s), 48
+                                            months(s), 60 months(s)</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Click the drop-down menu next to the <uicontrol>Keep at
+                                        most</uicontrol> title, and then select the maximum number
+                                    of log entries to keep.</p>
+                                <ul id="ul_l3s_q14_m5b">
+                                    <li>
+                                        <p>0 entries</p>
+                                    </li>
+                                    <li>
+                                        <p>10,000 entries, 50,000 entries, 100,000 entries, 500,000
+                                            entries, 1,000,000 entries, 5,000,000 entries,
+                                            10,000,000 entries</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Click the <uicontrol>Save</uicontrol> button, and the event logs
+                                    will be automatically purged once per day.</p>
+                            </li>
+                        </ol></choice>
+                </choices>
+            </step>
+        </steps><?oxy_custom_end?>
+    </taskbody>
+</task>

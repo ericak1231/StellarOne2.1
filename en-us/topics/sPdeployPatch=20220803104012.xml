@@ -11,8 +11,10 @@
         </context>
         <steps>
             <step>
-                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
-                    StellarOne web console.</cmd>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
             </step>
             <step>
                 <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>

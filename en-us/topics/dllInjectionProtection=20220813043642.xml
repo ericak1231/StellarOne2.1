@@ -13,17 +13,18 @@
         </context>
         <steps>
             <step>
-                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
-                    StellarOne web console.</cmd>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
-                    screen. </cmd>
-            </step>
-            <step>
-                <cmd>The <wintitle>Agents</wintitle> screen displays a list of agents managed by
-                    StellarOne. Navigate to the target agent or group and click its corresponding
-                        <uicontrol>Policy Inheritance </uicontrol>link.</cmd>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_kqb_dvc_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
             </step>
             <step>
                 <cmd>Scroll down and find the <uicontrol>DLL Injection Prevention</uicontrol> at the

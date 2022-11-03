@@ -3,10 +3,11 @@
 <concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
     <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Installation</title>
     <conbody>
-        <p>This chapter guides you through TXOne <tm tmtype="tm">StellarOne</tm> installation. <tm
-                tmtype="tm">StellarOne</tm> is packaged in an Open Virtual Appliance (OVA) format
-            and supports 3 types of Hypervisor: VMware ESXi, VMware Workstation, and Windows Hyper-V
-            systems.</p>
+        <p>This chapter guides you through TXOne <ph
+                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> installation. <ph
+                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> is packaged in an Open
+            Virtual Appliance (OVA) or Virtual Hard Disk v2 (VHDX) format and supports 3 types of
+            hypervisors: VMware ESXi, VMware Workstation, and Windows Hyper-V systems.</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>

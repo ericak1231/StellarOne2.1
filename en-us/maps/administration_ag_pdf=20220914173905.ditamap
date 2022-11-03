@@ -19,10 +19,15 @@
         <topicref href="../topics/systemTime=20220811165946.xml"/>
         <topicref href="../topics/syslogForward=20220811171155.xml"/>
         <topicref href="../topics/logPurge=20220811215857.xml"/>
+        <topicref href="../topics/scheduled_report=20221031180854.xml"/>
         <topicref href="../topics/notification=20220811224458.xml"/>
         <topicref href="../topics/proxy=20220811232823.xml"/>
-        <topicref href="../topics/downloadUpdates=20220803181908.xml">
-            <topicref href="../topics/groupMapping=20220812111150.xml"/>
+        <topicref href="../topics/downloads_updates=20221028142005.xml">
+            <topicref href="../topics/downloadUpdates_stellarOne=20221028147744.xml"/>
+            <topicref href="../topics/downloadUpdates_agent=20221028142610.xml">
+                <topicref href="../topics/groupMapping=20220812111150.xml"/>
+            </topicref>
+            <topicref href="../topics/downloadUpdates_agent_patch=20221028151831.xml"/>
         </topicref>
         <topicref href="../topics/fwSslTogether=20220812135709.xml">
             <topicref href="../topics/firmware=20220811235356.xml"/>

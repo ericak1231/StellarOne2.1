@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_uqc_pnc_jvb">
+    <title>Go to the Policy Screen</title>
+    <taskbody>
+        <context>
+            <p><indexterm>policy screen</indexterm><fig id="fig_wsq_cpc_jvb">
+                    <image href="../images/2.0/agent_to_policy_screen=20220928090908.png"
+                        otherprops="PRINT" id="image_dwn_s1v_z5b"/>
+                </fig></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
+                    StellarOne web console. </cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All</uicontrol> group, and then a screen displays the
+                    second level of groups/agents managed by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the target agent or group. Go to the Policy page by either way
+                    listed below.</cmd>
+                <choices id="choices_jls_rdk_n5b">
+                    <choice>
+                        <p>Click the link (<uicontrol>Inherited</uicontrol>,
+                                <uicontrol>Customized</uicontrol>, or
+                                <uicontrol>Self-managed</uicontrol>) under the <uicontrol>Policy
+                                Inheritance</uicontrol> column heading.</p>
+                    </choice>
+                    <choice>
+                        <p>Click the Policy icon under the <wintitle>Actions</wintitle> heading, and
+                            then click the <uicontrol>Policy</uicontrol> tab.</p>
+                    </choice>
+                </choices>
+                <stepresult>The <wintitle>Policy</wintitle> screen appears.<note
+                        id="note_cnj_q4c_jvb">
+                        <p>You can also click the the corresponding <uicontrol>Policy
+                                Inheritance</uicontrol> link of the <uicontrol>All</uicontrol> group
+                            to check it's policy settings.</p>
+                    </note></stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

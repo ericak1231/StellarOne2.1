@@ -6,11 +6,13 @@
     <taskbody>
         <context>
             <p><uicontrol>OT Application Safeguard</uicontrol> is an industrial-based change control
-                protection. This feature ensures the StellarProtect-recognized OT applications to be
-                updated without being blocked or restricted. In addition, users can enable OT
-                application protection to secure recognized OT application executable binary
-                    files.<note id="note_ynd_s5b_s5b">
-                    <p>Upon launch, StellarProtect will auto-detect currently-installed OT
+                protection. This feature ensures the <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                >OFFICIAL_PRODUCT_NAME</ph>-recognized OT applications to be updated without being
+                blocked or restricted. In addition, users can enable OT application protection to
+                secure recognized OT application executable binary files.<note id="note_ynd_s5b_s5b">
+                    <p>Upon launch, <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> will auto-detect currently-installed OT
                         applications and put them under protection. The recognized OT applications
                         will be shown on the <uicontrol>General Info</uicontrol> tab page.</p>
                 </note></p>

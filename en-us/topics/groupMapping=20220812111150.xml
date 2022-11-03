@@ -2,7 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Group Mapping</title>
+    <?oxy_comment_start author="erica_txone" timestamp="20221028T134819+0800" comment="need to notify YH to update the link for 2.0 Patch"?>
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Group Mapping</title><?oxy_comment_end?>
     <taskbody>
         <context>
             <p>This function allows users to directly register agent to a specific group via the
@@ -16,8 +17,9 @@
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Select the <uicontrol>StellarProtect</uicontrol> or <uicontrol>StellarProtect
-                        (Legacy Mode)</uicontrol> tab according to your target agent type.</cmd>
+                <cmd>Select the
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><uicontrol>Agent</uicontrol><?oxy_custom_end?>
+                    tab.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Download</uicontrol> to download the Installer Package.</cmd>

@@ -5,27 +5,34 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Device Control</title>
     <taskbody>
         <context>
-            <p>StellarProtect agent supports one-time USB access permission on site; while
-                StellarOne console offers permanent USB access permission via remote configuration.
-                For the local agent, when USB device control has been enabled, every time users plug
-                in USB devices, the agent will prompt a message for users to confirm if the USB
-                device access is allowed. On top of that, StellarOne users with administrator or
-                operator role can add trusted USB devices into the <uicontrol>Device
-                    Control</uicontrol> list, allowing the specified devices to access directly
-                without further check, thus facilitating the trusted USB access for good.</p>
+            <p>StellarProtect/StellarProtect (Legacy Mode) agent supports one-time USB access
+                permission on site; while StellarOne console offers permanent USB access permission
+                via remote configuration. For the local agent, when USB device control has been
+                enabled, every time users plug in USB devices, the agent will prompt a message for
+                users to confirm if the USB device access is allowed. On top of that, StellarOne
+                users with administrator or operator role can add trusted USB devices into the
+                    <uicontrol>Device Control</uicontrol> list, allowing the specified devices to
+                access directly without further check, thus facilitating the trusted USB access for
+                good.</p>
+            <note id="note_ysz_m4d_jvb">
+                <p>In addition to USB drives, StellarProtect (Legacy Mode) also supports blocking
+                    CD/DVD drives and floppy disks on managed endpoints. </p>
+            </note>
         </context>
         <steps>
             <step>
-                <cmd>Go to <uicontrol>Agents</uicontrol>.</cmd>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
-                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
-                    by StellarOne.</cmd>
-            </step>
-            <step>
-                <cmd>Navigate to the target agent or group and click its corresponding link under
-                    the <uicontrol>Policy Inheritance</uicontrol> header.</cmd>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_kqb_dvc_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
             </step>
             <step>
                 <cmd>Make sure the <uicontrol>Device Control</uicontrol> toggle is switched

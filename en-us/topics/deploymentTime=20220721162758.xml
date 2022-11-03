@@ -8,7 +8,7 @@
                 consideration when planning for agent deployment. Refer to below section as an
                 example of calculating the bandwidth required to support the number of agents
                 planned to deploy.</p>
-            <p>Basic concept:</p>
+            <p><b>Basic concept:</b></p>
             <p><equation-inline>Total available bandwitdth / Deployment task size = How many agents
                     can be deployed at one task</equation-inline></p>
             <p>Currently, there are 3 types of StellarOne deployment tasks:</p>
@@ -19,7 +19,7 @@
                 </li>
                 <li>
                     <p>Full Pattern Update: works for agent pattern version that's already exceeded
-                        two-week-duration compared to server/update source, which requires about 80
+                        two-week duration compared to server/update source, which requires about 80
                         MB</p>
                 </li>
                 <li>

@@ -5,29 +5,45 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Agent Events</title>
     <taskbody>
         <context id="context_byv_td5_k5b">
-            <p>The StellarOne collects activities on agents and log them in the <uicontrol>Agent
-                    Events</uicontrol>.</p>
+            <p>The <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> collects activities on
+                agents and log them in the <uicontrol>Agent Events</uicontrol>.</p>
         </context>
         <steps>
             <step>
                 <cmd>Mouse over the <uicontrol>Logs</uicontrol> tab in the top navigation bar of the
-                    StellarOne web console. Click the <uicontrol>Agent Events</uicontrol>
-                    option.</cmd>
+                        <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web console. A
+                    drop-down menu appears.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>StellarProtect</uicontrol> tab, the StellarProtect agent
-                    event logs appear.</cmd>
+                <cmd>Click the <uicontrol>Agent Events</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> or <ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> tab, the corresponding agent event logs
+                    appear.</cmd>
             </step>
             <step>
                 <cmd>Regarding how to search for the relevant log messages for troubleshooting or
                     analysis. Please refer to <xref href="sPagentEventFilter=20220810100700.xml"/>
-                    for detailed procedures.</cmd>
+                    for more details.</cmd>
                 <info>
                     <note id="note_ojq_fnp_n5b">
-                        <p>Please refer to <xref
-                                href="sPagentEventLogDescription=20220808105743.xml"/> in the
-                            Appendices for more details about event IDs and corresponding log
-                            information.</p>
+                        <ul id="ul_zpz_3m3_jvb">
+                            <li>
+                                <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph>'s event IDs and corresponding
+                                    log information, refer to <xref
+                                        href="sPagentEventLogDescription=20220808105743.xml"/>.</p>
+                            </li>
+                            <li>
+                                <p>For <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph>'s event IDs and corresponding
+                                    log information, refer to <xref
+                                        href="sPagentEventLogDescription=20220808105743.xml"/></p>
+                            </li>
+                        </ul>
                     </note>
                 </info>
             </step>

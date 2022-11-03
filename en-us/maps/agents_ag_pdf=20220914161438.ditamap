@@ -20,6 +20,16 @@
 		<topicref href="../topics/agentsUpdate=20220803103542.xml">
 			<topicref href="../topics/sPupdateComponents=20220803103820.xml"/>
 			<topicref href="../topics/sPdeployPatch=20220803104012.xml"/>
+			<topicref href="../topics/check_connections=20221031182319.xml"/>
+			<topicref href="../topics/collect_event_logs=20221031182406.xml"/>
+		</topicref>
+		<topicref href="../topics/agents_import_export=20221031182133.xml">
+			<topicref href="../topics/import_agent_configurations=20221031182535.xml"/>
+			<topicref href="../topics/export_agent_configurations=20221031182600.xml"/>
+			<topicref href="../topics/import_approved_list=20221031182700.xml"/>
+			<topicref href="../topics/export_approved_list=20221031182747.xml"/>
+			<topicref href="../topics/export_selected_info=20221031182832.xml"/>
+			<topicref href="../topics/export_all_info=20221031182910.xml"/>
 		</topicref>
 	</topicref>
 </map>

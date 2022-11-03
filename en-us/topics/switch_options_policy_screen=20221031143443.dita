@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_yf4_2pc_jvb">
+    <title>Switch Options of the Policy Screen</title>
+    <refbody>
+        <example>
+            <p><indexterm>policy screen</indexterm><indexterm>switch options</indexterm><fig
+                    id="fig_asp_jmv_35b" otherprops="PRINT">
+                    <title>Switch Options of the Policy Screen</title>
+                    <image href="../images/2.0/policy_screen=20220927181912.png"
+                        id="image_orb_nmq_z5b" otherprops="PRINT"/>
+                </fig></p>
+        </example>
+        <table>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1.9*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p>Options</p>
+                        </entry>
+                        <entry>
+                            <p>Description</p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <p><indexterm>policy screen<indexterm>Function
+                                    Type)</indexterm></indexterm><uicontrol>Function
+                                    Type</uicontrol></p>
+                        </entry>
+                        <entry>
+                            <p>The dropdown button next to the <uicontrol>Function Type</uicontrol>
+                                allows users to switch between <uicontrol>StellarProtect</uicontrol>
+                                and <uicontrol>StellarProtect (Legacy Mode)</uicontrol>.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p><indexterm>policy screen<indexterm>Policy
+                                    Inheritance</indexterm></indexterm><uicontrol>Policy
+                                    Inheritance</uicontrol></p>
+                        </entry>
+                        <entry>
+                            <p>The toggle button allows users to enable or disable the group policy
+                                inheritance from the parent group. If the toggle is on, policy
+                                settings for the agent/group are inherited from the parent group;
+                                otherwise, policy settings for the agent/group are customized by the
+                                server administrators.<note id="note_oqf_gjc_jvb">
+                                    <p>When the toggle is on or off, the
+                                            <uicontrol>Inherited</uicontrol> or
+                                            <uicontrol>Customized</uicontrol> status will be shown
+                                        under the <uicontrol>Policy Inheritance</uicontrol> column
+                                        heading.</p>
+                                </note></p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p><indexterm>policy
+                                    screen<indexterm>Self-management</indexterm></indexterm><indexterm>policy
+                                        setting<indexterm>Self-management</indexterm></indexterm><uicontrol>Self-management</uicontrol></p>
+                        </entry>
+                        <entry>
+                            <p>The toggle button allows users to enable or disable the agent's
+                                self-managementl. When the toggle is on, the agent will be set free
+                                from StellarOne console's policy management and the on-site
+                                operators can configure the agent's policy settings on their
+                                own.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p><indexterm>policy screen<indexterm>General
+                                    Info/Policy</indexterm></indexterm><uicontrol>General
+                                    Info</uicontrol>/<uicontrol>Policy</uicontrol></p>
+                        </entry>
+                        <entry>
+                            <p>The tabs allow users to switch between the displays of General
+                                Information or Policy settings.</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

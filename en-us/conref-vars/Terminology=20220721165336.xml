@@ -31,15 +31,12 @@
 </row>
 <row rowsep="1">
 <entry colname="1">
-<p>NAT agents</p>
+                            <p>managed agents</p>
+                            <p>managed endpoints</p>
 </entry>
-<entry colname="2"><p>The agents that are built under the routers with the Network Address Translation (NAT) function
-                                enabled</p></entry>
-</row>
-<row rowsep="1">
-<entry colname="1"><p>managed agents</p>
-                            <p> managed endpoints</p></entry>
-<entry colname="2"><p>The hosts running the StellarProtect program that are known to the StellarOne server program</p></entry>
+<entry colname="2">
+                            <p>The hosts running the StellarProtect program that are known to the
+                                StellarOne server program</p></entry>
 </row>
 <row rowsep="1">
 <entry colname="1"><p>target endpoints</p></entry>
@@ -67,5 +64,18 @@
                                 period of usage that you can use the application</p>
                         </entry>
 </row>
+                    <row>
+                        <entry colname="1">
+                            <p>agent installation folder</p>
+                        </entry>
+                        <entry colname="2">
+                            <p>The folder on the host that contains the StellarProtect agent files.
+                                If you accept the default settings during installation, you will
+                                find the installation folder at one of the followinglocations:</p>
+                            <p><filepath>C:\Program Files\TXOne\StellarProtect</filepath></p>
+                            <p><filepath>C:\Program Files\TXOne\StellarProtect (Legacy
+                                    Mode)</filepath></p>
+                        </entry>
+                    </row>
 </tbody>
 </tgroup></table></refbody></reference>

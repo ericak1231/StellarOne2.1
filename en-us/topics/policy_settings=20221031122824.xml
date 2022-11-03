@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Policy Settings</title>
+ <conbody>
+  <p>On the <b>Policy</b> screen, the <uicontrol>Function Type</uicontrol> menu allows users to
+   switch between the policy settings for <uicontrol>StellarProtect</uicontrol> and
+    <uicontrol>StellarProtect (Legacy Mode)</uicontrol>.</p>
+  <p>Topics in this chapter include:</p>
+  <ul id="ul_j3f_mfv_35b" otherprops="PRINT">
+   <li>
+    <p><xref href="introPolicyManage_sp=20221028182228.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="introPolicyManage_splm=20221028182109.xml"/></p>
+   </li>
+  </ul>
+ </conbody>
+</concept>

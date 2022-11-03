@@ -207,7 +207,7 @@
                                 space for initialization and booting process.</p>
                         </li>
                         <li>
-                            <p>Ther external disk is used to store the system configurations and
+                            <p>The external disk is used to store the system configurations and
                                 event logs. You may reuse the external disk of a terminated
                                 StellarOne instance if you want to migrate the previous
                                 configurations and logs to a new StellarOne instance.</p>

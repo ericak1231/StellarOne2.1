@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Downloads/Updates</title>
+ <conbody>
+  <p>The <wintitle>Downloads/Updates</wintitle> page allows users to execute below tasks:</p>
+  <p>
+   <ul id="ul_hjd_1qg_3vb">
+    <li>
+     <p>Configuring scan component for StellarOne</p>
+    </li>
+    <li>
+     <p>Downloading the Agent Installer Package or <filepath>Group.ini</filepath> file for <xref
+       href="groupMapping=20220812111150.xml"/>.</p>
+    </li>
+    <li>
+     <p>Importing or deleting patch files for the agents</p>
+    </li>
+   </ul>
+  </p>
+ </conbody>
+</concept>

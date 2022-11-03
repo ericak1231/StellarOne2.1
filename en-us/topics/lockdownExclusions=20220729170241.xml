@@ -12,28 +12,18 @@
         </context>
         <steps>
             <step>
-                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
-                    StellarOne web console. </cmd>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
-                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
-                    by StellarOne.</cmd>
-            </step>
-            <step>
-                <cmd>Navigate to the target agent or agent group.</cmd>
-            </step>
-            <step>
-                <cmd>Go to the Policy page by either way listed below.</cmd>
-                <choices id="choices_jls_rdk_n5b">
-                    <choice>
-                        <p>Click the <uicontrol>Policy Inheritance </uicontrol> link.</p>
-                    </choice>
-                    <choice>
-                        <p>Click the Policy icon under the <wintitle>Actions</wintitle> header, and
-                            then click the <uicontrol>Policy</uicontrol> tab.</p>
-                    </choice>
-                </choices>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_kqb_dvc_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
             </step>
             <step>
                 <cmd>Click the <uicontrol>Exception Paths</uicontrol> under the

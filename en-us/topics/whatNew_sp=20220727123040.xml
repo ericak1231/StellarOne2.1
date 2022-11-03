@@ -24,37 +24,38 @@
                         </row>
                     </thead>
                     <tbody>
-                        <row valign="middle">
+                        <row>
                             <entry>
-                                <p>Application Lockdown</p>
+                                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                                <p>Integration to Vision One</p><?oxy_custom_end?>
                             </entry>
                             <entry>
-                                <p>This feature prevents malware attacks and increases protection
-                                    level by locking down files defined in an Application List.
-                                    Three modes are available for selection:</p>
-                                <ul id="ul_pf5_ngg_35b">
-                                    <li>
-                                        <p>Detect: The applications that are not in the Approved
-                                            List will be allowed to run, and users will receive a
-                                            notification.</p>
-                                    </li>
-                                    <li>
-                                        <p>Enforce: The applications that are not in the Approved
-                                            List will be blocked from running, and users will
-                                            receive a notification.</p>
-                                    </li>
-                                    <li>
-                                        <p>Disable: The Application Lockdown mode can also be
-                                            disabled in case users may have the needs, but it is
-                                            recommended to have this function enabled.</p>
-                                    </li>
-                                </ul>
+                                <p/>
                             </entry>
                         </row>
-                        <row valign="middle">
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
                             <entry>
-                                <p>Agent Component Update Schedule</p>
+                                <p>Single Installer Package for Agent</p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p/>
                             </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                            <entry>
+                                <p>SPLM Anti-Malware Scan</p>
+                            </entry><?oxy_custom_end?>
+                            <entry>
+                                <p/>
+                            </entry>
+                        </row>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                            <entry>
+                                <p>SPLM Agent Component Update Schedule</p>
+                            </entry><?oxy_custom_end?>
                             <entry>
                                 <p>In addition to the existing component update schedule function of
                                     the StellarOne console, now users can also configure the
@@ -63,37 +64,30 @@
                                     time frequency.</p>
                             </entry>
                         </row>
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
                         <row valign="middle">
                             <entry>
-                                <p>Self-management Policy Setting</p>
+                                <p>AWS Marketplace?</p>
                             </entry>
                             <entry>
-                                <p>This newly-added policy option allows the operators on site to
-                                    configure the agents' policy settings on their own. Once being
-                                    switched to the self-management status, the local agents are
-                                    free from the StellarOne console's policy management.</p>
+                                <p/>
                             </entry>
                         </row>
-                        <row valign="middle">
+                        <row>
                             <entry>
-                                <p>Real-Time Malware Scan in Maintenance Mode</p>
+                                <p>Agent feedbacks scan result to StellarOne</p>
+                            </entry>
+                            <entry/>
+                        </row><?oxy_custom_end?>
+                        <row>
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                            <entry>
+                                <p>Export Agents Info</p>
                             </entry>
                             <entry>
-                                <p>A Real-Time Malware Scan toggle switch is added under the
-                                    Maintenance Mode option, reminding users to enable Real-Time
-                                    Malware Scan during the maintenance period for seamless
-                                    protection.</p>
-                            </entry>
-                        </row>
-                        <row valign="middle">
-                            <entry>
-                                <p>Open API</p>
-                            </entry>
-                            <entry>
-                                <p>Provides open API for users to query data from agents. Users can
-                                    also generate API keys and set the expiration dates for
-                                    different user accounts for account management.</p>
-                            </entry>
+                                <p>This newly-added GUI option allows users to export the
+                                    information of selected or all agents(s) by simple clicks.</p>
+                            </entry><?oxy_custom_end?>
                         </row>
                     </tbody>
                 </tgroup>

@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
 
 <concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
- <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Agent Protection</title>
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Protection</title>
  <conbody>
   <p>The <uicontrol>Protection</uicontrol> tool sends one-time commands to endpoints for triggering
    immediate actions, allowing users to configure Maintenance Mode, update Approved List when the

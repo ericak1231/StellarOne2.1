@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Importing/Deleting Agent's Patch</title>
+    <taskbody>
+        <steps id="steps_vyt_vgr_m5b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Downloads/Updates</uicontrol>
+                        <uicontrol>Agent</uicontrol>
+                        <uicontrol>Patch</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Select <uicontrol>StellarProtect</uicontrol> or <uicontrol>StellarProtect
+                        (Legacy Mode)</uicontrol> to determine the target agent.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Import</uicontrol> to import the target patch file.</cmd>
+            </step>
+            <step>
+                <cmd>A <uicontrol>Import Patch</uicontrol> window appears. Click the radio button to
+                    determine the target agent.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Select File</uicontrol> to select the patch file to
+                    import.</cmd>
+                <info>
+                    <note id="note_l45_swh_3vb" type="important">
+                        <p>Be sure to select the patch file that matches the target agent.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>To remove existing patch files on StellarOne, select the target files and then
+                    the <uicontrol>Delete</uicontrol> button appears next to the
+                        <uicontrol>Import</uicontrol> button. Click <uicontrol>Delete</uicontrol> to
+                    remove the selected entries.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

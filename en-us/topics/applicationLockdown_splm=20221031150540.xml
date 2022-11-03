@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Application Lockdown</title>
+    <taskbody>
+        <context>
+            <p>When Application Lockdown is turned on, the agent will only be able to access
+                applications that are in the Approved List. </p>
+        </context>
+        <steps id="steps_hgj_l3v_35b">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_kqb_dvc_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Go to the <uicontrol>Application Lockdown</uicontrol> section, and then toggle
+                    on <uicontrol>Enable Application Lockdown</uicontrol>.</cmd>
+                <info>
+                    <note id="note_gks_rtc_jvb">
+                        <p>For how to configure exclusion settings for the Approved List, please
+                            refer to the <xref href="exclusions_splm=20221031150921.xml"
+                                >Exclusions</xref>.</p>
+                    </note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

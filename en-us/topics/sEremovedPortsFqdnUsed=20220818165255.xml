@@ -4,8 +4,8 @@
     <title>Ports and FQDN Used</title>
     <refbody>
         <section id="section_ukg_jvy_c5b">
-            <p><indexterm>Ports and FQDN</indexterm>The following table shows the ports that are
-                used by the StellarOne server.</p>
+            <p><indexterm>Ports and FQDN</indexterm>The following table shows the ports used by the
+                StellarOne server.</p>
             <table frame="all" rowsep="1" colsep="1" id="table_al2_5gz_c5b">
                 <title>Ports and FQDN Used</title>
                 <tgroup cols="5">

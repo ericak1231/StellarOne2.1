@@ -6,14 +6,12 @@
     Detection</title>
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
-      <p><indexterm>Operations Behavior Anomaly Detection</indexterm>StellarProtect provides the
+      <p><indexterm>Operations Behavior Anomaly Detection</indexterm><ph
+          conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> provides the
           <uicontrol>Operations Behavior Anomaly Detection</uicontrol> to protect the endpoints from
         fileless attacks. </p>
-      <p>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the StellarOne web
-        console. Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
-        screen. The <uicontrol>Agents</uicontrol> screen displays a list of agents managed by
-        StellarOne. Navigate to the target agent or group and click the <uicontrol>Policy
-          Inheritance</uicontrol> link.</p>
+      <p><ph conkeyref="PRODvars/POLICY"/>
+        <ph conkeyref="PRODvars/POLICY_NOTE"/></p>
       <p>Scroll down and find the <uicontrol>Operations Behavior Anomaly Detection</uicontrol>.</p>
       <p>Basically, the <uicontrol>Operations Behavior Anomaly Detection</uicontrol> has four
           modes:<ul id="ul_ssn_szf_k5b">

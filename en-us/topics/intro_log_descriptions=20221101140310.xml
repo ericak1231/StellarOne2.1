@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Log Descriptions</title>
+ <conbody>
+  <p>The following tables provides log descriptions for <ph
+        conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM">OFFICIAL_PRODUCT_NAME</ph>, <ph
+        conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM">PRODUCT_SHORT_NAME</ph>, and <ph
+        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.</p>
+  <p>Topics in this section include:</p>
+  <ul id="ul_yym_glp_n5b" otherprops="PRINT">
+   <li>
+    <p><xref href="logDescriptions=20220815170737.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="logDescriptions_splm=20221101134108.xml"/></p>
+   </li>
+      <li>
+        <p><xref href="sOneserverEventLogDescription=20220809150242.xml"/></p>
+      </li>
+  </ul>
+ </conbody>
+</concept>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+
+<concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Policy Management</title>
+ <conbody>
+  <p>Unlike the
+   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>configurations<?oxy_custom_end?>
+   available on the <uicontrol>Agents</uicontrol> screen (which are one-time commands for triggering
+   immediate actions), the policy management on the <uicontrol>Policy</uicontrol> page are for
+   pattern deployment to the agents.</p>
+  <p>After users organize agents into various groups and build up multi-level hierarchy among the
+   groups (parent groups above child groups), two types of policy management are available for
+    choice:<ul id="ul_jpf_rpw_m5b">
+    <li>
+     <p>Policy <uicontrol>Inherited</uicontrol>: The group policy is inherited from the parent
+      group</p>
+    </li>
+    <li>
+     <p>Policy <uicontrol>Customized</uicontrol>: The group policy is customized for specific
+      agents/groups by the StellarOne administrators</p>
+    </li>
+   </ul><note id="note_krh_vpb_jvb">
+    <p><uicontrol>Self-managed</uicontrol>: This special policy setting allows local agents to be
+     free from StellarOne's policy management and instead, to be managed directly by the on-site
+     operators. Though it's a policy setting, the <uicontrol>Self-managed</uicontrol> status will be
+     shown under the <uicontrol>Policy Inheritance</uicontrol> column heading on the
+      <uicontrol>Agents</uicontrol> screen.</p>
+   </note></p>
+  <p>Please refer to <xref href="policy_screen_pdf=20220928092953.xml"/> for more details.</p>
+ </conbody>
+</concept>

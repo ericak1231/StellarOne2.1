@@ -2,18 +2,62 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
 
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
-  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Widgets for Monitoring
-    StellarProtect</title>
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Widgets for Monitoring Agents</title>
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
-      <p>Two widgets for monitoring StellarProtect agent events can be added under the
-          <uicontrol>Summary</uicontrol> tab of the<uicontrol> Dashboard</uicontrol> screen.<ul
-          id="ul_wsg_p2d_n5b">
+      <p>Two widgets for monitoring <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+          >OFFICIAL_PRODUCT_NAME</ph> and three for <ph
+          conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> agent events
+        can be added under the <uicontrol>Summary</uicontrol> tab of
+          the<uicontrol>Dashboard</uicontrol> screen.<ul id="ul_wsg_p2d_n5b">
           <li>
-            <p><wintitle>Top Endpoints with Blocked Events</wintitle>: This widget displays the
+            <p><uicontrol>Blocked Event History</uicontrol>
+              <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>(Legacy Mode
+              only)<?oxy_custom_end?>: This widget displays a summary of blocked events for the
+              specified time period. By default, the widget is displayed on the
+                <uicontrol>Summary</uicontrol> tab of the <uicontrol>Dashboard</uicontrol>.
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Click the display
+              icons to display the data as a pie chart or a line
+              chart.<?oxy_custom_end?><?oxy_comment_start author="erica_txone" timestamp="20221101T145644+0800" comment="can&apos;t find the display icons"?></p><?oxy_comment_end?>
+            <fig id="fig_qd1_q1k_jvb" otherprops="PRINT">
+              <image href="../images/dashboard_widget_blocked_event_history=20221101150921.png"
+                id="image_gny_z1k_jvb"/>
+            </fig>
+            <ol id="ol_wxb_gbk_jvb">
+              <li>
+                <p>Select from the Time Period drop-down menu to display the events occuring within
+                  a specified period. Refer to the tips below for more details.</p>
+              </li>
+              <li>
+                <p>Click a value on the chart to be directed to the <uicontrol>Agents
+                    Events</uicontrol> logs for more details about the blocked event.</p>
+              </li>
+              <li>
+                <p>Click an entry on the legend to show or hide data for that event type.</p>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <p><uicontrol>Top Endpoints with Blocked Events</uicontrol>: This widget displays the
               endpoints with the most blocked events. By default, the widget is displayed on the
-                <uicontrol>Summary</uicontrol> tab of the <uicontrol>Dashboard</uicontrol>.<table
-                frame="all" id="table_fhf_s2d_n5b">
+                <uicontrol>Summary</uicontrol> tab of the <uicontrol>Dashboard</uicontrol>.<fig
+                id="fig_xfh_cgk_jvb">
+                <image href="../images/top_endpoints_blocked_event=20221101154811.png"
+                  id="image_nks_cgk_jvb"/>
+              </fig><ol id="ol_qtw_4gk_jvb">
+                <li>
+                  <p>Select from the Time Period drop-down menu to display the events occuring
+                    within a specified period. Refer to the tips below for more details.</p>
+                </li>
+                <li>
+                  <p>Click an endpoint name to be directed to the <uicontrol>General
+                      Info</uicontrol> page for more details about the endpoint.</p>
+                </li>
+                <li>
+                  <p>Click a value on the chart to be directed to the <uicontrol>Agents
+                      Events</uicontrol> logs for more details about the blocked event.</p>
+                </li>
+              </ol><table frame="all" id="table_fhf_s2d_n5b">
                 <title>Widget: Top Endpoints with Blocked Events</title>
                 <tgroup cols="2">
                   <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -31,7 +75,7 @@
                   <tbody>
                     <row>
                       <entry>
-                        <p>Endpoint Name</p>
+                        <p><uicontrol>Endpoint Name</uicontrol></p>
                       </entry>
                       <entry>
                         <p>Name of the endpoint</p>
@@ -39,7 +83,7 @@
                     </row>
                     <row>
                       <entry>
-                        <p>Description </p>
+                        <p><uicontrol>Description</uicontrol></p>
                       </entry>
                       <entry>
                         <p>Description assigned to the endpoint</p>
@@ -47,7 +91,7 @@
                     </row>
                     <row>
                       <entry>
-                        <p>IP Address </p>
+                        <p><uicontrol>IP Address</uicontrol></p>
                       </entry>
                       <entry>
                         <p>IP address of the endpoint</p>
@@ -55,7 +99,7 @@
                     </row>
                     <row>
                       <entry>
-                        <p>Blocked Events</p>
+                        <p><uicontrol>Blocked Events</uicontrol></p>
                       </entry>
                       <entry>
                         <p>Total number of events blocked on the endpoint</p>
@@ -66,7 +110,7 @@
               </table></p>
           </li>
           <li>
-            <p><wintitle>Top Blocked Files</wintitle>: This widget displays a list of files that
+            <p><uicontrol>Top Blocked Files</uicontrol>: This widget displays a list of files that
               triggered the most blocked events.<table frame="all" id="table_wtn_5fd_n5b">
                 <title>Widget: Top Blocked Files</title>
                 <tgroup cols="2">
@@ -96,7 +140,8 @@
                         <p>File Hash</p>
                       </entry>
                       <entry>
-                        <p>SHA1 hash of the file that triggered the blocked events</p>
+                        <p><?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>SHA1<?oxy_custom_end?>
+                          hash of the file that triggered the blocked events</p>
                       </entry>
                     </row>
                     <row>
@@ -136,7 +181,7 @@
                   refresh.</p>
               </li>
               <li>
-                <p>The dropdown-menu button provides two functions:<ul id="ul_tym_5hd_n5b">
+                <p>The drop-down button provides two functions:<ul id="ul_tym_5hd_n5b">
                     <li>
                       <p><uicontrol>Widget Settings</uicontrol>:</p>
                       <ul id="ul_r4h_b3d_n5b">

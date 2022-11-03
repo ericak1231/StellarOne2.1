@@ -13,10 +13,18 @@
         </context>
         <steps>
             <step>
-                <cmd>Click the <uicontrol>Agents</uicontrol> tab in the top navigation bar of the
-                    StellarOne web console. The <wintitle>Agents</wintitle> screen displays a list
-                    of agents managed by StellarOne. Navigate to the target agent or group and click
-                    the corresponding <uicontrol>Policy Inheritance </uicontrol>link.</cmd>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_kqb_dvc_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
             </step>
             <step>
                 <cmd>Scroll down and find the <uicontrol>Patch</uicontrol> at the bottom right
@@ -27,7 +35,7 @@
                 <info>
                     <note id="note_wxd_rcv_z5b">
                         <p>Users can import new patches for the agent on the <xref
-                                href="downloadUpdates=20220803181908.xml"/> page.</p>
+                                href="downloadUpdates_agent_patch=20221028151831.xml"/> page.</p>
                     </note>
                 </info>
             </step>
@@ -36,10 +44,13 @@
                     policy.</cmd>
                 <info>
                     <note id="note_bch_yjk_n5b">
-                        <p>Since StellarProtect is able to use global policies for all agents as
-                            well as group policy for group-owned machines to conduct the patching
-                            process on multiple devices, before you select agent version please note
-                            the following: <ul id="ul_gtf_ckk_n5b">
+                        <p>Since <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph>/<ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> is able to use global policies for all
+                            agents as well as group policy for group-owned machines to conduct the
+                            patching process on multiple devices, before you select agent version
+                            please note the following: <ul id="ul_gtf_ckk_n5b">
                                 <li>
                                     <p>Global policy is the default agent landing policy, so every
                                         agent will apply this policy first before moving to other
@@ -57,8 +68,11 @@
                 </info>
                 <info>
                     <note id="note_tt4_tkk_n5b" type="important">
-                        <p>StellarProtect Agent 1.0 does not support remote patch because it does
-                            not have any available remote patch files.</p>
+                        <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph>
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Agent
+                            1.0 <?oxy_custom_end?>does not support remote patch because it does not
+                            have any available remote patch files.</p>
                     </note>
                 </info>
             </step>
