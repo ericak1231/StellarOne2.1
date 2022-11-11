@@ -58,7 +58,7 @@ Micro t-ball logo, Control Manager, eManager, and ScanMail</p></li></ul></entry>
 </row>
 <row rowsep="1">
 <entry colname="1"><ph conkeyref="LEGALvars/copyright_date">copyright_date</ph></entry>
-<entry colname="2"><ph id="copyright_date">2022</ph></entry>
+<entry colname="2"><ph id="copyright_date">2023</ph></entry>
 <entry colname="3"><p><draft-comment translate="no">Copyright date</draft-comment></p><ul id="GUID-E2498352-063F-4586-81BE-9CAF59EA4486">
 <li><p>2012</p></li></ul></entry>
 <entry colname="4">copyright_date</entry>
@@ -83,8 +83,8 @@ Micro t-ball logo, Control Manager, eManager, and ScanMail</p></li></ul></entry>
 </row>
 <row rowsep="1">
 <entry colname="1"><ph conkeyref="LEGALvars/document_part_number">document_part_number</ph></entry>
-<entry colname="2"><ph id="document_part_number"><text otherprops="AG">APEM29594/220907</text><text
-                    otherprops="IG">APEM29593/220907</text></ph></entry>
+<entry colname="2"><ph id="document_part_number"><text otherprops="AG">APEMxxxxx/22xxxx</text><text
+                    otherprops="IG">APEMxxxxx/22xxxx</text></ph></entry>
 <entry colname="3"><p><draft-comment translate="no">Document release version. See
 note on next page about multiple document sets.</draft-comment></p><ul id="GUID-CE77CDEB-3584-4E3D-96CF-599AE9F9FAD9">
 <li><p>SMEM104607/100822</p></li></ul></entry>
@@ -92,14 +92,14 @@ note on next page about multiple document sets.</draft-comment></p><ul id="GUID-
 </row>
 <row rowsep="1">
 <entry colname="1"><ph conkeyref="LEGALvars/release_date">release_date</ph></entry>
-<entry colname="2"><ph id="release_date">September 2022</ph></entry>
+<entry colname="2"><ph id="release_date">January 2023</ph></entry>
 <entry colname="3"><p><draft-comment translate="no">Release date</draft-comment></p><ul id="GUID-D684C7AE-AA45-4775-8A97-20D9E137E9E9">
 <li><p>June 2012</p></li></ul></entry>
 <entry colname="4">release_date</entry>
 </row>
 <row rowsep="1">
 <entry colname="1"><ph conkeyref="LEGALvars/product_version">product_version</ph></entry>
-<entry colname="2"><ph id="product_version">2.0 Patch</ph></entry>
+<entry colname="2"><ph id="product_version">2.1</ph></entry>
 <entry colname="3"><p><draft-comment translate="no">Product release version</draft-comment></p><ul id="GUID-7BA7AF64-6265-4064-BBD8-4F3B99D50279">
 <li><p>10.2 SP2</p></li></ul></entry>
 <entry colname="4">product_version</entry>

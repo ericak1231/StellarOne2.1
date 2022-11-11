@@ -10,10 +10,10 @@
         </context>
         <steps id="steps_wvw_g5y_g5b">
             <step>
-                <cmd>Deploy a StellarOne virtual machine based on VMware ESXi/Workstation, Windows
-                    Hyper-V system, or
-                    <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>Amazon's
-                    AMI.<?oxy_custom_end?></cmd>
+                <cmd>Deploy a StellarOne virtual machine based on VMware ESXi or Workstation,
+                    Windows Hyper-V, or
+                    <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>AWS EC2
+                    platform.<?oxy_custom_end?></cmd>
             </step>
             <step>
                 <cmd>Add an external hard disk with at least 50 GB of space to the StellarOne
@@ -23,7 +23,7 @@
                 <cmd>Log on StellarOne web console to set up the administrator's account.</cmd>
             </step>
             <step>
-                <cmd>Log on StellarOne web console to activate the product and set the time
+                <cmd>Log on StellarOne web console to activate the product license and set time
                     properties.</cmd>
             </step>
             <step>

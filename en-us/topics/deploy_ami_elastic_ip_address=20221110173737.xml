@@ -25,22 +25,23 @@
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>For <uicontrol>Resource type</uicontrol>, choose
+                <cmd>For <uicontrol>Resource type</uicontrol>, select
                         <uicontrol>Instance</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd>Choose the target instance.</cmd>
                 <info>
                     <note id="note_r25_wyc_mvb">
-                        <p>You can search for a specific instance by typing texts in the search
+                        <p>You can search for a specific instance by typing keyword in the search
                             bar.</p>
                     </note>
                 </info>
             </step>
+            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
             <step>
                 <cmd>(Optional) For <uicontrol>Private IP address</uicontrol>, specify a private IP
                     address with which to associate the Elastic IP address.</cmd>
-            </step>
+            </step><?oxy_custom_end?>
             <step>
                 <cmd>Click <uicontrol>Associate</uicontrol>.</cmd>
                 <stepxmp>
@@ -62,7 +63,7 @@
                 </stepxmp>
             </step>
             <step>
-                <cmd>Use SSH to log in the termainal console with the Elastic IP address.</cmd>
+                <cmd>Use SSH to log in the terminal console with the Elastic IP address.</cmd>
             </step>
             <step>
                 <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>

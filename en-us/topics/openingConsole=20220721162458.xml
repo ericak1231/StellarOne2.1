@@ -88,11 +88,7 @@
                                         </li>
                                         <li>
                                             <p>Specify your license key in the text field, and then
-                                                click <uicontrol>Verify</uicontrol>.</p>
-                                        </li>
-                                        <li>
-                                            <p>(Optional) Click <uicontrol>Reset</uicontrol> if you
-                                                need to change the license key.</p>
+                                                click <uicontrol>Apply</uicontrol>.</p>
                                         </li>
                                     </ol>
                                 </li>
@@ -106,52 +102,24 @@
                                             <p>Click <uicontrol>License File</uicontrol>.</p>
                                         </li>
                                         <li>
-                                            <p>Select the license file to import, and then click
-                                                  <uicontrol>Verify</uicontrol>.</p>
-                                        </li>
-                                        <li>
-                                            <p>(Optional) If you don't have the license file on
-                                                hand, click one of the links provided for getting
-                                                the license file:<note id="note_szz_jps_lvb">
-                                                  <p>A license key is required for downloading a
-                                                  license file.</p>
-                                                </note></p>
-                                            <ul id="ul_pqw_sqs_lvb">
-                                                <li>
-                                                  <p>If the StellarOne is connected to the Internet,
-                                                  click <uicontrol>Get License File</uicontrol></p>
-                                                </li>
-                                                <li>
-                                                  <p>If the StellarOne is not connected to the
-                                                  Internet, click <uicontrol>Copy Download
-                                                  Link</uicontrol> and save the copied link in a
-                                                  text file. Send the text file to the computer with
-                                                  Interent connection and open the copied link in a
-                                                  web browser.</p>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <p>You will be directed to the <uicontrol>License File
-                                                  Management</uicontrol> screen. Specify your
-                                                license key in the <uicontrol>License
-                                                  Key</uicontrol> field, and then click
-                                                  <uicontrol>Download</uicontrol>.</p>
-                                        </li>
-                                        <li>
-                                            <p>A pop-up window appears showing the license
-                                                information. Check it and click
-                                                  <uicontrol>Yes</uicontrol> if you want to download
-                                                the license file.</p>
+                                            <p>Select the license file (a <filepath>.txt</filepath>
+                                                file) to import, and then click
+                                                  <uicontrol>Apply</uicontrol>.</p>
                                         </li>
                                     </ol>
+                                    <note id="note_nhy_dld_mvb">
+                                        <p>If you don't have the license file on hand, refer to
+                                                <xref
+                                                href="openingConsole_get_license_file=20221111103016.xml"
+                                            />.</p>
+                                    </note>
                                 </li>
                             </ul>
                         </info>
                     </substep>
                     <substep>
                         <cmd>The <uicontrol>License key is valid</uicontrol> message appears. Click
-                                <uicontrol>Apply</uicontrol>.</cmd>
+                                <uicontrol>Continue</uicontrol>.</cmd>
                     </substep>
                     <substep>
                         <cmd>A success message appears. License information also appears at the

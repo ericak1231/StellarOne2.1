@@ -6,7 +6,11 @@
         <p><indexterm>requirements</indexterm><indexterm>system requirements</indexterm>TXOne <tm
                 tmtype="tm">StellarOne</tm> is packaged in an Open Virtual Appliance (OVA) or
             Virtual Hard Disk v2 (VHDX) format. The above-mentioned package files respectively apply
-            to different hypervisors.</p>
+            to different hypervisors.<note id="note_snp_pcd_mvb">
+                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                <p>For AWS EC2 users, refer to <xref href="deploymentTime=20220721162758.xml"/> and
+                        <xref href="instant_types=20221111094622.xml"/>.</p><?oxy_custom_end?>
+            </note></p>
         <p><b>Supported Hypervisors (OVA file)</b></p>
         <ul id="ul_bs4_b1y_fp">
             <li>

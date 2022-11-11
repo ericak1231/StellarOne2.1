@@ -36,11 +36,11 @@
                         </row>
                         <row valign="middle">
                             <entry>
-                                <p>Available in AWS Marketplace</p>
+                                <p>Available in AWS BYOL</p>
                             </entry>
                             <entry>
-                                <p>TXOne StellarOne is available on Amazon's AWS marketplace and can
-                                    be deployed on the AMI system.</p>
+                                <p>TXOne StellarOne is available from Amazon's AWS BYOL and can be
+                                    deployed from AMI on a AWS EC2 console.</p>
                             </entry>
                         </row>
                         <row>
@@ -73,7 +73,7 @@
                                 <p>With this new feature, the StellarProtect (Legacy Mode) can
                                     persistently scan new and changed files, along with system
                                     memory, to provide security assessment for maximum protection
-                                    against malware</p>
+                                    against malware.</p>
                             </entry>
                         </row>
                         <row>
@@ -87,7 +87,7 @@
                                     the StellarOne console, now users can also configure the
                                     component update schedule for the <ph
                                         conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> agent. The system can run
+                                        >OFFICIAL_PRODUCT_NAME</ph> agent. The agents can run
                                     component update automatically at users' assigned time
                                     frequency.</p>
                             </entry>
@@ -95,10 +95,11 @@
                         <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
                         <row>
                             <entry>
-                                <p>Scan Result Feedbacks from Agent to StellarOne</p>
+                                <p>Sending Scan Result from Agent to StellarOne</p>
                             </entry>
                             <entry>
-                                <p>The Agent can send back scan result per StellarOne's request?</p>
+                                <p>The Agent can send back scan results per StellarOne's
+                                    request?</p>
                             </entry>
                         </row><?oxy_custom_end?>
                         <row>

@@ -25,9 +25,8 @@
                         <p>Please contact your support provider for the BYOL license.</p>
                     </li>
                     <li>
-                        <p>Please refer to <xref href="https://aws.amazon.com/ec2/instance-types/"
-                                format="html" scope="external">Amazon EC2 Instance Types</xref> for
-                            details on the instance types.</p>
+                        <p>Please refer to <xref href="instant_types=20221111094622.xml"/> for
+                            determining which instant type to use.</p>
                     </li>
                 </ul>
             </p>

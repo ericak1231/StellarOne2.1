@@ -92,7 +92,7 @@
                 </stepxmp>
             </step>
             <step>
-                <cmd>Find the StellarOne instance and copy its public IP address.</cmd>
+                <cmd>Find the StellarOne instance and copy its assigned IP address.</cmd>
                 <stepxmp>
                     <fig id="fig_vzw_5gy_lvb">
                         <title>Auto-assigned IP address</title>
@@ -102,7 +102,8 @@
                 <info>
                     <note id="note_vxv_hhy_lvb">
                         <p>The auto-assigned IP address may change if the instance has been
-                            rebooted. Please refer to <xref
+                            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>rebooted<?oxy_custom_end?>.
+                            Please refer to <xref
                                 href="deploy_ami_elastic_ip_address=20221110173737.xml"/> for
                             assigning a static IPv4 address to your instance.</p>
                     </note>

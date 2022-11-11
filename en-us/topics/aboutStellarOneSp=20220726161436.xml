@@ -24,7 +24,7 @@
                 <li>
                     <p><ph conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM">PRODUCT_SHORT_NAME</ph>,
                         for trust-list based application lockdown of legacy and fixed-use OT/ICS
-                        endpoints with on-demand AV scan.</p>
+                        endpoints with anti-malware or on-demand AV scan.</p>
                 </li>
             </ul>
         </p>

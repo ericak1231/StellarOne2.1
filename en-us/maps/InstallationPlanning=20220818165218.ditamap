@@ -6,6 +6,7 @@
         <topicref href="../topics/systemRequirements=20220721162008.xml">
             <topicref href="../topics/sizingTableVmwareEsxi=20220721162115.xml"/>
             <topicref href="../topics/sizingTableHyperV=20220721162132.xml"/>
+            <topicref href="../topics/instant_types=20221111094622.xml"/>
         </topicref>
         <topicref href="../topics/deploymentTime=20220721162758.xml"/>
         <topicref href="../topics/sEremovedPortsFqdnUsed=20220818165255.xml"/>
