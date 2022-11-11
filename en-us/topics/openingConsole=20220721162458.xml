@@ -30,7 +30,7 @@
                 <cmd>Click <uicontrol>Log On</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>If this is the first time the StellarOne console being accessed, follow below
+                <cmd>If this is the first time the StellarOne instance being logged on, follow below
                     procedures to complete the initial settings.</cmd>
                 <substeps id="substeps_ov1_fq4_25b">
                     <substep>
@@ -52,17 +52,17 @@
                                 <ul id="ul_f4p_ly2_kvb">
                                     <li>
                                         <p>For StellarOne 1.2 or above, the default login name is
-                                            always <userinput>admin</userinput> and can not be
-                                            changed by the user.</p>
+                                            always <codeph>admin</codeph> and can not be changed by
+                                            the user.</p>
                                     </li>
                                     <li>
                                         <p>For StellarOne 1.0/1.1, in addition to changing the
                                             password, the user is also required to change the
                                             default login name in this step. The new login name can
-                                            not be <userinput>root</userinput>,
-                                                <userinput>admin</userinput>,
-                                                <userinput>administrator</userinput>, or
-                                                <userinput>auditor</userinput>.</p>
+                                            not be <codeph>admin</codeph>,
+                                                <codeph>administrator</codeph>,
+                                                <codeph>auditor</codeph> or
+                                            <codeph>root</codeph>.</p>
                                     </li>
                                 </ul>
                             </note><?oxy_custom_end?>

@@ -32,8 +32,8 @@
                     field, and then click <uicontrol>Download</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>A pop-up window appears showing the license information. Check it and click
-                        <uicontrol>Yes</uicontrol> for downloading the license file.</cmd>
+                <cmd>A pop-up window appears showing the license information. Read it carefully and
+                    click <uicontrol>Yes</uicontrol> for downloading the license file.</cmd>
                 <info>
                     <note id="note_glq_3nd_mvb" type="tip">
                         <p>The StellarOne without Internet connection can access the license file

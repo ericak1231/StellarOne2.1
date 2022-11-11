@@ -31,9 +31,7 @@
           >inc_company_name</ph>. All rights reserved.</p>
       <p>Document Part No.: <ph conkeyref="LEGALvars/document_part_number"
         >document_part_number</ph></p>
-      <p>Release Date: <ph
-          conref="StellarOneIgLegal_Variables=20220722220437.xml#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/release_date"
-          >release_date</ph></p>
+      <p>Release Date: <ph conkeyref="LEGALvars/release_date">release_date</ph></p>
       <p>Protected by U.S. Patent No.: <ph
           conref="StellarOneIgLegal_Variables=20220722220437.xml#GUID-7DCB1831-4695-461E-BE49-E4F3C77EF3A1/patent_no"
           >patent_no</ph></p>
