@@ -6,8 +6,8 @@
         <p>This chapter guides you through TXOne <ph
                 conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> installation. <ph
                 conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> is packaged in an Open
-            Virtual Appliance (OVA) or Virtual Hard Disk v2 (VHDX) format and supports 3 types of
-            hypervisors: VMware ESXi, VMware Workstation, and Windows Hyper-V systems.</p>
+            Virtual Appliance (OVA) or Virtual Hard Disk v2 (VHDX) format and supports 4 types of
+            platforms: VMware ESXi, VMware Workstation, Windows Hyper-V systems, and AWS EC2.</p>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>
@@ -21,6 +21,9 @@
             </li>
             <li>
                 <p><xref href="onboardingToHyperV=20220721162525.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="onboarding_to_ami=20221109145745.xml"/></p>
             </li>
             <li>
                 <p><xref href="openingConsole=20220721162458.xml"/></p>

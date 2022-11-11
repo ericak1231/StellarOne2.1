@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd"><task id="GUID-520F37FF-48AB-4225-AB65-EB45305114CD" xml:lang="en-us">
+    <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Associating the Elastic IP Address with an
+        Instance</title>
+    <taskbody>
+        <context id="GUID-CAD7BEDC-492D-4151-BCB7-1467EFD0B3CC">
+            <p>Below section describes how to assign the Elastic IP addrdss to your StellarOne
+                instance deployed from the AMI on AWS EC2 platform.</p>
+            <note id="note_zvx_hjy_lvb">
+                <p>The Elastic IP address is a static IPv4 address designed for dynamic cloud
+                    computing, and is allocated to your AWS account.</p>
+            </note>
+        </context>
+        <steps id="steps_gjx_t5d_m4">
+            <step>
+                <cmd>Log on the AWS EC2 console and go to <menucascade>
+                        <uicontrol>Network &amp; Security</uicontrol>
+                        <uicontrol>Elastic IPs</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Select the Elastic IP address to associate and choose <menucascade>
+                        <uicontrol>Actions</uicontrol>
+                        <uicontrol>Associate Elastic IP address</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>For <uicontrol>Resource type</uicontrol>, choose
+                        <uicontrol>Instance</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Choose the target instance.</cmd>
+                <info>
+                    <note id="note_r25_wyc_mvb">
+                        <p>You can search for a specific instance by typing texts in the search
+                            bar.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>(Optional) For <uicontrol>Private IP address</uicontrol>, specify a private IP
+                    address with which to associate the Elastic IP address.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Associate</uicontrol>.</cmd>
+                <stepxmp>
+                    <fig id="fig_abf_44c_25b">
+                        <title>Associate the Elastic IP Address with an Instance</title>
+                        <image href="../images/ami_9=20221110001613.png" id="image_wqx_q4c_25b"
+                            otherprops="PRINT"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>A message appears indicating the Elastic IP address has been associated to the
+                    target instance.</cmd>
+                <stepxmp>
+                    <fig id="fig_jgm_bky_lvb">
+                        <title>Associate Elastic IP Address</title>
+                        <image href="../images/ami_8=20221110001600.png" id="image_tdr_cky_lvb"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Use SSH to log in the termainal console with the Elastic IP address.</cmd>
+            </step>
+            <step>
+                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                <cmd>Replace the IP address for the StellarOne instance with the Elastic IP address
+                    by typing:</cmd><?oxy_custom_end?>
+                <info>
+                    <p><userinput>env exip &lt;the elastic IP address></userinput></p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -12,13 +12,13 @@
                     appears.</cmd>
             </step>
             <step>
-                <cmd>Enter your credentials (user name and password).</cmd>
+                <cmd>Enter your credentials (user ID and password).</cmd>
                 <info>
                     <p>Use the default credentials of administrator when logging on for the first
                         time:</p>
                     <ul id="ul_vxy_n5j_25b">
                         <li>
-                            <p>User name: <userinput>admin</userinput></p>
+                            <p>User ID: <userinput>admin</userinput></p>
                         </li>
                         <li>
                             <p>Password: <userinput>txone</userinput></p>
@@ -30,13 +30,12 @@
                 <cmd>Click <uicontrol>Log On</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>If this is the first time the StellarOne console being used, follow below
+                <cmd>If this is the first time the StellarOne console being accessed, follow below
                     procedures to complete the initial settings.</cmd>
                 <substeps id="substeps_ov1_fq4_25b">
                     <substep>
-                        <cmd>The <uicontrol>Login Information Setup </uicontrol> window will appear
-                            and prompt you to change password. Confirm your password settings
-                            by:</cmd>
+                        <cmd>The <uicontrol>Login Information Setup </uicontrol> window appears and
+                            prompts you to change password. Confirm your password settings by:</cmd>
                         <info>
                             <ul id="ul_ssl_gq4_25b">
                                 <li>
@@ -48,6 +47,25 @@
                                             Password</uicontrol> text field.</p>
                                 </li>
                             </ul>
+                            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                            <note id="note_o4t_xx2_kvb">
+                                <ul id="ul_f4p_ly2_kvb">
+                                    <li>
+                                        <p>For StellarOne 1.2 or above, the default login name is
+                                            always <userinput>admin</userinput> and can not be
+                                            changed by the user.</p>
+                                    </li>
+                                    <li>
+                                        <p>For StellarOne 1.0/1.1, in addition to changing the
+                                            password, the user is also required to change the
+                                            default login name in this step. The new login name can
+                                            not be <userinput>root</userinput>,
+                                                <userinput>admin</userinput>,
+                                                <userinput>administrator</userinput>, or
+                                                <userinput>auditor</userinput>.</p>
+                                    </li>
+                                </ul>
+                            </note><?oxy_custom_end?>
                         </info>
                     </substep>
                     <substep>
@@ -55,16 +73,90 @@
                             out. The <uicontrol>Log On</uicontrol> screen will appear again.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Log on again using your new credentials.</cmd>
+                        <cmd>Log on again using your new credentials. The <wintitle>License
+                                Activation</wintitle> window appears.</cmd>
                     </substep>
                     <substep>
-                        <?oxy_comment_start author="erica_txone" timestamp="20221102T162554+0800" comment="1. Support TXOne AC/AU 
-2. Add the method for importing AC file?"?>
-                        <cmd>Enter your first Activation Code, and then click
-                                <uicontrol>Continue</uicontrol>. If you want to enter an activation
-                            code for another product, click <uicontrol>Enter Another
-                                Code</uicontrol> instead of
-                        <uicontrol>Continue</uicontrol>.</cmd><?oxy_comment_end?>
+                        <cmd>There are two ways to activate the license for Stellar product:</cmd>
+                        <info>
+                            <ul id="ul_y3j_14s_lvb">
+                                <li>
+                                    <p><b>License Key</b></p>
+                                    <ol id="ol_av4_b4s_lvb">
+                                        <li>
+                                            <p>Click <uicontrol>License Key</uicontrol>.</p>
+                                        </li>
+                                        <li>
+                                            <p>Specify your license key in the text field, and then
+                                                click <uicontrol>Verify</uicontrol>.</p>
+                                        </li>
+                                        <li>
+                                            <p>(Optional) Click <uicontrol>Reset</uicontrol> if you
+                                                need to change the license key.</p>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <ul id="ul_iz2_24s_lvb">
+                                <li>
+                                    <p><b>License File</b>: Use this method if the StellarOne is
+                                        deployed in an Internet-restricted environment</p>
+                                    <ol id="ol_dt3_f4s_lvb">
+                                        <li>
+                                            <p>Click <uicontrol>License File</uicontrol>.</p>
+                                        </li>
+                                        <li>
+                                            <p>Select the license file to import, and then click
+                                                  <uicontrol>Verify</uicontrol>.</p>
+                                        </li>
+                                        <li>
+                                            <p>(Optional) If you don't have the license file on
+                                                hand, click one of the links provided for getting
+                                                the license file:<note id="note_szz_jps_lvb">
+                                                  <p>A license key is required for downloading a
+                                                  license file.</p>
+                                                </note></p>
+                                            <ul id="ul_pqw_sqs_lvb">
+                                                <li>
+                                                  <p>If the StellarOne is connected to the Internet,
+                                                  click <uicontrol>Get License File</uicontrol></p>
+                                                </li>
+                                                <li>
+                                                  <p>If the StellarOne is not connected to the
+                                                  Internet, click <uicontrol>Copy Download
+                                                  Link</uicontrol> and save the copied link in a
+                                                  text file. Send the text file to the computer with
+                                                  Interent connection and open the copied link in a
+                                                  web browser.</p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>You will be directed to the <uicontrol>License File
+                                                  Management</uicontrol> screen. Specify your
+                                                license key in the <uicontrol>License
+                                                  Key</uicontrol> field, and then click
+                                                  <uicontrol>Download</uicontrol>.</p>
+                                        </li>
+                                        <li>
+                                            <p>A pop-up window appears showing the license
+                                                information. Check it and click
+                                                  <uicontrol>Yes</uicontrol> if you want to download
+                                                the license file.</p>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>The <uicontrol>License key is valid</uicontrol> message appears. Click
+                                <uicontrol>Apply</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>A success message appears. License information also appears at the
+                            bottom of the <wintitle>License Activation</wintitle> window. Click
+                                <uicontrol>Continue</uicontrol>.</cmd>
                     </substep>
                     <substep>
                         <cmd>The <uicontrol>EULA/OT Intelligent Trust Agreement</uicontrol> screen

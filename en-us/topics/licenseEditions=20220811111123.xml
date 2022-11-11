@@ -2,8 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
 
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
-  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">License Editions</title>
-  <refbody>
+  <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">License Editions</title><?oxy_custom_end?>
+  <?oxy_comment_start author="erica_txone" timestamp="20221107T162341+0800" comment="add anti-malware scanning in SPLM ICS edition"?>
+  <refbody><?oxy_comment_end?>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
       <p><indexterm>license editions</indexterm>See below as the three kinds of license editions for
         the TXOne Stellar version 2.0. The StellarProtect supports Windows 7 or later versions; the
@@ -51,9 +53,18 @@
             <row>
               <entry>StellarProtect (Legacy Mode) Agent:<ul id="ul_y11_slv_l5b">
                   <li>
+                    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                    <p>Anti-Malware Scan</p><?oxy_custom_end?>
+                  </li>
+                  <li>
                     <p>Application Lockdown (with on-demand scanning)</p>
                   </li>
-                </ul></entry>
+                </ul><?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><note
+                  id="note_snl_q2q_lvb">
+                  <p>The feature Anti-Malware Scan added in 2.1 is different from the on-demand
+                    scanning. Refer to <xref href="anti-malware_scanning=20221031162354.xml"/> for
+                    more details.</p>
+                </note><?oxy_custom_end?></entry>
             </row>
             <row>
               <entry morerows="1">
@@ -110,6 +121,10 @@
                       <li>
                         <p>StellarOEM was named Perpetual before the TXOne Stellar version 2.0.</p>
                       </li>
+                      <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                      <li>
+                        <p>For the OEM license edition, the Agents have no scan function.</p>
+                      </li><?oxy_custom_end?>
                     </ul>
                   </p>
                 </note>

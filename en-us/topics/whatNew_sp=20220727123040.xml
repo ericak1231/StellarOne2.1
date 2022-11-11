@@ -26,68 +26,89 @@
                     <tbody>
                         <row>
                             <entry>
-                                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                                <p>Integration to Vision One</p><?oxy_custom_end?>
+                                <p>Integration to Vision One</p>
                             </entry>
                             <entry>
-                                <p/>
+                                <p>The StellarOne web console can be integrated to Trend Micro's
+                                    Vision One and allows Vision One users to search for
+                                    StellarOne's detection logs.</p>
+                            </entry>
+                        </row>
+                        <row valign="middle">
+                            <entry>
+                                <p>Available in AWS Marketplace</p>
+                            </entry>
+                            <entry>
+                                <p>TXOne StellarOne is available on Amazon's AWS marketplace and can
+                                    be deployed on the AMI system.</p>
                             </entry>
                         </row>
                         <row>
-                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                            <entry>
+                                <p>Supporting Offline License Activation</p>
+                            </entry>
+                            <entry>
+                                <p>In addtion to online license activation, the StellarOne also
+                                    supports license activation in the Internet-restricted
+                                    environment.</p>
+                            </entry>
+                        </row>
+                        <row>
                             <entry>
                                 <p>Single Installer Package for Agent</p>
-                            </entry><?oxy_custom_end?>
+                            </entry>
                             <entry>
-                                <p/>
+                                <p>Users can download a single installer package for the Agent –
+                                    StellarProtect and StellarProtect (Legacy Mode) from the
+                                    StellarOne web console.</p>
                             </entry>
                         </row>
                         <row>
-                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
                             <entry>
-                                <p>SPLM Anti-Malware Scan</p>
-                            </entry><?oxy_custom_end?>
+                                <p>Anti-Malware Scanning for <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph></p>
+                            </entry>
                             <entry>
-                                <p/>
+                                <p>With this new feature, the StellarProtect (Legacy Mode) can
+                                    persistently scan new and changed files, along with system
+                                    memory, to provide security assessment for maximum protection
+                                    against malware</p>
                             </entry>
                         </row>
                         <row>
-                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
                             <entry>
-                                <p>SPLM Agent Component Update Schedule</p>
-                            </entry><?oxy_custom_end?>
+                                <p>Agent Component Update Schedule for <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph></p>
+                            </entry>
                             <entry>
                                 <p>In addition to the existing component update schedule function of
                                     the StellarOne console, now users can also configure the
-                                    component update schedule for the agents (StellarProtect). The
-                                    system can run component update automatically at users' assigned
-                                    time frequency.</p>
+                                    component update schedule for the <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> agent. The system can run
+                                    component update automatically at users' assigned time
+                                    frequency.</p>
                             </entry>
                         </row>
                         <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-                        <row valign="middle">
-                            <entry>
-                                <p>AWS Marketplace?</p>
-                            </entry>
-                            <entry>
-                                <p/>
-                            </entry>
-                        </row>
                         <row>
                             <entry>
-                                <p>Agent feedbacks scan result to StellarOne</p>
+                                <p>Scan Result Feedbacks from Agent to StellarOne</p>
                             </entry>
-                            <entry/>
+                            <entry>
+                                <p>The Agent can send back scan result per StellarOne's request?</p>
+                            </entry>
                         </row><?oxy_custom_end?>
                         <row>
-                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
                             <entry>
                                 <p>Export Agents Info</p>
                             </entry>
                             <entry>
                                 <p>This newly-added GUI option allows users to export the
-                                    information of selected or all agents(s) by simple clicks.</p>
-                            </entry><?oxy_custom_end?>
+                                    information of selected or all agents by a simple click.</p>
+                            </entry>
                         </row>
                     </tbody>
                 </tgroup>

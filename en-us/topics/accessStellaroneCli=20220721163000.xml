@@ -14,7 +14,15 @@
             </step>
             <step>
                 <cmd>Log on by tying <userinput>root</userinput> as the user name,
-                        <userinput>txone</userinput> as the password. </cmd>
+                        <userinput>txone</userinput> as the password.</cmd>
+                <info>
+                    <note id="note_lpl_3ct_lvb">
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                        <p>If the StellarOne instance is deployed from AMI on AWS EC2 platform, type
+                                <userinput>admin</userinput> as the user name and no password is
+                            needed.</p><?oxy_custom_end?>
+                    </note>
+                </info>
             </step>
             <step>
                 <cmd>After logging on the StellarOne console, type <userinput>help</userinput>

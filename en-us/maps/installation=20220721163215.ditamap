@@ -16,6 +16,12 @@
       <topicref href="../topics/prerequisitesWindowsHyperV=20220721162230.xml"/>
       <topicref href="../topics/windowsHyperV=20220721161743.xml"/>
     </topicref>
+    <topicref href="../topics/onboarding_to_ami=20221109145745.xml">
+      <topicref href="../topics/prerequisites_ami=20221109235501.xml"/>
+      <topicref href="../topics/deploy_ami=20221109235906.xml">
+        <topicref href="../topics/deploy_ami_elastic_ip_address=20221110173737.xml"/>
+      </topicref>
+    </topicref>
     <topicref href="../topics/openingConsole=20220721162458.xml">
       <topicref href="../topics/otIntelligentTrust=20220811235612.xml"/>
     </topicref>

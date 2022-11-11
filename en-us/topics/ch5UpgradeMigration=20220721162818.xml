@@ -7,6 +7,9 @@
                 conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> to a new instance or upgrade
                 <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> based on VMware or
             Windows Hyper-Vsystem.</p>
+        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+        <p><b><i>Do we need to add Migration/Upgrade methods specifically for StellarOne deployed on
+                    AWS EC2?</i></b></p><?oxy_custom_end?>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>

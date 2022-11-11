@@ -5,8 +5,7 @@
         <context id="GUID-CAD7BEDC-492D-4151-BCB7-1467EFD0B3CC">
             <p><indexterm>command line interface<indexterm>configure IP
                     address</indexterm></indexterm>Below section describes procedures of configuring
-                the IP address settings for StellarOne instance via command line interface (CLI)
-                .</p>
+                the IP address settings for StellarOne instance via CLI.</p>
         </context>
         <steps id="steps_gjx_t5d_m4">
             <step>

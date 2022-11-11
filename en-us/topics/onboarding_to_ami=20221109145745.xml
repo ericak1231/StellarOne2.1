@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_pyd_d3r_c5b">
+    <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+    <title>StellarOne Onboarding to AWS EC2</title><?oxy_custom_end?>
+    <conbody>
+        <p>This section describes how to deploy StellarOne on AWS EC2 platform.</p>
+    </conbody>
+</concept>

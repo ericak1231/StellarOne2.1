@@ -11,9 +11,11 @@
         </menucascade> to add or renew licenses for Stellar products. Below table lists details
         about the <wintitle>License</wintitle> page.</p>
       <fig id="fig_ntq_jc4_35b" otherprops="PRINT">
-        <title>License Page</title>
+        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+        <title>License Page</title><?oxy_custom_end?>
+        <?oxy_comment_start author="erica_txone" timestamp="20221107T163036+0800" comment="need to update screenshot"?>
         <image href="../images/2.0/license=20220914180021.png" id="image_ofb_nf4_35b"
-          otherprops="PRINT"/>
+          otherprops="PRINT"><?oxy_comment_end?></image>
       </fig>
       <table frame="all" rowsep="1" colsep="1" id="table_yht_yzn_35b">
         <title>License Information</title>

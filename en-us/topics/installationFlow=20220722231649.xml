@@ -10,8 +10,10 @@
         </context>
         <steps id="steps_wvw_g5y_g5b">
             <step>
-                <cmd>Deploy a StellarOne virtual machine based on VMware ESXi, VMware workstation,
-                    or Windows Hyper-V system.</cmd>
+                <cmd>Deploy a StellarOne virtual machine based on VMware ESXi/Workstation, Windows
+                    Hyper-V system, or
+                    <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>Amazon's
+                    AMI.<?oxy_custom_end?></cmd>
             </step>
             <step>
                 <cmd>Add an external hard disk with at least 50 GB of space to the StellarOne
