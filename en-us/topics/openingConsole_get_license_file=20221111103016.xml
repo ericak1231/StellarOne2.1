@@ -4,6 +4,9 @@
     <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
     <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Getting the License File</title><?oxy_custom_end?>
     <taskbody>
+        <context id="context_xpw_km2_mvb">
+            <p/>
+        </context>
         <steps id="steps_gjx_t5d_m4">
             <step>
                 <cmd>Click one of the links at the bottom of the <wintitle>License

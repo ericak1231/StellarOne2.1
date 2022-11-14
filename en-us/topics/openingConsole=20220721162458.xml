@@ -77,7 +77,8 @@
                                 Activation</wintitle> window appears.</cmd>
                     </substep>
                     <substep>
-                        <cmd>There are two ways to activate the license for Stellar product:</cmd>
+                        <cmd>Activate the license depending on one of the license data available
+                            from your support provider:</cmd>
                         <info>
                             <ul id="ul_y3j_14s_lvb">
                                 <li>
@@ -146,12 +147,14 @@
                     </substep>
                     <substep>
                         <cmd>The StellarOne console is ready for use now.</cmd>
+                        <info>
+                            <note id="note_l5y_wl2_mvb">
+                                <p>After the initial settings are completed, the StellarOne allows
+                                    various user accounts to log on remotely via a web browser.</p>
+                            </note>
+                        </info>
                     </substep>
                 </substeps>
-            </step>
-            <step>
-                <cmd>After the initial settings are completed, the StellarOne allows various user
-                    accounts to log on remotely via a web browser.</cmd>
             </step>
             <step>
                 <cmd>(Optional) You can change your password by clicking the ID icon at the top
