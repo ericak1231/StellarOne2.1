@@ -77,8 +77,9 @@
                                 Activation</wintitle> window appears.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Activate the license depending on one of the license data available
-                            from your support provider:</cmd>
+                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                        <cmd>Choose one of the ways to activate the license based on the license
+                            data available from your support provider:</cmd><?oxy_custom_end?>
                         <info>
                             <ul id="ul_y3j_14s_lvb">
                                 <li>
@@ -96,8 +97,8 @@
                             </ul>
                             <ul id="ul_iz2_24s_lvb">
                                 <li>
-                                    <p><b>License File</b>: Use this method if the StellarOne is
-                                        deployed in an Internet-restricted environment</p>
+                                    <p><b>License File</b>: it is advisory to use this method if the
+                                        StellarOne has not Internet connection</p>
                                     <ol id="ol_dt3_f4s_lvb">
                                         <li>
                                             <p>Click <uicontrol>License File</uicontrol>.</p>

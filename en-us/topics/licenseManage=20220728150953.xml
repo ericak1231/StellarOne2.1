@@ -2,19 +2,17 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
 
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
-  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">License Management</title>
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">About the License Screen</title>
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
-      <p><indexterm>license management</indexterm>Go to <menucascade>
+      <p><indexterm>license</indexterm>Go to <menucascade>
           <uicontrol>Administration</uicontrol>
           <uicontrol>License</uicontrol>
-        </menucascade> to add or renew licenses for Stellar products. Below table lists details
-        about the <wintitle>License</wintitle> page.</p>
+        </menucascade>. Below table lists details about the <wintitle>License</wintitle> page.</p>
       <fig id="fig_ntq_jc4_35b" otherprops="PRINT">
-        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-        <title>License Page</title><?oxy_custom_end?>
+        <title>The License Screen</title>
         <?oxy_comment_start author="erica_txone" timestamp="20221107T163036+0800" comment="need to update screenshot"?>
-        <image href="../images/2.0/license=20220914180021.png" id="image_ofb_nf4_35b"
+        <image href="../images/2.1_new_license_design=20221118142836.png" id="image_ofb_nf4_35b"
           otherprops="PRINT"><?oxy_comment_end?></image>
       </fig>
       <table frame="all" rowsep="1" colsep="1" id="table_yht_yzn_35b">
@@ -35,18 +33,33 @@
           <tbody>
             <row>
               <entry>
-                <p><uicontrol>Specify Activation Code</uicontrol></p>
+                <p><indexterm>license<indexterm>Renew License
+                    Key</indexterm></indexterm><uicontrol>Renew License Key</uicontrol></p>
               </entry>
               <entry>
-                <p>The button for users to add new activation code.</p>
+                <p>This button is for users to renew license with the same license key. Refer to
+                    <xref href="licenseRenewal_renew=20220728172943.xml"/> for detailed
+                  instructions.</p>
               </entry>
             </row>
             <row>
               <entry>
-                <p><uicontrol>Renew License</uicontrol></p>
+                <p><indexterm>license<indexterm>New License
+                    Key/File</indexterm></indexterm><uicontrol>New License Key/File</uicontrol></p>
               </entry>
               <entry>
-                <p>The button for users to renew license after adding new activation code.</p>
+                <p>This button can be used for two purposes.<ul id="ul_eqj_3md_4vb">
+                    <li>
+                      <p>Specifying the new license key
+                        and<?oxy_custom_start type="oxy_content_highlight" color="0,255,0"?>
+                        importing the new license file<?oxy_custom_end?>: <xref
+                          href="licenseRenewal_addAC=20220728172824.xml"/></p>
+                    </li>
+                    <li>
+                      <p>Renewing License by importing the license file: <xref
+                          href="licenseRenewal_license_file=20221118120354.xml"/></p>
+                    </li>
+                  </ul></p>
               </entry>
             </row>
             <row>
@@ -54,9 +67,11 @@
                 <p><uicontrol>License Edition</uicontrol></p>
               </entry>
               <entry>
-                <p>Displays current license edition for StellarProtect and/or StellarProtect (Legacy
-                  Mode). Please refer to <xref href="licenseEditions=20220811111123.xml"/> for more
-                  details.</p>
+                <p>Displays current license edition for <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                  and/or <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph>. Please refer to <xref
+                    href="licenseEditions=20220811111123.xml"/> for more details.</p>
               </entry>
             </row>
             <row>
@@ -106,8 +121,7 @@
                     <note id="note_dwm_c24_35b">
                       <p>It is recommended to renew license promptly in order to protect your
                         devices from virus threat. Please refer to <xref
-                          href="licenseActivationRenewal=20220728163715.xml"/> for license
-                        renewal.</p>
+                          href="license_key_or_file=20221118135633.dita"/> for license renewal.</p>
                     </note>
                   </li>
                 </ul>
@@ -123,10 +137,10 @@
             </row>
             <row>
               <entry>
-                <p><uicontrol>Activation Code</uicontrol></p>
+                <p><uicontrol>License Key</uicontrol></p>
               </entry>
               <entry>
-                <p>The code that is required for activating StellarOne.</p>
+                <p>The license key that is required for activating StellarOne.</p>
               </entry>
             </row>
             <row>
@@ -134,7 +148,18 @@
                 <p><uicontrol>Last Updated</uicontrol></p>
               </entry>
               <entry>
-                <p>Displays the last time the Activation Code is updated.</p>
+                <p>Displays the last time the License Key is updated.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <p><uicontrol>Download the Latest License File</uicontrol></p><?oxy_custom_end?>
+              </entry>
+              <entry>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <p>Click the link to download the latest license file for importing it to the agents
+                  in the air-gapped environment.</p><?oxy_custom_end?>
               </entry>
             </row>
             <row>
@@ -142,7 +167,7 @@
                 <p><uicontrol>Learn More</uicontrol></p>
               </entry>
               <entry>
-                <p>Click the link to go to the online help web page for more license details.</p>
+                <p>Click the link to go to the online help web page for more details on license.</p>
               </entry>
             </row>
           </tbody>

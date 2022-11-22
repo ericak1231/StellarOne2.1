@@ -2,13 +2,17 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Check Connections (Legacy Mode
-        only)</title>
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Check Connections</title>
     <taskbody>
         <context>
-            <p>Users can deploy patch files for StellarProtect agents on selected endpoints via
-                StellarOne web console. It is recommended to update agent patches regularly to
-                protect the endpoints from the latest security threats.</p>
+            <p>Users can check the connection status of the selected <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                agents. This feature also allows the StellarOne administrator to apply policy
+                configuration updates to the selected endpoints immediately.<note
+                    id="note_hzr_ds3_nvb">
+                    <p>Only <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> supports this function.</p>
+                </note></p>
         </context>
         <steps>
             <step>
@@ -19,46 +23,45 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
-                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
-                    by StellarOne.</cmd>
+                    screen. The <uicontrol>Agents</uicontrol> screen displays a list of agents
+                    managed by StellarOne.</cmd>
             </step>
             <step>
                 <cmd>Select one or more endpoints (agents or groups) by clicking the checkboxes next
                     to them.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Protection</uicontrol> button from the Tool Bar at the top
-                    of the <wintitle>Agents</wintitle> screen.</cmd>
+                <cmd>Click the <uicontrol>Update</uicontrol> button from the Tool Bar at the top of
+                    the <uicontrol>Agents</uicontrol> screen.</cmd>
             </step>
             <step>
-                <cmd>A pop-up window appears. Click the <uicontrol>Deploy Agent Patches</uicontrol>
+                <cmd>A pop-up window appears. Click the <uicontrol>Check Connections</uicontrol>
                     option.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>A pop-up <uicontrol>Deploy Agent Patches</uicontrol> window with the patch list
-                    appears. Select the version of the patch for deployment and click the checkbox
-                    next to it.</cmd>
-                <stepxmp otherprops="PRINT">
-                    <fig id="fig_pqs_jng_k5b" otherprops="PRINT">
-                        <title>Select the Patch Version</title>
-                        <image href="../images/2.0/patches_link=20220914171223.png"
-                            id="image_lt3_lng_k5b" otherprops="PRINT"/>
-                    </fig>
-                </stepxmp>
+                <cmd>A pop-up <uicontrol>Command Deployment</uicontrol> window with the endpoint
+                    list appears. The <uicontrol>Status</uicontrol> column shows if the agents are
+                    succesfully connected to the StellarOne server.</cmd>
                 <info>
                     <note id="note_dst_lng_k5b">
-                        <p>By clicking the <uicontrol>Update</uicontrol> link, users will be
-                            directed to the <xref href="downloadUpdates=20220803181908.xml"/> page
-                            for importing new patches for agents.</p>
+                        <ul id="ul_lrh_lgp_nvb">
+                            <li>
+                                <p>If the status shows <uicontrol>Unsuccessful</uicontrol>, check
+                                    the network connectivity of the disconnected agents.</p>
+                            </li>
+                            <li>
+                                <p>By default, agents automatically synchronize with StellarOne
+                                    every 20 minutes.</p>
+                            </li>
+                        </ul>
                     </note>
                 </info>
             </step>
             <step>
-                <cmd>Click <uicontrol>OK</uicontrol> to start the patch deployment process for the
-                    agents. Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
+                <cmd>Click <uicontrol>Close</uicontrol> to close the window.</cmd>
             </step>
         </steps>
     </taskbody>

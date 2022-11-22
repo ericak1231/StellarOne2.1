@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+
+<task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Renew License by Importing License
+        File</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>License</uicontrol>
+                    </menucascade></cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>New License Key / File</uicontrol> button.</cmd>
+            </step>
+            <step>
+                <cmd>The <wintitle>New License</wintitle> window appears.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>License File</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select the license file (a <filepath>.txt</filepath> file) to import, and then
+                    click <uicontrol>Apply</uicontrol>.</cmd>
+                <info>
+                    <note id="note_nhy_dld_mvb">
+                        <p>If you don't have the license file on hand, refer to <xref
+                                href="openingConsole_get_license_file=20221111103016.xml"/>.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>A success message appears. The updated license information will be shown on the
+                        <wintitle>License</wintitle> page.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

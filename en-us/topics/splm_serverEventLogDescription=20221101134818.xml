@@ -2,247 +2,513 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
 
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
   <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Server Event Log Descriptions for <ph
-      conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph></title>
+      conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph></title><?oxy_custom_end?>
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
       <p>This table lists the server event log descriptions for <ph
           conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>.<table
           frame="all" id="table_d1f_xbx_l5b">
-          <tgroup cols="2">
+          <tgroup cols="3">
             <colspec colname="c1" colnum="1" colwidth="1*"/>
-            <colspec colname="c2" colnum="2" colwidth="3.81*"/>
+            <colspec colname="newCol2" colnum="2" colwidth="1.21*"/>
+            <colspec colname="c2" colnum="3" colwidth="3.6*"/>
             <thead>
               <row>
                 <entry>
                   <p>ID</p>
                 </entry>
                 <entry>
-                  <p>Content</p>
+                  <p>Server Event</p>
+                </entry>
+                <entry>
+                  <p>Description</p>
                 </entry>
               </row>
             </thead>
             <tbody>
               <row>
                 <entry>
-                  <p>33027</p>
+                  <p>1001</p>
                 </entry>
                 <entry>
-                  <p>Switch agent (%s) to policy mode</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33028</p>
+                  <p>Log on console</p>
                 </entry>
                 <entry>
-                  <p>Switch agent (%s) to individual mode</p>
+                  <p>Logged on web console.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>33029</p>
+                  <p>1002</p>
                 </entry>
                 <entry>
-                  <p>Deploy policy with version: %s</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33041</p>
+                  <p>Log off console</p>
                 </entry>
                 <entry>
-                  <p>Modify in common use (DLL Injection Prevention, Device Control, OT Application
-                    Safeguard, OBAD) setting for [%s] group policy with version: %s</p>
+                  <p>Logged off web console.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>33042</p>
+                  <p>1003</p>
                 </entry>
                 <entry>
-                  <p>Modify real-time scan settings for [%s] group policywith version: %s</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33043</p>
+                  <p>Session timeout </p>
                 </entry>
                 <entry>
-                  <p>Modify schedule scan settings for [%s] group policywith version: %s</p>
+                  <p>Web console session timed out. Account '%user_name%' was logged off
+                    automatically.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>33044</p>
+                  <p>1011</p>
                 </entry>
                 <entry>
-                  <p>Maintain Device Control list for [%s] group policy with version: %s</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33045</p>
+                  <p>Unable to send reports</p>
                 </entry>
                 <entry>
-                  <p>Maintain User-Defined Suspicious Object list for [%s] group policy with
-                    version: %s</p>
+                  <p>Unable to send scheduled reports to %email_address%.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>33046</p>
+                  <p>1012</p>
                 </entry>
                 <entry>
-                  <p>Maintain Operations Behavior Anomaly Detection Watch List for [%s] group policy
-                    with version: %s</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33047</p>
+                  <p>Unable to send notifications</p>
                 </entry>
                 <entry>
-                  <p>Maintain Trusted Certification list for [%s] group policy with version: %s</p>
+                  <p>Unable to send notifications to %email_address%.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>33048</p>
+                  <p>2001</p>
                 </entry>
                 <entry>
-                  <p>Maintain OT Application Safeguard list for [%s] group policy with version:
-                    %s</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33049</p>
+                  <p>Create account </p>
                 </entry>
                 <entry>
-                  <p>Modify agent password for [%s] group policy with version: %s</p>
+                  <p>Created Intelligent Manager account '%user_name%'.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>33056</p>
+                  <p>2002</p>
                 </entry>
                 <entry>
-                  <p>Modify available patch setting for [%s] group policy with version: %s</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33057</p>
+                  <p>Delete account </p>
                 </entry>
                 <entry>
-                  <p>Maintain an authorized process for [%s] group policy with version: %s</p>
+                  <p>Deleted Intelligent Manager account '%user_name%'.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>33058</p>
+                  <p>2003</p>
                 </entry>
                 <entry>
-                  <p>Modify scheduled pattern update</p>
-                  <p>Modify schedule update setting<b>s</b> for [%s] group policy with version:
-                    %s</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33059</p>
+                  <p>Modify account </p>
                 </entry>
                 <entry>
-                  <p>Modify lockdown config for [%s] group policy with version: %s</p>
+                  <p>Modified Intelligent Manager account '%user_name%' %field_name%.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>33105</p>
+                  <p>3001</p>
                 </entry>
                 <entry>
-                  <p>Send individual command to agent (%s)</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33106</p>
+                  <p>Purge agent event logs - automatic</p>
                 </entry>
                 <entry>
-                  <p>Send protection command &lt;Configure Change Window> to agents</p>
+                  <p>Automatic purge of agent event logs.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>33107</p>
+                  <p>3002</p>
                 </entry>
                 <entry>
-                  <p>Send protection command &lt;Scan Now> to agents</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33108</p>
+                  <p>Purge agent event logs - manual</p>
                 </entry>
                 <entry>
-                  <p>Send protection command &lt;Update Component> to agents</p>
+                  <p>Manual purge of agent event logs.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>33109</p>
+                  <p>3003</p>
                 </entry>
                 <entry>
-                  <p>Send protection command &lt;Apply Patch> to agents</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33110</p>
+                  <p>Back up agent event logs </p>
                 </entry>
                 <entry>
-                  <p>Send protection command &lt;Initialize Lockdown Approved List> to agents</p>
+                  <p>Automatic back up of agent event logs. Path: %filepath%.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>33121</p>
+                  <p>3004</p>
                 </entry>
                 <entry>
-                  <p>Apply event action to agent (%AGENT_NAME%)</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>33122</p>
+                  <p>Purge server event logs - automatic</p>
                 </entry>
                 <entry>
-                  <p>Apply event action &lt;%ACTION_TYPE%> to agent(s)</p>
+                  <p>Automatic purge of server event logs.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>37122</p>
+                  <p>3005</p>
                 </entry>
                 <entry>
-                  <p>Set activation code with policy version: %s</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
-                  <p>37123</p>
+                  <p>Purge server event logs - manual</p>
                 </entry>
                 <entry>
-                  <p>Active agents</p>
+                  <p>Manual purge of server event logs.</p>
                 </entry>
               </row>
               <row>
                 <entry>
-                  <p>37124</p>
+                  <p>3006</p>
                 </entry>
                 <entry>
-                  <p>Inactive agents</p>
+                  <p>Back up server event logs</p>
+                </entry>
+                <entry>
+                  <p>Automatic back up of server event logs. Path: %filepath%.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>4001</p>
+                </entry>
+                <entry>
+                  <p>Take action on unapproved blocked file</p>
+                </entry>
+                <entry>
+                  <p>Request sent to endpoint(s): Add blocked file to Approved List. File name:
+                    %file_name% File hash: %file_hash% (SHA-1) Request sent to endpoint(s): Delete
+                    the blocked file. File name: %file_name% File hash: %file_hash% (SHA-1) Request
+                    sent to endpoint(s): Ignore the blocked file. File name: %file_name% File hash:
+                    %file_hash% (SHA-1) Request sent to endpoint(s): Quarantine the file. File name:
+                    %file_name% File hash: %file_hash% (SHA-1) Request sent to endpoint(s): Restore
+                    the file from quarantine. File name: %file_name% File hash: %file_hash%
+                    (SHA-1)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>4004</p>
+                </entry>
+                <entry>
+                  <p>Release the quarantined malicious file</p>
+                </entry>
+                <entry>
+                  <p>Request sent to endpoint(s): Restore the file from quarantine. File name:
+                    %file_name% File hash: %file_hash% (SHA-1)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>4005 </p>
+                </entry>
+                <entry>
+                  <p>Delete the quarantined malicious file</p>
+                </entry>
+                <entry>
+                  <p>Request sent to endpoint(s): Delete the file from quarantine. File name:
+                    %file_name% File hash: %file_hash% (SHA-1)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>4006</p>
+                </entry>
+                <entry>
+                  <p>Take action on unapproved fileless attack</p>
+                </entry>
+                <entry>
+                  <p>Request sent to endpoint(s): Add blocked process chain and command argument.
+                    Process chain: %process_name% Command argument: %parameter% Request sent to
+                    endpoint(s): Ignore blocked process chain and command argument. Process chain:
+                    %process_name% Command argument: %parameter%</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5001</p>
+                </entry>
+                <entry>
+                  <p>Turn Application Lockdown on</p>
+                </entry>
+                <entry>
+                  <p>Turned Application Lockdown on for endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5002</p>
+                </entry>
+                <entry>
+                  <p>Turn Application Lockdown off</p>
+                </entry>
+                <entry>
+                  <p>Turned Application Lockdown off for endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5011</p>
+                </entry>
+                <entry>
+                  <p>Add trusted file hashes</p>
+                </entry>
+                <entry>
+                  <p>Added 1 trusted file hash to endpoint(s). Added %num% trusted file hashes to
+                    endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5013</p>
+                </entry>
+                <entry>
+                  <p>Delete approved files</p>
+                </entry>
+                <entry>
+                  <p>Removed specified items from the Approved List on endpoint(s) using
+                    SLtasks.exe.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5021</p>
+                </entry>
+                <entry>
+                  <p>Block access from storage devices</p>
+                </entry>
+                <entry>
+                  <p>Blocked access from storage devices on endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5023</p>
+                </entry>
+                <entry>
+                  <p>Allow access from storage devices</p>
+                </entry>
+                <entry>
+                  <p>Allowed access from storage devices on endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5025</p>
+                </entry>
+                <entry>
+                  <p>Add trusted USB device</p>
+                </entry>
+                <entry>
+                  <p>Add trusted USB device on selected endpoint(s)</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5601</p>
+                </entry>
+                <entry>
+                  <p>Export agent settings</p>
+                </entry>
+                <entry>
+                  <p>Exported (%file_desc%) from %endpoint_name%.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5602</p>
+                </entry>
+                <entry>
+                  <p>Import agent settings</p>
+                </entry>
+                <entry>
+                  <p>Imported (%file_desc%) to endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5800</p>
+                </entry>
+                <entry>
+                  <p>Change agent administrator password</p>
+                </entry>
+                <entry>
+                  <p>Changed password on endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5700</p>
+                </entry>
+                <entry>
+                  <p>Scan for malware </p>
+                </entry>
+                <entry>
+                  <p>Scanned endpoint(s) for malware.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5701</p>
+                </entry>
+                <entry>
+                  <p>Update agent components</p>
+                </entry>
+                <entry>
+                  <p>Updated agent components on endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>5900</p>
+                </entry>
+                <entry>
+                  <p>Update agent Approved List</p>
+                </entry>
+                <entry>
+                  <p>Updated Approved List on endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>6001</p>
+                </entry>
+                <entry>
+                  <p>Deploy agent patch</p>
+                </entry>
+                <entry>
+                  <p>Deploy agent patch to endpoint(s). Patch name: %patch_name%</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>6101</p>
+                </entry>
+                <entry>
+                  <p>Agent transfer</p>
+                </entry>
+                <entry>
+                  <p>Agent transferred to
+                    new<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                    Intelligent Manager<?oxy_custom_end?> server</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>6201</p>
+                </entry>
+                <entry>
+                  <p>Turn Maintenance Mode on</p>
+                </entry>
+                <entry>
+                  <p>Turned Maintenance Mode on for endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>6202</p>
+                </entry>
+                <entry>
+                  <p>Turn Maintenance Mode off</p>
+                </entry>
+                <entry>
+                  <p>Turned Maintenance Mode off for endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>6301</p>
+                </entry>
+                <entry>
+                  <p>Deploy group policy</p>
+                </entry>
+                <entry>
+                  <p>Deploy group policy. Version: %version%.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>6302</p>
+                </entry>
+                <entry>
+                  <p>Cannot connect
+                    to<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                    ODC<?oxy_custom_end?> server</p>
+                </entry>
+                <entry>
+                  <p>Cannot connect to
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ODC<?oxy_custom_end?>
+                    server.</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>6401</p>
+                </entry>
+                <entry>
+                  <p>Set Intelligent Runtime Learning</p>
+                </entry>
+                <entry>
+                  <p>Set Intelligent Runtime Learning. Version: %policy_version%</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>6402</p>
+                </entry>
+                <entry>
+                  <p>Set Agent Password</p>
+                </entry>
+                <entry>
+                  <p>Set Agent Password. Version: %policy_version%</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>6403</p>
+                </entry>
+                <entry>
+                  <p>Set Schedule Scan Setting</p>
+                </entry>
+                <entry>
+                  <p>Set Schedule Scan Setting. Version: %policy_version%</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>6404</p>
+                </entry>
+                <entry>
+                  <p>Set User-Defined Suspicious Objects</p>
+                </entry>
+                <entry>
+                  <p>Set User-Defined Suspicious Objects. Version: %policy_version%</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <p>6405</p>
+                </entry>
+                <entry>
+                  <p>Set Agent Patch</p>
+                </entry>
+                <entry>
+                  <p>Set Agent Patch. Version: %policy_version%</p>
                 </entry>
               </row>
             </tbody>

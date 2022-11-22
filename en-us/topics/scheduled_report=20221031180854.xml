@@ -2,121 +2,137 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Scheduled Report (Legacy Mode
-        only)</title>
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Scheduled Report</title>
     <taskbody>
         <context>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-            <p>Users can configure the setting to send scheduled reports to <ph
-                    conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
-                via the StellarOne console.</p><?oxy_custom_end?>
+            <p>By configuring the <uicontrol>Scheduled Report</uicontrol>, users can receive a list
+                of all reports that automatically generate on a user-defined schedule. The
+                    <uicontrol>Scheduled Report</uicontrol> screen also provides basic information
+                about previously configured schedules and recipients, as well as allows users to
+                enable and disable sending scheduled reports</p>
+            <note id="note_t5h_dgv_nvb">
+                <p>Only <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> supports this function.</p>
+            </note>
         </context>
-        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
         <steps id="steps_pt3_g3m_m5b">
             <step>
                 <cmd>Go to <menucascade>
                         <uicontrol>Administration</uicontrol>
-                        <uicontrol>Log Purge</uicontrol>
+                        <uicontrol>Scheduled Report</uicontrol>
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>There are two ways for log purge settings. Users can choose from either one
-                    listed below:</cmd>
-                <choices id="choices_nxv_vwn_m5b">
-                    <choice><uicontrol>Purge Now</uicontrol>:<p>Use this setting to purge logs
-                            immediately.</p><ol id="ol_ovg_bxn_m5b">
-                            <li>
-                                <p>Click the drop-down menu next to the <uicontrol>Purge</uicontrol>
-                                    title, and then select the log types to be purged.</p>
-                                <ul id="ul_yrr_hxn_m5b">
-                                    <li>
-                                        <p>All Logs</p>
-                                    </li>
-                                    <li>
-                                        <p>System Log, Audit Log, Server Events, or Agent Events</p>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p>Click the drop-down menu next to the <uicontrol>older
-                                        than</uicontrol> title, and then select a specified time
-                                    frame. The files older than the time frame will be removed.</p>
-                                <ul id="ul_pvh_kyn_m5b">
-                                    <li>
-                                        <p>No limit</p>
-                                    </li>
-                                    <li>
-                                        <p>1 month(s), 2 months(s), 3 months(s), 6 months(s), 12
-                                            months(s), 18 months(s), 24 months(s), 36 months(s), 48
-                                            months(s), 60 months(s)</p>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p>Click the drop-down menu next to the <uicontrol>Keep at
-                                        most</uicontrol> title, and then select the maximum number
-                                    of log entries to keep.</p>
-                                <ul id="ul_fm1_yyn_m5b">
-                                    <li>
-                                        <p>0 entries</p>
-                                    </li>
-                                    <li>
-                                        <p>10,000 entries, 50,000 entries, 100,000 entries, 500,000
-                                            entries, 1,000,000 entries, 5,000,000 entries,
-                                            10,000,000 entries</p>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p>Click the <uicontrol>Purge</uicontrol> button, and the event logs
-                                    will be immediately purged.</p>
-                            </li>
-                        </ol></choice>
-                    <choice><uicontrol>Automatic Purge</uicontrol>: <p>Use this setting to set an
-                            automatic purge once per day.</p><ol id="ol_mz3_kzn_m5b">
-                            <li>
-                                <p>Specify the log types you wan to purge: <uicontrol>System
-                                        Log</uicontrol>, <uicontrol>Audit Log</uicontrol>,
-                                        <uicontrol>Server Events</uicontrol>, or <uicontrol>Agent
-                                        Events</uicontrol>.</p>
-                            </li>
-                            <li>
-                                <p>Click the drop-down menu next to the <uicontrol>older
-                                        than</uicontrol> title, and then select a specified time
-                                    frame. The files older than the time frame will be removed.</p>
-                                <ul id="ul_d3l_p14_m5b">
-                                    <li>
-                                        <p>No limit</p>
-                                    </li>
-                                    <li>
-                                        <p>1 month(s), 2 months(s), 3 months(s), 6 months(s), 12
-                                            months(s), 18 months(s), 24 months(s), 36 months(s), 48
-                                            months(s), 60 months(s)</p>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p>Click the drop-down menu next to the <uicontrol>Keep at
-                                        most</uicontrol> title, and then select the maximum number
-                                    of log entries to keep.</p>
-                                <ul id="ul_l3s_q14_m5b">
-                                    <li>
-                                        <p>0 entries</p>
-                                    </li>
-                                    <li>
-                                        <p>10,000 entries, 50,000 entries, 100,000 entries, 500,000
-                                            entries, 1,000,000 entries, 5,000,000 entries,
-                                            10,000,000 entries</p>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p>Click the <uicontrol>Save</uicontrol> button, and the event logs
-                                    will be automatically purged once per day.</p>
-                            </li>
-                        </ol></choice>
-                </choices>
+                <cmd>Toggle on <uicontrol>Send scheduled reports</uicontrol>.</cmd>
+                <info>
+                    <note id="note_hsd_fbx_nvb">
+                        <p>By default, the <uicontrol>Scheduled Report</uicontrol> is disabled.</p>
+                    </note>
+                </info>
             </step>
-        </steps><?oxy_custom_end?>
+            <step>
+                <cmd>Three available settings appear on the <uicontrol>Scheduled Report</uicontrol>
+                    screen.</cmd>
+                <info>
+                    <table frame="all" id="table_uv2_kbx_nvb">
+                        <tgroup cols="2">
+                            <colspec colname="c1" colnum="1" colwidth="1*"/>
+                            <colspec colname="c2" colnum="2" colwidth="4*"/>
+                            <thead>
+                                <row>
+                                    <entry>
+                                        <p>Settings</p>
+                                    </entry>
+                                    <entry>
+                                        <p>Description</p>
+                                    </entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry>
+                                        <p><b>Report content</b></p>
+                                    </entry>
+                                    <entry>
+                                        <p>Event Type:<ul id="ul_ywy_qbx_nvb">
+                                                <li>
+                                                  <p><ph
+                                                  conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                                  >OFFICIAL_PRODUCT_NAME</ph> Blocked Event
+                                                  History</p>
+                                                </li>
+                                                <li>
+                                                  <p><ph
+                                                  conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                                  >OFFICIAL_PRODUCT_NAME</ph> Top 10 Endpoints with
+                                                  Blocked Events</p>
+                                                </li>
+                                                <li>
+                                                  <p><ph
+                                                  conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                                  >OFFICIAL_PRODUCT_NAME</ph> Top 10 Blocked
+                                                  Files</p>
+                                                </li>
+                                            </ul></p>
+                                        <p>Time Period: A drop-down menu for users to choose
+                                            preferred time period during which the above-mentioned
+                                            events occur</p>
+                                        <ul id="ul_ag5_5bx_nvb">
+                                            <li>
+                                                <p>Last 7 days</p>
+                                            </li>
+                                            <li>
+                                                <p>Last 14 days</p>
+                                            </li>
+                                            <li>
+                                                <p>Last 30 days</p>
+                                            </li>
+                                            <li>
+                                                <p>Last 3 months</p>
+                                            </li>
+                                            <li>
+                                                <p>Last 6 months</p>
+                                            </li>
+                                        </ul>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <p><b>Schedule</b></p>
+                                    </entry>
+                                    <entry>
+                                        <p>Set the frequency and start time for the scheduled
+                                            reports on a daily, weekly, or monthly basis.</p>
+                                        <note type="note" id="note_tj1_fdx_nvb">
+                                            <p>It is advisable NOT to select the date 29th, 30th, or
+                                                31st for monthly update frequency. This helps
+                                                prevent the system from bypassing the update in the
+                                                month that does not contain the date 29th, 30th, or
+                                                31st.</p>
+                                        </note>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <p><b>Recipients</b></p>
+                                    </entry>
+                                    <entry>
+                                        <p>A valid email address is required for specifying the
+                                            report recipient.</p>
+                                        <note id="note_jp2_ydx_nvb">
+                                            <p>When entering muiltiple email addresses, be sure to
+                                                use the semicolon character to separate them.</p>
+                                        </note>
+                                    </entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol> to save the settings.</cmd>
+            </step>
+        </steps>
     </taskbody>
 </task>

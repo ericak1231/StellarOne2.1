@@ -5,8 +5,8 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Server Events</title>
     <taskbody>
         <context id="context_byv_td5_k5b">
-            <p>Activities on StellarOne Servers and configuration deployed on StellarProtect Agents
-                by StellarOne are logged and shown in the <wintitle>Server Events</wintitle>
+            <p>Activities on StellarOne Servers and configuration deployed on the Agents by
+                StellarOne are logged and shown in the <wintitle>Server Events</wintitle>
                 screen.</p>
         </context>
         <steps>
@@ -16,8 +16,11 @@
                     option.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>StellarProtect</uicontrol> tab, the configuration events
-                    deployed on StellarProtect Agents by StellarOne appear.</cmd>
+                <cmd>Click the <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> or <ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> tab, the configuration events deployed on the
+                    Agents by StellarOne appear.</cmd>
             </step>
             <step>
                 <cmd>Click the <uicontrol>StellarOne</uicontrol> tab, the StellarOne server event

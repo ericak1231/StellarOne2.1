@@ -38,7 +38,19 @@
                     certificate.</cmd>
                 <info>
                     <note id="note_nqb_mps_m5b">
-                        <p>Importing the certificate requires restarting the StellarOne console.</p>
+                        <p>
+                            <ul id="ul_b4d_cm1_pvb">
+                                <li>
+                                    <p>Importing the certificate requires restarting the StellarOne
+                                        console.</p>
+                                </li>
+                                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                                <?oxy_comment_start author="erica_txone" timestamp="20221121T182842+0800" comment="CG&apos;s request on 11/21 via Teams" mid="1"?>
+                                <li>
+                                    <p>The certificate needs to be in the PEM format.</p>
+                                </li><?oxy_custom_end?><?oxy_comment_end mid="1"?>
+                            </ul>
+                        </p>
                     </note>
                 </info>
             </step>

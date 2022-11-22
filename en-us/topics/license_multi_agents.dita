@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_gs3_prd_4vb">
+    <title></title>
+    <conbody>
+        <p>
+            <ul id="ul_v1h_rrd_4vb">
+                <li>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                    <p>For Standalone agents → activate multiple agents more
+                    efficiently.</p><?oxy_custom_end?>
+                </li>
+                <li>
+                    <?oxy_custom_start type="oxy_content_highlight" color="0,255,0"?>
+                    <p>had been synced with S1, and then became Standalone. → can't activate and
+                        renew multi-agents at the same → S1 - download license file link → renew one
+                        by one (step 1 &amp; 2)</p><?oxy_custom_end?>
+                </li>
+            </ul>
+        </p>
+        <p>Procedures for multi-agents activation:</p>
+        <ol id="ol_rw5_2td_4vb">
+            <li>On the Agent's console, Copy download link –→ get license file → import the
+                    file<note id="note_mz2_j5d_4vb">
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                    <p>Be sure to to copy the PSN on the License Management
+                    webpage?</p><?oxy_custom_end?>
+                </note></li>
+            <li>Import license file &amp; enter PSN for the first agent.</li>
+            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+            <li>
+                <p>Find the license file and change the file name to
+                        <?oxy_comment_start author="erica_txone" timestamp="20221118T155631+0800" comment="may change"?><filepath>lic.profile_tx</filepath><?oxy_comment_end?>.</p>
+                <note id="note_i5g_vvd_4vb">
+                    <p>Be sure to change the extension of the file name from
+                            <filepath>.txt</filepath> to <filepath>.profile_tx</filepath>.</p>
+                </note>
+            </li>
+            <li>
+                <p>Place the license file with the changed file name in the agent's Installer
+                    Package.</p>
+            </li>
+            <li>
+                <p>Open the <filepath>StellarSetup.ini</filepath> file in the Installer Package and
+                    input the PSN as the value of the product_serial_number property.</p>
+            </li>
+            <li>Send the Installer Package to other devices for activation → refer to Case:
+                Standalone's installer package with license data (license file &amp; PSN)</li><?oxy_custom_end?>
+            <li>
+                <p>Use the Installer Package to intall other standalone agents, the License File and
+                    the Product Serial Number will generate automatically in the <uicontrol>License
+                        Activation</uicontrol> procedure.</p>
+            </li>
+        </ol>
+        <note id="note_xbk_3zd_4vb">
+            <p>To renew license for standalone agents, users still need to renew one by one, or
+                they'll need to uninstall and reinstall the repacked installer package.</p>
+        </note>
+    </conbody>
+</concept>

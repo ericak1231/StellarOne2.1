@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_vs5_mhd_4vb">
+    <title>License Renewal</title>
+    <conbody>
+        <p>Choose one of the ways to renew license based on the license data available from your
+            support provider:</p>
+        <ul id="ul_k2x_b3d_4vb">
+            <li>
+                <p><xref href="licenseRenewal_renew=20220728172943.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="licenseRenewal_license_file=20221118120354.xml"/></p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

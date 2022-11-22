@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_yxw_gjd_4vb">
+    <title>License Management</title>
+    <conbody>
+        <p>Users can perform license renewal or add new license keys via the StellarOne web
+            console.</p>
+    </conbody>
+</concept>

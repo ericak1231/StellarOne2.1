@@ -2,17 +2,22 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
 
 <concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
- <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Import/Export</title>
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Agent Export/Import Settings</title>
  <conbody>
-  <p>This section introduces how to update scan components and deploy patches for StellarProtect
-   agents via StellarOne web console.</p>
+  <p>This section introduces how to apply the import/export actions to the <ph
+    conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> agents via
+   StellarOne web console. The following functions should only for agent level. When the user
+   selects any group from the list, the function should be disabled.</p>
   <p>Topics in this section include:</p>
   <ul id="ul_gkz_bdv_35b" otherprops="PRINT">
    <li>
-    <p><xref href="sPupdateComponents=20220803103820.xml"/></p>
+    <p><xref href="export_agent_settings=20221117111508.xml"/></p>
    </li>
    <li>
-    <p><xref href="sPdeployPatch=20220803104012.xml"/></p>
+    <p><xref href="import_agent_settings=20221117111906.xml"/></p>
+   </li>
+   <li>
+    <p/>
    </li>
   </ul>
  </conbody>

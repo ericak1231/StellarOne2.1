@@ -29,9 +29,11 @@
                                 <p>Integration to Vision One</p>
                             </entry>
                             <entry>
-                                <p>The StellarOne web console can be integrated to Trend Micro's
-                                    Vision One and allows Vision One users to search for
-                                    StellarOne's detection logs.</p>
+                                <p>The <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    web console can be integrated to Trend Micro's Vision One and
+                                    allows Vision One users to search for <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s
+                                    detection logs.</p>
                             </entry>
                         </row>
                         <row valign="middle">
@@ -39,18 +41,9 @@
                                 <p>Available in AWS BYOL</p>
                             </entry>
                             <entry>
-                                <p>TXOne StellarOne is available from Amazon's AWS BYOL and can be
-                                    deployed from AMI on a AWS EC2 console.</p>
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>
-                                <p>Supporting Offline License Activation</p>
-                            </entry>
-                            <entry>
-                                <p>In addtion to online license activation, the StellarOne also
-                                    supports license activation in the Internet-restricted
-                                    environment.</p>
+                                <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    is available from Amazon's AWS BYOL and can be deployed from AMI
+                                    on a AWS EC2 console.</p>
                             </entry>
                         </row>
                         <row>
@@ -58,9 +51,13 @@
                                 <p>Single Installer Package for Agent</p>
                             </entry>
                             <entry>
-                                <p>Users can download a single installer package for the Agent –
-                                    StellarProtect and StellarProtect (Legacy Mode) from the
-                                    StellarOne web console.</p>
+                                <p>Users can download a single installer package for the Agent – <ph
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> and <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> from the <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web
+                                    console.</p>
                             </entry>
                         </row>
                         <row>
@@ -70,10 +67,11 @@
                                         >OFFICIAL_PRODUCT_NAME</ph></p>
                             </entry>
                             <entry>
-                                <p>With this new feature, the StellarProtect (Legacy Mode) can
-                                    persistently scan new and changed files, along with system
-                                    memory, to provide security assessment for maximum protection
-                                    against malware.</p>
+                                <p>With this new feature, the <ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> can persistently scan new and
+                                    changed files, along with system memory, to provide security
+                                    assessment for maximum protection against malware.</p>
                             </entry>
                         </row>
                         <row>
@@ -84,31 +82,22 @@
                             </entry>
                             <entry>
                                 <p>In addition to the existing component update schedule function of
-                                    the StellarOne console, now users can also configure the
-                                    component update schedule for the <ph
+                                    the <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    console, now users can also configure the component update
+                                    schedule for the <ph
                                         conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
                                         >OFFICIAL_PRODUCT_NAME</ph> agent. The agents can run
                                     component update automatically at users' assigned time
                                     frequency.</p>
                             </entry>
                         </row>
-                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-                        <row>
-                            <entry>
-                                <p>Sending Scan Result from Agent to StellarOne</p>
-                            </entry>
-                            <entry>
-                                <p>The Agent can send back scan results per StellarOne's
-                                    request?</p>
-                            </entry>
-                        </row><?oxy_custom_end?>
                         <row>
                             <entry>
                                 <p>Export Agents Info</p>
                             </entry>
                             <entry>
-                                <p>This newly-added GUI option allows users to export the
-                                    information of selected or all agents by a simple click.</p>
+                                <p>This GUI option allows users to export the information of
+                                    selected or all agents by a simple click.</p>
                             </entry>
                         </row>
                     </tbody>

@@ -2,16 +2,17 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Collect Event Logs (Legacy Mode
-        only)</title>
-    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Collect Event Logs</title>
     <taskbody>
         <context>
-            <p>Users can deploy patch files for StellarProtect agents on selected endpoints via
-                StellarOne web console. It is recommended to update agent patches regularly to
-                protect the endpoints from the latest security threats.</p>
+            <p>Logs contain information about agent activity. <uicontrol>Collect Event
+                    Logs</uicontrol> updates the StellarOne database with the latest information
+                from the selected agents.<note id="note_hzr_ds3_nvb">
+                    <p>Only <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                            >OFFICIAL_PRODUCT_NAME</ph> supports this function.</p>
+                </note></p>
         </context>
-        <steps>
+        <steps id="steps_kr2_qkp_nvb">
             <step>
                 <cmd>Go to <menucascade>
                         <uicontrol>Agents</uicontrol>
@@ -20,47 +21,99 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
-                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
-                    by StellarOne.</cmd>
+                    screen. The <uicontrol>Agents</uicontrol> screen displays a list of agents
+                    managed by StellarOne.</cmd>
             </step>
             <step>
-                <cmd>Select one or more endpoints (agents or groups) by clicking the checkboxes next
-                    to them.</cmd>
+                <cmd>Select the target agents by clicking the checkboxes next to them.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Protection</uicontrol> button from the Tool Bar at the top
-                    of the <wintitle>Agents</wintitle> screen.</cmd>
+                <cmd>Click the <uicontrol>Update</uicontrol> button from the Tool Bar at the top of
+                    the <uicontrol>Agents</uicontrol> screen.</cmd>
             </step>
             <step>
-                <cmd>A pop-up window appears. Click the <uicontrol>Deploy Agent Patches</uicontrol>
+                <cmd>A pop-up window appears. Click the <uicontrol>Collect Event Logs</uicontrol>
                     option.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>A pop-up <uicontrol>Deploy Agent Patches</uicontrol> window with the patch list
-                    appears. Select the version of the patch for deployment and click the checkbox
-                    next to it.</cmd>
-                <stepxmp otherprops="PRINT">
-                    <fig id="fig_pqs_jng_k5b" otherprops="PRINT">
-                        <title>Select the Patch Version</title>
-                        <image href="../images/2.0/patches_link=20220914171223.png"
-                            id="image_lt3_lng_k5b" otherprops="PRINT"/>
-                    </fig>
-                </stepxmp>
+                <cmd>A pop-up <uicontrol>Command Deployment</uicontrol> window with the endpoint
+                    list appears. The <uicontrol>Status</uicontrol> column shows if the event logs
+                    are succesfully collected.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Close</uicontrol> to close the window.</cmd>
                 <info>
-                    <note id="note_dst_lng_k5b">
-                        <p>By clicking the <uicontrol>Update</uicontrol> link, users will be
-                            directed to the <xref href="downloadUpdates=20220803181908.xml"/> page
-                            for importing new patches for agents.</p>
+                    <note id="note_izz_ypp_nvb">
+                        <p>StellarOne will update the date and time displayed in the <uicontrol>Last
+                                Connection</uicontrol> column on the <uicontrol>Agents</uicontrol>
+                            screen after each <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> agent successfully sends logs and status
+                            to StellarOne.</p>
                     </note>
                 </info>
             </step>
             <step>
-                <cmd>Click <uicontrol>OK</uicontrol> to start the patch deployment process for the
-                    agents. Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Logs</uicontrol>
+                        <uicontrol>Agent Events</uicontrol>
+                    </menucascade> for viewing the collected event logs of the selected agents.
+                    Refer to <xref href="logAgentEvents=20220805152248.xml"/> for more detailed
+                    instructions if needed.</cmd>
+                <info>
+                    <note id="note_slw_ksp_nvb">
+                        <p>By default, the selected agents will only send back the <b>Warning</b>
+                            and <b>Critical</b> level logs.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>(Optional) Choose one of the ways to add the <b>Information</b> level logs in
+                    the collected event logs.</cmd>
+                <info>
+                    <note id="note_lyy_gn5_nvb">
+                        <p>The log volume may surge if the <b>Information</b> level logs are
+                            included in the collected event logs.</p>
+                    </note>
+                </info>
+                <choices id="choices_jmb_pyp_nvb">
+                    <choice>
+                        <p>On the StellarOne console, export the agent's configuration file and
+                            change the value of <codeph>InformationLog Enable</codeph> to
+                                <codeph>yes</codeph>. Import the modified configuration file to the
+                            selected agent. Refer to <xref
+                                href="export_agent_configurations=20221031182600.xml"/> and <xref
+                                href="import_agent_configurations=20221031182535.xml"/> for more
+                            detailed instructions.<fig id="fig_i5v_dyp_nvb">
+                                <title>Snippet of the Configuration File</title>
+                                <image href="../images/collect_event_logs=20221116174650.png"
+                                    id="image_bj4_2yp_nvb"/>
+                            </fig></p>
+                    </choice>
+                    <choice>
+                        <p>On the target <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> agent, open the
+                                <filepath>Setup.ini</filepath> file in the installer package and
+                            change the value of <codeph>Level_InformationLog</codeph> to
+                                <codeph>1</codeph>. Be sure to save the changed file and run the
+                            installation again.<fig id="fig_d1k_kl5_nvb">
+                                <title>Snippet of the Setup.ini File</title>
+                                <image
+                                    href="../images/collect_event_logs_setup.ini=20221117084327.png"
+                                    id="image_xyp_ll5_nvb"/>
+                            </fig></p>
+                    </choice>
+                </choices>
+                <info>
+                    <note id="note_n2x_mk5_nvb">
+                        <p>Only after you change the event log setting for the target agents and
+                            apply the <uicontrol>Collect Event Logs</uicontrol> action to them, will
+                            the <b>Information</b> level logs be sent to StellarOne.</p>
+                    </note>
+                </info>
             </step>
         </steps>
-    </taskbody><?oxy_custom_end?>
+    </taskbody>
 </task>

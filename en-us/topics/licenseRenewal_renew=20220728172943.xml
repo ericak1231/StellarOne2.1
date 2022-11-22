@@ -2,26 +2,23 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Renew License</title>
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Renew License with the same License
+        Key</title>
     <taskbody>
-        <context id="context_gwv_wr4_35b">
-            <p>If users need to renew license with the same Activation Code, please follow below
-                steps.</p>
-        </context>
         <steps id="steps_ngl_yr4_35b">
             <step>
-                <cmd>Contact your support provider for license renewal request.</cmd>
-            </step>
-            <step>
-                <cmd>After the license renewal is confirmed, go to <menucascade>
+                <cmd>Go to <menucascade>
                         <uicontrol>Administration</uicontrol>
                         <uicontrol>License</uicontrol>
-                    </menucascade>, and click <uicontrol>Renew License</uicontrol> button.</cmd>
+                    </menucascade></cmd>
             </step>
             <step>
-                <cmd>A message with <uicontrol>Licenses have been updated successfully</uicontrol>
-                    appears. The <uicontrol>Last Updated</uicontrol> item now shows the date and
-                    time the license was updated. </cmd>
+                <cmd>Click the <uicontrol>Renew License Key</uicontrol> button.</cmd>
+            </step>
+            <step>
+                <cmd>A message with <uicontrol>The License has been updated successfully</uicontrol>
+                    appears. The <uicontrol>Last Updated</uicontrol> shows the latest license
+                    renewal date and time.</cmd>
             </step>
         </steps>
     </taskbody>

@@ -2,16 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Import Approved List (Legacy Mode
-        only)</title>
-    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Import Approved List</title>
     <taskbody>
-        <context>
-            <p>Users can deploy patch files for StellarProtect agents on selected endpoints via
-                StellarOne web console. It is recommended to update agent patches regularly to
-                protect the endpoints from the latest security threats.</p>
-        </context>
-        <steps>
+        <steps id="steps_l1f_mgx_nvb">
             <step>
                 <cmd>Go to <menucascade>
                         <uicontrol>Agents</uicontrol>
@@ -24,43 +17,41 @@
                     by StellarOne.</cmd>
             </step>
             <step>
-                <cmd>Select one or more endpoints (agents or groups) by clicking the checkboxes next
-                    to them.</cmd>
+                <cmd>Select the target agents by clicking the checkboxes next to them.</cmd>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Protection</uicontrol> button from the Tool Bar at the top
-                    of the <wintitle>Agents</wintitle> screen.</cmd>
+                <cmd>Click the <uicontrol>Import/Export</uicontrol> button from the Tool Bar at the
+                    top of the <wintitle>Agents</wintitle> screen.</cmd>
             </step>
             <step>
-                <cmd>A pop-up window appears. Click the <uicontrol>Deploy Agent Patches</uicontrol>
-                    option.</cmd>
+                <cmd>Click the <uicontrol>Import Approved List</uicontrol> option.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>A pop-up <uicontrol>Deploy Agent Patches</uicontrol> window with the patch list
-                    appears. Select the version of the patch for deployment and click the checkbox
-                    next to it.</cmd>
-                <stepxmp otherprops="PRINT">
-                    <fig id="fig_pqs_jng_k5b" otherprops="PRINT">
-                        <title>Select the Patch Version</title>
-                        <image href="../images/2.0/patches_link=20220914171223.png"
-                            id="image_lt3_lng_k5b" otherprops="PRINT"/>
-                    </fig>
-                </stepxmp>
+                <cmd>A pop-up <uicontrol>Import Approved List</uicontrol> window appears. Click
+                        <uicontrol>Select File</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select the file to import and click <uicontrol>OK</uicontrol>.</cmd>
                 <info>
-                    <note id="note_dst_lng_k5b">
-                        <p>By clicking the <uicontrol>Update</uicontrol> link, users will be
-                            directed to the <xref href="downloadUpdates=20220803181908.xml"/> page
-                            for importing new patches for agents.</p>
+                    <note id="note_blg_vhx_nvb">
+                        <p>The switch toggle, <uicontrol>Replace the trusted hash value of existing
+                                applications with that in the imported Approved List.</uicontrol>,
+                            is used for overwriting the existing trusted hash values in the original
+                            Approved List. By default, the toggle is switched off. </p>
                     </note>
                 </info>
             </step>
             <step>
-                <cmd>Click <uicontrol>OK</uicontrol> to start the patch deployment process for the
-                    agents. Click the <uicontrol>Close</uicontrol> button to close the window.</cmd>
+                <cmd>A pop-up <uicontrol>Command Deployment</uicontrol> window appears. The
+                        <uicontrol>Status</uicontrol> shows if the new Approved List is imported to
+                    the target endpoints successfully.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Close</uicontrol> to close the window.</cmd>
             </step>
         </steps>
-    </taskbody><?oxy_custom_end?>
+    </taskbody>
 </task>

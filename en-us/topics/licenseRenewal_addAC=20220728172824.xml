@@ -2,34 +2,34 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Changing
-        <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>License
-        Key<?oxy_custom_end?></title>
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">New License Key</title>
     <taskbody>
         <context id="context_lsx_xq4_35b">
-            <p>If users need to change the License Key, please follow below steps.</p>
-            <note id="note_rlc_j2q_lvb">
-                <p>License Key is know as the Activation Code before the TXOne Stellar version
-                    2.1.</p>
-            </note>
+            <p>If users need to specify a new License Key, follow below procedures.</p>
         </context>
         <steps>
             <step>
-                <cmd>Contact your support provider for a new license key.</cmd>
-            </step>
-            <step>
-                <cmd>After you receive the new license key, go to <menucascade>
+                <cmd>Go to <menucascade>
                         <uicontrol>Administration</uicontrol>
                         <uicontrol>License</uicontrol>
-                    </menucascade>, and click <uicontrol>New License</uicontrol> button.</cmd>
+                    </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Input the new license key and click <uicontrol>Save</uicontrol>.</cmd>
+                <cmd>Click <uicontrol>New License Key/File</uicontrol> button.</cmd>
+            </step>
+            <step>
+                <cmd>The <wintitle>New License</wintitle> window appears.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>License Key</uicontrol> and specify the new license key in the
+                    text field below.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd>A message with <uicontrol>The License is activated successfully</uicontrol>
-                    appears. As a result, the <uicontrol>Last Updated</uicontrol> item now shows the
-                    date and time the license was updated. </cmd>
+                    appears.</cmd>
             </step>
         </steps>
     </taskbody>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_x2v_q3d_4vb">
+    <title>License</title>
+    <conbody>
+        <p>Topcis in this section includes:</p>
+        <ul id="ul_i21_z3d_4vb">
+            <li>
+                <p><xref href="licenseManage=20220728150953.xml"/></p>
+            </li>
+            <li>
+                <p><xref href="license_manage_concept=20221118141006.dita"/></p>
+            </li>
+            <li>
+                <p><xref href="licenseEditions=20220811111123.xml"/></p>
+            </li>
+        </ul>
+    </conbody>
+</concept>
