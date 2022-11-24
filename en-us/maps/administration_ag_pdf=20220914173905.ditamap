@@ -34,24 +34,24 @@
             <topicref href="../topics/sslCertificate=20220812133525.xml"/>
         </topicref>
         <topicref
-            href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarOne/en-us/topics/license_intro_20221118140523.xml">
+            href="../topics/license_intro_20221118140523.xml">
             <topicref href="../topics/licenseManage=20220728150953.xml"/>
             <topicref
-                href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarOne/en-us/topics/license_manage_concept=20221118141006.xml">
+                href="../topics/license_manage_concept=20221118141006.xml">
                 <topicref
-                    href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarOne/en-us/topics/license_key_or_file=20221118135633.xml">
+                    href="../topics/license_key_or_file=20221118135633.xml">
                     <topicref
-                        href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarOne/en-us/topics/licenseRenewal_license_file=20221118120354.xml">
+                        href="../topics/licenseRenewal_license_file=20221118120354.xml">
                         <topicref
-                            href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarOne/en-us/topics/openingConsole_get_license_file=20221111103016.xml"
+                            href="../topics/openingConsole_get_license_file=20221111103016.xml"
                         />
                     </topicref>
                 </topicref>
             </topicref>
             <topicref
-                href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarOne/en-us/topics/licenseEditions=20220811111123.xml">
+                href="../topics/licenseEditions=20220811111123.xml">
                 <topicref
-                    href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarOne/en-us/topics/licenseFeatures=20220815133824.xml"
+                    href="../topics/licenseFeatures=20220815133824.xml"
                 />
             </topicref>
         </topicref>
