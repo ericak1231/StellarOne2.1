@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uhw_4q4_pvb">
+    <title>Exception Paths Settings</title>
+    <conbody>
+        <p>Exception paths are used to point <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                >OFFICIAL_PRODUCT_NAME</ph> to your file or file folder directly so that it can
+            approve the file’s execution.</p>
+    </conbody>
+</concept>

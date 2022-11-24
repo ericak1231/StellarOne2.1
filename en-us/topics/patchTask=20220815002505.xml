@@ -10,6 +10,14 @@
                 conducted remotely and automatically using policy synchronization. Only one patch
                 file (Agent version) is allowed to be upgraded every time under each group
                 policy.</p>
+            <note id="note_idg_lrv_pvb" type="important">
+                <p>A patch is generally used to fix or enhance the current version. If you
+                    accidentally patch an older version, the patch deployment should not work and
+                    the agent status will keep un-synced with the StellarOne console. Meanwhile,
+                    other policy settings can't be deployed, either. After 20 minutes the agents
+                    will resynchronize with StellarOne; until then can the policy settings be
+                    applied to the agent.</p>
+            </note>
         </context>
         <steps>
             <step>

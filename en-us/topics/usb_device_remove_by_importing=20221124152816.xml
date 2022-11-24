@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_e4v_tjv_pvb">
+    <title>Edit/Add/Remove Trusted USB Devices by Importing Configuration File </title>
+    <taskbody>
+        <steps id="steps_qnx_jlv_pvb">
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>All </uicontrol>group on the <uicontrol>Agents</uicontrol>
+                    screen. The <wintitle>Agents</wintitle> screen displays a list of agents managed
+                    by StellarOne.</cmd>
+            </step>
+            <step>
+                <cmd>Select the target agent by clicking the checkbox next to it.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Import/Export</uicontrol> button from the Tool Bar at the
+                    top of the <wintitle>Agents</wintitle> screen.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Export Agent Configuration</uicontrol> option.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>A pop-up <uicontrol>Command Deployment</uicontrol> window appears. The
+                        <uicontrol>Status</uicontrol> shows if the agent configuration is exported
+                    successfully.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Download</uicontrol> link to download the target agent's
+                    configuration file.</cmd>
+            </step>
+            <step>
+                <cmd>Open the agent configuration file in a text editor and find the
+                        <codeph>DeviceException</codeph> section.</cmd>
+                <stepxmp>
+                    <fig id="fig_zpm_t4v_pvb">
+                        <title>DeviceException section</title>
+                        <image
+                            href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarOne/en-us/images/deviceException=20221124160400.png"
+                            id="image_ybk_v4v_pvb"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>The following figure shows an example where the section contains two entries
+                    for the added trusted USB devices.</cmd>
+                <stepxmp>
+                    <fig id="fig_b2x_lpv_pvb">
+                        <title>Devices added in DeviceException section</title>
+                        <image
+                            href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarOne/en-us/images/deviceException_device_added=20221124160859.png"
+                            id="image_bzq_npv_pvb"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>You can edit, add, or remove the trusted USB devices by modifying, adding, or
+                    deleting the entries for the trusted USB devices and save the agent
+                    configuration file.</cmd>
+            </step>
+            <step>
+                <cmd>Import the updated agent configuration file to the target agents.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

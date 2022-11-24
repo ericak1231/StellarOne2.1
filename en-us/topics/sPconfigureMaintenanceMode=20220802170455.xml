@@ -9,13 +9,52 @@
                 a period when the agents allows all file executions and adds all files that are
                 created, executed, or modified to the Approved List. The agents can learn the
                 newly-added applications and ensure the execution of these applications are under
-                protection. In addition, during the maintenance period, all newly-added files can be
-                updated along with real-time virus scan for consistent security. <note
-                    id="note_awv_pvb_s5b">
-                    <p>If users change the policy settings of Application Lockdown, OT Application
-                        Safeguard, and Real-Time Malware Scan during maintenance period, the policy
-                        settings will not be enforced until the maintenance period is ended.</p>
-                </note></p>
+                protection.</p>
+            <p>Furthermore, during the maintenance period, all newly-added files can be updated and
+                scanned for consistent security. Users can also define the action to take after
+                suspicious files are detected.</p>
+            <note id="note_mkq_hlm_pvb" type="important">
+                <p>Before using Maintenance Mode, apply the required updates on the following
+                    supported platforms for <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> agents:<ul id="ul_ddw_3lm_pvb">
+                        <li>
+                            <p>For Windows 2000 Service Pack 4, apply the update KB891861 from the
+                                Microsoft Update Catalog website.</p>
+                        </li>
+                        <li>
+                            <p>For Windows XP SP1, upgrade to Windows XP SP2.</p>
+                        </li>
+                    </ul></p>
+            </note>
+            <note id="note_r4v_nkm_pvb">
+                <ul id="ul_bjg_mkm_pvb">
+                    <li>
+                        <p>If users change the policy settings of Application Lockdown, OT
+                            Application Safeguard, Real-Time Malware Scan,
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>and
+                            Anti-malware Scanning <?oxy_custom_end?>during maintenance period, the
+                            policy settings will not be implemented until the maintenance period is
+                            ended.</p>
+                    </li>
+                    <li>
+                        <p>During the maintenance period, you cannot perform agent patch updates on
+                            endpoints. In addition, the
+                                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> agent <?oxy_custom_end?>does not support
+                            Windows updates that require restarting an endpoint during the
+                            maintenance period.</p>
+                    </li>
+                    <li>
+                        <p>To run an installer that deploys files to a network folder during the
+                            maintenance period,
+                                <?oxy_comment_start author="erica_txone" timestamp="20221123T100654+0800" comment="Does this note also apply to SP?"?><ph
+                                conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph><?oxy_comment_end?> must have access
+                            permission to the network</p>
+                    </li>
+                </ul>
+            </note>
         </context>
         <steps>
             <step>
@@ -52,6 +91,10 @@
                     <choice>
                         <p>Click <uicontrol>Enable</uicontrol> to start the Maintenance Mode
                             settings. Please go to Step 8 for next procedure.</p>
+                        <note id="note_hgb_flm_pvb" type="important">
+                            <p>To reduce risk of infection, run only applications from trusted
+                                sources on endpoints during the maintenance period.</p>
+                        </note>
                     </choice>
                     <choice>
                         <p>Click <menucascade>
@@ -82,6 +125,25 @@
             <step>
                 <cmd>The schedule configuration window appears. Do one of the following for
                     scheduling Maintenance Mode.</cmd>
+                <info>
+                    <note id="note_k45_1mm_pvb">
+                        <ul id="ul_rmz_cmm_pvb">
+                            <li>
+                                <p>Agents can start one scheduled maintenance period at a time. If
+                                    users configure a new maintenance period, the system overwrites
+                                    the existing maintenance schedule that has not started yet.</p>
+                            </li>
+                            <li>
+                                <p>When the agent is about to leave Maintenance Mode, restarting the
+                                    endpoint prevents
+                                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="erica_txone" timestamp="20221123T100335+0800" comment="Does this note apply to both SP/SPLM?" mid="4"?><ph
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph><?oxy_custom_end?><?oxy_comment_end mid="4"?>
+                                    from adding files in the queue to the Approved List.</p>
+                            </li>
+                        </ul>
+                    </note>
+                </info>
                 <choices id="choices_tq3_5zx_j5b">
                     <choice>
                         <p>Click the <uicontrol>Schedule</uicontrol> radio button, and then click
@@ -97,43 +159,30 @@
                     </choice>
                 </choices>
             </step>
-            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
             <step>
-                <cmd>A toggle switch for enabling/disabling <uicontrol>Real-Time Malware
-                        Scan</uicontrol> is added under the Maintenance Mode option. The default
-                    setting is ON.</cmd>
+                <cmd>A <b>Scan</b> toggle switch is added at the bottom and is ON by default.</cmd>
                 <info>
                     <note id="note_xbf_yzy_j5b">
-                        <ul id="ul_tlv_3bz_j5b">
-                            <li>
-                                <p>If users disable <uicontrol>Real-Time Malware Scan</uicontrol> in
-                                    the policy settings, it is reommended to enable the
-                                        <uicontrol>Real-Time Malware Scan</uicontrol> toggle switch
-                                    here during maintenance period to ensure seamless protection.
-                                    After maintenance period ends, the system will follow the
-                                    original policy settings (in which the Real-Time Malware Scan is
-                                    disabled).</p>
-                            </li>
-                            <li>
-                                <p>Please refer to <xref href="realTimeScan=20220813041755.xml"/>
-                                    for more details.</p>
-                            </li>
-                        </ul>
+                        <p>If users disable scan feature in the policy settings, it is advisory to
+                            enable scan feature here during maintenance period to ensure seamless
+                            protection. After maintenance period ends, the system will follow the
+                            original policy settings (in which the scan feature is disabled).</p>
                     </note>
-                    <fig id="fig_kzg_fmk_jvb">
-                        <title>StellarProtect MTM</title>
-                        <image href="../images/mtm_sp=20221101163308.png" id="image_nsz_fmk_jvb"/>
-                    </fig>
                 </info>
-            </step><?oxy_custom_end?>
+            </step>
             <step>
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <cmd>For StellarProtect (Legacy Mode)</cmd><?oxy_custom_end?>
+                <cmd>Select one of the actions to take if suspicious files are detected during
+                    scanning:</cmd>
                 <info>
-                    <fig id="fig_mw1_3mk_jvb">
-                        <title>StellarProtect (Legacy Mode) MTM</title>
-                        <image href="../images/mtm_splm=20221101163400.png" id="image_inj_3mk_jvb"/>
-                    </fig>
+                    <ul id="ul_ubq_lrm_pvb">
+                        <li>
+                            <p><uicontrol>Quarantine detected files</uicontrol>
+                            </p>
+                        </li>
+                        <li>
+                            <p><uicontrol>Add detected files to Approved List</uicontrol></p>
+                        </li>
+                    </ul>
                 </info>
             </step>
             <step>

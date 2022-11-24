@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_qmn_hp4_pvb">
+    <title>Import Trusted Certificates</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_kqb_dvc_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Go to the <uicontrol>Exclusions</uicontrol> pane.</cmd>
+            </step>
+            <step>
+                <cmd>Find <wintitle>Tursted Certificates</wintitle> section and then Click
+                        <uicontrol>Import</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>The <wintitle>Import Trusted Certificate</wintitle> window appears. Click
+                        <uicontrol>Select File</uicontrol> to import the target certificate.</cmd>
+            </step>
+            <step>
+                <cmd>Enable the <uicontrol>Installer </uicontrol> toggle switch to automatically add
+                    all files created or modified by the trusted installer to the Approved
+                    List.</cmd>
+                <info>
+                    <note id="note_pyt_pr4_pvb">
+                        <p>By default, the <uicontrol>Installer</uicontrol> toggle is turn off.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Import</uicontrol> to add the trusted certificate and the
+                    settings will be saved.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

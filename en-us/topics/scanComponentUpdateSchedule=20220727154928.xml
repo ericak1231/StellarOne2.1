@@ -31,7 +31,7 @@
                 <info>
                     <p>
                         <note id="note_qsf_2lh_35b" type="tip">
-                            <p>It is suggested to determine the agent's component update schedule by
+                            <p>It is advisory to determine the agent's component update schedule by
                                 referring to the StellarOne console's component update schedule
                                 setting first.</p>
                         </note>
@@ -55,7 +55,7 @@
                 <cmd>After the <uicontrol>Schedule Update</uicontrol> is toggled on, radio buttons
                     for setting the <uicontrol>Frequency</uicontrol> and <uicontrol>Start
                         Time</uicontrol> appear, enabling users to schedule component update for the
-                    agent(s.)</cmd>
+                    agents.</cmd>
                 <info>
                     <p>
                         <ul id="ul_oxs_k2m_35b">
@@ -75,7 +75,7 @@
                     </p>
                     <note id="note_ijz_ylm_35b" type="important">
                         <p>Since not every month contains the date 29th, 30th, or 31st, e.g.,
-                            February only has 28 days (29 days on a leap year), it is recommended to
+                            February only has 28 days (29 days on a leap year), it is advisory to
                             select <uicontrol>The last day of the month</uicontrol> for monthly
                             update frequency. This helps prevent the system from bypassing the
                             update in the month that does not contain the date 29th, 30th, or

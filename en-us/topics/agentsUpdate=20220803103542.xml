@@ -4,8 +4,8 @@
 <concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
  <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Update</title>
  <conbody>
-  <p>This section introduces how to update scan components and deploy patches for StellarProtect
-   agents via StellarOne web console.</p>
+  <p>This section introduces how to implement immediate update for the agents via StellarOne web
+   console.</p>
   <p>Topics in this section include:</p>
   <ul id="ul_gkz_bdv_35b" otherprops="PRINT">
    <li>
@@ -14,6 +14,16 @@
    <li>
     <p><xref href="sPdeployPatch=20220803104012.xml"/></p>
    </li>
+   <li>
+    <p><xref href="check_connections=20221031182319.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="collect_event_logs=20221031182406.xml"/></p>
+   </li>
   </ul>
+  <note id="note_brp_zfm_pvb">
+   <p>Only <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+    supports Check Connections and Collect Event Logs.</p>
+  </note>
  </conbody>
 </concept>

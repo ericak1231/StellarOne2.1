@@ -5,12 +5,12 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Configure Exclusions</title>
     <taskbody>
         <context>
-            <p>The <uicontrol>Exclusions</uicontrol> allows users to define trusted certificates,
-                trusted hash values, exception paths, and write protecion list. The trusted
-                certificates defined by users will be bypassed during scanning and will not be
-                blocked by <uicontrol>Application Lockdown</uicontrol>. Meanwhile, the trusted hash
-                values, exception paths, and write protecion allows users to configure lockdown
-                exclusion settings for the Approved List.</p>
+            <p>The Lockdown Exclusions allows users to define trusted certificates, trusted hash
+                values, exception paths, and write protecion list. The trusted certificates defined
+                by users will be bypassed during scanning and will not be blocked by
+                    <uicontrol>Application Lockdown</uicontrol>. Meanwhile, the trusted hash values,
+                exception paths, and write protecion allows users to configure lockdown exclusion
+                settings for the Approved List.</p>
         </context>
         <steps>
             <step>
@@ -30,18 +30,15 @@
             <step>
                 <cmd>Scroll down and go to the <uicontrol>Exclusions</uicontrol> section.</cmd>
             </step>
-            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
             <step>
-                <cmd>Configure the <uicontrol>Exclusions</uicontrol> by Import/Export for
+                <cmd>Configure the <uicontrol>Exclusions</uicontrol> by Import/Export Exclusions for
                         <uicontrol>Trusted Certificates</uicontrol> and <uicontrol>Trusted Hash
                         Values</uicontrol>:</cmd>
-            </step><?oxy_custom_end?>
+            </step>
             <step>
-                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
                 <cmd>Manually add lockdown exclusion lists for <uicontrol>Trusted Hash
                         Values</uicontrol>, <uicontrol>Exception Paths</uicontrol>, and
-                        <uicontrol>Write Protection</uicontrol>:</cmd><?oxy_custom_end?>
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                        <uicontrol>Write Protection</uicontrol>:</cmd>
                 <choices id="choices_kwc_pfk_n5b">
                     <choice>For adding exception paths:<ol id="ol_asy_pfk_n5b">
                             <li>
@@ -109,7 +106,7 @@
                             </li>
                         </ol>
                     </choice>
-                </choices><?oxy_custom_end?>
+                </choices>
             </step>
         </steps>
     </taskbody>

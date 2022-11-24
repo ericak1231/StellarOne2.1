@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_qmn_hp4_pvb">
+    <title>Delete Trusted Certificates</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_kqb_dvc_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Go to the <uicontrol>Exclusions</uicontrol> pane.</cmd>
+            </step>
+            <step>
+                <cmd>Find <wintitle>Tursted Certificates</wintitle> section and select the trusted
+                    certificates to be removed.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Delete</uicontrol> button and the <uicontrol>Remove
+                        Trusted Certificate</uicontrol> dialog window will appear.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol> to remove the selected entries.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

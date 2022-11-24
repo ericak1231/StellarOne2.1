@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_qmn_hp4_pvb">
+    <title>Import Trusted Hash Values</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_kqb_dvc_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Find the <uicontrol>Trusted Hash Values</uicontrol> section from the
+                        <wintitle>Exclusions</wintitle> pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Import</uicontrol> button to add a batch of hash
+                    values.</cmd>
+            </step>
+            <step>
+                <cmd>Enable the <uicontrol>Installer</uicontrol> toggle switch to automatically add
+                    all files created or modified by the trusted installer to the Approved
+                    List.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

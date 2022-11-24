@@ -43,6 +43,16 @@
                         Scan</uicontrol>, <uicontrol>Scan Action</uicontrol>, and <uicontrol>Scan
                         Exclusions</uicontrol>.</cmd>
                 <info>
+                    <note id="note_cc5_lf4_pvb">
+                        <p>The <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                >OFFICIAL_PRODUCT_NAME</ph> agents will automatically attempt to
+                            download the latest components before starting a scan. A
+                                <uicontrol>Component Update</uicontrol> toggle is available for
+                            users to deteremine whether the endpoints should continue with the scan
+                            if the component update is unsuccessul.</p>
+                    </note>
+                </info>
+                <info>
                     <ol id="ol_dg2_3fy_j5b">
                         <li>
                             <p>In the <uicontrol>Files to Scan</uicontrol> section, click
@@ -55,6 +65,13 @@
                                         click the "+" or "-" icon to add or delete paths to the
                                         specific folders.</p>
                                 </note><ul id="ul_ddf_rhy_j5b">
+                                    <li>
+                                        <p>(Optional and <ph
+                                                conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                                >OFFICIAL_PRODUCT_NAME</ph> only) Check
+                                                <uicontrol>Scan removable drives</uicontrol> to
+                                            allow scanning files in removable drives</p>
+                                    </li>
                                     <li>
                                         <p>(Optional) Check <uicontrol>Scan compressed
                                                 files</uicontrol> and select the <uicontrol>Maximum
@@ -69,20 +86,54 @@
                                             scanned.</p>
                                     </li>
                                     <li>
-                                        <p>(Optional) Check <uicontrol>Aggressive scan (include all
-                                                OT applications and CA files)</uicontrol> to allow
+                                        <p>(Optional and <ph
+                                                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                                >OFFICIAL_PRODUCT_NAME</ph> only) Check
+                                                <uicontrol>Aggressive scan (include all OT
+                                                applications and CA files)</uicontrol> to allow
                                             scanning files in existing trusted list.</p>
                                     </li>
                                 </ul></p>
                         </li>
                         <li>
-                            <p>In the <uicontrol>Scan Action</uicontrol> section, users pre-define
+                            <p>In the <uicontrol>Scan Action</uicontrol> section, users per-define
                                 the action once threats are detected during the scanning process.
-                                Select <uicontrol>Quarantine</uicontrol> to place the suspcious or
-                                infected files detected in an isolated folder for futher checking.
+                                Select <uicontrol>Quarantine</uicontrol> to place the suspicious or
+                                infected files detected in an isolated folder for further checking.
                                 Select <uicontrol>No action</uicontrol> to produce only a readout of
                                 results with no actions taken on the suspicious files.</p>
+                            <note id="note_ikz_lg4_pvb">
+                                <p>The <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> agents provide more choices such
+                                        as:<ul id="ul_qys_qg4_pvb">
+                                        <li>
+                                            <p><uicontrol>Use ActiveAction</uicontrol>: the
+                                                pre-configured scan actions, which are best to use
+                                                if you are not familiar with scan actions or if you
+                                                are not sure which scan action is suitable.</p>
+                                        </li>
+                                        <li>
+                                            <p><uicontrol>Clean, or delete if the clean action is
+                                                  unsuccessful</uicontrol>: to delete the target
+                                                file if it cannot be recovered.</p>
+                                        </li>
+                                        <li>
+                                            <p><uicontrol>Clean, or quarantine if the clean action
+                                                  is unsuccessful</uicontrol>: to quarantine the
+                                                target file if it cannot be recovered.</p>
+                                        </li>
+                                        <li>
+                                            <p><uicontrol>Clean, or ignore if the clean action is
+                                                  unsuccessful</uicontrol>: to ignore the target
+                                                file if it cannot be recovered.</p>
+                                        </li>
+                                    </ul></p>
+                            </note>
                         </li>
+                    </ol>
+                </info>
+                <info>
+                    <ol id="ol_nns_kg4_pvb">
                         <li>
                             <p>(Optional) The <uicontrol>Scan Exclusions</uicontrol> section
                                 provides users an option to exclude certain folders, files, or file

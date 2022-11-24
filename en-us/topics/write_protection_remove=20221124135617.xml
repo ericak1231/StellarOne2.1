@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_qmn_hp4_pvb">
+    <title>Remove Write Protection</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_kqb_dvc_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Find the <uicontrol>Write Protection</uicontrol> section from the
+                        <wintitle>Exclusions</wintitle> pane.</cmd>
+            </step>
+            <step>
+                <cmd>Check the check box next to the protection type you want to remove.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Delete</uicontrol> button and the <uicontrol>Remove Write
+                        Protection</uicontrol> dialog window will appear.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Confirm</uicontrol> button to remove the selected
+                    entries.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

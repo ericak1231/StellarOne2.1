@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_qmn_hp4_pvb">
+    <title>Add a File, Folder, or Regular Expression as an Exception Path</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Agents</uicontrol>
+                        <uicontrol>All</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd><ph conkeyref="PRODvars/POLICY"/></cmd>
+                <info>
+                    <note id="note_kqb_dvc_jvb">
+                        <p><ph conkeyref="PRODvars/POLICY_NOTE"/></p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Find the <uicontrol>Exception Paths</uicontrol> section from the
+                        <wintitle>Exclusions</wintitle> pane.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Add</uicontrol> button and the <uicontrol>Add Exception
+                        Path</uicontrol> dialog window will appear.</cmd>
+            </step>
+            <step>
+                <cmd>Select one of the exception types: <uicontrol>File</uicontrol>,
+                        <uicontrol>Folder</uicontrol>, or <uicontrol>Regular
+                    Expression</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Input the file system path for your exception.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Add</uicontrol> button to add a single exception path and
+                    the settings will be saved.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

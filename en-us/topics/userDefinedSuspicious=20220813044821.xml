@@ -51,6 +51,15 @@
             <step>
                 <cmd>Click <uicontrol>OK</uicontrol> to complete this task.</cmd>
             </step>
+            <step>
+                <cmd>(Optional) To remove a user-defined suspicious object, select the target
+                    hash/file path and click the <uicontrol>Delete</uicontrol> button next to the
+                        <uicontrol>+Add</uicontrol> button.</cmd>
+            </step>
+            <step>
+                <cmd>A pop-up <uicontrol>Notification</uicontrol> window appears. Click
+                        <uicontrol>Confirm</uicontrol> to delete the selected item.</cmd>
+            </step>
         </steps>
     </taskbody>
 </task>

@@ -6,9 +6,14 @@
     <taskbody>
         <context>
             <p>This function allows users to update the Approved List on selected agents/groups by
-                several simple clicks. The Approved List must be periodically updated so the
+                several simple clicks. Updating the Approved List performs an inventory scan on
+                selected endpoints and adds any new applications found on the endpoints to the
+                global Approved List. The Approved List must be periodically updated so the
                 newly-added applications can run on the endpoints when the Application Lockdown
                 feature is turned on.</p>
+            <p>After setting up the Approved List, users also can add new programs by enabling
+                Maintenance Mode, and the new or modified files will be added to the Approved
+                List.</p>
         </context>
         <steps>
             <step>

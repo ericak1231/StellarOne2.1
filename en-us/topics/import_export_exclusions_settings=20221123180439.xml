@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uhw_4q4_pvb">
+    <title>Export/Import Exclusions Settings</title>
+    <conbody>
+        <p>Exporting and importing exclusions settings allow you to move <ph
+                conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>’s hash
+            values, trusted certificates, exception paths, and write protection settings from one
+            group to another.</p>
+        <note id="note_fpt_yx4_pvb" type="tip">
+            <p>It is advisory to refer to the sections below for configuring the <uicontrol>Trusted
+                    Certificates</uicontrol>, <uicontrol>Trusted Hash Values</uicontrol>,
+                    <uicontrol>Exception Paths,</uicontrol> and <uicontrol>Write
+                    Protection</uicontrol> settings first, and then export the exclusions
+                configuration file from the agent as an template to modify (if needed) and import it
+                to a batch of target agents/groups.</p>
+        </note>
+    </conbody>
+</concept>

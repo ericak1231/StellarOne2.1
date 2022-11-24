@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_qmn_hp4_pvb">
+    <title>Calculate Hash Values</title>
+    <taskbody>
+        <context id="context_e5q_ct4_pvb">
+            <p>Use <uicontrol>File Hash Generator</uicontrol> to calculate hash values before adding
+                trusted hash values.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Find the <uicontrol>Trusted Hash Values</uicontrol> section from the
+                        <wintitle>Exclusions</wintitle> pane.</cmd>
+            </step>
+            <step>
+                <cmd>Download the <uicontrol>File Hash Generator</uicontrol> tool from the
+                        <uicontrol>Trusted Hash Values</uicontrol> area.</cmd>
+            </step>
+            <step>
+                <cmd>Execute <filepath>WKFileHashGen.exe</filepath> from the downloaded folder. The
+                        <wintitle>File Hash Generator</wintitle> screen will appear.</cmd>
+            </step>
+            <step>
+                <cmd>Use any of the following methods to select files and calculate hash
+                    values:</cmd>
+                <info>
+                    <ul id="ul_k23_tt4_pvb">
+                        <li>
+                            <p>Drag and drop folders or files to the <wintitle>File Hash
+                                    Generator</wintitle> screen.</p>
+                        </li>
+                        <li>
+                            <p>Click the drop-down button and click <uicontrol>Add Files</uicontrol>
+                                to select the files to add.</p>
+                        </li>
+                        <li>
+                            <p>Click the drop-down button and click <uicontrol>Add
+                                    Folder</uicontrol> to add all the files in the selected
+                                folder.</p>
+                        </li>
+                    </ul>
+                    <note id="note_yfl_yt4_pvb">
+                        <p>Hash values will appear in the File Hash (SHA-1) column.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>For a single file, right-click the item and select <uicontrol>Copy
+                        hash</uicontrol>. For multiple files, click <uicontrol>Export
+                        All</uicontrol> to generate a list of hash values</cmd>
+                <info>
+                    <note id="note_zm3_c54_pvb">
+                        <ul id="ul_thw_354_pvb">
+                            <li>
+                                <p>To ensure that all necessary files are calculated for hash
+                                    values, it is advisory to add the root folder of the target
+                                    application to the <uicontrol>File Hash Generator</uicontrol>
+                                    for calculation. </p>
+                            </li>
+                            <li>
+                                <p>By clicking the <uicontrol>Add Folder</uicontrol> button, only
+                                    the installer files, script files, and files in the PE (Portable
+                                    Executable) format will be calculated. </p>
+                            </li>
+                        </ul>
+                    </note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

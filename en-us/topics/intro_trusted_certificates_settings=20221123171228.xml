@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uhw_4q4_pvb">
+    <title>Trusted Certificates Settings</title>
+    <conbody>
+        <p>Similar to hash values, trusted certificates are made by the application vendors or
+            organizations to allow <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                >OFFICIAL_PRODUCT_NAME</ph> to know which applications are trustworthy.</p>
+    </conbody>
+</concept>

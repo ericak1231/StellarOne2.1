@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_kjd_skv_pvb">
+    <title>Get Device Information</title>
+    <conbody>
+        <p>To get Device Information, use one of the following methods:</p>
+        <ul id="ul_kxk_yfv_pvb">
+            <li>
+                <p>Open the <uicontrol>Device Manager</uicontrol> on the endpoint.</p>
+            </li>
+            <li>For <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph> agent, use the <codeph>SLCmd.exe</codeph> command on
+                the endpoint. Refer to <xref
+                    href="https://docs.trendmicro.com/all/ent/txone-sp/v1.4/en-us/txsplm_1.4_ag.pdf"
+                    format="html" scope="external">StellarProtect (Legacy Mode) Administrator's
+                    Guide</xref> for more details.</li>
+            <li>
+                <p>On <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, go to the <menucascade>
+                        <uicontrol>Logs</uicontrol>
+                        <uicontrol>Agent Events</uicontrol>
+                    </menucascade> on <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                    console to check the event details about removable devices with Agent Event ID
+                    1281/1282 (<ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph>) or 5000/5001 (<ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph>).</p>
+            </li>
+        </ul>
+        <p>For <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+            agent, you can view the list of trusted USB devices on an endpoint by exporting the
+            agent settings. To manually configure the trusted USB device list on an endpoint, do one
+            of the following: </p>
+        <ul>
+            <li>
+                <p>Export the agent's settings, make changes, and then import the modified settings
+                    back to the agent via <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"
+                    /></p>
+            </li>
+            <li>
+                <p>Import an updated settings file via <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/></p>
+            </li>
+            <li>
+                <p>Use the <codeph>SLCmd.exe</codeph> command on the <ph
+                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> agent</p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

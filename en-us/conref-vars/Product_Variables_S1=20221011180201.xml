@@ -124,6 +124,17 @@
                         <entry colname="4">PRODUCT_SPLM_PREVIOUS_NAME</entry>
                     </row>
                     <row>
+                        <entry colname="1"><ph conkeyref="PRODvars/PRODUCT_SE_TO_SPLM"
+                                >document_part_number</ph></entry>
+                        <entry colname="2"><ph id="PRODUCT_SE_TO_SPLM"><text otherprops="SP"
+                                    >StellarProtect (Legacy Mode)</text><text otherprops="SE"
+                                    >StellarEnforce</text></ph></entry>
+                        <entry colname="3">
+                            <draft-comment author="erica_txone">SE → SPLM transition</draft-comment>
+                        </entry>
+                        <entry colname="4">PRODUCT_SE_TO_SPLM</entry>
+                    </row>
+                    <row>
                         <entry colname="1"><ph conkeyref="PRODvars/IG_PREFACE"/></entry>
                         <entry colname="2"><ph id="IG_PREFACE">This Installation Guide introduces
                                 TXOne <tm tmtype="tm">StellarOne</tm> and guides administrators
@@ -163,7 +174,7 @@
                         <entry><ph conkeyref="PRODvars/POLICY_NOTE"/></entry>
                         <entry><ph id="POLICY_NOTE">For more detailed procedures of how to go to the
                                     <uicontrol>Policy</uicontrol> page, refer to <xref
-                                    href="../topics/go_to_policy_screen=20221031142214.dita"
+                                    href="../topics/go_to_policy_screen=20221031142214.xml"
                             />.</ph></entry>
                         <entry>
                             <draft-comment author="erica_txone">Note or the simple procedures of

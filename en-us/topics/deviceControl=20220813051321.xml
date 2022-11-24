@@ -5,18 +5,22 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Device Control</title>
     <taskbody>
         <context>
-            <p>StellarProtect/StellarProtect (Legacy Mode) agent supports one-time USB access
-                permission on site; while StellarOne console offers permanent USB access permission
-                via remote configuration. For the local agent, when USB device control has been
-                enabled, every time users plug in USB devices, the agent will prompt a message for
-                users to confirm if the USB device access is allowed. On top of that, StellarOne
-                users with administrator or operator role can add trusted USB devices into the
-                    <uicontrol>Device Control</uicontrol> list, allowing the specified devices to
-                access directly without further check, thus facilitating the trusted USB access for
-                good.</p>
+            <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>/<ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                agent supports one-time USB access permission on site; while <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> console offers permanent
+                USB access permission via remote configuration.</p>
+            <p>For the local agent, when USB device control has been enabled, every time users plug
+                in USB devices, the agent will prompt a message for users to confirm if the USB
+                device access is allowed. On top of that, <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> users with administrator
+                or operator role can add trusted USB devices into the <uicontrol>Device
+                    Control</uicontrol> list, allowing the specified devices to access directly
+                without further check, thus facilitating the trusted USB access for good.</p>
             <note id="note_ysz_m4d_jvb">
-                <p>In addition to USB drives, StellarProtect (Legacy Mode) also supports blocking
-                    CD/DVD drives and floppy disks on managed endpoints. </p>
+                <p>In addition to USB drives, <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                        >OFFICIAL_PRODUCT_NAME</ph> also supports blocking CD/DVD drives and floppy
+                    disks on managed endpoints.</p>
             </note>
         </context>
         <steps>

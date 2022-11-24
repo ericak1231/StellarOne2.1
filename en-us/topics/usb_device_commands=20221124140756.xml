@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_nx5_kz5_pvb">
+    <title>Trusted USB Device Commands for <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+            >OFFICIAL_PRODUCT_NAME</ph></title>
+    <refbody>
+        <section id="section_z1j_4z5_pvb">
+            <p><indexterm>trusted USB device commands</indexterm>Configure the trusted USB device
+                list using the Command Line Interface by typing your commands in the following
+                format on <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                    >OFFICIAL_PRODUCT_NAME</ph> agent:</p>
+            <p><userinput>SLCmd.exe -p &lt;admin_password> &lt;command> &lt;parameter>
+                    &lt;value></userinput></p>
+            <p>The following table lists the available abbreviated forms of parameters:</p>
+            <table frame="all" id="table_r3d_zbv_pvb">
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Parameter</p>
+                            </entry>
+                            <entry>
+                                <p>Abbreviation</p>
+                            </entry>
+                            <entry>
+                                <p>Use</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>trustedusbdevice </p>
+                            </entry>
+                            <entry>
+                                <p>tud</p>
+                            </entry>
+                            <entry>
+                                <p>Manage the trusted USB device list</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <p>The following table lists the commands, parameters, and values available:</p>
+            <table frame="all" id="table_hkx_2cv_pvb">
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1.23*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1.75*"/>
+                    <thead>
+                        <row>
+                            <entry>
+                                <p>Command</p>
+                            </entry>
+                            <entry>
+                                <p>Parameter</p>
+                            </entry>
+                            <entry>
+                                <p>Description</p>
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>show usbinfo</p>
+                            </entry>
+                            <entry>
+                                <p>&lt;drive_letter></p>
+                            </entry>
+                            <entry>
+                                <p>Display the identifiers (VID/PID/SN) of a USB storage device. For
+                                    example, if the USB is in D drive, type: <userinput>SLCmd.exe -p
+                                        &lt;admin_password> show usbinfo d</userinput></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>show trustedusbdevice</p>
+                            </entry>
+                            <entry>
+                                <p/>
+                            </entry>
+                            <entry>
+                                <p/>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>add trustedusbdevice</p>
+                            </entry>
+                            <entry>
+                                <p/>
+                            </entry>
+                            <entry>
+                                <p/>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>remove trustedusbdevice</p>
+                            </entry>
+                            <entry>
+                                <p/>
+                            </entry>
+                            <entry>
+                                <p/>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>

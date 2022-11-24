@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uhw_4q4_pvb">
+    <title>Write Protection Settings</title>
+    <conbody>
+        <p>Write protection allows you to protect the details in certain files or folders from being
+            changed by unauthorized users or applications.</p>
+    </conbody>
+</concept>
