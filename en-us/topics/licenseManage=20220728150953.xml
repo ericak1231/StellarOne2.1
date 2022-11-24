@@ -120,8 +120,15 @@
                     <p>Expired: The existing license is out of date.</p>
                     <note id="note_dwm_c24_35b">
                       <p>It is recommended to renew license promptly in order to protect your
-                        devices from virus threat. Please refer to <xref
-                          href="license_key_or_file=20221118135633.dita"/> for license renewal.</p>
+                        devices from virus threat. Please refer to one of the methods listed below
+                        for license renewal.<ul id="ul_qf4_jdw_pvb">
+                          <li>
+                            <p><xref href="licenseRenewal_renew=20220728172943.xml"/></p>
+                          </li>
+                          <li>
+                            <p><xref href="licenseRenewal_license_file=20221118120354.xml"/></p>
+                          </li>
+                        </ul></p>
                     </note>
                   </li>
                 </ul>

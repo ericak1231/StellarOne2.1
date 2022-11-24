@@ -38,15 +38,16 @@
             <topicref href="../topics/licenseManage=20220728150953.xml"/>
             <topicref
                 href="../topics/license_manage_concept=20221118141006.xml">
-                <topicref
-                    href="../topics/license_key_or_file=20221118135633.xml">
+                <topicref href="../topics/license_key_or_file=20221118135633.xml">
                     <topicref
-                        href="../topics/licenseRenewal_license_file=20221118120354.xml">
+                        href="../topics/licenseRenewal_renew=20220728172943.xml"/>
+                    <topicref href="../topics/licenseRenewal_license_file=20221118120354.xml">
                         <topicref
-                            href="../topics/openingConsole_get_license_file=20221111103016.xml"
-                        />
+                            href="../topics/openingConsole_get_license_file=20221111103016.xml"/>
                     </topicref>
                 </topicref>
+                <topicref
+                    href="../topics/licenseRenewal_addAC=20220728172824.xml"/>
             </topicref>
             <topicref
                 href="../topics/licenseEditions=20220811111123.xml">

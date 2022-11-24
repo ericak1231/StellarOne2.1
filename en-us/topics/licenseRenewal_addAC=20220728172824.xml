@@ -2,10 +2,11 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">New License Key</title>
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">New License Key/File</title>
     <taskbody>
         <context id="context_lsx_xq4_35b">
-            <p>If users need to specify a new License Key, follow below procedures.</p>
+            <p>If users need to specify a new License Key or import a new license file, follow below
+                procedures.</p>
         </context>
         <steps>
             <step>
@@ -18,11 +19,18 @@
                 <cmd>Click <uicontrol>New License Key/File</uicontrol> button.</cmd>
             </step>
             <step>
-                <cmd>The <wintitle>New License</wintitle> window appears.</cmd>
-            </step>
-            <step>
-                <cmd>Click <uicontrol>License Key</uicontrol> and specify the new license key in the
-                    text field below.</cmd>
+                <cmd>The <wintitle>New License</wintitle> window appears. Choose one of the ways
+                    based on your need:</cmd>
+                <choices id="choices_yyc_qcw_pvb">
+                    <choice>
+                        <p>Click <uicontrol>License Key</uicontrol> and specify the new license key
+                            in the text field below.</p>
+                    </choice>
+                    <choice>
+                        <p>Click <uicontrol>License File</uicontrol> and select the license file (a
+                                <filepath>.txt</filepath> file) to import.</p>
+                    </choice>
+                </choices>
             </step>
             <step>
                 <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
