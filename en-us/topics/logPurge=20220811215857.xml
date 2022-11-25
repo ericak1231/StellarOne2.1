@@ -5,8 +5,9 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Log Purge</title>
     <taskbody>
         <context>
-            <p>This feature allows users to manage the volume of log files for optimizing
-                StellarOne's disk space usage.</p>
+            <p><indexterm>administration<indexterm>log purge</indexterm></indexterm>This feature
+                allows users to manage the volume of log files for optimizing StellarOne's disk
+                space usage.</p>
         </context>
         <steps id="steps_pt3_g3m_m5b">
             <step>

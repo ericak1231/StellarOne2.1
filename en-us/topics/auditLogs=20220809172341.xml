@@ -5,8 +5,9 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Audit Logs</title>
     <taskbody>
         <context id="context_byv_td5_k5b">
-            <p>The <uicontrol>Audit Logs</uicontrol> screen displays the user activities such as
-                login, logout, or account creation/deletion.</p>
+            <p><indexterm>logs<indexterm>audit logs</indexterm></indexterm>The <uicontrol>Audit
+                    Logs</uicontrol> screen displays the user activities such as login, logout, or
+                account creation/deletion.</p>
         </context>
         <steps>
             <step>

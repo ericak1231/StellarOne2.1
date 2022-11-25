@@ -6,23 +6,8 @@
         One</title>
     <taskbody>
         <context>
-            <p>Users can query for StellarOne's detection logs via Vision One Serach App?</p>
+            <p>Users can query for StellarOne's detection logs via Trend Micro Vision One Serach
+                App?</p>
         </context>
-        <steps otherprops="AG">
-            <step>
-                <cmd>Go to <menucascade>
-                        <uicontrol>Administration</uicontrol>
-                        <uicontrol>OT Intelligent Trust </uicontrol>
-                    </menucascade>.</cmd>
-            </step>
-            <step>
-                <cmd>Click the <uicontrol>Learn More</uicontrol> for visiting TXOne's OT threat
-                    research website.</cmd>
-            </step>
-            <step>
-                <cmd>To enable TXOne OT Intelligent Trust, toggle on the <uicontrol>Enable TXOne OT
-                        Intelligent Trust (recommended)</uicontrol>.</cmd>
-            </step>
-        </steps>
     </taskbody>
 </task>

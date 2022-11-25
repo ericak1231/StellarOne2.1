@@ -4,7 +4,7 @@
 <concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
  <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Policy Management</title>
  <conbody>
-  <p>Unlike the
+  <p><indexterm>policy management</indexterm>Unlike the
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>configurations<?oxy_custom_end?>
    available on the <uicontrol>Agents</uicontrol> screen (which are one-time commands for triggering
    immediate actions), the policy management on the <uicontrol>Policy</uicontrol> page are for

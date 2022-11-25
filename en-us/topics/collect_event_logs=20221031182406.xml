@@ -5,9 +5,10 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Collect Event Logs</title>
     <taskbody>
         <context>
-            <p>Logs contain information about agent activity. <uicontrol>Collect Event
-                    Logs</uicontrol> updates the StellarOne database with the latest information
-                from the selected agents.<note id="note_hzr_ds3_nvb">
+            <p><indexterm>legacy mode<indexterm>collect event logs</indexterm></indexterm>Logs
+                contain information about agent activity. <uicontrol>Collect Event Logs</uicontrol>
+                updates the StellarOne database with the latest information from the selected
+                    agents.<note id="note_hzr_ds3_nvb">
                     <p>Only <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
                             >OFFICIAL_PRODUCT_NAME</ph> supports this function.</p>
                 </note></p>

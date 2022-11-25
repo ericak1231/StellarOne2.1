@@ -5,7 +5,8 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Check Connections</title>
     <taskbody>
         <context>
-            <p>Users can check the connection status of the selected <ph
+            <p><indexterm>legacy mode<indexterm>check connections</indexterm></indexterm>Users can
+                check the connection status of the selected <ph
                     conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
                 agents. This feature also allows the StellarOne administrator to apply policy
                 configuration updates to the selected endpoints immediately.<note

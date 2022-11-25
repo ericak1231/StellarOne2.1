@@ -34,7 +34,7 @@
             <row>
               <entry morerows="1">
                 <p><indexterm>license
-                  models<indexterm>StellarICS</indexterm></indexterm>StellarICS</p>
+                  editions<indexterm>StellarICS</indexterm></indexterm>StellarICS</p>
               </entry>
               <entry>
                 <p>StellarProtect Agent:</p>
@@ -58,20 +58,21 @@
                     <p>Anti-Malware Scan</p><?oxy_custom_end?>
                   </li>
                   <li>
-                    <p>Application Lockdown (with on-demand scanning)</p>
+                    <p>Application Lockdown (with on-demand
+                        scanning)<?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><note
+                        id="note_snl_q2q_lvb">
+                        <p>The feature Anti-Malware Scan added in <ph
+                            conkeyref="LEGALvars/product_version">product_version</ph> is different
+                          from the on-demand scanning. Refer to <xref
+                            href="anti-malware_scanning=20221031162354.xml"/> for more details.</p>
+                      </note><?oxy_custom_end?></p>
                   </li>
-                </ul><?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><note
-                  id="note_snl_q2q_lvb">
-                  <p>The feature Anti-Malware Scan added in <ph
-                      conkeyref="LEGALvars/product_version">product_version</ph> is different from
-                    the on-demand scanning. Refer to <xref
-                      href="anti-malware_scanning=20221031162354.xml"/> for more details.</p>
-                </note><?oxy_custom_end?></entry>
+                </ul></entry>
             </row>
             <row>
               <entry morerows="1">
                 <p><indexterm>license
-                  models<indexterm>StellarKiosk</indexterm></indexterm>StellarKiosk</p>
+                  editions<indexterm>StellarKiosk</indexterm></indexterm>StellarKiosk</p>
               </entry>
               <entry>
                 <p>StellarProtect Agent:</p>
@@ -101,7 +102,7 @@
             <row>
               <entry morerows="1">
                 <p><indexterm>license
-                  models<indexterm>StellarOEM</indexterm></indexterm>StellarOEM</p>
+                  editions<indexterm>StellarOEM</indexterm></indexterm>StellarOEM</p>
               </entry>
               <entry>
                 <p>StellarProtect Agent:</p>
@@ -120,13 +121,11 @@
                         <p>StellarOEM provides permanent use and 5-year technical support for the
                           TXOne Stellar.</p>
                       </li>
+                      <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                      <li>This license edition does not support scan feature.</li><?oxy_custom_end?>
                       <li>
                         <p>StellarOEM was named Perpetual before the TXOne Stellar version 2.0.</p>
                       </li>
-                      <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-                      <li>
-                        <p>For the OEM license edition, the Agents have no scan function.</p>
-                      </li><?oxy_custom_end?>
                     </ul>
                   </p>
                 </note>

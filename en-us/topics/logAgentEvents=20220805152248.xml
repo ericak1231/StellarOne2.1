@@ -5,7 +5,8 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Agent Events</title>
     <taskbody>
         <context id="context_byv_td5_k5b">
-            <p>The <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> collects activities on
+            <p><indexterm>logs<indexterm>agent events</indexterm></indexterm>The <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> collects activities on
                 agents and log them in the <uicontrol>Agent Events</uicontrol>.</p>
         </context>
         <steps>

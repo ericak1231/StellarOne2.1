@@ -62,7 +62,10 @@
                 <p>Device Product</p>
               </entry>
               <entry>
-                <p>StellarProtect</p>
+                <p><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, <ph
+                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>, <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                  >OFFICIAL_PRODUCT_NAME</ph></p>
               </entry>
             </row>
             <row>
@@ -74,7 +77,7 @@
               </entry>
               <entry>
                 <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <p>2.0</p><?oxy_custom_end?>
+                <p>2.0.1155</p><?oxy_custom_end?>
               </entry>
             </row>
             <row>
@@ -85,7 +88,7 @@
                 <p>Event ID</p>
               </entry>
               <entry>
-                <p>{}</p>
+                <p>2509, 6005</p>
               </entry>
             </row>
             <row>

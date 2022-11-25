@@ -8,9 +8,10 @@
 or
 2. separate SP &amp; SPLM?"?>
  <conbody><?oxy_comment_end?>
-  <p>This chapter introduces how to manage <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
-    >OFFICIAL_PRODUCT_NAME</ph>/<ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-    >OFFICIAL_PRODUCT_NAME</ph> agents via StellarOne web console.</p>
+  <p><indexterm>agents</indexterm>This chapter introduces how to manage <ph
+    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>/<ph
+    conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> agents via
+   StellarOne web console.</p>
   <p>Topics in this chapter include:</p>
   <ul id="ul_gkz_bdv_35b" otherprops="PRINT">
    <li>

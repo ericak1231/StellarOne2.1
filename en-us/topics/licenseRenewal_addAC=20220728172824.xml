@@ -5,7 +5,7 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">New License Key/File</title>
     <taskbody>
         <context id="context_lsx_xq4_35b">
-            <p>If users need to specify a new License Key or import a new license file, follow below
+            <p>If users need to activate a new license key or license file, follow below
                 procedures.</p>
         </context>
         <steps>
@@ -16,11 +16,11 @@
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>New License Key/File</uicontrol> button.</cmd>
+                <cmd>Click <uicontrol>New License Key / File</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>The <wintitle>New License</wintitle> window appears. Choose one of the ways
-                    based on your need:</cmd>
+                <cmd>The <wintitle>New License</wintitle> window appears. Choose one of the
+                    ways:</cmd>
                 <choices id="choices_yyc_qcw_pvb">
                     <choice>
                         <p>Click <uicontrol>License Key</uicontrol> and specify the new license key
@@ -29,6 +29,10 @@
                     <choice>
                         <p>Click <uicontrol>License File</uicontrol> and select the license file (a
                                 <filepath>.txt</filepath> file) to import.</p>
+                        <note id="note_nhy_dld_mvb">
+                            <p>If you don't have the license file on hand, refer to <xref
+                                    href="openingConsole_get_license_file=20221111103016.xml"/>.</p>
+                        </note>
                     </choice>
                 </choices>
             </step>

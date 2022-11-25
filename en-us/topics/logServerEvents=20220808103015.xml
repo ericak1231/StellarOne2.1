@@ -5,9 +5,9 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Server Events</title>
     <taskbody>
         <context id="context_byv_td5_k5b">
-            <p>Activities on StellarOne Servers and configuration deployed on the Agents by
-                StellarOne are logged and shown in the <wintitle>Server Events</wintitle>
-                screen.</p>
+            <p><indexterm>logs<indexterm>server events</indexterm></indexterm>Activities on
+                StellarOne Servers and configuration deployed on the Agents by StellarOne are logged
+                and shown in the <wintitle>Server Events</wintitle> screen.</p>
         </context>
         <steps>
             <step>

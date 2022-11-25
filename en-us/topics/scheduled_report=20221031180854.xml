@@ -5,8 +5,9 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Scheduled Report</title>
     <taskbody>
         <context>
-            <p>By configuring the <uicontrol>Scheduled Report</uicontrol>, users can receive a list
-                of all reports that automatically generate on a user-defined schedule. The
+            <p><indexterm>legacy mode<indexterm>scheduled report</indexterm></indexterm>By
+                configuring the <uicontrol>Scheduled Report</uicontrol>, users can receive a list of
+                all reports that automatically generate on a user-defined schedule. The
                     <uicontrol>Scheduled Report</uicontrol> screen also provides basic information
                 about previously configured schedules and recipients, as well as allows users to
                 enable and disable sending scheduled reports</p>

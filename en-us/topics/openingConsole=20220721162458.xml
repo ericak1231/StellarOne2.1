@@ -48,7 +48,7 @@
                                 </li>
                             </ul>
                             <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-                            <note id="note_o4t_xx2_kvb">
+                            <note id="note_o4t_xx2_kvb" otherprops="IG">
                                 <ul id="ul_f4p_ly2_kvb">
                                     <li>
                                         <p>For StellarOne 1.2 or above, the default login name is
@@ -89,24 +89,21 @@
                                             <p>Click <uicontrol>License Key</uicontrol>.</p>
                                         </li>
                                         <li>
-                                            <p>Specify your license key in the text field, and then
-                                                click <uicontrol>Apply</uicontrol>.</p>
+                                            <p>Specify your license key in the text field.</p>
                                         </li>
                                     </ol>
                                 </li>
                             </ul>
                             <ul id="ul_iz2_24s_lvb">
                                 <li>
-                                    <p><b>License File</b>: it is advisory to use this method if the
-                                        StellarOne has not Internet connection</p>
+                                    <p><b>License File</b>:</p>
                                     <ol id="ol_dt3_f4s_lvb">
                                         <li>
                                             <p>Click <uicontrol>License File</uicontrol>.</p>
                                         </li>
                                         <li>
                                             <p>Select the license file (a <filepath>.txt</filepath>
-                                                file) to import, and then click
-                                                  <uicontrol>Apply</uicontrol>.</p>
+                                                file) to import.</p>
                                         </li>
                                     </ol>
                                     <note id="note_nhy_dld_mvb">
@@ -118,6 +115,9 @@
                                 </li>
                             </ul>
                         </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
                     </substep>
                     <substep>
                         <cmd>The <uicontrol>License key is valid</uicontrol> message appears. Click
@@ -134,7 +134,7 @@
                             checkboxes to proceed to next step.</cmd>
                         <info>
                             <note id="note_uql_xw5_35b">
-                                <p>It is recommended to enable <uicontrol>TXOne OT Intelligent
+                                <p>It is advisory to enable <uicontrol>TXOne OT Intelligent
                                         Trust</uicontrol> to enhance security deployment. Please
                                     refer to <xref href="otIntelligentTrust=20220811235612.xml"/>
                                     for more details.</p>

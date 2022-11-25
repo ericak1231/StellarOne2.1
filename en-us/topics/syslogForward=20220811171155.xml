@@ -5,7 +5,8 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Syslog Forwarding</title>
     <taskbody>
         <context>
-            <p>Users can forward the Server and Agent Event logs to an external Syslog server for
+            <p><indexterm>administration<indexterm>syslog forwarding</indexterm></indexterm>Users
+                can forward the Server and Agent Event logs to an external Syslog server for
                 increasing monitoring and management capabilities. TXOne StellarOne console forwards
                 logs in the Common Event Format (CEF). Make sure your Syslog server supports the
                 Common Event Format (CEF).</p>

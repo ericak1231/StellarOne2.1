@@ -16,7 +16,7 @@
           otherprops="PRINT"><?oxy_comment_end?></image>
       </fig>
       <table frame="all" rowsep="1" colsep="1" id="table_yht_yzn_35b">
-        <title>License Information</title>
+        <title>About the License Screen</title>
         <tgroup cols="2">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
           <colspec colname="c2" colnum="2" colwidth="3*"/>
@@ -37,9 +37,8 @@
                     Key</indexterm></indexterm><uicontrol>Renew License Key</uicontrol></p>
               </entry>
               <entry>
-                <p>This button is for users to renew license with the same license key. Refer to
-                    <xref href="licenseRenewal_renew=20220728172943.xml"/> for detailed
-                  instructions.</p>
+                <p>This button is for license renewal using the same license key. Refer to <xref
+                    href="licenseRenewal_renew=20220728172943.xml"/> for more details.</p>
               </entry>
             </row>
             <row>
@@ -48,18 +47,14 @@
                     Key/File</indexterm></indexterm><uicontrol>New License Key/File</uicontrol></p>
               </entry>
               <entry>
-                <p>This button can be used for two purposes.<ul id="ul_eqj_3md_4vb">
-                    <li>
-                      <p>Specifying the new license key
-                        and<?oxy_custom_start type="oxy_content_highlight" color="0,255,0"?>
-                        importing the new license file<?oxy_custom_end?>: <xref
-                          href="licenseRenewal_addAC=20220728172824.xml"/></p>
-                    </li>
-                    <li>
-                      <p>Renewing License by importing the license file: <xref
-                          href="licenseRenewal_license_file=20221118120354.xml"/></p>
-                    </li>
-                  </ul></p>
+                <p>This button is for license activation using new license key or license file.
+                  Refer to <xref href="licenseRenewal_addAC=20220728172824.xml"/> for more
+                    details.<note id="note_czr_rq1_qvb">
+                    <p>This button can also be used for other purpose: license renewal using the
+                      license file. Refer to <xref
+                        href="licenseRenewal_license_file=20221118120354.xml"/> for more
+                      details.</p>
+                  </note></p>
               </entry>
             </row>
             <row>
@@ -67,10 +62,7 @@
                 <p><uicontrol>License Edition</uicontrol></p>
               </entry>
               <entry>
-                <p>Displays current license edition for <ph
-                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
-                  and/or <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                    >OFFICIAL_PRODUCT_NAME</ph>. Please refer to <xref
+                <p>Displays current license edition for Stellar product. Refer to <xref
                     href="licenseEditions=20220811111123.xml"/> for more details.</p>
               </entry>
             </row>
@@ -119,9 +111,9 @@
                   <li>
                     <p>Expired: The existing license is out of date.</p>
                     <note id="note_dwm_c24_35b">
-                      <p>It is recommended to renew license promptly in order to protect your
-                        devices from virus threat. Please refer to one of the methods listed below
-                        for license renewal.<ul id="ul_qf4_jdw_pvb">
+                      <p>It is advisory to renew license promptly to protect your devices against
+                        cybersecurity threats. Refer to one of the methods listed below for license
+                          renewal.<ul id="ul_qf4_jdw_pvb">
                           <li>
                             <p><xref href="licenseRenewal_renew=20220728172943.xml"/></p>
                           </li>
@@ -160,13 +152,11 @@
             </row>
             <row>
               <entry>
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <p><uicontrol>Download the Latest License File</uicontrol></p><?oxy_custom_end?>
+                <p><uicontrol>Download the Latest License File</uicontrol></p>
               </entry>
               <entry>
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <p>Click the link to download the latest license file for importing it to the agents
-                  in the air-gapped environment.</p><?oxy_custom_end?>
+                <p>The link is used to download the latest license file to renew license for
+                  standalone agents.</p>
               </entry>
             </row>
             <row>
@@ -174,7 +164,8 @@
                 <p><uicontrol>Learn More</uicontrol></p>
               </entry>
               <entry>
-                <p>Click the link to go to the online help web page for more details on license.</p>
+                <p>The link directs users to the Online Help web page for more details on
+                  license.</p>
               </entry>
             </row>
           </tbody>

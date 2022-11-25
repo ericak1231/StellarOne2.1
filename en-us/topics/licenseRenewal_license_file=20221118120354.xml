@@ -22,14 +22,16 @@
                 <cmd>Click <uicontrol>License File</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Select the license file (a <filepath>.txt</filepath> file) to import, and then
-                    click <uicontrol>Apply</uicontrol>.</cmd>
+                <cmd>Select the license file (a <filepath>.txt</filepath> file) to import.</cmd>
                 <info>
                     <note id="note_nhy_dld_mvb">
                         <p>If you don't have the license file on hand, refer to <xref
                                 href="openingConsole_get_license_file=20221111103016.xml"/>.</p>
                     </note>
                 </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd>A success message appears. The updated license information will be shown on the

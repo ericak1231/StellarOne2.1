@@ -5,9 +5,10 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Single Sign On</title>
     <taskbody>
         <context id="context_u4t_k4l_m5b">
-            <p>Users who log on with the SAML Identity Provider user account can choose to complete
-                the Single Sign-On (SSO) configuration, which allows to access multiple applications
-                and services using a single set of login credentials.</p>
+            <p><indexterm>administration<indexterm>Single Sign On</indexterm></indexterm>Users who
+                log on with the SAML Identity Provider user account can choose to complete the
+                Single Sign-On (SSO) configuration, which allows to access multiple applications and
+                services using a single set of login credentials.</p>
         </context>
         <steps id="steps_hrr_svl_m5b">
             <step>

@@ -79,8 +79,13 @@
                                 </li>
                                 <li>
                                     <p><b>After installation</b>: Use the
-                                            <filepath>opcmd.exe</filepath> Command Line Interface
-                                        tool on the local StellarProtect Agent.</p>
+                                            <filepath>opcmd.exe</filepath> or
+                                            <filepath>SLCmd.exe</filepath> Command Line Interface
+                                        tool on the local <ph
+                                            conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                            >OFFICIAL_PRODUCT_NAME</ph> or <ph
+                                            conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                            >OFFICIAL_PRODUCT_NAME</ph> Agent.</p>
                                 </li>
                             </ul>
                         </p>

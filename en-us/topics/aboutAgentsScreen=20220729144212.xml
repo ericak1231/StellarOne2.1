@@ -88,9 +88,11 @@
                 <p><uicontrol>Update</uicontrol></p>
               </entry>
               <entry>
-                <p>This tool allows users to update components and deploy patches for agents. Please
-                  refer to <xref href="sPupdateComponents=20220803103820.xml"/> and <xref
-                    href="sPdeployPatch=20220803104012.xml"/> for more details.</p>
+                <p>This tool allows users to update components and deploy patches for agents. Refer
+                  to <xref href="sPupdateComponents=20220803103820.xml"/>, <xref
+                    href="sPdeployPatch=20220803104012.xml"/>, <xref
+                    href="check_connections=20221031182319.xml"/>, and <xref
+                    href="collect_event_logs=20221031182406.xml"/> for more details.</p>
               </entry>
             </row>
             <row>
@@ -98,8 +100,10 @@
                 <p><uicontrol>Import/Export</uicontrol></p>
               </entry>
               <entry>
-                <p>Currently StellarProtect doesn't support the <uicontrol>Import/Export</uicontrol>
-                  tool. This tool is used for StellarProtect (Legacy Mode) agent management.</p>
+                <p>This tool allows users to export and modify (if needed) agent configuration file,
+                  and then import it to a batch of target agents/groups for more efficient
+                  configuration implementation. Refer to <xref
+                    href="agents_import_export=20221031182133.xml"/>.</p>
               </entry>
             </row>
           </tbody>
