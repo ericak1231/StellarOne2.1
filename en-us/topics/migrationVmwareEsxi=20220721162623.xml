@@ -6,26 +6,22 @@
             <p><indexterm>Migrate<indexterm>VMware</indexterm></indexterm>This section describes how
                 to migrate StellarOne to a new instance on VMware ESXi or Workstation. The migration
                 is performed by attaching the external disk of previous StellarOne instance to the
-                StellarOne instance running new firmware version.
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>The migration
-                will transfer the previously configured settings to the new StellarOne instance,
-                including:</p>
-            <ul id="ul_xwp_g2x_25b"><?oxy_custom_end?>
+                StellarOne instance running new firmware version. The migration will transfer the
+                previously configured settings to the new StellarOne instance, including:</p>
+            <ul id="ul_xwp_g2x_25b">
                 <li>
                     <p>The UUID</p>
                 </li>
                 <li>
-                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                    <?oxy_comment_start author="erica_txone" timestamp="20221128T140100+0800" comment="add?" mid="2"?>
-                    <p>The pattern and firmware</p><?oxy_custom_end?><?oxy_comment_end mid="2"?>
+                    <p>The pattern and firmware</p>
                 </li>
                 <li>
-                    <p>agent list &amp; its policy settings, server cert</p>
+                    <p>The agent list, policy settings, and <ph
+                            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> certificates</p>
                 </li>
                 <li>
-                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
                     <p>The system configuration, including license, account information, security
-                        policies, and proxy/SSO settings</p><?oxy_custom_end?>
+                        policies, and proxy/SSO settings</p>
                 </li>
                 <li>
                     <p>Security event logs</p>

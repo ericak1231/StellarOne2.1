@@ -11,10 +11,6 @@
                 <p>StellarOne for AWS supports only BYOL (Bring Your Own License)</p>
             </li>
             <li>
-                <p>Recommended insance types:
-                    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>m3.xlarge<?oxy_custom_end?></p>
-            </li>
-            <li>
                 <p>An external disk with at least 50 GB.</p>
             </li>
         </ul>

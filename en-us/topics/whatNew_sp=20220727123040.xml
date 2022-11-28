@@ -91,15 +91,6 @@
                                     frequency.</p>
                             </entry>
                         </row>
-                        <row>
-                            <entry>
-                                <p>Export Agents Info</p>
-                            </entry>
-                            <entry>
-                                <p>This GUI option allows users to export the information of
-                                    selected or all agents by a simple click.</p>
-                            </entry>
-                        </row>
                     </tbody>
                 </tgroup>
             </table>

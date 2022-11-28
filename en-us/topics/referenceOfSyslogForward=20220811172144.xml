@@ -3,7 +3,7 @@
 
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Agent Event Format</title><?oxy_custom_end?>
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">StellarProtect Agent Event Format</title><?oxy_custom_end?>
   <?oxy_comment_start author="erica_txone" timestamp="20221128T140821+0800" comment="Are SP &amp; SPLM the same?"?>
   <refbody><?oxy_comment_end?>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">

@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
 <concept id="GUID-F4AD6A7E-1798-4E63-A9FE-531434B42DD9" xml:lang="en-us">
-    <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Migration and Upgrade</title>
+    <?oxy_comment_start author="erica_txone" timestamp="20221128T174147+0800" comment="Do we need to add Migration/Upgrade methods specifically for StellarOne deployed on AWS EC2?"?>
+    <title id="GUID-2CCB340C-94E1-4FAE-9863-1741742B3F2B">Migration and Upgrade</title><?oxy_comment_end?>
     <conbody>
         <p>This chapter describes how to migrate TXOne <ph
                 conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> to a new instance or upgrade
                 <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> based on VMware or
             Windows Hyper-Vsystem.</p>
-        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-        <p><b><i>Do we need to add Migration/Upgrade methods specifically for StellarOne deployed on
-                    AWS EC2?</i></b></p><?oxy_custom_end?>
         <p>Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp">
             <li>

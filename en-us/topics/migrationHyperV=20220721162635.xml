@@ -17,11 +17,15 @@
                     <p>The pattern and firmware</p>
                 </li>
                 <li>
-                    <p>The system configuration, including license, account information, security
-                        policies, etc.</p>
+                    <p>The agent list, policy settings, and <ph
+                            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> certificates</p>
                 </li>
                 <li>
-                    <p>The security event logs</p>
+                    <p>The system configuration, including license, account information, security
+                        policies, and proxy/SSO settings</p>
+                </li>
+                <li>
+                    <p>Security event logs</p>
                 </li>
             </ul>
             <note id="note_adg_l2x_25b" type="important">

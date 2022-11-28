@@ -63,18 +63,12 @@
                 </stepxmp>
             </step>
             <step>
-                <?oxy_comment_start author="erica_txone" timestamp="20221125T175724+0800" comment="Jonas: not sure if it&apos;s Elastic IP address or public IP address, update and send to him for overview again"?>
-                <cmd>Use SSH to log in the terminal console
-                    with<?oxy_custom_start type="oxy_content_highlight" color="235,192,230"?><?oxy_custom_end?><?oxy_custom_start type="oxy_content_highlight" color="255,60,255"?>the
-                    public IP
-                    address<?oxy_custom_end?><?oxy_custom_start type="oxy_content_highlight" color="235,192,230"?>.<?oxy_custom_end?></cmd><?oxy_comment_end?>
+                <cmd>Use SSH to log in the terminal console with the external IP address.</cmd>
                 <info>
                     <note id="note_f2f_hcd_qvb" type="important">
                         <p>Ensure that you use <userinput>admin</userinput> as the SSH login
                             username, e.g., type <userinput>ssh -i &lt;private key>.pem
-                                admin@&lt;<?oxy_custom_start type="oxy_content_highlight" color="255,60,255"?>public
-                                IP address<?oxy_custom_end?>></userinput>
-                        </p>
+                                admin@&lt;external IP address></userinput>.</p>
                     </note>
                 </info>
             </step>

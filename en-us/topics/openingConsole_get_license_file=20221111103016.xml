@@ -4,24 +4,34 @@
     <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Getting the License File</title>
     <taskbody>
         <context id="context_xpw_km2_mvb">
-            <p otherprops="IG">The license file can be used for license activation
-                <?oxy_comment_start author="erica_txone" timestamp="20221125T091443+0800" comment="delete?"?>if
-                the StellarOne has no Internet connection.<?oxy_comment_end?></p>
+            <p otherprops="IG">Depending on the license data available from your support provider,
+                you may need a license file to activate license for <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.<note
+                    id="note_lfh_51z_qvb" otherprops="IG">
+                    <p>The license file can be used for license activation if the StellarOne has no
+                        Internet connection.</p>
+                </note></p>
             <p otherprops="AG">The license file can be used for license renewal or new license
                 activation. To get a license file, follow below precedures.</p>
         </context>
         <steps id="steps_gjx_t5d_m4">
-            <step>
+            <step otherprops="AG">
                 <cmd>Go to <menucascade>
                         <uicontrol>Administration</uicontrol>
                         <uicontrol>License</uicontrol>
                     </menucascade></cmd>
             </step>
-            <step>
+            <step otherprops="AG">
                 <cmd>Click the <uicontrol>New License Key / File</uicontrol> button.</cmd>
             </step>
-            <step>
+            <step otherprops="AG">
                 <cmd>The <wintitle>New License</wintitle> window appears.</cmd>
+            </step>
+            <step otherprops="IG">
+                <cmd>When you log on <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                    using your new credentials after the <uicontrol>Login Information
+                        Setup</uicontrol> procedure, the <wintitle otherprops="IG">License
+                        Activation</wintitle> window appears.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Copy Download Link for getting the License File</uicontrol> at

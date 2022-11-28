@@ -8,7 +8,7 @@
         </context>
         <steps id="steps_gjx_t5d_m4">
             <step>
-                <cmd>Log on the AWS EC2 console and go to <menucascade>
+                <cmd>Log on the AWS and go to <menucascade>
                         <uicontrol>AWS Markeplace</uicontrol>
                         <uicontrol>Discover products</uicontrol>
                     </menucascade>.</cmd>
@@ -18,15 +18,27 @@
                     Management Console.</cmd>
             </step>
             <step>
-                <cmd>Read carefully information such as the product overview and pricing, proceed
-                    with the subsription process.</cmd>
+                <cmd>Read the information such as the product overview and pricing carefully, and
+                    then proceed with the subscription process.</cmd>
             </step>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
             <step>
-                <cmd>TBD</cmd>
-            </step><?oxy_custom_end?>
+                <cmd>After accepting the terms and conditions for using StellarOne, choose the
+                        <uicontrol>Fulfillment option</uicontrol>, <uicontrol>Software
+                        version</uicontrol>, and <uicontrol>Region</uicontrol> to launch this
+                    software.</cmd>
+            </step>
             <step>
-                <cmd>Go to <menucascade>
+                <cmd>Select <uicontrol>Launch through EC2</uicontrol> as the launch action.</cmd>
+                <stepxmp>
+                    <fig id="fig_xfb_x3z_qvb">
+                        <title>Launch Action</title>
+                        <image href="../images/aws_launch_through_ec2=20221128181931.png"
+                            id="image_hfm_y3z_qvb"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>On the EC2 platform, go to <menucascade>
                         <uicontrol>Images</uicontrol>
                         <uicontrol>AMIs</uicontrol>
                     </menucascade>.</cmd>
@@ -56,10 +68,21 @@
                 <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
                 <cmd>Select a supported instance type.</cmd><?oxy_custom_end?>
                 <stepxmp>
+                    <fig id="fig_q1s_x2z_qvb">
+                        <title>Select an Instance Type</title>
+                        <image href="../images/aws_instant_type_restriction=20221128174942.png"
+                            id="image_vdj_z2z_qvb"/>
+                    </fig>
                     <fig id="fig_lgg_nnv_d5b">
-                        <title>Insance type</title>
+                        <title>Information of Selected Insance Type</title>
                         <image href="../images/ami_3=20221110001503.png" id="image_jc4_vmv_d5b"/>
                     </fig>
+                    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                    <note id="note_wst_3fz_qvb">
+                        <p>The instant types that do not meet <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s system
+                            requirements will be unavailable for selection.</p>
+                    </note><?oxy_custom_end?>
                 </stepxmp>
             </step>
             <step>
@@ -75,8 +98,7 @@
                             </fig>
                         </li>
                         <li>
-                            <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Configure
-                                    <uicontrol>Network settings</uicontrol><?oxy_custom_end?>: <ul
+                            <p>Configure <uicontrol>Network settings</uicontrol>: <ul
                                     id="ul_g1d_5tw_qvb">
                                     <li>
                                         <p>Be sure to create security group for allowing specific
@@ -103,16 +125,15 @@
                                                   conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                                   >OFFICIAL_PRODUCT_NAME</ph> or <ph
                                                   conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                                  >OFFICIAL_PRODUCT_NAME</ph>, an access to your
+                                                  >OFFICIAL_PRODUCT_NAME</ph>, access to your
                                                 instance.</p>
                                         </li>
-                                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
                                         <li>
-                                            <p>We suggest that you allow 443 or 22, <ph
+                                            <p>For security reasons, it is advisory to allow 443 or
+                                                22, the web port or SSH port for <ph
                                                   conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"
-                                                />'s web port or SSH port, to be accessible from
-                                                your public IP address.</p>
-                                        </li><?oxy_custom_end?>
+                                                />, to be accessible from trusted IP address.</p>
+                                        </li>
                                     </ul>
                                 </note></p>
                             <fig id="fig_l22_4nv_d5b">
