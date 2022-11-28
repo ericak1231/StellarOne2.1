@@ -2,8 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
 
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
-  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Agent Event Format</title>
-  <refbody>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Agent Event Format</title><?oxy_custom_end?>
+  <?oxy_comment_start author="erica_txone" timestamp="20221128T140821+0800" comment="Are SP &amp; SPLM the same?"?>
+  <refbody><?oxy_comment_end?>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
       <p>Please refer to below table as StellarProtect's agent events in the Common Event
         Format.</p>
@@ -99,7 +101,8 @@
                 <p>Event category</p>
               </entry>
               <entry>
-                <p>Agent Event</p>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <p>Agent Event</p><?oxy_custom_end?>
               </entry>
             </row>
             <row>
@@ -111,9 +114,10 @@
                 <p>LOG_WARNING: 4</p>
                 <p>LOG_INFO: 6</p>
               </entry>
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
               <entry>
                 <p>{2, 4, 6}</p>
-              </entry>
+              </entry><?oxy_custom_end?>
             </row>
             <row>
               <entry namest="c1" nameend="c3">
@@ -121,9 +125,10 @@
               </entry>
             </row>
             <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
               <entry>
                 <p>eventTime</p>
-              </entry>
+              </entry><?oxy_custom_end?>
               <entry>
                 <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
                 <p>StellarProtect format</p><?oxy_custom_end?>
@@ -137,10 +142,27 @@
                 <p>msg</p>
               </entry>
               <entry>
-                <p>&lt;string></p>
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                <p>&lt;string></p><?oxy_custom_end?>
               </entry>
-              <entry/>
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+              <entry>
+                <p/>
+              </entry><?oxy_custom_end?>
             </row>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <?oxy_comment_start author="erica_txone" timestamp="20221128T141356+0800" comment="SPLM only" mid="10"?>
+            <row>
+              <entry>
+                <p>dvchost</p>
+              </entry>
+              <entry>
+                <p>Computer name</p>
+              </entry>
+              <entry>
+                <p>Localhost</p>
+              </entry>
+            </row><?oxy_custom_end?><?oxy_comment_end mid="10"?>
             <row>
               <entry>
                 <p>category</p>
@@ -165,6 +187,8 @@
               </entry>
               <entry/>
             </row>
+            <?oxy_comment_start author="erica_txone" timestamp="20221128T141442+0800" comment="SPLM: dvc
+IP address"?>
             <row>
               <entry>
                 <p>agentIp</p>
@@ -173,7 +197,7 @@
                 <p>&lt;string></p>
               </entry>
               <entry/>
-            </row>
+            </row><?oxy_comment_end?>
             <row>
               <entry>
                 <p>agentLocation</p>
@@ -201,6 +225,14 @@
               </entry>
               <entry/>
             </row>
+            <?oxy_comment_start author="erica_txone" timestamp="20221128T141656+0800" comment="SPLM: cs2Label (Client OS)
+
+cs2 (OS description)
+
+cs3Label / cs3: client description
+
+suser: Login user
+act (Action Type)"?>
             <row>
               <entry>
                 <p>agentOS</p>
@@ -209,7 +241,7 @@
                 <p>&lt;string></p>
               </entry>
               <entry/>
-            </row>
+            </row><?oxy_comment_end?>
             <row>
               <entry>
                 <p>policyVersion</p>
@@ -219,6 +251,9 @@
               </entry>
               <entry/>
             </row>
+            <?oxy_comment_start author="erica_txone" timestamp="20221128T141506+0800" comment="SPLM: cs1 Label?
+
+difference with cs1 (Event ID mapped detailed message)"?>
             <row>
               <entry>
                 <p>detailMsg</p>
@@ -227,7 +262,7 @@
                 <p>&lt;string></p>
               </entry>
               <entry/>
-            </row>
+            </row><?oxy_comment_end?>
             <row>
               <entry>
                 <p>targetProcess</p>
@@ -239,7 +274,9 @@
             </row>
             <row>
               <entry>
-                <p>fileHash</p>
+                <?oxy_comment_start author="erica_txone" timestamp="20221128T141917+0800" comment="SPLM: fileHash (SHA1)
+"?>
+                <p>fileHash</p><?oxy_comment_end?>
               </entry>
               <entry>
                 <p>&lt;string></p>
@@ -264,6 +301,13 @@
               </entry>
               <entry/>
             </row>
+            <?oxy_comment_start author="erica_txone" timestamp="20221128T141951+0800" comment="SPLM: filePath + example
+
+fileCreateTime
+fileModificationTime
+
+logGuid
+ServerIP"?>
             <row>
               <entry>
                 <p>filePath</p>
@@ -272,7 +316,7 @@
                 <p>&lt;string></p>
               </entry>
               <entry/>
-            </row>
+            </row><?oxy_comment_end?>
             <row>
               <entry>
                 <p>actionResult </p>

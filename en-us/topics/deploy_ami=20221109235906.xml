@@ -9,6 +9,24 @@
         <steps id="steps_gjx_t5d_m4">
             <step>
                 <cmd>Log on the AWS EC2 console and go to <menucascade>
+                        <uicontrol>AWS Markeplace</uicontrol>
+                        <uicontrol>Discover products</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Type <userinput>TXOne Networks</userinput> in the search bar to find StellarOne
+                    Management Console.</cmd>
+            </step>
+            <step>
+                <cmd>Read carefully information such as the product overview and pricing, proceed
+                    with the subsription process.</cmd>
+            </step>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <step>
+                <cmd>TBD</cmd>
+            </step><?oxy_custom_end?>
+            <step>
+                <cmd>Go to <menucascade>
                         <uicontrol>Images</uicontrol>
                         <uicontrol>AMIs</uicontrol>
                     </menucascade>.</cmd>
@@ -36,7 +54,7 @@
             </step>
             <step>
                 <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-                <cmd>Select a supported instance.</cmd><?oxy_custom_end?>
+                <cmd>Select a supported instance type.</cmd><?oxy_custom_end?>
                 <stepxmp>
                     <fig id="fig_lgg_nnv_d5b">
                         <title>Insance type</title>
@@ -57,16 +75,45 @@
                             </fig>
                         </li>
                         <li>
-                            <p>Configure <uicontrol>Network settings</uicontrol>: <note
-                                    id="note_imw_g1t_lvb">
-                                    <p>Be sure to create security group for allowing specific data
-                                        exchanges to access your instance. It is required to enable
-                                        the <uicontrol>HTTPS traffic from the Internet</uicontrol>
-                                        to allow StellarOne to manage endpoints on the network. If
-                                        you have the need for SSH login, you can also enable the
-                                            <uicontrol>Allow SSH traffic from</uicontrol> and select
-                                            <uicontrol>Anywhere</uicontrol> or specify the IP
-                                        address.</p>
+                            <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Configure
+                                    <uicontrol>Network settings</uicontrol><?oxy_custom_end?>: <ul
+                                    id="ul_g1d_5tw_qvb">
+                                    <li>
+                                        <p>Be sure to create security group for allowing specific
+                                            data exchanges to access your instance. It is required
+                                            to enable the <uicontrol>HTTPS traffic from the
+                                                Internet</uicontrol> to allow StellarOne to manage
+                                            endpoints on the network.</p>
+                                    </li>
+                                    <li>(Optional) If you have the need for SSH login, you can also
+                                        enable the <uicontrol>Allow SSH traffic from</uicontrol> and
+                                        select <uicontrol>Anywhere</uicontrol> or specify the IP
+                                        address.</li>
+                                </ul><note id="note_imw_g1t_lvb">
+                                    <p>Refer to the table <xref
+                                            href="sEremovedPortsFqdnUsed=20220818165255.xml"
+                                            >StellarOne Occupied Ports</xref> for configuring the
+                                        ports that should have access to <ph
+                                            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"
+                                            >.</ph>.</p>
+                                    <ul id="ul_jb1_jjx_qvb">
+                                        <li>
+                                            <p>Be sure to grant 8000 or 9443, the dedicated port for
+                                                  <ph
+                                                  conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
+                                                  >OFFICIAL_PRODUCT_NAME</ph> or <ph
+                                                  conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                                  >OFFICIAL_PRODUCT_NAME</ph>, an access to your
+                                                instance.</p>
+                                        </li>
+                                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                                        <li>
+                                            <p>We suggest that you allow 443 or 22, <ph
+                                                  conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"
+                                                />'s web port or SSH port, to be accessible from
+                                                your public IP address.</p>
+                                        </li><?oxy_custom_end?>
+                                    </ul>
                                 </note></p>
                             <fig id="fig_l22_4nv_d5b">
                                 <title>Network settings</title>

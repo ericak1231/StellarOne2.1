@@ -29,6 +29,27 @@
         <tbody>
           <row>
             <entry>
+              <fig id="fig_mts_ynb_qvb">
+                <image href="../images/filter_options_computer_icon=20221125114615.png"
+                  id="image_ns3_znb_qvb" scalefit="yes" scale="20"/>
+              </fig>
+            </entry>
+            <entry>
+              <p>This icon provides three filter options:<ul id="ul_ebq_d4b_qvb">
+                  <li>
+                    <p>Active Agents: the agents with license seats</p>
+                  </li>
+                  <li>
+                    <p>Inactive Agents: the agents without license seats</p>
+                  </li>
+                  <li>
+                    <p>Ungrouped Agents: the agents that are not grouped.</p>
+                  </li>
+                </ul></p>
+            </entry>
+          </row>
+          <row>
+            <entry>
               <p>Name</p>
             </entry>
             <entry>
