@@ -5,7 +5,7 @@
     <topicref href="../topics/ch2InstallationPlanning=20220721162918.xml">
         <topicref href="../topics/systemRequirements=20220721162008.xml"/>
         <topicref
-            href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarOne/en-us/topics/hardware_requirements_intro=20221129112607.xml">
+            href="../topics/hardware_requirements_intro=20221129112607.xml">
             <topicref href="../topics/sizingTableVmwareEsxi=20220721162115.xml"/>
             <topicref href="../topics/sizingTableHyperV=20220721162132.xml"/>
             <topicref href="../topics/instant_types=20221111094622.xml"/>
