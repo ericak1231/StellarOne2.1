@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_nf1_nn2_rvb">
+    <title>Hardware Requirements</title>
+    <conbody>
+        <p>Hardware requirements vary depending on the number of agents and logs that will be
+            configured and retained. Please refer to the sections below for determining the optimal
+            number of agents that your StellarOne server deployment can manage on different
+            platforms.</p>
+    </conbody>
+</concept>

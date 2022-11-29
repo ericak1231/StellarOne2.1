@@ -10,8 +10,7 @@
         </context>
         <steps id="steps_wvw_g5y_g5b">
             <step>
-                <cmd>Deploy a StellarOne virtual machine based on VMware ESXi or Workstation,
-                    Windows Hyper-V, or
+                <cmd>Deploy a StellarOne instance on VMware ESXi or Workstation, Windows Hyper-V, or
                     <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>AWS EC2
                     platform.<?oxy_custom_end?></cmd>
             </step>

@@ -3,6 +3,7 @@
 <concept id="concept_pyd_d3r_c5b">
     <title>StellarOne Onboarding to Windows Hyper-V</title>
     <conbody>
-        <p>This section describes how to deploy StellarOne to Windows Hyper-V system.</p>
+        <p><indexterm>installation</indexterm>This section describes how to deploy StellarOne to the
+            Windows Hyper-V system.</p>
     </conbody>
 </concept>

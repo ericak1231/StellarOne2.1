@@ -4,10 +4,9 @@
     <title>Hardware Requirements for VMware System</title>
     <refbody>
         <section id="section_ukg_jvy_c5b">
-            <p><indexterm>hardware requirements for VMware</indexterm>Hardware requirements vary
-                depending on the number of agents and logs that will be configured and retained.
-                Please refer to below tables for determining the optimal number of agents that your
-                StellarOne server deployment can manage.</p>
+            <p><indexterm>hardware requirements for VMware</indexterm>Refer to the tables below for
+                determining the optimal number of agents that your StellarOne server deployment can
+                manage on the VMware system.</p>
         </section>
         <section id="section_eh3_5t3_25b">
             <table frame="all" rowsep="1" colsep="1" id="table_yjw_tbz_c5b">
@@ -193,9 +192,10 @@
                 </tgroup>
             </table>
             <p>To determine the ideal specifications for your exernal HDD, please refer to the
-                following formula:<equation-inline>[Output log numbers for a single agent per day] x
-                    [Log storage period in days] x [Total number of agents]</equation-inline></p>
-            <p>Example: External HDD size for 20,000 agents</p>
+                following formula:</p>
+            <p><equation-inline><b>[Output log numbers for a single agent per day] x [Log storage
+                        period in days] x [Total number of agents]</b></equation-inline></p>
+            <p><b>Example:</b> External HDD size for 20,000 agents</p>
             <ul id="ul_tmr_d3z_c5b">
                 <li>
                     <p>Output log numbers for a single agent per day: 100 events</p>
@@ -207,9 +207,31 @@
                     <p>Total number of agents: 20,000 agents</p>
                 </li>
             </ul>
-            <p>Total number of logs: <equation-block id="equation-block_om5_j3z_c5b">100 x 30 x
-                    20000 = 60,000,000 Logs</equation-block></p>
+            <p><b>Total number of logs:</b>
+                <equation-block id="equation-block_om5_j3z_c5b"><b>100 x 30 x 20000 = 60,000,000
+                        Logs</b></equation-block></p>
             <p>In this case, it would be required to prepare 100 GB for storage space.</p>
+            <note id="note_y5g_sl3_25b">
+                <p>
+                    <ol id="ol_pwg_tl3_25b">
+                        <li>
+                            <p>The StellarOne requires one external disk with at least 50 GB minimum
+                                space for initialization and booting process.</p>
+                        </li>
+                        <li>
+                            <p>The external disk is used to store the system configurations and
+                                event logs. You may reuse the external disk of a terminated
+                                StellarOne instance if you want to migrate the previous
+                                configurations and logs to a new StellarOne instance.</p>
+                        </li>
+                        <li>
+                            <p>Please also take the network bandwidth into consideration when
+                                planning for agent deployment. Refer to <xref
+                                    href="deploymentTime=20220721162758.xml"/> for more details.</p>
+                        </li>
+                    </ol>
+                </p>
+            </note>
         </section>
     </refbody>
 </reference>

@@ -32,8 +32,8 @@
                 <cmd>Choose the target instance.</cmd>
                 <info>
                     <note id="note_r25_wyc_mvb">
-                        <p>You can search for a specific instance by typing keyword in the search
-                            bar.</p>
+                        <p>You can search for a specific instance by typing relevant strings in the
+                            search bar.</p>
                     </note>
                 </info>
             </step>
@@ -63,20 +63,22 @@
                 </stepxmp>
             </step>
             <step>
-                <cmd>Use SSH to log in the terminal console with the external IP address.</cmd>
-                <info>
-                    <note id="note_f2f_hcd_qvb" type="important">
-                        <p>Ensure that you use <userinput>admin</userinput> as the SSH login
-                            username, e.g., type <userinput>ssh -i &lt;private key>.pem
-                                admin@&lt;external IP address></userinput>.</p>
-                    </note>
-                </info>
+                <cmd>You can use the Elastic IP address to log on StellarOne via a web browser or
+                    via SSH.</cmd>
             </step>
             <step>
-                <cmd>Replace the IP address for the StellarOne instance with the Elastic IP address
-                    by typing:</cmd>
+                <cmd>(Optional) To access StellarOne via SSH:</cmd>
                 <info>
-                    <p><userinput>env exip &lt;the elastic IP address></userinput></p>
+                    <ul id="ul_twf_yjg_rvb">
+                        <li>
+                            <p>Use SSH to log in the terminal console with the Elastic IP
+                                address.</p>
+                        </li>
+                        <li>
+                            <p>Replace the IP address with the Elastic IP address by typing:
+                                    <userinput>env exip &lt;the elastic IP address></userinput></p>
+                        </li>
+                    </ul>
                 </info>
             </step>
         </steps>

@@ -81,7 +81,7 @@
                                         >OFFICIAL_PRODUCT_NAME</ph></p>
                             </entry>
                             <entry>
-                                <p>In addition to the existing component update schedule function of
+                                <p>In addition to the existing component update schedule feature of
                                     the <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
                                     console, now users can also configure the component update
                                     schedule for the <ph

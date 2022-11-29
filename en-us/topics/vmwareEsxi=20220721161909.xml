@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd"><task id="GUID-520F37FF-48AB-4225-AB65-EB45305114CD" xml:lang="en-us">
-    <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Deploying StellarOne in the VMware
+    <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Deploying StellarOne on the VMware
         ESXi</title>
     <taskbody>
         <context id="GUID-CAD7BEDC-492D-4151-BCB7-1467EFD0B3CC">
-            <p>Below section details procedures of deploying StellarOne from an OVA file in a VMware
+            <p><indexterm>installation<indexterm>Deploy on VMware ESXi</indexterm></indexterm>Below
+                section details procedures of deploying StellarOne from an OVA file to the VMware
                 ESXi system.</p>
         </context>
         <steps id="steps_gjx_t5d_m4">
@@ -36,8 +37,8 @@
                 </stepxmp>
             </step>
             <step>
-                <cmd>Input a name for your new StellarOne virtual machine and then select the
-                    StellarOne disk image to upload.</cmd>
+                <cmd>Input a name for your new StellarOne instance and then select the StellarOne
+                    disk image to upload.</cmd>
                 <stepxmp>
                     <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
                     <fig id="fig_py1_c4v_d5b">
@@ -49,7 +50,7 @@
                 </stepxmp><?oxy_comment_end?>
             </step>
             <step>
-                <cmd>Choose a strorage location for the StellarOne virtual machine.</cmd>
+                <cmd>Choose a strorage location for the StellarOne instance.</cmd>
                 <stepxmp>
                     <fig id="fig_btw_g4v_d5b">
                         <title>Select storage</title>
@@ -80,7 +81,7 @@
                 </stepxmp>
             </step>
             <step>
-                <cmd>Under the <wintitle>Recent Tasks</wintitle>pane, you will see a progress bar
+                <cmd>Under the <wintitle>Recent Tasks</wintitle> pane, you will see a progress bar
                     indicating the StellarOne image is being uploaded. Please wait until the upload
                     is finished.</cmd>
             </step>
@@ -89,7 +90,7 @@
                     instance.</cmd>
                 <substeps id="substeps_qhb_hy5_d5b">
                     <substep>
-                        <cmd>Close the StellarOne instance if it is open</cmd>
+                        <cmd>Close the StellarOne instance if it is open.</cmd>
                     </substep>
                     <substep>
                         <cmd>The external disk capacity is determined by the number of logs to be
@@ -139,14 +140,15 @@
                             </table>
                         </info>
                         <info>
-                            <p>To determine the ideal specifications for your external HDD, please
-                                refer to the following formula:</p>
-                            <equation-block id="equation-block_vq5_cz5_d5b">[Output log numbers for
-                                a singel agent per day] x [Log storage period in days] x [Total
-                                number of agents]</equation-block>
+                            <p>To determine the ideal specifications for your external HDD, refer to
+                                the following formula:</p>
+                            <equation-block id="equation-block_vq5_cz5_d5b"><b>[Output log numbers
+                                    for a singel agent per day] x [Log storage period in days] x
+                                    [Total number of agents]</b></equation-block>
                         </info>
                         <stepxmp>
-                            <p>External HDD capacity for 20,000 agents</p>
+                            <p>For example, to calcuate the external HDD capacity required for
+                                20,000 agents on the assumption that:</p>
                             <ul id="ul_xln_b1v_d5b">
                                 <li>
                                     <p>Output log number for a single agent per day: 100 events</p>
@@ -158,18 +160,19 @@
                                     <p>Total number of agents: 20,000 agents</p>
                                 </li>
                             </ul>
-                            <p>Total number of logs: <equation-block><equation-number>100 x 30 x
+                            <p>The total number of logs: <equation-block><equation-number>100 x 30 x
                                         20,000 = 60,000,000
                                 logs</equation-number></equation-block></p>
-                            <p>For this case, it is requred to prepare an external disk with
-                                capacity of 100 GB for storage space.</p>
+                            <p>In this case, it is requred to prepare an external disk with capacity
+                                of 100 GB for storage space.</p>
                         </stepxmp>
                     </substep>
                     <substep>
-                        <cmd>Add the external disk by following steps: <menucascade>
+                        <cmd>Follow the procedures to add the external disk: <menucascade>
                                 <uicontrol>Actions</uicontrol>
                                 <uicontrol>Edit Settings</uicontrol>
                                 <uicontrol>Add Hard Disk</uicontrol>
+                                <uicontrol>New hard disk</uicontrol>
                                 <uicontrol>Save</uicontrol>
                             </menucascade></cmd>
                         <stepxmp>
@@ -187,8 +190,8 @@
                         </stepxmp>
                     </substep>
                     <substep>
-                        <cmd>If you must increase the number of logs which StellarOne can store,
-                            please refer to below steps.</cmd>
+                        <cmd>If you need to increase the number of logs StellarOne can store, follow
+                            the procedures.</cmd>
                         <info>
                             <ol id="ol_k1j_nbv_d5b">
                                 <li>
@@ -199,8 +202,9 @@
                                         requirements</p>
                                 </li>
                                 <li>
-                                    <p>Restart the instance of StellarOne. After that, the storage
-                                        available for StellarOne's log files will be expanded.</p>
+                                    <p>Restart the StellarOne instance. After that, the storage
+                                        space available for StellarOne log files will be
+                                        expanded.</p>
                                 </li>
                             </ol>
                         </info>
@@ -216,7 +220,7 @@
                     <note id="note_wgg_tfv_d5b">
                         <ol id="ol_jbv_vfv_d5b">
                             <li>
-                                <p>StellarOne requires one external disk with minumim capacity above
+                                <p>StellarOne requires one external disk with minimum capacity above
                                     50GB; otherwise, StellarOne will not finish initialization and
                                     will not complete the boot process.</p>
                             </li>
@@ -246,9 +250,9 @@
                     configurations based on the default setting (8-core CPU, 16 GB Memory).</cmd>
                 <substeps id="substeps_gxj_rgv_d5b">
                     <substep>
-                        <cmd>Shut down the instance of StellarOne and click
-                                <uicontrol>Edit</uicontrol>. The <uicontrol>Edit
-                                Settings</uicontrol> window will appear.</cmd>
+                        <cmd>Shut down the StellarOne instance and click
+                            <uicontrol>Edit</uicontrol>. The <uicontrol>Edit Settings</uicontrol>
+                            window will appear.</cmd>
                     </substep>
                     <substep>
                         <cmd>Configure the number of CPU cores.</cmd>

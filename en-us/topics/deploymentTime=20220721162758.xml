@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_tkg_jvy_c5b">
-    <title>Agent Deployment Plan</title>
+    <title>Planning Network Bandwidth for Agent Deployment</title>
     <refbody>
         <section id="section_ukg_jvy_c5b">
             <p><indexterm>agent deployment plan</indexterm>Please take network bandwidth into

@@ -4,10 +4,9 @@
     <title>Hardware Requirements for Hyper-V System</title>
     <refbody>
         <section id="section_ukg_jvy_c5b">
-            <p><indexterm>hardware requirements for Hyper-V</indexterm> Hardware requirements vary
-                depending on the number of agents and logs that will be configured and retained.
-                Please refer to below tables for determining the optimal number of agents that your
-                StellarOne server deployment can manage.</p>
+            <p><indexterm>hardware requirements for Hyper-V</indexterm>Refer to the tables below for
+                determining the optimal number of agents that your StellarOne server deployment can
+                manage on the Hyper-V system.</p>
         </section>
         <section id="section_eh3_5t3_25b">
             <table frame="all" rowsep="1" colsep="1" id="table_yjw_tbz_c5b">
@@ -211,6 +210,11 @@
                                 event logs. You may reuse the external disk of a terminated
                                 StellarOne instance if you want to migrate the previous
                                 configurations and logs to a new StellarOne instance.</p>
+                        </li>
+                        <li>
+                            <p>Please also take the network bandwidth into consideration when
+                                planning for agent deployment. Refer to <xref
+                                    href="deploymentTime=20220721162758.xml"/> for more details.</p>
                         </li>
                     </ol>
                 </p>

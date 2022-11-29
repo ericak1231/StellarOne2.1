@@ -3,45 +3,49 @@
     <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Deploying StellarOne on AWS EC2</title>
     <taskbody>
         <context id="GUID-CAD7BEDC-492D-4151-BCB7-1467EFD0B3CC">
-            <p>Below section details procedures of deploying StellarOne from BYOL AMI on the AWS EC2
+            <p><indexterm>installation<indexterm>Deploy on AWS EC2</indexterm></indexterm>Below
+                section details procedures of deploying StellarOne from BYOL AMI on the AWS EC2
                 platform.</p>
         </context>
         <steps id="steps_gjx_t5d_m4">
             <step>
-                <cmd>Log on the AWS and go to <menucascade>
-                        <uicontrol>AWS Markeplace</uicontrol>
-                        <uicontrol>Discover products</uicontrol>
-                    </menucascade>.</cmd>
+                <cmd>Go to the <wintitle>AWS Markeplace</wintitle> homepage.</cmd>
             </step>
             <step>
-                <cmd>Type <userinput>TXOne Networks</userinput> in the search bar to find StellarOne
-                    Management Console.</cmd>
+                <cmd>Enter the search string such as TXOne or StellarOne in the search bar and then
+                    run the search.</cmd>
             </step>
             <step>
-                <cmd>Read the information such as the product overview and pricing carefully, and
-                    then proceed with the subscription process.</cmd>
+                <cmd>Click the search result and read the product information carefully before
+                    proceeding to the subscription process.</cmd>
             </step>
             <step>
                 <cmd>After accepting the terms and conditions for using StellarOne, choose the
                         <uicontrol>Fulfillment option</uicontrol>, <uicontrol>Software
-                        version</uicontrol>, and <uicontrol>Region</uicontrol> to launch this
-                    software.</cmd>
+                        version</uicontrol>, and <uicontrol>Region</uicontrol> to launch
+                    StellarOne.</cmd>
             </step>
             <step>
                 <cmd>Select <uicontrol>Launch through EC2</uicontrol> as the launch action.</cmd>
                 <stepxmp>
                     <fig id="fig_xfb_x3z_qvb">
-                        <title>Launch Action</title>
+                        <title>Select a Launch Action</title>
                         <image href="../images/aws_launch_through_ec2=20221128181931.png"
                             id="image_hfm_y3z_qvb"/>
                     </fig>
                 </stepxmp>
             </step>
             <step>
-                <cmd>On the EC2 platform, go to <menucascade>
+                <cmd>Log on the AWS EC2 console.</cmd>
+            </step>
+            <step>
+                <cmd>Go to <menucascade>
                         <uicontrol>Images</uicontrol>
                         <uicontrol>AMIs</uicontrol>
                     </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Select the region you chose in step 4.</cmd>
                 <stepxmp>
                     <fig id="fig_abf_44c_25b">
                         <title>AMIs</title>
@@ -54,7 +58,7 @@
                 <cmd>Find the target AMI from the list of <uicontrol>AMI ID</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Check the target AMI and click <uicontrol>Launch Instance from
+                <cmd>Select the target AMI and click <uicontrol>Launch Instance from
                     AMI</uicontrol>.</cmd>
                 <stepxmp>
                     <fig id="fig_pls_zxs_lvb">
@@ -74,19 +78,26 @@
                             id="image_vdj_z2z_qvb"/>
                     </fig>
                     <fig id="fig_lgg_nnv_d5b">
-                        <title>Information of Selected Insance Type</title>
+                        <title>Information of the Selected Insance Type</title>
                         <image href="../images/ami_3=20221110001503.png" id="image_jc4_vmv_d5b"/>
                     </fig>
-                    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-                    <note id="note_wst_3fz_qvb">
-                        <p>The instant types that do not meet <ph
-                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s system
-                            requirements will be unavailable for selection.</p>
-                    </note><?oxy_custom_end?>
+                    <note id="note_qns_cnf_rvb">
+                        <ul id="ul_rns_cnf_rvb">
+                            <li>
+                                <p>The instance types that do not meet <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s
+                                    deployment requirements will be unavailable for selection.</p>
+                            </li>
+                            <li>
+                                <p>Refer to <xref href="instant_types=20221111094622.xml"/> for
+                                    determining which instance type to use.</p>
+                            </li>
+                        </ul>
+                    </note>
                 </stepxmp>
             </step>
             <step>
-                <cmd>Configure the instance details:</cmd>
+                <cmd>Configure the instance settings:</cmd>
                 <stepxmp>
                     <ol id="ol_l5p_xzs_lvb">
                         <li>
@@ -98,7 +109,7 @@
                             </fig>
                         </li>
                         <li>
-                            <p>Configure <uicontrol>Network settings</uicontrol>: <ul
+                            <p>Configure the <uicontrol>Network settings</uicontrol>: <ul
                                     id="ul_g1d_5tw_qvb">
                                     <li>
                                         <p>Be sure to create security group for allowing specific
@@ -112,10 +123,9 @@
                                         select <uicontrol>Anywhere</uicontrol> or specify the IP
                                         address.</li>
                                 </ul><note id="note_imw_g1t_lvb">
-                                    <p>Refer to the table <xref
-                                            href="sEremovedPortsFqdnUsed=20220818165255.xml"
-                                            >StellarOne Occupied Ports</xref> for configuring the
-                                        ports that should have access to <ph
+                                    <p>Refer to <xref
+                                            href="sEremovedPortsFqdnUsed=20220818165255.xml"/> for
+                                        configuring the ports that should have access to <ph
                                             conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"
                                             >.</ph>.</p>
                                     <ul id="ul_jb1_jjx_qvb">
@@ -143,9 +153,10 @@
                             </fig>
                         </li>
                         <li>
-                            <p>Add 2nd EBS in <uicontrol>Configure storage</uicontrol>.</p>
+                            <p>Add an EBS with at least 50 GB of space to the StellarOne instance in
+                                    <uicontrol>Configure storage</uicontrol>.</p>
                             <fig id="fig_tdt_cqx_lvb">
-                                <title>Configure storage</title>
+                                <title>Configure Storage</title>
                                 <image href="../images/ami_6=20221110001540.png"
                                     id="image_np5_2qx_lvb"/>
                             </fig>
@@ -179,7 +190,9 @@
             </step>
             <step>
                 <cmd>Refer to <xref href="openingConsole=20220721162458.xml"/> for logging on
-                    StellarOne.</cmd>
+                    StellarOne via a web browser, or <xref
+                        href="deploy_ami_ssh_access=20221129165433.xml"/> for accessing StellarOne
+                    via SSH.</cmd>
             </step>
         </steps>
     </taskbody>

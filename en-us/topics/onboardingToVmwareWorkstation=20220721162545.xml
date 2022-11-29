@@ -3,6 +3,7 @@
 <concept id="concept_pyd_d3r_c5b">
     <title>StellarOne Onboarding to VMware Workstation</title>
     <conbody>
-        <p>This section describes how to deploy StellarOne to a VMware Workstation system.</p>
+        <p><indexterm>Installation</indexterm>This section describes how to deploy StellarOne to the
+            VMware Workstation system.</p>
     </conbody>
 </concept>

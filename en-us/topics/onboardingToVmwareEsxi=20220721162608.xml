@@ -3,6 +3,7 @@
 <concept id="concept_pyd_d3r_c5b">
     <title>StellarOne Onboarding to VMware ESXi</title>
     <conbody>
-        <p>This section describes how to deploy StellarOne to a VMware ESXi system.</p>
+        <p><indexterm>installation</indexterm>This section describes how to deploy StellarOne to the
+            VMware ESXi system.</p>
     </conbody>
 </concept>

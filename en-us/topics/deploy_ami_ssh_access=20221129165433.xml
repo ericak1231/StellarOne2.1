@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd"><task id="GUID-520F37FF-48AB-4225-AB65-EB45305114CD" xml:lang="en-us">
+    <title id="GUID-5601E80F-F5C5-44B0-B47F-381AAC74CC4D">Accessing <ph
+            conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> via SSH</title>
+    <taskbody>
+        <context id="GUID-CAD7BEDC-492D-4151-BCB7-1467EFD0B3CC">
+            <p>This section describes how to access <ph
+                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> via SSh.</p>
+        </context>
+        <steps id="steps_gjx_t5d_m4">
+            <step>
+                <cmd>Find the <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> instance on
+                    the AWS EC2 and copy its auto-assigned IP address.</cmd>
+                <stepxmp>
+                    <fig id="fig_vzw_5gy_lvb">
+                        <title>Auto-assigned IP address</title>
+                        <image href="../images/ami_7=20221110001550.png" id="image_f3c_wgy_lvb"/>
+                    </fig>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Open the SSH terminal on your device and run the following command:
+                        <userinput>ssh -i &lt;private key>.pem admin@&lt;auto-assigned IP
+                        address></userinput></cmd>
+                <info>
+                    <note id="note_vxv_hhy_lvb">
+                        <p>The auto-assigned IP address may change if the instance has been
+                            <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>rebooted<?oxy_custom_end?>.
+                            Please refer to <xref
+                                href="deploy_ami_elastic_ip_address=20221110173737.xml"/> for
+                            assigning a static IPv4 address to your instance.</p>
+                    </note>
+                </info>
+                <info>
+                    <note id="note_f2f_hcd_qvb" type="important">
+                        <ul id="ul_n5w_xhg_rvb">
+                            <li>
+                                <p>Ensure that you use <userinput>admin</userinput> as the SSH login
+                                    username.</p>
+                            </li>
+                            <li>
+                                <p>If you access <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> via
+                                    SSH, it is not required to go through the OOBE process and
+                                    change password.</p>
+                            </li>
+                        </ul>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Check if the service of <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> instance is activated
+                    and runnning.</cmd>
+                <info>
+                    <fig id="fig_pjq_v3g_rvb">
+                        <title>Check Service Status via SSH</title>
+                        <image href="../images/aws_ec2_access_via_ssh=20221129172559.png"
+                            id="image_tmz_v3g_rvb"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

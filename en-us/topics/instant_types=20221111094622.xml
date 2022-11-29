@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_tkg_jvy_c5b">
-    <title>Deciding an Instant Type for AWS EC2 Platform</title>
+    <title>Deciding an Instance Type for <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+        on AWS EC2 Platform</title>
     <refbody>
         <section id="section_ukg_jvy_c5b">
-            <p><indexterm>hardware requirements for Hyper-V</indexterm> Instant types vary depending
-                on the number of agents and logs that will be configured and retained. Please refer
-                to below tables for determining the optimal number of agents that your StellarOne
-                server deployment can manage.<note id="note_s13_b2d_mvb">
+            <p><indexterm>hardware requirements for AWS EC2</indexterm> Refer to the tables below
+                for determining the optimal number of agents that your StellarOne server deployment
+                can manage on the AWS EC2 platform.<note id="note_s13_b2d_mvb">
                     <p>Please refer to <xref href="https://aws.amazon.com/ec2/instance-types/"
                             format="html" scope="external">Amazon EC2 Instance Types</xref> for
                         specifications of the instance types.</p>
@@ -217,6 +217,11 @@
                                 event logs. You may reuse the external disk of a terminated
                                 StellarOne instance if you want to migrate the previous
                                 configurations and logs to a new StellarOne instance.</p>
+                        </li>
+                        <li>
+                            <p>Please also take the network bandwidth into consideration when
+                                planning for agent deployment. Refer to <xref
+                                    href="deploymentTime=20220721162758.xml"/> for more details.</p>
                         </li>
                     </ol>
                 </p>
