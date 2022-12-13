@@ -2,12 +2,72 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Integration to Trend Micro's Vision
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Integrate with Trend Micro Vision
         One</title>
     <taskbody>
         <context>
-            <p>Users can query for StellarOne's detection logs via Trend Micro Vision One Serach
-                App?</p>
-        </context>
+            <p>Users can query for <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                malware
+                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>detection
+                logs<?oxy_custom_end?> via Trend Micro Vision One Search app.<note
+                    id="note_zkm_n1t_rvb" type="important">
+                    <p>Be sure to complete the deployment of Trend Micro Vision One Service Gateway
+                        first, and then obtain the required information for Service Gateway settings
+                        in steps 2 and 3. Please contact your support provider for more
+                        information.</p>
+                </note></p>
+            <?oxy_comment_start author="erica_txone" timestamp="20221201T110856+0800" comment="2023 Q1 - SPLM sends other kinds of logs to V1"?>
+        </context><?oxy_comment_end?>
+        <steps id="steps_ecf_54s_rvb">
+            <step>
+                <cmd>On <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> console, go to <menucascade>
+                        <uicontrol>Administration</uicontrol>
+                        <uicontrol>Service Integration</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Specify the IP address and API key of Trend Micro Vision One Service Gateway in
+                        <uicontrol>Service Gateway Address</uicontrol> and <uicontrol>Service
+                        Gateway API Key</uicontrol>.</cmd>
+                <info>
+                    <note id="note_bbx_215_rvb">
+                        <p>The IP address and API key should be obtained from the Trend Micro Vision
+                            One Service Gateway Virtual Appliance.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Specify the Trend Micro Vision One enrollment token in <uicontrol>Product
+                        Connector Enrollment Token</uicontrol>.</cmd>
+                <info>
+                    <note id="note_npt_vps_rvb">
+                        <p>The enrollment token is required to register <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> to Trend
+                            Micro Vision One. The enrollment token will expire within 24 hours if
+                            not used after generated from the Vision One Product Connector app.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Select the frequency for sending <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> detection logs to
+                    Trend Micro Vision One in the <uicontrol>Log Sending Interval</uicontrol>
+                    drop-down menu.</cmd>
+                <info>
+                    <note id="note_ukl_2ts_rvb">
+                        <p>To stop sending detection logs to Trend Micro Vision One, select the
+                                <uicontrol>Disabled</uicontrol> option.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Test Connection</uicontrol> to determine whether <ph
+                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> is connected
+                    successfully to Trend Micro Vision One.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol> to complete the settings.</cmd>
+            </step>
+        </steps>
     </taskbody>
 </task>

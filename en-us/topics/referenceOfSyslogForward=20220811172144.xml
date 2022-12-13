@@ -4,13 +4,13 @@
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
   <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">StellarProtect Agent Event Format</title><?oxy_custom_end?>
-  <?oxy_comment_start author="erica_txone" timestamp="20221128T140821+0800" comment="Are SP &amp; SPLM the same?"?>
-  <refbody><?oxy_comment_end?>
+  <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
-      <p>Please refer to below table as StellarProtect's agent events in the Common Event
+      <p>Please refer to the table below as StellarProtect agent events in the Common Event
         Format.</p>
       <table frame="all" id="table_i5f_3mm_m5b">
-        <title>Agent Event Format</title>
+        <title><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> Agent
+          Event Format</title>
         <tgroup cols="3">
           <colspec colname="c1" colnum="1" colwidth="1*"/>
           <colspec colname="c2" colnum="2" colwidth="1*"/>
@@ -30,7 +30,7 @@
           </thead>
           <tbody>
             <row>
-              <entry namest="c1" nameend="c3">
+              <entry nameend="c3" namest="c1">
                 <p><b>Header</b></p>
               </entry>
             </row>
@@ -64,9 +64,7 @@
                 <p>Device Product</p>
               </entry>
               <entry>
-                <p><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, <ph
-                    conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>, <ph
-                    conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                <p><ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                   >OFFICIAL_PRODUCT_NAME</ph></p>
               </entry>
             </row>
@@ -79,7 +77,7 @@
               </entry>
               <entry>
                 <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <p>2.0.1155</p><?oxy_custom_end?>
+                <p>2.0.1145</p><?oxy_custom_end?>
               </entry>
             </row>
             <row>
@@ -90,7 +88,7 @@
                 <p>Event ID</p>
               </entry>
               <entry>
-                <p>2509, 6005</p>
+                <p>{}</p>
               </entry>
             </row>
             <row>
@@ -101,8 +99,7 @@
                 <p>Event category</p>
               </entry>
               <entry>
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <p>Agent Event</p><?oxy_custom_end?>
+                <p>Agent Event</p>
               </entry>
             </row>
             <row>
@@ -114,27 +111,24 @@
                 <p>LOG_WARNING: 4</p>
                 <p>LOG_INFO: 6</p>
               </entry>
-              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
               <entry>
                 <p>{2, 4, 6}</p>
-              </entry><?oxy_custom_end?>
+              </entry>
             </row>
             <row>
-              <entry namest="c1" nameend="c3">
+              <entry nameend="c3" namest="c1">
                 <p><b>Extension</b></p>
               </entry>
             </row>
             <row>
-              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
               <entry>
                 <p>eventTime</p>
-              </entry><?oxy_custom_end?>
-              <entry>
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <p>StellarProtect format</p><?oxy_custom_end?>
               </entry>
               <entry>
-                <p>Jan 02 2006 15:04:05 GMT+00:00</p>
+                <p>StellarProtect format</p>
+              </entry>
+              <entry>
+                <p>Apr 02 2022 13:31:51 GMT+00:00</p>
               </entry>
             </row>
             <row>
@@ -142,27 +136,10 @@
                 <p>msg</p>
               </entry>
               <entry>
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <p>&lt;string></p><?oxy_custom_end?>
+                <p>&lt;string></p>
               </entry>
-              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-              <entry>
-                <p/>
-              </entry><?oxy_custom_end?>
+              <entry/>
             </row>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-            <?oxy_comment_start author="erica_txone" timestamp="20221128T141356+0800" comment="SPLM only" mid="10"?>
-            <row>
-              <entry>
-                <p>dvchost</p>
-              </entry>
-              <entry>
-                <p>Computer name</p>
-              </entry>
-              <entry>
-                <p>Localhost</p>
-              </entry>
-            </row><?oxy_custom_end?><?oxy_comment_end mid="10"?>
             <row>
               <entry>
                 <p>category</p>
@@ -187,8 +164,6 @@
               </entry>
               <entry/>
             </row>
-            <?oxy_comment_start author="erica_txone" timestamp="20221128T141442+0800" comment="SPLM: dvc
-IP address"?>
             <row>
               <entry>
                 <p>agentIp</p>
@@ -197,7 +172,7 @@ IP address"?>
                 <p>&lt;string></p>
               </entry>
               <entry/>
-            </row><?oxy_comment_end?>
+            </row>
             <row>
               <entry>
                 <p>agentLocation</p>
@@ -225,14 +200,6 @@ IP address"?>
               </entry>
               <entry/>
             </row>
-            <?oxy_comment_start author="erica_txone" timestamp="20221128T141656+0800" comment="SPLM: cs2Label (Client OS)
-
-cs2 (OS description)
-
-cs3Label / cs3: client description
-
-suser: Login user
-act (Action Type)"?>
             <row>
               <entry>
                 <p>agentOS</p>
@@ -241,7 +208,7 @@ act (Action Type)"?>
                 <p>&lt;string></p>
               </entry>
               <entry/>
-            </row><?oxy_comment_end?>
+            </row>
             <row>
               <entry>
                 <p>policyVersion</p>
@@ -251,9 +218,6 @@ act (Action Type)"?>
               </entry>
               <entry/>
             </row>
-            <?oxy_comment_start author="erica_txone" timestamp="20221128T141506+0800" comment="SPLM: cs1 Label?
-
-difference with cs1 (Event ID mapped detailed message)"?>
             <row>
               <entry>
                 <p>detailMsg</p>
@@ -262,7 +226,7 @@ difference with cs1 (Event ID mapped detailed message)"?>
                 <p>&lt;string></p>
               </entry>
               <entry/>
-            </row><?oxy_comment_end?>
+            </row>
             <row>
               <entry>
                 <p>targetProcess</p>
@@ -274,9 +238,7 @@ difference with cs1 (Event ID mapped detailed message)"?>
             </row>
             <row>
               <entry>
-                <?oxy_comment_start author="erica_txone" timestamp="20221128T141917+0800" comment="SPLM: fileHash (SHA1)
-"?>
-                <p>fileHash</p><?oxy_comment_end?>
+                <p>fileHash</p>
               </entry>
               <entry>
                 <p>&lt;string></p>
@@ -301,13 +263,6 @@ difference with cs1 (Event ID mapped detailed message)"?>
               </entry>
               <entry/>
             </row>
-            <?oxy_comment_start author="erica_txone" timestamp="20221128T141951+0800" comment="SPLM: filePath + example
-
-fileCreateTime
-fileModificationTime
-
-logGuid
-ServerIP"?>
             <row>
               <entry>
                 <p>filePath</p>
@@ -316,7 +271,7 @@ ServerIP"?>
                 <p>&lt;string></p>
               </entry>
               <entry/>
-            </row><?oxy_comment_end?>
+            </row>
             <row>
               <entry>
                 <p>actionResult </p>
@@ -563,6 +518,10 @@ ServerIP"?>
           </tbody>
         </tgroup>
       </table>
+      <fig id="fig_bmf_1g1_svb">
+        <title>Example of StellarProtect Syslog Content</title>
+        <image href="../images/syslog_cef_format_sp_20221202110257.png" id="image_ff2_bg1_svb"/>
+      </fig>
     </section>
   </refbody>
 </reference>

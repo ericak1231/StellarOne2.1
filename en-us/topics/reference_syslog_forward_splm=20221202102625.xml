@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd"[]>
+<reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">StellarProtect (Legacy Mode) Agent/Server
+    Event Format</title><?oxy_custom_end?>
+  <refbody>
+    <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
+      <p>Please refer to below table as StellarProtect (Legacy Mode) agent/server events in the
+        Common Event Format.</p>
+      <table frame="all" id="table_i5f_3mm_m5b">
+        <title>Agent Event Format</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <colspec colname="c3" colnum="3" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>
+                <p>CEF Key</p>
+              </entry>
+              <entry>
+                <p>Description</p>
+              </entry>
+              <entry>
+                <p>Possible Values / Example</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <p>Header (logVer)</p>
+              </entry>
+              <entry>
+                <p>CEF format version</p>
+              </entry>
+              <entry>
+                <p>CEF:0</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Header (vendor)</p>
+              </entry>
+              <entry>
+                <p>Device Vendor</p>
+              </entry>
+              <entry>
+                <p>TXOne Networks</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Header (pname)</p>
+              </entry>
+              <entry>
+                <p>Device Product</p>
+              </entry>
+              <entry>
+                <p><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>, <ph
+                    conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                  >OFFICIAL_PRODUCT_NAME</ph></p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Header (pver)</p>
+              </entry>
+              <entry>
+                <p>Device Version</p>
+              </entry>
+              <entry>
+                <p>2.0.1145</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Header (eventid)</p>
+              </entry>
+              <entry>
+                <p>Device Event Class ID</p>
+              </entry>
+              <entry>
+                <p>2509, 6005</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Header (eventName)</p>
+              </entry>
+              <entry>
+                <p>Name</p>
+              </entry>
+              <entry>
+                <p>Agent Event, Server Event, Console Log</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>Header (severity)</p>
+              </entry>
+              <entry>
+                <p>Severity</p>
+              </entry>
+              <entry>
+                <p>4</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>rt</p>
+              </entry>
+              <entry>
+                <p>Logged Time</p>
+              </entry>
+              <entry>
+                <p>Apr 02 2022 13:31:51 GMT+00:00</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>msg</p>
+              </entry>
+              <entry>
+                <p>Event Id mapped message</p>
+              </entry>
+              <entry>
+                <p>File access blocked. File not found in Approved List</p>
+              </entry>
+            </row>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <row><?oxy_custom_end?>
+              <entry>
+                <p>dvchost</p>
+              </entry>
+              <entry>
+                <p>Computer name</p>
+              </entry>
+              <entry>
+                <p>Localhost</p>
+              </entry>
+              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            </row><?oxy_custom_end?>
+            <row>
+              <entry>
+                <p>dvc</p>
+              </entry>
+              <entry>
+                <p>IP address</p>
+              </entry>
+              <entry>
+                <p>192.168.154.137</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>cs1Label</p>
+              </entry>
+              <entry>
+                <p>Detailed Event Message</p>
+              </entry>
+              <entry>
+                <p>Detailed Event Message</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>cs1</p>
+              </entry>
+              <entry>
+                <p>Event ID mapped detailed message</p>
+              </entry>
+              <entry>
+                <p>File access blocked: C:\\Documents and Settings\\Administrator\\Local
+                  Settings\\Temp\\isD5V0T.tmp\\is-H7K4O.tmp Malware detected: Quarantine. File path:
+                  C:\\eicar\\EICAR_TEST_FILE.exe</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>cs2Label </p>
+              </entry>
+              <entry>
+                <p>Client OS</p>
+              </entry>
+              <entry>
+                <p>Client OS</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>cs2</p>
+              </entry>
+              <entry>
+                <p>OS description</p>
+              </entry>
+              <entry>
+                <p>Microsoft Windows 7 Enterprise Edition Service Pack 1 build 7601, 64-bit</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>cs3Label</p>
+              </entry>
+              <entry>
+                <p>Client Description</p>
+              </entry>
+              <entry>
+                <p>Client Description</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>cs3</p>
+              </entry>
+              <entry>
+                <p>Description</p>
+              </entry>
+              <entry>
+                <p>-</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>suser</p>
+              </entry>
+              <entry>
+                <p>Login User</p>
+              </entry>
+              <entry>
+                <p>PC1688\\Administrator</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>act</p>
+              </entry>
+              <entry>
+                <p>Action Type</p>
+              </entry>
+              <entry>
+                <p>ACTION_TYPE_BLOCKED</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>fileHash</p>
+              </entry>
+              <entry>
+                <p>SHA1</p>
+              </entry>
+              <entry>
+                <p>2201589AA3ED709B3665E4FF979E10C6AD5137F C</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>filePath</p>
+              </entry>
+              <entry>
+                <p>File path</p>
+              </entry>
+              <entry>
+                <p>C:\\Documents and Settings\\Administrator\\Local
+                  Settings\\Temp\\is-D5V0T.tmp\\is-H7K4O.tmp</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>fileCreateTime</p>
+              </entry>
+              <entry>
+                <p>File create time</p>
+              </entry>
+              <entry>
+                <p>04 02 2022 14:00:21</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>fileModificationTime</p>
+              </entry>
+              <entry>
+                <p>File modified time</p>
+              </entry>
+              <entry>
+                <p>04 02 2022 14:00:21</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>logGuid</p>
+              </entry>
+              <entry>
+                <p>Log GUID</p>
+              </entry>
+              <entry>
+                <p>: F43500BB-1F8A-4589-A292- 144A9DA343AA、{56B7345A-B6D3-4BBB-A515-
+                  4AFFAE04092F}</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>ServerIP</p>
+              </entry>
+              <entry>
+                <p>Server IP</p>
+              </entry>
+              <entry>
+                <p>10.8.145.157</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <fig id="fig_bmf_1g1_svb">
+        <title>Example of StellarProtect (Legacy Mode) Syslog Content</title>
+        <image
+          href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarOne/en-us/images/syslog_cef_format_splm=20221202114202.png"
+          id="image_ff2_bg1_svb"/>
+      </fig>
+    </section>
+  </refbody>
+</reference>

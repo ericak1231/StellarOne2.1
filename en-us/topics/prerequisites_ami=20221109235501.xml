@@ -5,13 +5,13 @@
     <conbody>
         <ul id="ul_ktf_4t5_d5b">
             <li>
-                <p>An AWS EC2 account is required</p>
+                <p>An AWS account is required</p>
             </li>
             <li>
                 <p>StellarOne for AWS supports only BYOL (Bring Your Own License)</p>
             </li>
             <li>
-                <p>An external disk with at least 50 GB.</p>
+                <p>An external disk (EBS) with at least 50 GB.</p>
             </li>
         </ul>
         <note id="note_ndy_5cy_lvb">

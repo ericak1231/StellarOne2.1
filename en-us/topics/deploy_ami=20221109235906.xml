@@ -46,13 +46,6 @@
             </step>
             <step>
                 <cmd>Select the region you chose in step 4.</cmd>
-                <stepxmp>
-                    <fig id="fig_abf_44c_25b">
-                        <title>AMIs</title>
-                        <image href="../images/ami_1=20221110000155.png" id="image_wqx_q4c_25b"
-                            otherprops="PRINT"/>
-                    </fig>
-                </stepxmp>
             </step>
             <step>
                 <cmd>Find the target AMI from the list of <uicontrol>AMI ID</uicontrol>.</cmd>
@@ -60,13 +53,6 @@
             <step>
                 <cmd>Select the target AMI and click <uicontrol>Launch Instance from
                     AMI</uicontrol>.</cmd>
-                <stepxmp>
-                    <fig id="fig_pls_zxs_lvb">
-                        <title>Launch Instance from AMI</title>
-                        <image href="../images/ami_2=20221110000718.png" otherprops="PRINT"
-                            id="image_qls_zxs_lvb"/>
-                    </fig>
-                </stepxmp>
             </step>
             <step>
                 <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>

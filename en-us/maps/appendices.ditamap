@@ -5,7 +5,8 @@
     <topicref href="../topics/intro_appendices=20221101135120.xml">
         <topicref href="../topics/intro_log_descriptions=20221101140310.xml">
             <topicref href="../topics/logDescriptions=20220815170737.xml">
-                <topicref href="../topics/sPagentEventLogDescription=20220808105743.xml"/>
+                <topicref
+                    href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarOne/en-us/conref-vars/sPagentEventLogDescription=20220808105743.xml"/>
                 <topicref href="../topics/sPserverEventLogDescription=20220809142516.xml"/>
             </topicref>
             <topicref href="../topics/logDescriptions_splm=20221101134108.xml">
@@ -18,6 +19,8 @@
         <topicref href="../topics/syslogContentCeF=20220811175913.xml">
             <topicref href="../topics/referenceOfSyslogForward=20220811172144.xml"/>
             <topicref href="../topics/spServerEventOfSyslogForward=20220811172432.xml"/>
+            <topicref
+                href="../../../../../../../../../OneDrive%20-%20TXOne%20Networks%20Inc/Documents/3.%20Project/2.1/StellarOne/en-us/topics/reference_syslog_forward_splm=20221202102625.xml"/>
             <topicref href="../topics/sOneServerEventOfSyslogForward=20220811172528.xml"/>
         </topicref>
     </topicref>

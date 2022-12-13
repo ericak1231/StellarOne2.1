@@ -38,12 +38,20 @@
                         </row>
                         <row valign="middle">
                             <entry>
-                                <p>Available in AWS BYOL</p>
+                                <p>Available from AWS BYOL</p>
                             </entry>
                             <entry>
                                 <p>TXOne <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
                                     is available from Amazon's AWS BYOL and can be deployed from AMI
-                                    on a AWS EC2 console.</p>
+                                    on an AWS EC2 instance.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Supporting license key/file</p>
+                            </entry>
+                            <entry>
+                                <p>Supports product activation by license key or license file.</p>
                             </entry>
                         </row>
                         <row>

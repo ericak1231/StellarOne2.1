@@ -51,7 +51,7 @@
                             </menucascade> for <uicontrol>Hardware Type</uicontrol></cmd>
                         <stepxmp>
                             <fig id="fig_py1_c4v_d5b">
-                                <title>Add an Hard Disk</title>
+                                <title>Add a Hard Disk</title>
                                 <image
                                     href="../images/vmwareWorkstation_addHardDisk=20220721163558.png"
                                     id="image_bgn_d4v_d5b"/>

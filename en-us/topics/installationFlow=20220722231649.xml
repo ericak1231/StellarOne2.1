@@ -26,7 +26,9 @@
                     properties.</cmd>
             </step>
             <step>
-                <cmd>Configure settings such as IP address and communication ports.</cmd>
+                <?oxy_comment_start author="erica_txone" timestamp="20221130T082026+0800" comment="locale settings?"?>
+                <cmd>Configure settings such as IP address and communication
+                ports.</cmd><?oxy_comment_end?>
             </step>
         </steps>
     </taskbody>
