@@ -29,10 +29,8 @@
             </topicref>
             <topicref href="../topics/downloadUpdates_agent_patch=20221028151831.xml"/>
         </topicref>
-        <topicref href="../topics/fwSslTogether=20220812135709.xml">
-            <topicref href="../topics/firmware=20220811235356.xml"/>
-            <topicref href="../topics/sslCertificate=20220812133525.xml"/>
-        </topicref>
+        <topicref href="../topics/firmware=20220811235356.xml"/>
+        <topicref href="../topics/sslCertificate=20220812133525.xml"/>
         <topicref
             href="../topics/license_intro_20221118140523.xml">
             <topicref href="../topics/licenseManage=20220728150953.xml"/>

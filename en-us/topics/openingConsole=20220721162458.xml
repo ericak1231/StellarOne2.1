@@ -77,9 +77,8 @@
                                 Activation</wintitle> window appears.</cmd>
                     </substep>
                     <substep>
-                        <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
                         <cmd>Choose one of the ways to activate the license based on the license
-                            data available from your support provider:</cmd><?oxy_custom_end?>
+                            data available from your support provider:</cmd>
                         <info>
                             <ul id="ul_y3j_14s_lvb">
                                 <li>
@@ -120,18 +119,33 @@
                         <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
                     </substep>
                     <substep>
-                        <cmd>The <uicontrol>License key is valid</uicontrol> message appears. Click
+                        <cmd>The
+                                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?><uicontrol>License
+                                key is valid</uicontrol><?oxy_custom_end?> message appears. Click
                                 <uicontrol>Continue</uicontrol>.</cmd>
+                        <stepxmp>
+                            <fig id="fig_fdn_hx3_vvb">
+                                <image
+                                    href="../images/2.1/license_key_has_been_applied=20221214090454.png"
+                                    id="image_tl1_3x3_vvb"/>
+                            </fig>
+                        </stepxmp>
                     </substep>
                     <substep>
-                        <cmd>A success message appears. License information also appears at the
-                            bottom of the <wintitle>License Activation</wintitle> window. Click
-                                <uicontrol>Continue</uicontrol>.</cmd>
+                        <cmd><?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>A
+                            success message appears. License information also appears at the bottom
+                            of the <wintitle>License Activation</wintitle> window.<?oxy_custom_end?>
+                            Check if it matches the license data provided by your support
+                            provider.</cmd>
                     </substep>
                     <substep>
-                        <cmd>The <uicontrol>EULA/OT Intelligent Trust Agreement</uicontrol> screen
-                            appears. Click the links to read the documents carefully and click the
-                            checkboxes to proceed to next step.</cmd>
+                        <cmd>Click <uicontrol>Continue</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>The <uicontrol>End User License Agreement and TXOne OT Intelligent
+                                Trust</uicontrol> window appears. Click the links to read the
+                            documents carefully and click the checkboxes to proceed to next
+                            step.</cmd>
                         <info>
                             <note id="note_uql_xw5_35b">
                                 <p>It is advisory to enable <uicontrol>TXOne OT Intelligent
@@ -164,8 +178,14 @@
             </step>
             <step>
                 <cmd>(Optional) For security reasons, you can manually log off by clicking the ID
-                    icon at the top right corner of the screen, and then selecting <uicontrol>Log
-                        Off</uicontrol>.</cmd>
+                    icon at the top right corner of the screen. </cmd>
+                <substeps>
+                    <substep>
+                        <cmd>A pop-up <wintitle>Log Off</wintitle> window appears. Click
+                                <uicontrol>Yes</uicontrol> to log out of <ph
+                                conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.</cmd>
+                    </substep>
+                </substeps>
                 <info>
                     <note id="note_wdh_b55_35b">
                         <p>Users will be automatically logged off the console if no operations are

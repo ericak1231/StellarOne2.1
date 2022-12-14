@@ -16,6 +16,15 @@
             <step>
                 <cmd>To download the latest Agent Installer Package. Click
                         <uicontrol>Download</uicontrol>.</cmd>
+                <stepxmp>
+                    <fig>
+                        <title>Downloads/Updates Screen</title>
+                    </fig>
+                    <fig id="fig_ds1_22j_vvb">
+                        <image href="../images/2.1/download_update=20221214095841.png"
+                            id="image_j4k_22j_vvb"/>
+                    </fig>
+                </stepxmp>
                 <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
                 <stepresult>A zipped folder is downloaded. Extract the folder and proceed with the
                     installation for the agents. Please refer to the <xref

@@ -4,45 +4,72 @@
 <concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
  <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Administration</title>
  <conbody>
-  <p><indexterm>administration</indexterm>This chapter introduce the StellarOne web console's
-   administration settings.</p>
+  <p><indexterm>administration</indexterm>This chapter introduces the StellarOne web console's
+   administration settings, mainly grouped into four categories:
+   <b><wintitle>Account</wintitle></b>, <b><wintitle>Notification</wintitle></b>,
+     <b><wintitle>Update</wintitle></b>, <b><wintitle>System</wintitle></b>.</p>
   <p>Topics in this chapter includes:</p>
-  <ul id="ul_ljn_1hp_n5b" otherprops="PRINT">
+  <ul id="ul_n4z_lbj_vvb">
    <li>
-    <p><xref href="aboutAccountManageScreen=20220810172956.xml"/></p>
+    <p><b><wintitle>Account</wintitle></b></p>
+    <ul id="ul_e2t_mbj_vvb">
+     <li>
+      <p><xref href="aboutAccountManageScreen=20220810172956.xml"/></p>
+     </li>
+     <li>
+      <p><xref href="singleSignOn=20220811092626.xml"/></p>
+     </li>
+    </ul>
    </li>
    <li>
-    <p><xref href="singleSignOn=20220811092626.xml"/></p>
+    <p><b><wintitle>Notification</wintitle></b><ul id="ul_q1x_rbj_vvb">
+      <li>
+       <p><xref href="notification=20220811224458.xml"/></p>
+      </li>
+      <li>
+       <p><xref href="scheduled_report=20221031180854.xml"/></p>
+      </li>
+      <li>
+       <p><xref href="syslogForward=20220811171155.xml"/></p>
+      </li>
+     </ul></p>
    </li>
    <li>
-    <p><xref href="systemTime=20220811165946.xml"/></p>
+    <p><b><wintitle>Update</wintitle></b></p>
+    <ul id="ul_rbq_wbj_vvb">
+     <li>
+      <p><xref href="proxy=20220811232823.xml"/></p>
+     </li>
+     <li>
+      <p><xref href="downloads_updates=20221028142005.xml"/></p>
+     </li>
+     <li>
+      <p><xref href="firmware=20220811235356.xml"/></p>
+     </li>
+     <li>
+      <p><xref href="licenseManage=20220728150953.xml"/></p>
+     </li>
+    </ul>
    </li>
    <li>
-    <p><xref href="syslogForward=20220811171155.xml"/></p>
-   </li>
-   <li>
-    <p><xref href="logPurge=20220811215857.xml"/></p>
-   </li>
-   <li>
-    <p><xref href="scheduled_report=20221031180854.xml"/></p>
-   </li>
-   <li>
-    <p><xref href="notification=20220811224458.xml"/></p>
-   </li>
-   <li>
-    <p><xref href="proxy=20220811232823.xml"/></p>
-   </li>
-   <li>
-    <p><xref href="downloads_updates=20221028142005.xml"/></p>
-   </li>
-   <li>
-    <p><xref href="fwSslTogether=20220812135709.xml"/></p>
-   </li>
-   <li>
-    <p><xref href="licenseManage=20220728150953.xml"/></p>
-   </li>
-   <li>
-    <p><xref href="otIntelligentTrust=20220811235612.xml"/></p>
+    <p><b><wintitle>System</wintitle></b></p>
+    <ul id="ul_mlt_1cj_vvb">
+     <li>
+      <p><xref href="systemTime=20220811165946.xml"/></p>
+     </li>
+     <li>
+      <p><xref href="logPurge=20220811215857.xml"/></p>
+     </li>
+     <li>
+      <p><xref href="sslCertificate=20220812133525.xml"/></p>
+     </li>
+     <li>
+      <p><xref href="otIntelligentTrust=20220811235612.xml"/></p>
+     </li>
+     <li>
+      <p><xref href="service_integration=20221130181441.xml"/></p>
+     </li>
+    </ul>
    </li>
   </ul>
  </conbody>

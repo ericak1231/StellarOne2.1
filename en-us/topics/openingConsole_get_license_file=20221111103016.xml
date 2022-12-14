@@ -54,9 +54,17 @@
                     connection.</cmd>
             </step>
             <step>
-                <cmd>You will be directed to the <uicontrol>License File Management</uicontrol>
-                    screen. Specify your license key in the <uicontrol>License Key</uicontrol>
-                    field, and then click <uicontrol>Download</uicontrol>.</cmd>
+                <cmd>You will be directed to the TXOne <uicontrol>License File
+                        Management</uicontrol> screen. Specify your license key in the
+                        <uicontrol>License Key</uicontrol> field, and then click
+                        <uicontrol>Download</uicontrol>.</cmd>
+                <stepxmp>
+                    <fig id="fig_pcz_qsd_vvb">
+                        <title>TXOne License File Management</title>
+                        <image href="../images/license_file_management=20221213160029.png"
+                            id="image_ebc_ssd_vvb"/>
+                    </fig>
+                </stepxmp>
             </step>
             <step>
                 <cmd>A pop-up window appears showing the license information. Read it carefully and

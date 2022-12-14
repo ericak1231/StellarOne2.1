@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Single Sign On</title>
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Single Sign-On</title>
     <taskbody>
         <context id="context_u4t_k4l_m5b">
             <p><indexterm>administration<indexterm>Single Sign On</indexterm></indexterm>Users who

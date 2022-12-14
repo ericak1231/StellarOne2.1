@@ -49,7 +49,7 @@
                         </entry>
 </row>
 <row rowsep="1">
-<entry colname="1"><p>StellarOne console</p></entry>
+<entry colname="1"><p>StellarOne (management) console</p></entry>
 <entry colname="2"><p>The user interface for configuring and managing StellarOne settings and the agents managed by
                                 StellarOne</p></entry>
 </row>
