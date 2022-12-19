@@ -182,6 +182,16 @@
                         </entry>
                         <entry>POLICY_NOTE</entry>
                     </row>
+                    <row>
+                        <entry><ph conkeyref="PRODvars/SETUP_FILE"/></entry>
+                        <entry><ph id="SETUP_FILE"
+                            ><filepath>StellarSetup.ini</filepath></ph></entry>
+                        <entry>
+                            <draft-comment author="erica_txone">setup file in installer
+                                package</draft-comment>
+                        </entry>
+                        <entry>SETUP_FILE</entry>
+                    </row>
                 </tbody>
             </tgroup>
         </table>

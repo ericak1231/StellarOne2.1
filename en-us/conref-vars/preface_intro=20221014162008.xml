@@ -6,19 +6,22 @@
  <conbody>
   <p><ph conkeyref="PRODvars/AG_PREFACE" otherprops="AG"/><ph conkeyref="PRODvars/IG_PREFACE"
     otherprops="IG"/></p>
-  <p>Topics in this chapter include:<ul id="ul_dh3_v3w_g5b" otherprops="PRINT">
-    <li>
-     <p><xref href="Documentation=20220721170208.xml"/></p>
-    </li>
-    <li>
-     <p><xref href="../topics/stellarOneAudience=20220722152248.xml"/></p>
-    </li>
-    <li>
-     <p><xref href="Document_Conventions=20220722155128.xml"/></p>
-    </li>
-    <li>
-     <p><xref href="Terminology=20220721165336.xml"/></p>
-    </li>
-   </ul></p>
+  <p>Topics in this chapter include:</p>
+    <p otherprops="PRINT">
+      <ul id="ul_dh3_v3w_g5b" otherprops="PRINT">
+        <li>
+          <p><xref href="Documentation=20220721170208.xml"/></p>
+        </li>
+        <li>
+          <p><xref href="../topics/stellarOneAudience=20220722152248.xml"/></p>
+        </li>
+        <li>
+          <p><xref href="Document_Conventions=20220722155128.xml"/></p>
+        </li>
+        <li>
+          <p><xref href="Terminology=20220721165336.xml"/></p>
+        </li>
+      </ul>
+    </p>
  </conbody>
 </concept>

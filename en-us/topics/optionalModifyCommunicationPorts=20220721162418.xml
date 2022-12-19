@@ -79,8 +79,8 @@
                             from StellarOne, and install it on the agent.</p>
                     </choice>
                     <choice>
-                        <p>Modify the port setting accordingly in <filepath>setup.ini</filepath> or
-                                <filepath>setup.yaml</filepath> file in the agent's existing
+                        <p>Modify the port setting accordingly in the <ph
+                                conkeyref="PRODvars/SETUP_FILE"/> file in the agent's existing
                             installer package, and reinstall it on the agent.</p>
                     </choice>
                 </choices>

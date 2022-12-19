@@ -5,7 +5,7 @@
     <conbody>
         <p>This section introduces <ph conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> and
             provides an overview of its features.</p>
-        <p>Topics in this chapter include:</p>
+        <p otherprops="PRINT">Topics in this chapter include:</p>
         <ul id="ul_bs4_b1y_fp" otherprops="PRINT">
             <li>
                 <p><xref href="aboutStellarOneSp=20220726161436.xml"/></p>
