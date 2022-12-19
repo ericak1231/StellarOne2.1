@@ -45,8 +45,8 @@
                                         options of event types appears. Select one of them for
                                         viewing the relevant log records.<note id="note_aws_j12_m5b">
                                             <p>Please refer to <xref
-                                                  href="sPagentEventLogDescription=20220808105743.xml"
-                                                /> for more details about different event types.</p>
+                                                  href="intro_log_descriptions=20221101140310.xml"/>
+                                                for more details about different event types.</p>
                                         </note></p>
                                 </li>
                                 <li>

@@ -36,13 +36,13 @@
                                 <p>For <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                         >OFFICIAL_PRODUCT_NAME</ph>'s event IDs and corresponding
                                     log information, refer to <xref
-                                        href="sPagentEventLogDescription=20220808105743.xml"/>.</p>
+                                        href="logDescriptions=20220815170737.xml"/>.</p>
                             </li>
                             <li>
                                 <p>For <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
                                         >OFFICIAL_PRODUCT_NAME</ph>'s event IDs and corresponding
                                     log information, refer to <xref
-                                        href="sPagentEventLogDescription=20220808105743.xml"/></p>
+                                        href="logDescriptions_splm=20221101134108.xml"/></p>
                             </li>
                         </ul>
                     </note>
