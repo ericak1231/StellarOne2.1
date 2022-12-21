@@ -24,18 +24,6 @@
                         </row>
                     </thead>
                     <tbody>
-                        <row>
-                            <entry>
-                                <p>Integration to Vision One</p>
-                            </entry>
-                            <entry>
-                                <p>The <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
-                                    web console can be integrated to Trend Micro's Vision One and
-                                    allows Vision One users to search for <ph
-                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s
-                                    detection logs.</p>
-                            </entry>
-                        </row>
                         <row valign="middle">
                             <entry>
                                 <p>Available from AWS BYOL</p>
@@ -48,15 +36,19 @@
                         </row>
                         <row>
                             <entry>
-                                <p>Supporting license key/file</p>
+                                <p>Integration to Vision One</p>
                             </entry>
                             <entry>
-                                <p>Supports product activation by license key or license file.</p>
+                                <p>The <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    web console can be integrated to Trend Micro's Vision One and
+                                    allows Vision One users to search for <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s
+                                    detection logs.</p>
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                <p>Single Installer Package for Agent</p>
+                                <p>Single installer package for Agent</p>
                             </entry>
                             <entry>
                                 <p>Users can download a single installer package for the Agent – <ph
@@ -65,7 +57,17 @@
                                         conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
                                         >OFFICIAL_PRODUCT_NAME</ph> from the <ph
                                         conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web
-                                    console.</p>
+                                    console. After being invoked, the single installer can identify
+                                    the version of Windows installed on the endpoint and launch the
+                                    suitable installer for the endpoint to install.</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>Supporting license key/file</p>
+                            </entry>
+                            <entry>
+                                <p>Supports product activation by license key or license file.</p>
                             </entry>
                         </row>
                         <row>
@@ -94,7 +96,7 @@
                                     console, now users can also configure the component update
                                     schedule for the <ph
                                         conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> agent. The agents can run
+                                        >OFFICIAL_PRODUCT_NAME</ph> agents. The agents can run
                                     component update automatically at users' assigned time
                                     frequency.</p>
                             </entry>

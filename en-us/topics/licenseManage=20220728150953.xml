@@ -12,7 +12,7 @@
       <fig id="fig_ntq_jc4_35b" otherprops="PRINT">
         <title>The License Screen</title>
         <image href="../images/2.1/license_screen=20221214101527.png" id="image_ofb_nf4_35b"
-          otherprops="PRINT"/>
+          scalefit="no" scale="50"/>
       </fig>
       <table frame="all" rowsep="1" colsep="1" id="table_yht_yzn_35b">
         <title>About the License Screen</title>

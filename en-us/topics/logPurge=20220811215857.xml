@@ -65,8 +65,8 @@
                                 </ul>
                             </li>
                             <li>
-                                <p>Click the <uicontrol>Purge</uicontrol> button, and the event logs
-                                    will be immediately purged.</p>
+                                <p>Click the <uicontrol>Purge Now</uicontrol> button, and the event
+                                    logs will be immediately purged.</p>
                             </li>
                         </ol></choice>
                     <choice><uicontrol>Automatic Purge</uicontrol>: <p>Use this setting to set an

@@ -62,7 +62,7 @@
                     <fig id="fig_pcz_qsd_vvb">
                         <title>TXOne License File Management</title>
                         <image href="../images/license_file_management=20221213160029.png"
-                            id="image_ebc_ssd_vvb"/>
+                            id="image_ebc_ssd_vvb" scalefit="no" scale="50"/>
                     </fig>
                 </stepxmp>
             </step>

@@ -39,7 +39,7 @@
                         Suspicious Objects</uicontrol> window appears.</cmd>
             </step>
             <step>
-                <cmd>Select <uicontrol>Hash</uicontrol> or <uicontrol>File Patch</uicontrol> as the
+                <cmd>Select <uicontrol>Hash</uicontrol> or <uicontrol>File Path</uicontrol> as the
                     suspicious file type.</cmd>
             </step>
             <step>

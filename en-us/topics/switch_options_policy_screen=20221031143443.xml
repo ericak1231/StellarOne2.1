@@ -5,10 +5,10 @@
     <refbody>
         <example>
             <p><indexterm>policy screen</indexterm><indexterm>switch options</indexterm><fig
-                    id="fig_asp_jmv_35b" otherprops="PRINT">
+                    id="fig_asp_jmv_35b">
                     <title>Switch Options of the Policy Screen</title>
                     <image href="../images/2.0/policy_screen=20220927181912.png"
-                        id="image_orb_nmq_z5b" otherprops="PRINT"/>
+                        id="image_orb_nmq_z5b" scalefit="no" scale="50"/>
                 </fig></p>
         </example>
         <table>

@@ -51,7 +51,7 @@
                         <entry colname="1"><ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
                                 >OFFICIAL_PRODUCT_NAME</ph></entry>
                         <entry colname="2"><ph id="PRODUCT_AGENT_SP_NAME_TM"><tm tmtype="tm"
-                                    >StellarProtect </tm></ph></entry>
+                                    >StellarProtect</tm></ph></entry>
                         <entry colname="3">
                             <draft-comment translate="no">Official agent (sp) product name with
                                 trademark included</draft-comment>
@@ -62,7 +62,7 @@
                         <entry colname="1"><ph conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM"
                                 >PRODUCT_SHORT_NAME</ph></entry>
                         <entry colname="2"><ph id="PRODUCT_AGENT_SPLM_NAME_TM"><tm tmtype="tm"
-                                    >StellarProtect (Legacy Model) </tm></ph></entry>
+                                    >StellarProtect (Legacy Mode)</tm></ph></entry>
                         <entry colname="3">
                             <draft-comment translate="no">Official agent (splm) product name with
                                 trademark included</draft-comment>

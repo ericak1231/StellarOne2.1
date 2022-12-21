@@ -82,7 +82,7 @@
                 <cmd>There are two ways to move agent(s) to another group:</cmd>
                 <choices id="choices_k4b_mzj_n5b">
                     <choice>
-                        <p>To remove muiltiple agents to another group at the same time, click the
+                        <p>To move muiltiple agents to another group at the same time, click the
                             checkboxes next to the target agents. Click the
                                 <uicontrol>Organize</uicontrol> tool on the toolbar.</p>
                     </choice>

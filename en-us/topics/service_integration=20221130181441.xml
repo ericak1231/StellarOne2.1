@@ -2,4 +2,10 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_nry_fwn_rvb">
     <title>Service Integration</title>
+    <conbody>
+        <p otherprops="UMBRACO">The <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web
+            console can be integrated to Trend Micro's Vision One and allows Vision One users to
+            search for <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>'s detection
+            logs.</p>
+    </conbody>
 </concept>

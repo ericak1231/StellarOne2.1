@@ -71,7 +71,7 @@
                         <entry colname="2">
                             <p>The folder on the host that contains the StellarProtect agent files.
                                 If you accept the default settings during installation, you will
-                                find the installation folder at one of the followinglocations:</p>
+                                find the installation folder at one of the following locations:</p>
                             <p><filepath>C:\Program Files\TXOne\StellarProtect</filepath></p>
                             <p><filepath>C:\Program Files\TXOne\StellarProtect (Legacy
                                     Mode)</filepath></p>

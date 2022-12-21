@@ -39,9 +39,9 @@
                 </info>
             </step>
             <step>
-                <cmd>(Optional) Click <uicontrol>StellarOne scan component update
-                        shcdule</uicontrol> and view the current settings for StellarOne's component
-                    update schedule.</cmd>
+                <cmd>(Optional) Click <uicontrol>Go to StellarOne Scan Component Update
+                        Schedule</uicontrol> and view the current settings for StellarOne's
+                    component update schedule.</cmd>
                 <info>
                     <p>
                         <note id="note_wqd_rbm_35b">

@@ -31,8 +31,7 @@
                     left side of the screen.</cmd>
             </step>
             <step>
-                <cmd>Click the toggle <uicontrol>Enable DLL Injection Prevention</uicontrol> to
-                    enable it.</cmd>
+                <cmd>Click the toggle <uicontrol>Block DLL Injection</uicontrol> to enable it.</cmd>
             </step>
         </steps>
     </taskbody>

@@ -86,8 +86,8 @@
                         <uicontrol>Scan Component Update Source (Agents)</uicontrol>.</cmd>
                 <choices id="choices_x13_d2h_3vb">
                     <choice>If the agents can connect to StellarOne server, select <uicontrol>Update
-                            from StellarOne</uicontrol> to download the component update source
-                        directly from the StellarOne server.</choice>
+                            from StellarOne</uicontrol> to download the component update directly
+                        from the StellarOne server.</choice>
                     <choice>
                         <p>If the agents can not connect to StellarOne server or if they are
                             standalone agents, select <uicontrol>Other update source</uicontrol> and

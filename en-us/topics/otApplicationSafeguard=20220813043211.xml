@@ -77,7 +77,7 @@
                         <li>
                             <p>(Optional) If users want to protect all files inside the selected
                                 folder, please uncheck the <uicontrol>Executable files
-                                    only</uicontrol> radio button. </p>
+                                    only</uicontrol>. </p>
                             <note id="note_zqf_qdn_n5b" type="tip">
                                 <p>By unchecking the <uicontrol>Executable files only</uicontrol>
                                     option, users can prevent their own secret files,

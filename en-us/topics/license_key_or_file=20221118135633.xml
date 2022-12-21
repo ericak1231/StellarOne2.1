@@ -5,7 +5,7 @@
     <conbody>
         <p>Choose one of the ways to renew license based on the license data available from your
             support provider:</p>
-        <ul id="ul_k2x_b3d_4vb">
+        <ul id="ul_k2x_b3d_4vb" otherprops="PRINT">
             <li>
                 <p><xref href="licenseRenewal_renew=20220728172943.xml"/></p>
             </li>

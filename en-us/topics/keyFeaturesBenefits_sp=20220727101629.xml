@@ -39,14 +39,15 @@
                                 <p>Centralized Agent Management</p>
                             </entry>
                             <entry>
-                                <p><ph conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> allows
+                                <p><ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> allows
                                     administrators to perform the following tasks:</p>
                                 <ul id="ul_a5s_x1m_g5b">
                                     <li>
-                                        <p>Monitor <ph conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
+                                        <p>Monitor <ph
+                                                conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                                 >OFFICIAL_PRODUCT_NAME</ph>/<ph
-                                                conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM"
-                                                >PRODUCT_SHORT_NAME</ph> agent status</p>
+                                                conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                                >OFFICIAL_PRODUCT_NAME</ph> agent status</p>
                                     </li>
                                     <li>
                                         <p>Examine connection status</p>
@@ -85,8 +86,8 @@
                                     </li>
                                     <li>
                                         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                                        <p>Import/Export agents' configurations or Approved List
-                                            (Legacy Mode only)</p><?oxy_custom_end?>
+                                        <p>Import/Export agents' configuration settings or Approved
+                                            List (Legacy Mode only)</p><?oxy_custom_end?>
                                     </li>
                                 </ul>
                             </entry>
@@ -97,15 +98,16 @@
                             </entry>
                             <entry>
                                 <p>On endpoints protected by <ph
-                                        conkeyref="PRODvars/PRODUCT_AGENT_SP_NAME_TM"
+                                        conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                         >OFFICIAL_PRODUCT_NAME</ph>/<ph
-                                        conkeyref="PRODvars/PRODUCT_AGENT_SPLM_NAME_TM"
-                                        >PRODUCT_SHORT_NAME</ph> agents, administrators can monitor
-                                    status and events, as well as respond when files are blocked
-                                    from running. <ph
-                                        conkeyref="PRODvars/COMPANY_NAME_PRODUCT_NAME_TM"/> provides
-                                    event management features that let administrators quickly know
-                                    about and take action on the blocked-file events.</p>
+                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph> agents, administrators can
+                                    monitor status and events, as well as respond when files are
+                                    blocked from running. <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    provides event management features that let administrators
+                                    quickly know about and take action on the blocked-file
+                                    events.</p>
                             </entry>
                         </row>
                         <row valign="middle">
