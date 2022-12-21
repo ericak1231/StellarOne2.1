@@ -58,11 +58,17 @@
                         Management</uicontrol> screen. Specify your license key in the
                         <uicontrol>License Key</uicontrol> field, and then click
                         <uicontrol>Download</uicontrol>.</cmd>
-                <stepxmp>
+                <stepxmp otherprops="UMBRACO">
                     <fig id="fig_pcz_qsd_vvb">
+                        <image href="../images/license_file_management=20221213160029.png"
+                            id="image_ebc_ssd_vvb" scalefit="no" scale="80"/>
+                    </fig>
+                </stepxmp>
+                <stepxmp otherprops="PRINT">
+                    <fig id="fig_hjg_fbk_xvb" otherprops="PRINT">
                         <title>TXOne License File Management</title>
                         <image href="../images/license_file_management=20221213160029.png"
-                            id="image_ebc_ssd_vvb" scalefit="no" scale="50"/>
+                            scalefit="yes" id="image_ijg_fbk_xvb"/>
                     </fig>
                 </stepxmp>
             </step>

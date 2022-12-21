@@ -9,10 +9,15 @@
           <uicontrol>Administration</uicontrol>
           <uicontrol>License</uicontrol>
         </menucascade>. Below table lists details about the <wintitle>License</wintitle> page.</p>
-      <fig id="fig_ntq_jc4_35b" otherprops="PRINT">
+      <fig id="fig_ntq_jc4_35b" otherprops="UMBRACO">
         <title>The License Screen</title>
         <image href="../images/2.1/license_screen=20221214101527.png" id="image_ofb_nf4_35b"
-          scalefit="no" scale="50"/>
+          scalefit="no" scale="80"/>
+      </fig>
+      <fig otherprops="PRINT" id="fig_ost_v1k_xvb">
+        <title>The License Screen</title>
+        <image href="../images/2.1/license_screen=20221214101527.png" scalefit="yes"
+          id="image_pst_v1k_xvb" otherprops="PRINT"/>
       </fig>
       <table frame="all" rowsep="1" colsep="1" id="table_yht_yzn_35b">
         <title>About the License Screen</title>
