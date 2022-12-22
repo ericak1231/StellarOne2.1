@@ -16,13 +16,17 @@
             <step>
                 <cmd>To download the latest Agent Installer Package. Click
                         <uicontrol>Download</uicontrol>.</cmd>
-                <stepxmp>
+                <stepxmp otherprops="UMBRACO">
                     <fig>
-                        <title>Downloads/Updates Screen</title>
-                    </fig>
-                    <fig id="fig_ds1_22j_vvb">
                         <image href="../images/2.1/download_update=20221214095841.png"
-                            id="image_j4k_22j_vvb" scalefit="no" scale="50"/>
+                            id="image_j4k_22j_vvb" scalefit="no" scale="80"/>
+                    </fig>
+                </stepxmp>
+                <stepxmp otherprops="PRINT">
+                    <fig id="fig_vmz_sfp_xvb">
+                        <title>Downloads/Updates Screen</title>
+                        <image href="../images/2.1/download_update=20221214095841.png"
+                            scalefit="yes" id="image_xmz_sfp_xvb"/>
                     </fig>
                 </stepxmp>
                 <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>

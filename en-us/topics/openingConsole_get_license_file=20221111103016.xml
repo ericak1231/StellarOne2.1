@@ -15,16 +15,16 @@
                 activation. To get a license file, follow below precedures.</p>
         </context>
         <steps id="steps_gjx_t5d_m4">
-            <step otherprops="AG">
+            <step otherprops="UMBRACO_AG">
                 <cmd>Go to <menucascade>
                         <uicontrol>Administration</uicontrol>
                         <uicontrol>License</uicontrol>
                     </menucascade></cmd>
             </step>
-            <step otherprops="AG">
+            <step otherprops="UMBRACO_AG">
                 <cmd>Click the <uicontrol>New License Key / File</uicontrol> button.</cmd>
             </step>
-            <step otherprops="AG">
+            <step otherprops="UMBRACO_AG">
                 <cmd>The <wintitle>New License</wintitle> window appears.</cmd>
             </step>
             <step otherprops="IG">
@@ -34,16 +34,43 @@
                         Activation</wintitle> window appears.</cmd>
             </step>
             <step>
+                <cmd>Click <uicontrol>License File</uicontrol>.</cmd>
+            </step>
+            <step>
                 <cmd>Click <uicontrol>Copy Download Link for getting the License File</uicontrol> at
                     the bottom of the <wintitle otherprops="IG">License
-                        Activation</wintitle><wintitle otherprops="AG">New
-                        License</wintitle><wintitle otherprops="UMBRACO">New License</wintitle>
-                    window.</cmd>
+                        Activation</wintitle><wintitle otherprops="UMBRACO_AG">New
+                        License</wintitle> window.</cmd>
                 <info>
                     <note type="important" id="note_pvc_1md_mvb">
                         <p>A license key is required for downloading a license file.</p>
                     </note>
                 </info>
+                <stepxmp otherprops="AG">
+                    <fig id="fig_yb3_bdp_xvb" otherprops="AG">
+                        <title>Copy Download Link for License File</title>
+                        <image
+                            href="../images/2.1/copy_download_link_license_file=20221222091257.png"
+                            id="image_ipj_cdp_xvb"/>
+                    </fig>
+                </stepxmp>
+                <stepxmp otherprops="UMBRACO">
+                    <fig otherprops="AG" id="fig_d4l_ldp_xvb">
+                        <image
+                            href="../images/2.1/copy_download_link_license_file=20221222091257.png"
+                            id="image_e4l_ldp_xvb" scalefit="no" scale="80"/>
+                    </fig>
+                </stepxmp>
+                <stepxmp otherprops="IG">
+                    <fig>
+                        <title>Copy Download Link for License File</title>
+                    </fig>
+                    <fig id="fig_dgn_lfp_xvb">
+                        <image
+                            href="../images/2.1/copy_download_link_license_file_ig_use=20221222093334.png"
+                            id="image_hdz_lfp_xvb"/>
+                    </fig>
+                </stepxmp>
             </step>
             <step>
                 <cmd><uicontrol>The Download Link has been copied</uicontrol> toast message

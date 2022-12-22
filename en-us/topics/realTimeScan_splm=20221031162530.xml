@@ -2,8 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 
 <task id="GUID-BED80320-70E5-47C4-9530-CC26073D469D" xml:lang="en-us">
-    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
-    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Real-Time Scan</title><?oxy_custom_end?>
+    <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Real-Time Malware
+        Scan<?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?></title><?oxy_custom_end?>
     <taskbody>
         <context id="context_jww_5n4_n5b">
             <p><uicontrol>Real-time Malware Scan</uicontrol> provides persistent and ongoing file
@@ -19,6 +19,14 @@
                     <uicontrol>Real-time Malware Scan</uicontrol> tracks any changes made to files
                 or folders that have occurred until the function is disabled and the files are
                 unloaded and removed from the scan cache.</p>
+            <note id="note_yn3_jnp_xvb">
+                <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                <p><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                    installed on Windows 2000 SP4 (without update rollup) or Windows XP SP1 supports
+                    real-time malware scan only when files are opened or executed; it does not
+                    support real-time malware scan when files are newly added or
+                    changed.<?oxy_custom_end?></p>
+            </note>
         </context>
         <steps>
             <step>
