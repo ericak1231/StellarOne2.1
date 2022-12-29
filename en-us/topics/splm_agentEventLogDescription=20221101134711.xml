@@ -3,11 +3,11 @@
 
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
   <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Agent Event Log Descriptions for <ph
-      conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph></title>
+      conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></title>
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
       <p>This table details the Windows event log descriptions for <ph
-          conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>.</p>
+          conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.</p>
       <table frame="all" id="table_uqw_xlp_l5b">
         <tgroup cols="4">
           <colspec colname="c1" colnum="1" colwidth="1.09*"/>
@@ -2038,6 +2038,50 @@
                   NAME% New Policy Version: %VERSION%</p>
               </entry>
             </row>
+            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+            <row>
+              <entry>
+                <p>8000</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Real Time Scan is enabled</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>8500</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Scheduled component update has been enabled. Next update will  be on %TIME%
+                  (agent's local system time).</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>8501</p>
+              </entry>
+              <entry>
+                <p>Information</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Scheduled component update has been disabled.</p>
+              </entry>
+            </row><?oxy_custom_end?>
             <row>
               <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
               <entry>
@@ -2993,6 +3037,84 @@
                   NAME% New Policy Version: %VERSION% Reason: %Reason%</p>
               </entry>
             </row>
+            <?oxy_custom_start type="oxy_content_highlight" color="140,255,140"?>
+            <row>
+              <entry>
+                <p>8001</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Real Time Scan is disabled.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>8010</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Incoming files were scanned by antivirus. Action was taken according to
+                  settings.</p>
+                <ul id="ul_st1_1y4_zvb">
+                  <li>
+                    <p>File Path: %PATH%</p>
+                  </li>
+                  <li>
+                    <p>File Hash: %HASH%</p>
+                  </li>
+                  <li>
+                    <p>Threat Type: %TYPE%</p>
+                  </li>
+                  <li>
+                    <p>Threat Name: %NAME%</p>
+                  </li>
+                  <li>
+                    <p>Action Result: %INTEGER%</p>
+                  </li>
+                  <li>
+                    <p>Quarantine Path: %PATH%</p>
+                  </li>
+                </ul>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p>8011</p>
+              </entry>
+              <entry>
+                <p>Warning</p>
+              </entry>
+              <entry>
+                <p>System</p>
+              </entry>
+              <entry>
+                <p>Application execution was blocked by antivirus.</p>
+                <ul id="ul_v1s_hy4_zvb">
+                  <li>
+                    <p>Process Image Path: %PATH%</p>
+                  </li>
+                  <li>
+                    <p>File Hash: %HASH%</p>
+                  </li>
+                  <li>
+                    <p>Threat Type: %TYPE%</p>
+                  </li>
+                  <li>
+                    <p>Threat Name: %NAME%</p>
+                  </li>
+                </ul>
+              </entry>
+            </row><?oxy_custom_end?>
           </tbody>
         </tgroup>
       </table>
