@@ -2064,7 +2064,7 @@
                 <p>System</p>
               </entry>
               <entry>
-                <p>Scheduled component update has been enabled. Next update will  be on %TIME%
+                <p>Scheduled component update has been enabled. Next update will be on %TIME%
                   (agent's local system time).</p>
               </entry>
             </row>
