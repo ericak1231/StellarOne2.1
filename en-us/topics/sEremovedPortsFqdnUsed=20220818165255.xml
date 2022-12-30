@@ -149,7 +149,8 @@
                                 <p>443</p>
                             </entry>
                             <entry>
-                                <p>ttau.cs.txone.com</p>
+                                <p><xref href="https://ttau.cs.txone.com/" format="html"
+                                        scope="external"/></p>
                             </entry>
                             <entry>
                                 <p>StellarOne connects to global server port for the Stellar Active
