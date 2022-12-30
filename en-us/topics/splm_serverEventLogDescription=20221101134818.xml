@@ -4,11 +4,12 @@
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
   <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Server Event Log Descriptions for <ph
-      conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></title><?oxy_custom_end?>
+      conkeyref="PRODvars/PRODUCT_SE_TO_SPLM">document_part_number</ph></title><?oxy_custom_end?>
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
       <p>This table lists the server event log descriptions for <ph
-          conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.<table frame="all" id="table_d1f_xbx_l5b">
+          conkeyref="PRODvars/PRODUCT_SE_TO_SPLM">document_part_number</ph>.<table frame="all"
+          id="table_d1f_xbx_l5b">
           <tgroup cols="3">
             <colspec colname="c1" colnum="1" colwidth="1*"/>
             <colspec colname="newCol2" colnum="2" colwidth="1.21*"/>

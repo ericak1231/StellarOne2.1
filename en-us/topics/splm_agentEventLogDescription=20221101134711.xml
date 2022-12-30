@@ -3,11 +3,11 @@
 
 <reference id="GUID-09957805-70E7-401F-A691-F587FCE2CB8B" xml:lang="en-us">
   <title id="GUID-A4D3FF66-A7CF-4FFC-B107-CCF41F85472A">Agent Event Log Descriptions for <ph
-      conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/></title>
+      conkeyref="PRODvars/PRODUCT_SE_TO_SPLM">document_part_number</ph></title>
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
       <p>This table details the Windows event log descriptions for <ph
-          conkeyref="PRODvars/PRODUCT_SPLM_SE_SWITCH"/>.</p>
+          conkeyref="PRODvars/PRODUCT_SE_TO_SPLM">document_part_number</ph>.</p>
       <table frame="all" id="table_uqw_xlp_l5b">
         <tgroup cols="4">
           <colspec colname="c1" colnum="1" colwidth="1.09*"/>
