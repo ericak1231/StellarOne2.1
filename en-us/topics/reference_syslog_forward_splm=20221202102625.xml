@@ -316,9 +316,7 @@
       </table>
       <fig id="fig_bmf_1g1_svb">
         <title>Example of StellarProtect (Legacy Mode) Syslog Content</title>
-        <image
-          href="../../../../../../../Library/CloudStorage/OneDrive-TXOneNetworksInc/Documents/3.%20Project/2.1/StellarOne/en-us/images/syslog_cef_format_splm=20221202114202.png"
-          id="image_ff2_bg1_svb"/>
+        <image href="../images/syslog_cef_format_splm=20221202114202.png" id="image_ff2_bg1_svb"/>
       </fig>
     </section>
   </refbody>
