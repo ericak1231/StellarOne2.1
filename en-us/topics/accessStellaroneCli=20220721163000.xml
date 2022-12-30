@@ -27,14 +27,6 @@
             <step>
                 <cmd>After logging on the StellarOne console, type <userinput>help</userinput>
                     command for a list of available commands.</cmd>
-                <stepxmp>
-                    <?oxy_comment_start author="erica_txone" timestamp="20221202T101429+0800" comment="need to update vShell help command list"?>
-                    <fig id="fig_lgg_nnv_d5b">
-                        <title>StellarOne CLI</title>
-                        <image href="../images/cliStellarOneHelp=20220721164316.png"
-                            id="image_jc4_vmv_d5b"/>
-                    </fig><?oxy_comment_end?>
-                </stepxmp>
             </step>
         </steps>
     </taskbody>
