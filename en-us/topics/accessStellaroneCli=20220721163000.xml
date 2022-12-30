@@ -27,6 +27,14 @@
             <step>
                 <cmd>After logging on the StellarOne console, type <userinput>help</userinput>
                     command for a list of available commands.</cmd>
+                <stepxmp>
+                    <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>
+                    <fig id="fig_nj3_2gy_zvb">
+                        <title>Command list</title>
+                        <image href="../images/2.1/vshell_command_list=20221230192639.png"
+                            id="image_g1c_wjy_zvb"/>
+                    </fig><?oxy_custom_end?>
+                </stepxmp>
             </step>
         </steps>
     </taskbody>
