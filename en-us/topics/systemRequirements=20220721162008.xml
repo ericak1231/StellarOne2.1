@@ -23,7 +23,7 @@
             </li>
         </ul>
         <note id="note_snp_pcd_mvb">
-            <p>For StellarOne deployed from AMI on a AWS EC2 console, refer to <xref
+            <p>For StellarOne deployed from AMI on a AWS EC2 instance, refer to <xref
                     href="instant_types=20221111094622.xml"/> for more details.</p>
         </note>
         <p><b>Supported Browser</b></p>
