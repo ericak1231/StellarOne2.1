@@ -5,7 +5,7 @@
     <title id="GUID-71E6E7FF-D420-465A-9CFA-86F8BA5BE094">Edit Description for Agents</title>
     <taskbody>
         <context>
-            <p>To edit description for agents, which will appear on the mainscreen of the local
+            <p>To edit description for agents, which will appear on the main screen of the local
                 agent, follow below procedures.</p>
         </context>
         <steps id="steps_vg5_mtj_n5b">
@@ -21,7 +21,7 @@
             <step>
                 <cmd>There are two ways to edit descriptions for agent(s):</cmd>
                 <choices id="choices_hbt_h1k_n5b">
-                    <choice>To edit description for muiltiple agents at the same time, click the
+                    <choice>To edit description for multiple agents at the same time, click the
                         checkboxes next to the target agents or groups. Click the
                             <uicontrol>Organize</uicontrol> tool on the toolbar.</choice>
                     <choice>

@@ -8,25 +8,23 @@
       <p>Two widgets for monitoring <ph conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
           >OFFICIAL_PRODUCT_NAME</ph> and three for <ph
           conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> agent events
-        can be added under the <uicontrol>Summary</uicontrol> tab of
-          the<uicontrol>Dashboard</uicontrol> screen.<ul id="ul_wsg_p2d_n5b">
+        can be added under the <uicontrol>Summary</uicontrol> tab of the
+          <uicontrol>Dashboard</uicontrol> screen.<ul id="ul_wsg_p2d_n5b">
           <li>
             <p><uicontrol>Blocked Event History</uicontrol>
               <?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>(Legacy Mode
               only)<?oxy_custom_end?>: This widget displays a summary of blocked events for the
               specified time period. By default, the widget is displayed on the
-                <uicontrol>Summary</uicontrol> tab of the <uicontrol>Dashboard</uicontrol>.
-              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Click the display
-              icons to display the data as a pie chart or a line
-              chart.<?oxy_custom_end?><?oxy_comment_start author="erica_txone" timestamp="20221101T145644+0800" comment="can&apos;t find the display icons"?></p><?oxy_comment_end?>
+                <uicontrol>Summary</uicontrol> tab page of the <uicontrol>Dashboard</uicontrol>.</p>
             <fig id="fig_qd1_q1k_jvb" otherprops="PRINT">
               <image href="../images/dashboard_widget_blocked_event_history=20221101150921.png"
                 id="image_gny_z1k_jvb"/>
             </fig>
             <ol id="ol_wxb_gbk_jvb">
               <li>
-                <p>Select from the Time Period drop-down menu to display the events occuring within
-                  a specified period. Refer to the tips below for more details.</p>
+                <p>Select from the <wintitle>Time Period</wintitle> drop-down menu at the top right
+                  corner of this widget to display the events occuring within a specified period.
+                  Refer to the <i>Tips</i> below this section for more details.</p>
               </li>
               <li>
                 <p>Click a value on the chart to be directed to the <uicontrol>Agents
@@ -40,14 +38,15 @@
           <li>
             <p><uicontrol>Top Endpoints with Blocked Events</uicontrol>: This widget displays the
               endpoints with the most blocked events. By default, the widget is displayed on the
-                <uicontrol>Summary</uicontrol> tab of the <uicontrol>Dashboard</uicontrol>.<fig
+                <uicontrol>Summary</uicontrol> tab page of the <uicontrol>Dashboard</uicontrol>.<fig
                 id="fig_xfh_cgk_jvb">
                 <image href="../images/top_endpoints_blocked_event=20221101154811.png"
                   id="image_nks_cgk_jvb"/>
               </fig><ol id="ol_qtw_4gk_jvb">
                 <li>
-                  <p>Select from the Time Period drop-down menu to display the events occuring
-                    within a specified period. Refer to the tips below for more details.</p>
+                  <p>Select from the <wintitle>Time Period</wintitle> drop-down menu at the top
+                    right corner of this widget to display the events occuring within a specified
+                    period. Refer to the <i>Tips</i> below this section for more details.</p>
                 </li>
                 <li>
                   <p>Click an endpoint name to be directed to the <uicontrol>General
@@ -158,7 +157,7 @@
                         <p>Blocked Events</p>
                       </entry>
                       <entry>
-                        <p>Total number of the blocked events triggerd by the file</p>
+                        <p>Total number of the blocked events triggered by the file</p>
                       </entry>
                     </row>
                   </tbody>

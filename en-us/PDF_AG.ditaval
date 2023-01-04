@@ -6,5 +6,5 @@
     <prop action="exclude" att="otherprops" val="OLH"/>
     <prop action="exclude" att="otherprops" val="UMBRACO"/>
     <prop action="exclude" att="otherprops" val="IG"/>
-
+    <prop action="exclude" att="otherprops" val="TBD"/>
 </val>

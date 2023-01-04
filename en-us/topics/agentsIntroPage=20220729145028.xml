@@ -2,12 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
 
 <concept id="GUID-F8FAF1DF-7A1E-4C0A-ADA3-6F6FC6CAD49D" xml:lang="en-us">
- <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
- <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Agents</title><?oxy_custom_end?>
- <?oxy_comment_start author="erica_txone" timestamp="20221028T181843+0800" comment="1. add SPLM actions &amp; specify (SPLM only)? 
-or
-2. separate SP &amp; SPLM?"?>
- <conbody><?oxy_comment_end?>
+ <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Agents</title>
+ <conbody>
   <p><indexterm>agents</indexterm>This chapter introduces how to manage <ph
     conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>/<ph
     conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph> agents via
@@ -22,6 +18,9 @@ or
    </li>
    <li>
     <p><xref href="agentsUpdate=20220803103542.xml"/></p>
+   </li>
+   <li>
+    <p><xref href="agents_import_export=20221031182133.xml"/></p>
    </li>
   </ul>
  </conbody>

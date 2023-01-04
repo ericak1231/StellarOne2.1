@@ -34,7 +34,7 @@
                 <cmd>To rename a group, click the kebab menu (three dots menu) of the target group
                     under the <uicontrol>Actions</uicontrol> header. A drop-down menu appears.
                     Select the <uicontrol>Rename</uicontrol> button and then a pop-up window
-                    appears. Delete the old group name and replace it wih a new one. Click
+                    appears. Delete the old group name and replace it with a new one. Click
                         <uicontrol>Confirm</uicontrol> to complete this task.</cmd>
                 <info>
                     <note id="note_p2v_xyj_n5b">
@@ -46,7 +46,7 @@
                 <cmd>There are two ways to remove groups or agents:</cmd>
                 <choices id="choices_xpy_cwj_n5b">
                     <choice>
-                        <p>To remove muiltiple agents or groups at the same time, click the
+                        <p>To remove multiple agents or groups at the same time, click the
                             checkboxes next to the target agents or groups. Click the
                                 <uicontrol>Organize</uicontrol> tool on the toolbar and select
                                 <uicontrol>Remove</uicontrol>. Click <uicontrol>Confirm</uicontrol>
@@ -82,7 +82,7 @@
                 <cmd>There are two ways to move agent(s) to another group:</cmd>
                 <choices id="choices_k4b_mzj_n5b">
                     <choice>
-                        <p>To move muiltiple agents to another group at the same time, click the
+                        <p>To move multiple agents to another group at the same time, click the
                             checkboxes next to the target agents. Click the
                                 <uicontrol>Organize</uicontrol> tool on the toolbar.</p>
                     </choice>

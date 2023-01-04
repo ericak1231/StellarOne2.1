@@ -12,8 +12,9 @@
                 logs<?oxy_custom_end?> via Trend Micro Vision One Search app.<note
                     id="note_zkm_n1t_rvb" type="important">
                     <p>Be sure to complete the deployment of Trend Micro Vision One Service Gateway
-                        first, and then obtain the required information for Service Gateway settings
-                        in steps 2 and 3. Please contact your support provider for more
+                        and enable <uicontrol>Forward proxy</uicontrol> function first, and then
+                        obtain the information for Service Gateway settings required in <i>Step
+                            2</i> and <i>Step 3</i>. Please contact your support provider for more
                         information.</p>
                 </note></p>
             <?oxy_comment_start author="erica_txone" timestamp="20221201T110856+0800" comment="2023 Q1 - SPLM sends other kinds of logs to V1"?>

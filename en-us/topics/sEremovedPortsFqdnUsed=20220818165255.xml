@@ -149,7 +149,9 @@
                                 <p>443</p>
                             </entry>
                             <entry>
-                                <p><xref href="https://ttau.cs.txone.com/" format="html"
+                                <p><xref href="http://ttau.cs.txone.com/protect" format="html"
+                                        scope="external"/></p>
+                                <p><xref href="https://ttau.cs.txone.com/enforce" format="html"
                                         scope="external"/></p>
                             </entry>
                             <entry>

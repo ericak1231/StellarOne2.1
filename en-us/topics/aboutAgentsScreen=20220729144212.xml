@@ -100,17 +100,17 @@
                 <p><uicontrol>Import/Export</uicontrol></p>
               </entry>
               <entry>
-                <p>This tool allows users to export and modify (if needed) agent configuration file,
-                  and then import it to a batch of target agents/groups for more efficient
-                  configuration implementation. Refer to <xref
-                    href="agents_import_export=20221031182133.xml"/>.</p>
+                <p>This tool allows users to export an agent config file, and then import it to
+                  apply the settings specified in the config file to a batch of target agents/groups
+                  . Refer to <xref href="agents_import_export=20221031182133.xml"/> for more
+                  details.</p>
               </entry>
             </row>
           </tbody>
         </tgroup>
       </table>
       <fig id="fig_ovs_s4j_n5b" otherprops="PRINT">
-        <title>The Agents Screen - Table Headings</title>
+        <title>The Agents Screen - Column Headings</title>
         <image href="../images/2.0/agents_screen_table_header=20220914162913.png"
           id="image_os1_v4j_n5b" otherprops="PRINT"/>
       </fig>
@@ -145,10 +145,10 @@
                       <p><image href="../images/groupIcon=20220804220303.png" id="image_mjj_fy4_k5b"
                           scalefit="no" scale="50"/>: This icon indicates a group.</p>
                     </li>
-                    <li>
+                    <li otherprops="TBD">
                       <p><image href="../images/licenseExpired=20220902123648.png"
                           id="image_rtm_qy4_s5b" scalefit="no" scale="10"/>: This icon indicates the
-                        agent's license is expired and needs to be renewed.</p>
+                        agent's license has expired and needs to be renewed.</p>
                     </li>
                   </ul>
                 </p>
@@ -172,23 +172,23 @@
                   <ul id="ul_gbn_r1p_k5b">
                     <li>
                       <p><image href="../images/lockIcon=20220804221106.png" id="image_ftz_2z4_k5b"
-                          scalefit="no" scale="50"/>: This icon indicates the endpoint's Application
-                        Lockdown feature is enabled.</p>
+                          scalefit="no" scale="50"/>: This icon indicates the Application Lockdown
+                        is enabled.</p>
                     </li>
                     <li>
                       <p><image href="../images/shieldIcon=20220804221001.png"
                           id="image_fgm_bz4_k5b" scalefit="no" scale="50"/>: This icon indicates the
-                        endpoint is under protection.</p>
+                        agent protection feature is enabled.</p>
                     </li>
                     <li>
                       <p><image href="../images/maintenanceModeIcon=20220804223314.png"
                           id="image_fsw_ccp_k5b" scalefit="no" scale="50"/>: This icon indicates the
-                        endpoint is in maintenance mode.</p>
+                        agent is in maintenance mode.</p>
                     </li>
                     <li>
                       <p><image href="../images/riskIcon=20220804223452.png" id="image_sz1_3cp_k5b"
-                          scalefit="no" scale="50"/>: This icon indicates the endpoint has no
-                        protection at all and is exposed to security threat.</p>
+                          scalefit="no" scale="50"/>: This icon indicates the agent protection
+                        feature is disabled and the endpoint is vulnerable to security threats.</p>
                     </li>
                   </ul>
                 </p>
@@ -216,20 +216,19 @@
                     </li>
                     <li>
                       <p><image href="../images/greenLight=20220804221500.png"
-                          id="image_h5p_5z4_k5b" scalefit="no" scale="50"/>: The green light
-                        indicates the policy settings for the agent synchronizes with the StellarOne
-                        console.</p>
+                          id="image_h5p_5z4_k5b" scalefit="no" scale="50"/>: Indicates the policy
+                        settings for the agent synchronize with the StellarOne console.</p>
                     </li>
                     <li>
                       <p><image href="../images/grayLight=20220804221533.png" id="image_l4c_vz4_k5b"
-                          scalefit="no" scale="50"/>: The gray light indicates the policy settings
-                        for the agent does not synchronize with the StellarOne console.</p>
+                          scalefit="no" scale="50"/>: Indicates the policy settings for the agent do
+                        not synchronize with the StellarOne console.</p>
                     </li>
                     <li>
                       <p><image href="../images/icon_self_managed=20220906162758.png"
-                          id="image_imb_xft_t5b" scalefit="no" scale="50"/>: The icon indicates the
-                        agent/group is free from the StellarOne console's policy management and is
-                        allowed to configure its own policy settings on site.</p>
+                          id="image_imb_xft_t5b" scalefit="no" scale="50"/>: Indicates the
+                        agent/group is free from the StellarOne console's policy management and
+                        whose feature settings should be configured on the local console.</p>
                     </li>
                   </ul>
                 </p>
@@ -279,7 +278,7 @@
                 <p><term>Actions</term></p>
               </entry>
               <entry>
-                <p>Under this header, users can <ul id="ul_xnl_b2k_n5b">
+                <p>Under this heading, users can <ul id="ul_xnl_b2k_n5b">
                     <li>
                       <p>click <image href="../images/policyIcon=20220814234230.png"
                           id="image_d4s_zdk_n5b" scalefit="no" scale="50"/>, the policy icon, for

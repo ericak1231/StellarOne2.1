@@ -6,7 +6,7 @@
   <refbody>
     <example otherprops="PRINT">
       <fig id="fig_sjh_vmz_v5b" otherprops="PRINT">
-        <title>Filter Options</title>
+        <title>Filter Options for Agents/Groups</title>
         <image href="../images/2.0/filter_options_agents=20220914164929.png" id="image_n2b_cnz_v5b"
           otherprops="PRINT"/>
       </fig>
@@ -31,7 +31,7 @@
             <entry>
               <fig id="fig_mts_ynb_qvb">
                 <image href="../images/filter_options_computer_icon=20221125114615.png"
-                  id="image_ns3_znb_qvb" scalefit="yes" scale="20"/>
+                  id="image_ns3_znb_qvb" scalefit="yes" scale="50"/>
               </fig>
             </entry>
             <entry>
@@ -78,7 +78,7 @@
               <p>Group</p>
             </entry>
             <entry>
-              <p>The name of the group. Select the available group.</p>
+              <p>The name of the group. Please ensure that you select the available group.</p>
             </entry>
           </row>
           <row>
@@ -86,8 +86,8 @@
               <p>Policy Inheritance</p>
             </entry>
             <entry>
-              <p>Three kinds of Policy Inheritance: <uicontrol>Inherited</uicontrol>,
-                  <uicontrol>Customized</uicontrol>, and <uicontrol>Self-managed</uicontrol>, are
+              <p>Three options -- <uicontrol>Customized</uicontrol>,
+                  <uicontrol>Inherited</uicontrol>, and <uicontrol>Self-managed</uicontrol>, are
                 available for selection.</p>
             </entry>
           </row>
@@ -105,7 +105,7 @@
               <p>Agent Version</p>
             </entry>
             <entry>
-              <p>Type the Agent Version.</p>
+              <p>Type the build version of the target agents.</p>
             </entry>
           </row>
           <row>
@@ -114,8 +114,8 @@
             </entry>
             <entry>
               <p>The last time the agents were connected with StellarOne. Select the default time
-                period or select <uicontrol>Custom</uicontrol> to specify a time period. Default
-                time period:<ul id="ul_or1_rck_n5b">
+                period or select <uicontrol>Custom range</uicontrol> to specify a time period.
+                Default time period:<ul id="ul_or1_rck_n5b">
                   <li>
                     <p>Last 1 hour</p>
                   </li>
@@ -137,7 +137,7 @@
             </entry>
             <entry>
               <p>Select <uicontrol>StellarProtect</uicontrol> or <uicontrol>StellarProtect (Legacy
-                  Mode)</uicontrol></p>
+                  Mode)</uicontrol>.</p>
             </entry>
           </row>
           <row>
