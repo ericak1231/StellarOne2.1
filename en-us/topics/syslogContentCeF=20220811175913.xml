@@ -5,7 +5,7 @@
  <title id="GUID-1B4C75D4-D403-4C7D-A980-25FB78E01ED7">Syslog Content - CEF</title>
  <conbody>
   <p><indexterm>appendices<indexterm>syslog content - CEF</indexterm></indexterm>The following
-   tables map syslog content between StellarOne log output and CEF syslog types.</p>
+   section maps syslog content between StellarOne log output and CEF syslog types.</p>
   <p>Topics in this section includes:</p>
   <ul id="ul_vym_xrm_m5b" otherprops="PRINT">
    <li>

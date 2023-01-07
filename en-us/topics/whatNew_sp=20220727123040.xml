@@ -51,14 +51,14 @@
                                 <p>Single installer package for Agent</p>
                             </entry>
                             <entry>
-                                <p>Users can download a single installer package for the Agent – <ph
+                                <p>A single installer package for the Agent, <ph
                                         conkeyref="PRODvars/PRODUCT_SP_ALTERNATIVE_NAME"
                                         >OFFICIAL_PRODUCT_NAME</ph> and <ph
                                         conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> from the <ph
-                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> web
-                                    console. After being invoked, the single installer can identify
-                                    the version of Windows installed on the endpoint and launch the
+                                        >OFFICIAL_PRODUCT_NAME</ph>, is available for download from
+                                        <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>.
+                                    After being invoked, the single installer can identify the
+                                    version of Windows installed on the endpoint and launch the
                                     suitable installer for the endpoint to install.</p>
                             </entry>
                         </row>
@@ -67,7 +67,7 @@
                                 <p>Supporting license key/file</p>
                             </entry>
                             <entry>
-                                <p>Supports product activation by license key or license file.</p>
+                                <p>Supports license key and license file for product activation</p>
                             </entry>
                         </row>
                         <row>
@@ -76,13 +76,13 @@
                                         conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
                                         >OFFICIAL_PRODUCT_NAME</ph></p>
                             </entry>
-                            <entry>
-                                <p>With this new feature, the <ph
-                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> can persistently scan new and
-                                    changed files, along with system memory, to provide security
-                                    assessment for maximum protection against malware.</p>
-                            </entry>
+                            <entry>Adds the new policy setting, Anti-Malware Scanning for <ph
+                                    conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                    >OFFICIAL_PRODUCT_NAME</ph>, allowing <ph
+                                    conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                administrator to remotely enable agents to persistently scan new and
+                                changed files, along with system memory, to provide security
+                                assessment for maximum protection against malware.</entry>
                         </row>
                         <row>
                             <entry>
@@ -91,14 +91,13 @@
                                         >OFFICIAL_PRODUCT_NAME</ph></p>
                             </entry>
                             <entry>
-                                <p>In addition to the existing component update schedule feature of
-                                    the <ph conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
-                                    console, now users can also configure the component update
-                                    schedule for the <ph
-                                        conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
-                                        >OFFICIAL_PRODUCT_NAME</ph> agents. The agents can run
-                                    component update automatically at users' assigned time
-                                    frequency.</p>
+                                <p>Adds the new policy setting, Agent Component Update Schedule for
+                                        <ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME"
+                                        >OFFICIAL_PRODUCT_NAME</ph>, enabling <ph
+                                        conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/>
+                                    administrator to remotely schedule for component update on
+                                    agents. The agents can run component update automatically at
+                                    users' assigned time frequency.</p>
                             </entry>
                         </row>
                     </tbody>

@@ -139,16 +139,16 @@
                   <ul id="ul_kdj_ly4_k5b">
                     <li>
                       <p><image href="../images/agentIcon=20220804220153.png" id="image_sbv_zx4_k5b"
-                          scalefit="no" scale="50"/>: This icon indicates an agent.</p>
+                          scalefit="no" scale="50"/>: Indicates an agent</p>
                     </li>
                     <li>
                       <p><image href="../images/groupIcon=20220804220303.png" id="image_mjj_fy4_k5b"
-                          scalefit="no" scale="50"/>: This icon indicates a group.</p>
+                          scalefit="no" scale="50"/>: Indicates a group</p>
                     </li>
                     <li otherprops="TBD">
                       <p><image href="../images/licenseExpired=20220902123648.png"
-                          id="image_rtm_qy4_s5b" scalefit="no" scale="10"/>: This icon indicates the
-                        agent's license has expired and needs to be renewed.</p>
+                          id="image_rtm_qy4_s5b" scalefit="no" scale="10"/>: Indicates the agent's
+                        license has expired and needs to be renewed</p>
                     </li>
                   </ul>
                 </p>
@@ -160,7 +160,7 @@
               </entry>
               <entry>
                 <p>Indicates the IP Address of the endpoint (one IP address corresponds to a single
-                  agent).</p>
+                  agent)</p>
               </entry>
             </row>
             <row>
@@ -172,23 +172,23 @@
                   <ul id="ul_gbn_r1p_k5b">
                     <li>
                       <p><image href="../images/lockIcon=20220804221106.png" id="image_ftz_2z4_k5b"
-                          scalefit="no" scale="50"/>: This icon indicates the Application Lockdown
-                        is enabled.</p>
+                          scalefit="no" scale="50"/>: Indicates the Application Lockdown is
+                        enabled</p>
                     </li>
                     <li>
                       <p><image href="../images/shieldIcon=20220804221001.png"
-                          id="image_fgm_bz4_k5b" scalefit="no" scale="50"/>: This icon indicates the
-                        agent protection feature is enabled.</p>
+                          id="image_fgm_bz4_k5b" scalefit="no" scale="50"/>: Indicates the agent
+                        protection feature is enabled</p>
                     </li>
                     <li>
                       <p><image href="../images/maintenanceModeIcon=20220804223314.png"
-                          id="image_fsw_ccp_k5b" scalefit="no" scale="50"/>: This icon indicates the
-                        agent is in maintenance mode.</p>
+                          id="image_fsw_ccp_k5b" scalefit="no" scale="50"/>: Indicates the agent is
+                        in maintenance mode</p>
                     </li>
                     <li>
                       <p><image href="../images/riskIcon=20220804223452.png" id="image_sz1_3cp_k5b"
-                          scalefit="no" scale="50"/>: This icon indicates the agent protection
-                        feature is disabled and the endpoint is vulnerable to security threats.</p>
+                          scalefit="no" scale="50"/>: Indicates the agent protection feature is
+                        disabled and the endpoint is vulnerable to security threats</p>
                     </li>
                   </ul>
                 </p>
@@ -203,32 +203,32 @@
                   <ul id="ul_n51_4z4_k5b">
                     <li>
                       <p><uicontrol>Inherited</uicontrol>: Indicates the policy settings for the
-                        agent/group are inherited from its parent group.</p>
+                        agent/group are inherited from its parent group</p>
                     </li>
                     <li>
                       <p><uicontrol>Customized</uicontrol>: Indicates the policy settings for the
-                        agent/group are customized by users.</p>
+                        agent/group are customized by users</p>
                     </li>
                     <li>
                       <p><uicontrol id="uicontrol_jzq_gjj_n5b">Self-managed</uicontrol>: Indicates
-                        the agent/group is free from the StellarOne console's policy management and
-                        can self-manage its own policy settings.</p>
+                        the agent/group is free from the StellarOne web console's policy management
+                        and its feature settings should be configured on the local console</p>
                     </li>
                     <li>
                       <p><image href="../images/greenLight=20220804221500.png"
-                          id="image_h5p_5z4_k5b" scalefit="no" scale="50"/>: Indicates the policy
-                        settings for the agent synchronize with the StellarOne console.</p>
+                          id="image_h5p_5z4_k5b" scalefit="no" scale="50"/>: Indicates the agent's
+                        feature settings synchronize with the StellarOne console policy settings</p>
                     </li>
                     <li>
                       <p><image href="../images/grayLight=20220804221533.png" id="image_l4c_vz4_k5b"
-                          scalefit="no" scale="50"/>: Indicates the policy settings for the agent do
-                        not synchronize with the StellarOne console.</p>
+                          scalefit="no" scale="50"/>: Indicates the agent's feature settings do not
+                        synchronize with the StellarOne console policy settings</p>
                     </li>
                     <li>
                       <p><image href="../images/icon_self_managed=20220906162758.png"
                           id="image_imb_xft_t5b" scalefit="no" scale="50"/>: Indicates the
-                        agent/group is free from the StellarOne console's policy management and
-                        whose feature settings should be configured on the local console.</p>
+                        agent/group is free from the StellarOne web console's policy management and
+                        its feature settings should be configured on the local console</p>
                     </li>
                   </ul>
                 </p>
@@ -248,7 +248,7 @@
                 <p><term>Agent Version</term></p>
               </entry>
               <entry>
-                <p>Indicates the firmware version of the agent.</p>
+                <p>Indicates the firmware version of the agent</p>
               </entry>
             </row>
             <row>
@@ -256,7 +256,7 @@
                 <p><term>Last Connection</term></p>
               </entry>
               <entry>
-                <p>Indicates the last time the agent was connected with the StellarOne console.</p>
+                <p>Indicates the last time the agent was connected with the StellarOne console</p>
               </entry>
             </row>
             <row>
@@ -266,10 +266,10 @@
               <entry>
                 <p>Indicates two function types of StellarProtect:<ul id="ul_xsq_tlj_n5b">
                     <li>
-                      <p>StellarProtect: for devices with Windows 7 or later versions.</p>
+                      <p>StellarProtect: for devices with Windows 7 or later versions</p>
                     </li>
                     <li>StellarProtect (Legacy Mode): for devices with legacy platforms such as
-                      Windows XP/2000.</li>
+                      Windows XP/2000</li>
                   </ul></p>
               </entry>
             </row>
@@ -342,7 +342,7 @@
                     <li>
                       <p>selecting how many agents/groups to be displayed per page and specifying
                         only certain contents to be displayed in the <wintitle>Customize Table
-                          Display</wintitle> setting.</p>
+                          Display</wintitle> setting</p>
                     </li>
                     <li>
                       <p>manually refreshing the table for the latest outputs</p>

@@ -19,10 +19,10 @@
                 until the function is disabled and the files are unloaded and removed from the scan
                 cache.</p>
             <note id="note_oyz_jty_zvb">
-                <p><ph conkeyref="PRODvars/PRODUCT_SE_TO_SPLM">document_part_number</ph> installed
-                    on Windows 2000 SP4 (without update rollup) or Windows XP SP1 supports real-time
-                    scan only when files are executed; it does not support real-time scan when files
-                    are newly added or changed.</p>
+                <p><ph conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>
+                    installed on Windows 2000 SP4 (without update rollup) or Windows XP SP1 supports
+                    real-time scan only when files are executed; it does not support real-time scan
+                    when files are newly added or changed.</p>
             </note>
         </context>
         <steps>

@@ -64,21 +64,21 @@
             </step>
             <step>
                 <cmd>You can use the Elastic IP address to log on StellarOne via a web browser or
-                    via SSH.</cmd>
+                    via SSH now.</cmd>
             </step>
             <step>
                 <cmd>(Optional) To access StellarOne via SSH:</cmd>
                 <info>
-                    <ul id="ul_twf_yjg_rvb">
+                    <ol id="ol_nl4_jdw_bwb">
                         <li>
                             <p>Use SSH to log in the terminal console with the Elastic IP
                                 address.</p>
                         </li>
                         <li>
-                            <p>Replace the IP address with the Elastic IP address by typing:
-                                    <userinput>env exip &lt;the elastic IP address></userinput></p>
+                            <p>Replace the IP address with the Elastic IP address by typing:</p>
+                            <p><userinput>env exip &lt;the elastic IP address></userinput></p>
                         </li>
-                    </ul>
+                    </ol>
                 </info>
             </step>
         </steps>

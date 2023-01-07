@@ -8,12 +8,12 @@
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
       <p>This table lists the server event log descriptions for <ph
-          conkeyref="PRODvars/PRODUCT_SE_TO_SPLM">document_part_number</ph>.<table frame="all"
-          id="table_d1f_xbx_l5b">
+          conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>.<table
+          frame="all" id="table_d1f_xbx_l5b">
           <tgroup cols="3">
             <colspec colname="c1" colnum="1" colwidth="1*"/>
-            <colspec colname="newCol2" colnum="2" colwidth="1.21*"/>
-            <colspec colname="c2" colnum="3" colwidth="3.6*"/>
+            <colspec colname="newCol2" colnum="2" colwidth="1.44*"/>
+            <colspec colname="c2" colnum="3" colwidth="3.37*"/>
             <thead>
               <row>
                 <entry>
@@ -28,7 +28,8 @@
               </row>
             </thead>
             <tbody>
-              <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+              <row otherprops="OLD">
                 <entry>
                   <p>1001</p>
                 </entry>
@@ -39,7 +40,7 @@
                   <p>Logged on web console.</p>
                 </entry>
               </row>
-              <row>
+              <row otherprops="OLD">
                 <entry>
                   <p>1002</p>
                 </entry>
@@ -50,7 +51,7 @@
                   <p>Logged off web console.</p>
                 </entry>
               </row>
-              <row>
+              <row otherprops="OLD">
                 <entry>
                   <p>1003</p>
                 </entry>
@@ -61,7 +62,7 @@
                   <p>Web console session timed out. Account '%user_name%' was logged off
                     automatically.</p>
                 </entry>
-              </row>
+              </row><?oxy_custom_end?>
               <row>
                 <entry>
                   <p>1011</p>
@@ -84,7 +85,8 @@
                   <p>Unable to send notifications to %email_address%.</p>
                 </entry>
               </row>
-              <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+              <row otherprops="OLD">
                 <entry>
                   <p>2001</p>
                 </entry>
@@ -95,7 +97,7 @@
                   <p>Created Intelligent Manager account '%user_name%'.</p>
                 </entry>
               </row>
-              <row>
+              <row otherprops="OLD">
                 <entry>
                   <p>2002</p>
                 </entry>
@@ -106,7 +108,7 @@
                   <p>Deleted Intelligent Manager account '%user_name%'.</p>
                 </entry>
               </row>
-              <row>
+              <row otherprops="OLD">
                 <entry>
                   <p>2003</p>
                 </entry>
@@ -116,7 +118,7 @@
                 <entry>
                   <p>Modified Intelligent Manager account '%user_name%' %field_name%.</p>
                 </entry>
-              </row>
+              </row><?oxy_custom_end?>
               <row>
                 <entry>
                   <p>3001</p>
@@ -139,7 +141,8 @@
                   <p>Manual purge of agent event logs.</p>
                 </entry>
               </row>
-              <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+              <row otherprops="OLD">
                 <entry>
                   <p>3003</p>
                 </entry>
@@ -149,7 +152,7 @@
                 <entry>
                   <p>Automatic back up of agent event logs. Path: %filepath%.</p>
                 </entry>
-              </row>
+              </row><?oxy_custom_end?>
               <row>
                 <entry>
                   <p>3004</p>
@@ -172,7 +175,8 @@
                   <p>Manual purge of server event logs.</p>
                 </entry>
               </row>
-              <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+              <row otherprops="OLD">
                 <entry>
                   <p>3006</p>
                 </entry>
@@ -182,7 +186,7 @@
                 <entry>
                   <p>Automatic back up of server event logs. Path: %filepath%.</p>
                 </entry>
-              </row>
+              </row><?oxy_custom_end?>
               <row>
                 <entry>
                   <p>4001</p>
@@ -191,14 +195,21 @@
                   <p>Take action on unapproved blocked file</p>
                 </entry>
                 <entry>
-                  <p>Request sent to endpoint(s): Add blocked file to Approved List. File name:
-                    %file_name% File hash: %file_hash% (SHA-1) Request sent to endpoint(s): Delete
-                    the blocked file. File name: %file_name% File hash: %file_hash% (SHA-1) Request
-                    sent to endpoint(s): Ignore the blocked file. File name: %file_name% File hash:
-                    %file_hash% (SHA-1) Request sent to endpoint(s): Quarantine the file. File name:
-                    %file_name% File hash: %file_hash% (SHA-1) Request sent to endpoint(s): Restore
-                    the file from quarantine. File name: %file_name% File hash: %file_hash%
-                    (SHA-1)</p>
+                  <p>Request sent to endpoint(s): Add blocked file to Approved List.</p>
+                  <p>File name: %file_name%</p>
+                  <p>File hash: %file_hash% (SHA-1)</p>
+                  <p>Request sent to endpoint(s): Delete the blocked file.</p>
+                  <p>File name: %file_name%</p>
+                  <p>File hash: %file_hash% (SHA-1)</p>
+                  <p>Request sent to endpoint(s): Ignore the blocked file.</p>
+                  <p>File name: %file_name%</p>
+                  <p>File hash: %file_hash% (SHA-1)</p>
+                  <p>Request sent to endpoint(s): Quarantine the file.</p>
+                  <p>File name: %file_name%</p>
+                  <p>File hash: %file_hash% (SHA-1)</p>
+                  <p>Request sent to endpoint(s): Restore the file from quarantine.</p>
+                  <p>File name: %file_name%</p>
+                  <p>File hash: %file_hash% (SHA-1)</p>
                 </entry>
               </row>
               <row>
@@ -209,8 +220,9 @@
                   <p>Release the quarantined malicious file</p>
                 </entry>
                 <entry>
-                  <p>Request sent to endpoint(s): Restore the file from quarantine. File name:
-                    %file_name% File hash: %file_hash% (SHA-1)</p>
+                  <p>Request sent to endpoint(s): Restore the file from quarantine.</p>
+                  <p>File name: %file_name%</p>
+                  <p>File hash: %file_hash% (SHA-1)</p>
                 </entry>
               </row>
               <row>
@@ -221,8 +233,9 @@
                   <p>Delete the quarantined malicious file</p>
                 </entry>
                 <entry>
-                  <p>Request sent to endpoint(s): Delete the file from quarantine. File name:
-                    %file_name% File hash: %file_hash% (SHA-1)</p>
+                  <p>Request sent to endpoint(s): Delete the file from quarantine.</p>
+                  <p>File name: %file_name%</p>
+                  <p>File hash: %file_hash% (SHA-1)</p>
                 </entry>
               </row>
               <row>
@@ -233,10 +246,14 @@
                   <p>Take action on unapproved fileless attack</p>
                 </entry>
                 <entry>
-                  <p>Request sent to endpoint(s): Add blocked process chain and command argument.
-                    Process chain: %process_name% Command argument: %parameter% Request sent to
-                    endpoint(s): Ignore blocked process chain and command argument. Process chain:
-                    %process_name% Command argument: %parameter%</p>
+                  <p>Request sent to endpoint(s): Add blocked process chain and command
+                    argument.</p>
+                  <p>Process chain: %process_name%</p>
+                  <p>Command argument: %parameter%</p>
+                  <p>Request sent to endpoint(s): Ignore blocked process chain and command
+                    argument.</p>
+                  <p>Process chain: %process_name%</p>
+                  <p>Command argument: %parameter%</p>
                 </entry>
               </row>
               <row>
@@ -269,8 +286,8 @@
                   <p>Add trusted file hashes</p>
                 </entry>
                 <entry>
-                  <p>Added 1 trusted file hash to endpoint(s). Added %num% trusted file hashes to
-                    endpoint(s).</p>
+                  <p>Added 1 trusted file hash to endpoint(s).</p>
+                  <p>Added %num% trusted file hashes to endpoint(s).</p>
                 </entry>
               </row>
               <row>
@@ -282,7 +299,7 @@
                 </entry>
                 <entry>
                   <p>Removed specified items from the Approved List on endpoint(s) using
-                    SLtasks.exe.</p>
+                      <filepath>SLtasks.exe</filepath>.</p>
                 </entry>
               </row>
               <row>
@@ -312,7 +329,7 @@
                   <p>5025</p>
                 </entry>
                 <entry>
-                  <p>Add trusted USB device</p>
+                  <p>Add trusted USB device on selected endpoint(s)</p>
                 </entry>
                 <entry>
                   <p>Add trusted USB device on selected endpoint(s)</p>
@@ -342,17 +359,6 @@
               </row>
               <row>
                 <entry>
-                  <p>5800</p>
-                </entry>
-                <entry>
-                  <p>Change agent administrator password</p>
-                </entry>
-                <entry>
-                  <p>Changed password on endpoint(s).</p>
-                </entry>
-              </row>
-              <row>
-                <entry>
                   <p>5700</p>
                 </entry>
                 <entry>
@@ -375,6 +381,17 @@
               </row>
               <row>
                 <entry>
+                  <p>5800</p>
+                </entry>
+                <entry>
+                  <p>Change agent administrator password</p>
+                </entry>
+                <entry>
+                  <p>Changed password on endpoint(s).</p>
+                </entry>
+              </row>
+              <row>
+                <entry>
                   <p>5900</p>
                 </entry>
                 <entry>
@@ -392,7 +409,8 @@
                   <p>Deploy agent patch</p>
                 </entry>
                 <entry>
-                  <p>Deploy agent patch to endpoint(s). Patch name: %patch_name%</p>
+                  <p>Deploy agent patch to endpoint(s).</p>
+                  <p>Patch name: %patch_name%</p>
                 </entry>
               </row>
               <row>
@@ -400,12 +418,12 @@
                   <p>6101</p>
                 </entry>
                 <entry>
-                  <p>Agent transfer</p>
+                  <p>Agent transferred to new <ph
+                      conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> server</p>
                 </entry>
                 <entry>
-                  <p>Agent transferred to
-                    new<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                    Intelligent Manager<?oxy_custom_end?> server</p>
+                  <p>Agent transferred to new <ph
+                      conkeyref="PRODvars/PRODUCT_SERVER_ALTERNATIVE_NAME"/> server</p>
                 </entry>
               </row>
               <row>
@@ -438,24 +456,22 @@
                   <p>Deploy group policy</p>
                 </entry>
                 <entry>
-                  <p>Deploy group policy. Version: %version%.</p>
+                  <p>Deploy group policy.</p>
+                  <p>Version: %version%.</p>
                 </entry>
               </row>
-              <row>
+              <?oxy_custom_start type="oxy_content_highlight" color="188,188,188"?>
+              <row otherprops="OLD">
                 <entry>
                   <p>6302</p>
                 </entry>
                 <entry>
-                  <p>Cannot connect
-                    to<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                    ODC<?oxy_custom_end?> server</p>
+                  <p>Cannot connect to ODC server</p>
                 </entry>
                 <entry>
-                  <p>Cannot connect to
-                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ODC<?oxy_custom_end?>
-                    server.</p>
+                  <p>Cannot connect to ODC server.</p>
                 </entry>
-              </row>
+              </row><?oxy_custom_end?>
               <row>
                 <entry>
                   <p>6401</p>
@@ -464,7 +480,8 @@
                   <p>Set Intelligent Runtime Learning</p>
                 </entry>
                 <entry>
-                  <p>Set Intelligent Runtime Learning. Version: %policy_version%</p>
+                  <p>Set Intelligent Runtime Learning.</p>
+                  <p>Version: %policy_version%</p>
                 </entry>
               </row>
               <row>
@@ -475,7 +492,8 @@
                   <p>Set Agent Password</p>
                 </entry>
                 <entry>
-                  <p>Set Agent Password. Version: %policy_version%</p>
+                  <p>Set Agent Password.</p>
+                  <p>Version: %policy_version%</p>
                 </entry>
               </row>
               <row>
@@ -486,7 +504,8 @@
                   <p>Set Schedule Scan Setting</p>
                 </entry>
                 <entry>
-                  <p>Set Schedule Scan Setting. Version: %policy_version%</p>
+                  <p>Set Schedule Scan Setting.</p>
+                  <p>Version: %policy_version%</p>
                 </entry>
               </row>
               <row>
@@ -497,7 +516,8 @@
                   <p>Set User-Defined Suspicious Objects</p>
                 </entry>
                 <entry>
-                  <p>Set User-Defined Suspicious Objects. Version: %policy_version%</p>
+                  <p>Set User-Defined Suspicious Objects.</p>
+                  <p>Version: %policy_version%</p>
                 </entry>
               </row>
               <row>
@@ -508,7 +528,8 @@
                   <p>Set Agent Patch</p>
                 </entry>
                 <entry>
-                  <p>Set Agent Patch. Version: %policy_version%</p>
+                  <p>Set Agent Patch.</p>
+                  <p>Version: %policy_version%</p>
                 </entry>
               </row>
             </tbody>

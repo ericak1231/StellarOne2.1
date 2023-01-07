@@ -48,8 +48,8 @@
                                 >OFFICIAL_PRODUCT_NAME</ph> agents will automatically attempt to
                             download the latest components before starting a scan. A
                                 <uicontrol>Component Update</uicontrol> toggle is available for
-                            users to deteremine whether the endpoints should continue with the scan
-                            if the component update is unsuccessul.</p>
+                            users to determine whether the endpoints should continue with the scan
+                            if the component update is unsuccessful.</p>
                     </note>
                 </info>
                 <info>

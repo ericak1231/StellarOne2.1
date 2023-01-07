@@ -5,6 +5,7 @@
     <prop action="exclude" att="otherprops" val="AG"/>
     <prop action="exclude" att="otherprops" val="IG"/>
     <prop action="exclude" att="otherprops" val="TBD"/>
+    <prop action="exclude" att="otherprops" val="OLD"/>
     <prop action="include" att="otherprops" val="UMBRACO"/>
     <prop action="include" att="otherprops" val="UMBRACO_AG"/>
 </val>

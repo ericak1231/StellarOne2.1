@@ -121,6 +121,14 @@
                   <p>Inherit policy from [%s]</p>
                 </entry>
               </row>
+              <row>
+                <entry>
+                  <p>45325</p>
+                </entry>
+                <entry>
+                  <p>Scan component [%s] update was failed due to &lt;%s></p>
+                </entry>
+              </row>
             </tbody>
           </tgroup>
         </table></p>

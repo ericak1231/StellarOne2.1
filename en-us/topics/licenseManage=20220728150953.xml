@@ -155,20 +155,20 @@
             </row>
             <row>
               <entry>
-                <p><uicontrol>Download the latest license file</uicontrol></p>
-              </entry>
-              <entry>
-                <p>The link is used to download the latest license file to renew license for
-                  standalone agents.</p>
-              </entry>
-            </row>
-            <row>
-              <entry>
-                <p><uicontrol>Learn more</uicontrol></p>
+                <p><uicontrol>Learn More</uicontrol></p>
               </entry>
               <entry>
                 <p>The link directs users to the Online Help web page for more details on
                   license.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <p><uicontrol>Download the Latest License File</uicontrol></p>
+              </entry>
+              <entry>
+                <p>The link is used to download the latest license file to renew license for
+                  standalone agents.</p>
               </entry>
             </row>
           </tbody>

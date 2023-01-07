@@ -7,7 +7,7 @@
   <refbody>
     <section id="GUID-3A481E02-9073-4F55-B437-517CA325F21D">
       <p>This table details the Windows event log descriptions for <ph
-          conkeyref="PRODvars/PRODUCT_SE_TO_SPLM">document_part_number</ph>.</p>
+          conkeyref="PRODvars/PRODUCT_SPLM_ALTERNATIVE_NAME">OFFICIAL_PRODUCT_NAME</ph>.</p>
       <table frame="all" id="table_uqw_xlp_l5b">
         <tgroup cols="4">
           <colspec colname="c1" colnum="1" colwidth="1.09*"/>
