@@ -101,13 +101,13 @@
               </entry>
             </row>
             <row>
-              <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
               <entry>
-                <p>(6) Action</p>
+                <p>(6) View Details</p>
               </entry>
               <entry>
-                <p/>
-              </entry><?oxy_custom_end?>
+                <p>This button allows users to view and print event details such as event
+                  information and agent information.</p>
+              </entry>
             </row>
           </tbody>
         </tgroup>

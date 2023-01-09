@@ -2842,9 +2842,15 @@
                 <p>Access Blocked</p>
               </entry>
               <entry>
-                <p>Change of Registry Value blocked. Registry Key: %regkey% Registry Value Name:
-                  %regvalue% [Details] Access Image Path: %path% Access User: %username% Note
-                  Enabling the Service Creation Prevention feature triggers Event ID 2512.</p>
+                <p>Change of Registry Value blocked.</p>
+                <p>Registry Key: %regkey%</p>
+                <p>Registry Value Name: %regvalue%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path%</p>
+                <p>Access User: %username%</p>
+                <note id="note_pmc_4nr_cwb">
+                  <p>Enabling the Service Creation Prevention feature triggers Event ID 2512.</p>
+                </note>
               </entry>
             </row>
             <row>
@@ -2858,10 +2864,15 @@
                 <p>Access Blocked</p>
               </entry>
               <entry>
-                <p>Process blocked by Fileless Attack Prevention: %path% %argument% [Details] Access
-                  User: %username% Parent Process 1 Image Path: %path% Parent Process 2 Image Path:
-                  %path% Parent Process 3 Image Path: %path% Parent Process 4 Image Path: %path%
-                  Mode: locked Reason: %reason%</p>
+                <p>Process blocked by Fileless Attack Prevention: %path% %argument%</p>
+                <p>[Details]</p>
+                <p>Access User: %username%</p>
+                <p>Parent Process 1 Image Path: %path%</p>
+                <p>Parent Process 2 Image Path: %path%</p>
+                <p>Parent Process 3 Image Path: %path%</p>
+                <p>Parent Process 4 Image Path: %path%</p>
+                <p>Mode: locked</p>
+                <p>Reason: %reason%</p>
               </entry>
             </row>
             <row>
@@ -2875,9 +2886,12 @@
                 <p>Access Blocked</p>
               </entry>
               <entry>
-                <p>File access blocked: %BLOCKED_FILE_PATH% [Details] Access Image Path:
-                  %PARENT_PROCESS_PATH% Access User: %USER_NAME% Reason: Blocked file is in a folder
-                  that has the case sensitive attribute enabled.</p>
+                <p>File access blocked: %BLOCKED_FILE_PATH%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %PARENT_PROCESS_PATH%</p>
+                <p>Access User: %USER_NAME%</p>
+                <p>Reason: Blocked file is in a folder that has the case sensitive attribute
+                  enabled.</p>
               </entry>
             </row>
             <row>
@@ -2891,8 +2905,11 @@
                 <p>USB Malware Protection</p>
               </entry>
               <entry>
-                <p>Device access allowed: %path% [Details] Access Image Path: %path% Access User:
-                  %username% Device Type: %type%</p>
+                <p>Device access allowed: %path%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path%</p>
+                <p>Access User: %username%</p>
+                <p>Device Type: %type%</p>
               </entry>
             </row>
             <row>
@@ -2906,8 +2923,11 @@
                 <p>USB Malware Protection</p>
               </entry>
               <entry>
-                <p>Device access blocked: %path% [Details] Access Image Path: %path% Access User:
-                  %username% Device Type: %type%</p>
+                <p>Device access blocked: %path%</p>
+                <p>[Details]</p>
+                <p>Access Image Path: %path%</p>
+                <p>Access User: %username%</p>
+                <p>Device Type: %type%</p>
               </entry>
             </row>
             <row>
@@ -2921,9 +2941,12 @@
                 <p>Network Virus Protection</p>
               </entry>
               <entry>
-                <p>Network virus allowed: %name% [Details] Protocol: TCP Source IP Address:
-                  %ip_address% Source Port: %port% Destination IP Address: %ip_address% Destination
-                  Port: 80</p>
+                <p>Network virus allowed: %name%</p>
+                <p>[Details]</p>
+                <p>Protocol: TCP Source IP Address: %ip_address%</p>
+                <p>Source Port: %port%</p>
+                <p>Destination IP Address: %ip_address%</p>
+                <p>Destination Port: 80</p>
               </entry>
             </row>
             <row>
@@ -2937,9 +2960,12 @@
                 <p>Network Virus Protection</p>
               </entry>
               <entry>
-                <p>Network virus blocked: %name% [Details] Protocol: TCP Source IP Address:
-                  %ip_address% Source Port: %port% Destination IP Address: %ip_address% Destination
-                  Port: 80</p>
+                <p>Network virus blocked: %name%</p>
+                <p>[Details]</p>
+                <p>Protocol: TCP Source IP Address: %ip_address%</p>
+                <p>Source Port: %port%</p>
+                <p>Destination IP Address: %ip_address%</p>
+                <p>Destination Port: 80</p>
               </entry>
             </row>
             <row>
@@ -2953,8 +2979,10 @@
                 <p>Process Protection Event</p>
               </entry>
               <entry>
-                <p>API Hooking/DLL Injection allowed: %path% [Details] Threat Image Path: %path%
-                  Threat User: %username%</p>
+                <p>API Hooking/DLL Injection allowed: %path%</p>
+                <p>[Details]</p>
+                <p>Threat Image Path: %path%</p>
+                <p>Threat User: %username%</p>
               </entry>
             </row>
             <row>
@@ -2968,8 +2996,10 @@
                 <p>Process Protection Event</p>
               </entry>
               <entry>
-                <p>API Hooking/DLL Injection blocked: %path% [Details] Threat Image Path: %path%
-                  Threat User: %username%</p>
+                <p>API Hooking/DLL Injection blocked: %path%</p>
+                <p>[Details]</p>
+                <p>Threat Image Path: %path%</p>
+                <p>Threat User: %username%</p>
               </entry>
             </row>
             <row>
@@ -2983,8 +3013,10 @@
                 <p>Process Protection Event</p>
               </entry>
               <entry>
-                <p>API Hooking allowed: %path% [Details] Threat Image Path: %path% Threat User:
-                  %username%</p>
+                <p>API Hooking allowed: %path%</p>
+                <p>[Details]</p>
+                <p>Threat Image Path: %path%</p>
+                <p>Threat User: %username%</p>
               </entry>
             </row>
             <row>
@@ -2998,8 +3030,10 @@
                 <p>Process Protection Event</p>
               </entry>
               <entry>
-                <p>API Hooking blocked: %path% [Details] Threat Image Path: %path% Threat User:
-                  %username%</p>
+                <p>API Hooking blocked: %path%</p>
+                <p>[Details]</p>
+                <p>Threat Image Path: %path%</p>
+                <p>Threat User: %username%</p>
               </entry>
             </row>
             <row>
@@ -3013,8 +3047,10 @@
                 <p>Process Protection Event</p>
               </entry>
               <entry>
-                <p>DLL Injection allowed: %path% [Details] Threat Image Path: %path% Threat User:
-                  %username%</p>
+                <p>DLL Injection allowed: %path%</p>
+                <p>[Details]</p>
+                <p>Threat Image Path: %path%</p>
+                <p>Threat User: %username%</p>
               </entry>
             </row>
             <row>
@@ -3029,8 +3065,10 @@
                 <p>Process Protection Event</p>
               </entry>
               <entry>
-                <p>DLL Injection blocked: %path% [Details] Threat Image Path: %path% Threat User:
-                  %username%</p>
+                <p>DLL Injection blocked: %path%</p>
+                <p>[Details]</p>
+                <p>Threat Image Path: %path%</p>
+                <p>Threat User: %username%</p>
               </entry>
             </row>
             <row>
@@ -3044,8 +3082,11 @@
                 <p>Device Control</p>
               </entry>
               <entry>
-                <p>Storage device access allowed: %PATH% [Details] Access Image path: %PATH% Access
-                  User: %USERNAME% Device Type: %TYPE% %DEVICEINFO%</p>
+                <p>Storage device access allowed: %PATH%</p>
+                <p>[Details]</p>
+                <p>Access Image path: %PATH%</p>
+                <p>Access User: %USERNAME%</p>
+                <p>Device Type: %TYPE% %DEVICEINFO%</p>
               </entry>
             </row>
             <row>
@@ -3059,8 +3100,11 @@
                 <p>Device Control</p>
               </entry>
               <entry>
-                <p>Storage device access blocked: %PATH% [Details] Access Image path: %PATH% Access
-                  User: %USERNAME% Device Type: %TYPE% %DEVICEINFO%</p>
+                <p>Storage device access blocked: %PATH%</p>
+                <p>[Details]</p>
+                <p>Access Image path: %PATH%</p>
+                <p>Access User: %USERNAME%</p>
+                <p>Device Type: %TYPE% %DEVICEINFO%</p>
               </entry>
             </row>
             <row>
@@ -3076,15 +3120,27 @@
               <entry>
                 <p>Update failed: %ERROR_MSG% (%ERROR_CODE%) </p>
                 <p>[Details]</p>
-                <p>Update Source: %SERVER% [Original Version] Virus Pattern: %VERSION% Spyware
-                  Pattern: %VERSION% Digital Signature Pattern: %VERSION% Program Inspection
-                  Pattern: %VERSION% Damage Cleanup Template: %VERSION% Damage Cleanup Engine
-                  Configuration: %VERSION% Virus Scan Engine: %VERSION% Damage Cleanup Engine:
-                  %VERSION% Scanner: %VERSION% [Updated Version] Virus Pattern: %VERSION% Spyware
-                  Pattern: %VERSION% Digital Signature Pattern: %VERSION% Program Inspection
-                  Pattern: %VERSION% Damage Cleanup Template: %VERSION% Damage Cleanup Engine
-                  Configuration: %VERSION% Virus Scan Engine: %VERSION% Damage Cleanup Engine:
-                  %VERSION% Scanner: %VERSION%</p>
+                <p>Update Source: %SERVER%</p>
+                <p>[Original Version]</p>
+                <p>Virus Pattern: %VERSION%</p>
+                <p>Spyware Pattern: %VERSION%</p>
+                <p>Digital Signature Pattern: %VERSION%</p>
+                <p>Program Inspection Pattern: %VERSION%</p>
+                <p>Damage Cleanup Template: %VERSION%</p>
+                <p>Damage Cleanup Engine Configuration: %VERSION%</p>
+                <p>Virus Scan Engine: %VERSION%</p>
+                <p>Damage Cleanup Engine: %VERSION%</p>
+                <p>Scanner: %VERSION%</p>
+                <p>[Updated Version]</p>
+                <p>Virus Pattern: %VERSION%</p>
+                <p>Spyware Pattern: %VERSION%</p>
+                <p>Digital Signature Pattern: %VERSION%</p>
+                <p>Program Inspection Pattern: %VERSION%</p>
+                <p>Damage Cleanup Template: %VERSION%</p>
+                <p>Damage Cleanup Engine Configuration: %VERSION%</p>
+                <p>Virus Scan Engine: %VERSION%</p>
+                <p>Damage Cleanup Engine: %VERSION%</p>
+                <p>Scanner: %VERSION%</p>
               </entry>
             </row>
             <row>
@@ -3100,14 +3156,27 @@
               <entry>
                 <p>Malware scan unsuccessful: %SCAN_TYPE% %ERROR% </p>
                 <p>[Details]</p>
-                <p>Files to scan: %SCAN_FOLDER_TYPE% Scanned folders: %PATHS% Excluded paths:
-                  %PATHS% Excluded files: %PATHS% Excluded extensions: %PATHS% Start date/time:
-                  %DATE_TIME% End date/time: %DATE_TIME% Number of scanned files: %NUM% Number of
-                  infected files: %NUM% Number of cleaned files: %NUM% Number of files cleaned after
-                  reboot: %NUM% [Components] Virus Pattern: %VERSION% Spyware Pattern: %VERSION%
-                  Digital Signature Pattern: %VERSION% Program Inspection Pattern: %VERSION% Damage
-                  Cleanup Template: %VERSION% Damage Cleanup Engine Configuration: %VERSION% Virus
-                  Scan Engine: %VERSION% Damage Cleanup Engine: %VERSION% Scanner: %VERSION%</p>
+                <p>Files to scan: %SCAN_FOLDER_TYPE%</p>
+                <p>Scanned folders: %PATHS%</p>
+                <p>Excluded paths: %PATHS%</p>
+                <p>Excluded files: %PATHS%</p>
+                <p>Excluded extensions: %PATHS%</p>
+                <p>Start date/time: %DATE_TIME%</p>
+                <p>End date/time: %DATE_TIME%</p>
+                <p>Number of scanned files: %NUM%</p>
+                <p>Number of infected files: %NUM%</p>
+                <p>Number of cleaned files: %NUM%</p>
+                <p>Number of files cleaned after reboot: %NUM%</p>
+                <p>[Components]</p>
+                <p>Virus Pattern: %VERSION%</p>
+                <p>Spyware Pattern: %VERSION%</p>
+                <p>Digital Signature Pattern: %VERSION%</p>
+                <p>Program Inspection Pattern: %VERSION%</p>
+                <p>Damage Cleanup Template: %VERSION%</p>
+                <p>Damage Cleanup Engine Configuration: %VERSION%</p>
+                <p>Virus Scan Engine: %VERSION%</p>
+                <p>Damage Cleanup Engine: %VERSION%</p>
+                <p>Scanner: %VERSION%</p>
               </entry>
             </row>
             <row>
@@ -3121,12 +3190,23 @@
                 <p>System</p>
               </entry>
               <entry>
-                <p>Malware detected. Unable to perform scan actions: %PATH% [Details] First action:
-                  %1ST_ACTION% Second action: %2ND_ACTION% Threat type: %TYPE% Threat name: %NAME%
-                  [Components] Virus Pattern: %VERSION% Spyware Pattern: %VERSION% Digital Signature
-                  Pattern: %VERSION% Program Inspection Pattern: %VERSION% Damage Cleanup Template:
-                  %VERSION% Damage Cleanup Engine Configuration: %VERSION% Virus Scan Engine:
-                  %VERSION% Damage Cleanup Engine: %VERSION% Scanner: %VERSION%</p>
+                <p>Malware detected.</p>
+                <p>Unable to perform scan actions: %PATH%</p>
+                <p>[Details]</p>
+                <p>First action: %1ST_ACTION%</p>
+                <p>Second action: %2ND_ACTION%</p>
+                <p>Threat type: %TYPE%</p>
+                <p>Threat name: %NAME%</p>
+                <p>[Components]</p>
+                <p>Virus Pattern: %VERSION%</p>
+                <p>Spyware Pattern: %VERSION%</p>
+                <p>Digital Signature Pattern: %VERSION%</p>
+                <p>Program Inspection Pattern: %VERSION%</p>
+                <p>Damage Cleanup Template: %VERSION%</p>
+                <p>Damage Cleanup Engine Configuration: %VERSION%</p>
+                <p>Virus Scan Engine: %VERSION%</p>
+                <p>Damage Cleanup Engine: %VERSION%</p>
+                <p>Scanner: %VERSION%</p>
               </entry>
             </row>
             <row>
