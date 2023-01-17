@@ -39,7 +39,7 @@
             <p><uicontrol>Top Endpoints with Blocked Events</uicontrol>: This widget displays the
               endpoints with the most blocked events. By default, the widget is displayed on the
                 <uicontrol>Summary</uicontrol> tab page of the <uicontrol>Dashboard</uicontrol>.<fig
-                id="fig_xfh_cgk_jvb">
+                id="fig_xfh_cgk_jvb" otherprops="PRINT">
                 <image href="../images/top_endpoints_blocked_event=20221101154811.png"
                   id="image_nks_cgk_jvb"/>
               </fig><ol id="ol_qtw_4gk_jvb">
@@ -166,13 +166,13 @@
           </li>
         </ul><note id="note_pn1_1fd_n5b" type="tip">
           <p>
-            <fig id="fig_kzt_5gd_n5b" otherprops="PRINT">
+            <fig id="fig_kzt_5gd_n5b">
               <image href="../images/widgetDropDownMenu=20220814005647.png" id="image_z5b_wgd_n5b"
-                otherprops="PRINT" scalefit="no" scale="50"/>
+                scalefit="no" scale="50"/>
             </fig>
-            <fig id="fig_jw3_vgd_n5b" otherprops="PRINT">
+            <fig id="fig_jw3_vgd_n5b">
               <image href="../images/widgetRefrech=20220814005543.png" id="image_lyd_vgd_n5b"
-                otherprops="PRINT" scalefit="no" scale="50"/>
+                scalefit="no" scale="50"/>
             </fig>
             <ul id="ul_ox5_wgd_n5b">
               <li>

@@ -73,7 +73,8 @@
               </entry>
               <entry>
                 <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-                <p>2.0</p><?oxy_custom_end?>
+                <p><ph conkeyref="LEGALvars/product_version"
+                >product_version</ph></p><?oxy_custom_end?>
               </entry>
             </row>
             <row>
